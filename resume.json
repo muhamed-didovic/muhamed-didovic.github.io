@@ -1,0 +1,964 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Muhamed Didović",
+    "label": "Full Stack Web Developer",
+    "image": "https://avatars1.githubusercontent.com/u/3872717?s=460&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4",
+    "picture": "https://avatars1.githubusercontent.com/u/3872717?s=460&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4",
+    "email": "muhamed.didovic@gmail.com",
+    "url": "https://github.com/muhamed-didovic",
+    "website": "https://muhamed-didovic.github.io",
+    "summary": "Experienced full stack web developer (over 15 years) with a demonstrated history of working in the information technology and services industry who can build apps from the ground up. I've worked mostly at startups so I am use to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles.",
+    "location": {
+      "address": "Stupska 19/II",
+      "postalCode": "71000",
+      "city": "Sarajevo",
+      "countryCode": "BA",
+      "region": "Bosnia and Herzegovina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "muhamed-didovic",
+        "url": "https://www.linkedin.com/in/muhamed-didovic-24935434/"
+      },
+      {
+        "network": "Github",
+        "username": "muhamed-didovic",
+        "url": "https://github.com/muhamed-didovic" 
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "PayOnDelivery",
+      "description": "We pick up, we deliver, you get a deal",
+      "highlights": [
+        "Person-to-person shopping: the way it should be.",
+        "Buy and sell items on any local marketplace. Set-up deliveries and instantly transfer money online.",
+        "Using modern technologies such as React, Laravel..."
+      ],
+      "keywords": [
+        "React",
+        "Laravel",
+        "Javascript"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://www.payondelivery.com/",
+      "roles": [
+        "Team lead",
+        "Web Developer"
+      ],
+      "entity": "PayOnDelivery",
+      "type": "application"
+    },
+    {
+      "name": "Avaz",
+      "description": "Most popualat newspaper in Bosnia and Herzegovina",
+      "highlights": [
+        "Project maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://avaz.ba/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "PayOnDelivery",
+      "type": "application"
+    },
+    {
+      "name": "Covid-19 for Bosnia and Herzegovina",
+      "description": "Covid-19 statistics for Bosnia and Herzegovina",
+      "highlights": [
+        "Building project with statistics regarding Covid-19"
+      ],
+      "keywords": [
+        "Laravel"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://covid-19.ba/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Covid-19",
+      "type": "application"
+    }, 
+    {
+      "name": "Skilling",
+      "description": "Trade the world’s foreign exchange market with tight spreads and zero commission. Skilling Trader, MT4 &amp; cTrader available. Regulated broker.",
+      "highlights": [
+        "Build new platform for trading"
+      ],
+      "keywords": [
+        "Node.js",
+        "angula"
+      ],
+      "startDate": "2019-03-01",
+      "url": "https://skilling.com/row/en/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Skilling",
+      "type": "application"
+    },
+    {
+      "name": "SPORTSKRED",
+      "description": "Social Media Sponsorship’s Operating System",
+      "highlights": [
+        "Project maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP",
+        "KnockoutJS"
+      ],
+      "startDate": "2019-06-01",
+      "url": "https://sportskred.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "SPORTSKRED",
+      "type": "application"
+    },
+    {
+      "name": "MarketsFlow",
+      "description": "MarketsFlow is a financial App that helps you invest your money for growth.",
+      "highlights": [
+        "Project maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP",
+        "Laravel"
+      ],
+      "startDate": "2019-03-01",
+      "url": "https://www.strowz.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "MarketsFlow",
+      "type": "application"
+    },
+    {
+      "name": "MTHash",
+      "description": "Mine crypto with tokens",
+      "highlights": [
+        "Project maintenance, API maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP",
+        "React"
+      ],
+      "startDate": "2019-03-01",
+      "url": "https://www.mthash.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "MTHash",
+      "type": "application"
+    },
+    {
+      "name": "Happy Car",
+      "description": "Budget car rental - Price comparison",
+      "highlights": [
+        "Added support for implementing APIs of different rent a car companies"
+      ],
+      "keywords": [
+        "Node.js"
+      ],
+      "startDate": "2020-07-01",
+      "url": "https://www.happycar.de/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Happy Car",
+      "type": "application"
+    },
+    {
+      "name": "Future N Focus",
+      "description": "Dream Catcher is a career readiness and workforce development curriculum designed to accelerate a student’s ability to discover an initial career path through discovering a clarity of purpose and self-worth.",
+      "highlights": [
+        "Build project from the ground"
+      ],
+      "keywords": [
+        "Node.js"
+      ],
+      "startDate": "2020-07-01",
+      "url": "https://www.dreamcatcherprogram.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "UAR",
+      "type": "application"
+    },
+    {
+      "name": "Nutriquest",
+      "description": "Dream Catcher is a career readiness and workforce development curriculum designed to accelerate a student’s ability to discover an initial career path through discovering a clarity of purpose and self-worth.",
+      "highlights": [
+        "Maintenance and adding new features"
+      ],
+      "keywords": [
+        "Laravel"
+      ],
+      "startDate": "2020-07-01",
+      "url": "https://nutriquest.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "UAR",
+      "type": "application"
+    },
+    {
+      "name": "Austria Tourism",
+      "description": "Holidays in Austria, Your Official Travel Guide",
+      "highlights": [
+        "Task was to upgrade project from Symfony 2.4 to Symfony 5.2 version"
+      ],
+      "keywords": [
+        "Symfony"
+      ],
+      "startDate": "2020-12-01",
+      "url": "https://www.austria.info/en",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Austria tourism",
+      "type": "application"
+    },
+    {
+      "name": "Defirmakaas",
+      "description": "Selling and delivery of cheese in Holland",
+      "highlights": [
+        "Task was to add support for responsive design of the site"
+      ],
+      "keywords": [
+        "Wordpress"
+      ],
+      "startDate": "2020-12-01",
+      "url": "https://defirmakaas.nl/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Defirmakaas",
+      "type": "application"
+    },
+    {
+      "name": "Lucid green",
+      "description": "LUCID empowers consumers with the knowledge they need to have a safe, predictable, and enjoyable experience.",
+      "highlights": [
+        "building new website and app with Symfony"
+      ],
+      "keywords": [
+        "Symfony"
+      ],
+      "startDate": "2020-07-01",
+      "url": "https://lucidgreen.io/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "DLabs",
+      "type": "application"
+    },
+    {
+      "name": "Sibbach",
+      "description": "The #1 Ranked Agent In Phoenix-Metro Welcomes You!",
+      "highlights": [
+        "Maintenance of WordPress project",
+        "Fixing bugs and adding new features"
+      ],
+      "keywords": [
+        "Wordpress"
+      ],
+      "startDate": "2020-11-01",
+      "url": "https://www.sibbach.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Artistik Designes",
+      "type": "application"
+    },
+    {
+      "name": "Gruppen Unterkuenfte",
+      "description": "Direkt und einfach zu Ihrer Gruppenunterkunft",
+      "highlights": [
+        "Maintenance of project",
+        "Fixing bugs and adding new features"
+      ],
+      "keywords": [
+        "PHP",
+        "Custom CMS"
+      ],
+      "startDate": "2020-11-01",
+      "url": "https://www.gruppenunterkuenfte.de/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "IDEVCORP",
+      "type": "application"
+    },
+    {
+      "name": "Antique Purveyor",
+      "description": "Furniture Store: Traditional Office and Dining Furniture",
+      "highlights": [
+        "Maintenance ASP.NET project",
+        "Fixing bugs and adding new features"
+      ],
+      "keywords": [
+        "ASP.NET"
+      ],
+      "startDate": "2020-11-01",
+      "url": "https://www.antiquepurveyor.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Artistik Designes",
+      "type": "application"
+    },
+    {
+      "name": "Alante air",
+      "description": "We’re a team of industry veterans from private aviation and airline backgrounds, who have come together to provide value-driven solutions to today’s sophisticated aviation clientele.",
+      "highlights": [
+        "Building new web page with Laravel, Vue.js and Vux"
+      ],
+      "keywords": [
+        "Laravel",
+        "Vue",
+        "Vuex"
+      ],
+      "startDate": "2020-11-01",
+      "url": "http://alanteair.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Artistik Designes",
+      "type": "application"
+    },
+    {
+      "name": "Stand-By Golf",
+      "description": "Stand-By Golf offers discounted rental clubs in all of our locations",
+      "highlights": [
+        "Using modern technologies such as Node.js and Angular to build new website"
+      ],
+      "keywords": [
+        "Node.js",
+        "Angular",
+        "API"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://standbygolf.com/",
+      "roles": [
+        "Team lead",
+        "Web Developer"
+      ],
+      "entity": "Artistik Designes",
+      "type": "application"
+    },
+    {
+      "name": "Call2Action",
+      "description": "GET MORE DONE IN 5 DAYS THAN YOU HAVE IN 5 MONTHS",
+      "highlights": [
+        "Maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://call2actionportal.com/",
+      "roles": [
+        "Team lead",
+        "Web Developer"
+      ],
+      "entity": "Artistik Designes",
+      "type": "application"
+    },
+    {
+      "name": "CALIFORNIA GOLF",
+      "description": "CALIFORNIA GOLF + TRAVEL FAVORITES – THE GIFTS WE’D LIKE TO RECEIVE",
+      "highlights": [
+        "Maintenance and adding new features"
+      ],
+      "keywords": [
+        "Wordpress",
+        "CakePHP"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://calgolfnews.com/",
+      "roles": [
+        "Team lead",
+        "Web Developer"
+      ],
+      "entity": "Artistik Designes",
+      "type": "application"
+    },
+    {
+      "name": "Dagger Analytics",
+      "description": "Predictive Coding Software - Document Processing",
+      "highlights": [
+        "Predictive Coding and Text Analysis for the Legal Industry"
+      ],
+      "keywords": [
+        "Laravel",
+        "Symfony"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://www.daggeranalytics.com",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Up and running software",
+      "type": "application"
+    },
+    {
+      "name": "Fine Furniture",
+      "description": "Fine Furniture for Designers & Architects",
+      "highlights": [
+        "Project maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP"
+      ],
+      "startDate": "2020-06-01",
+      "url": "https://www.furniturefish.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Up and running software",
+      "type": "application"
+    },
+    {
+      "name": "ChinesePod",
+      "description": "ChinesePod creates Mandarin Chinese lessons with real language that native speakers use, not stiff, unnatural textbook phrases.",
+      "highlights": [
+        "Project maintenance, API maintenance and adding new features"
+      ],
+      "keywords": [
+        "Zend"
+      ],
+      "startDate": "2019-06-01",
+      "url": "https://www.daggeranalytics.com",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "ChinesePod",
+      "type": "application"
+    },
+    {
+      "name": "Fagas",
+      "description": "The main activity of our company is the design and manufacturing of gas measurement and control equipment",
+      "highlights": [
+        "Project maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP",
+        "Custom CMS"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://fagas.ba/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "4w Market Place",
+      "description": "The Connecting Marketplac",
+      "highlights": [
+        "Project maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP",
+        "Custom CMS"
+      ],
+      "startDate": "2012-06-01",
+      "url": "https://www.4wmarketplace.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "Mess",
+      "description": "International Theater Festival MESS was founded in 1960 under the name of The Festival of Small and Experimental Stages of Yugoslavia which gave it the widely recognized acronym MES.",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "PHP"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://mess.ba/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "Srdjan Prodanovic",
+      "description": "Srdjan Prodanovic is a marketing, communication, and business consultant for the luxury industry that has more than 18 years of experience in the strategic and operational ares of fashion, interior design and travel industry.",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "Wordpress"
+      ],
+      "startDate": "2012-06-01",
+      "url": "https://srdjanprodanovic.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "Druga Kuća",
+      "description": "Druga Kuća is great restaurant with great food.",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "CodeIgniter",
+        "Wordpress"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://drugakuca.ba/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "City Hotel",
+      "description": "Located in the heart of downtown Sarajevo. In close proximity to the National Theater, the Old town called Bascarsija and very close to a shopping area, shopping mals and restaurans. This hotel puts you right in the middle of Sarajevo’s hottest city buzz.",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "PHP"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://cityhotel.ba/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "Sarajevo Stan",
+      "description": "Maintenance for buildings",
+      "highlights": [
+        "Project maintenance and adding new features"
+      ],
+      "keywords": [
+        "PHP",
+        "Custom CMS"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://sarajevostan.com.ba/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "Simeco Milno",
+      "description": "Engineering, supply and construction services of industrial plants",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "PHP"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://www.simecomilano.it/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "Simeco Systems BiH",
+      "description": "SIMECO.Systems is a company specialized in Consulting, Engineering and Procurement in the field of Oil and Gas Industrial and Power plants.",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "PHP"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://simecosystems.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Digital Magics",
+      "type": "application"
+    },
+    {
+      "name": "Nina Varga",
+      "description": "SNina Varga is an independent designer, who creates innovative design. She works with clean and simple lines, with a good sense for detail. Nina prefers natural and lasting materials that are slightly different, supplemented with couture elements.",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "Wordpress"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://www.ninavarga.com/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "Nina Varga",
+      "type": "application"
+    },
+    {
+      "name": "Connecting Stolac",
+      "description": "Mobile application and web page to present a cultural heritage of small town Stolac in southeast Herzegovina.",
+      "highlights": [
+        "Building project from scratch"
+      ],
+      "keywords": [
+        "Wordpress"
+      ],
+      "startDate": "2012-06-01",
+      "url": "http://connectingstolac.ba/en/",
+      "roles": [
+        "Web Developer"
+      ],
+      "entity": "CHWB Sarajevo",
+      "type": "application"
+    }
+  ],
+  "work": [
+    {
+      "name": "Freelance",
+      "location": "Sarajevo, BA",
+      "description": "Self-employed",
+      "position": "CEO/President",
+      "url": "muhamed-didovic.github.io",
+      "startDate": "2014-10-31",
+      "summary": "Various contracts and consulting gigs. From WordPress sites to large-scale web applications with Laravel, Node.js and etc.",
+      "highlights": []
+    },
+    {
+      "name": "PayOnDelivery",
+      "location": "London, UK",
+      "position": "Web Developer",
+      "url": "https://www.payondelivery.com/",
+      "startDate": "2020-06-01",
+      "summary": "Person-to-person shopping: the way it should be. Buy and sell items on any local marketplace. Set-up deliveries and instantly transfer money online.",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "React"
+      ]
+    },
+    {
+      "name": "Artistik Designs",
+      "location": "Arizona, US",
+      "position": "Web Developer",
+      "url": "https://artistikdesigns.com",
+      "startDate": "2019-12-01",
+      "summary": "Artistik Designs is a premier print and web design company that can meet any of your graphic, marketing or web design needs. We are dedicated to creating the image your company strives for, along with providing maximum impact in design, quality, and performance.",
+      "highlights": [
+        "PHP",
+        "Symfony",
+        "Vue",
+        "WordPress"
+      ]
+    },
+    {
+      "name": "Sportskred",
+      "location": "London, UK",
+      "position": "Web Developer",
+      "url": "https://sportskred.com/",
+      "startDate": "2019-05-01",
+      "endDate": "2019-10-31",
+      "summary": "The customers are athletes who do not yet have large commercial contracts - these are aspiring and young dedicated and focussed individuals, many of whom have Tokyo 2020 in mind. The other side of the market is brands, who are looking to get involved in the lives of the athletes, and are looking to reach the fans and followers of these athletes.",
+      "highlights": [
+        "PHP",
+        "KnockoutJS",
+        "Symfony"
+      ]
+    },
+    {
+      "name": "MediaInfo",
+      "location": "Novo Mesto, Slovenia",
+      "position": "Web Developer",
+      "url": "https://www.mediainfo.com/",
+      "startDate": "2019-01-01",
+      "endDate": "2019-09-30",
+      "summary": "MediaINFO is a Digital Library System made for easy browsing, searching, cataloging and sharing of digitized culture and heritage.",
+      "highlights": [
+        "PHP",
+        "Angular",
+        "Symfony"
+      ]
+    },
+    {
+      "name": "ChinesePod",
+      "location": "London, UK",
+      "position": "Web Developer",
+      "url": "https://www.chinesepod.com/",
+      "startDate": "2019-01-12",
+      "endDate": "2019-07-31",
+      "summary": "Start speaking Mandarin Chinese immediately with ChinesePod’s library of 3,500+ lessons. ChinesePod creates Mandarin Chinese lessons with real language that native speakers use, not stiff, unnatural textbook phrases.",
+      "highlights": [
+        "PHP",
+        "Zend",
+        "Symfony"
+      ]
+    },
+    {
+      "name": "MarketsFlow",
+      "location": "London, UK",
+      "description": "The Lean Innovation Company. Creating digital ventures with startups and enterprise.",
+      "position": "Web Developer",
+      "url": "https://www.dlabs.si/",
+      "startDate": "2018-01-12",
+      "endDate": "2019-03-31",
+      "summary": "MarketsFlow is an award-winning, and highly disruptive Machine Learning based Robo Advisor and Digital Wealth Management Platform. We are the market leaders in using Machine Learning to empower clients to become Asset Managers, and enable them to create and manage Equity based Portfolios. Our proprietary platform has the ability to produce exemplary Portfolio performance in terms of Annualised returns , managed volatility, Sharpe ratios and risk management. We are also part of the first Fintech Cohort for Spark Entrepreneurial Programme managed by Royal Bank of Scotland in London.",
+      "highlights": [
+        "PHP",
+        "Laravel"
+      ]
+    },
+    {
+      "name": "DLabs",
+      "location": "Ljubljana, Slovenia",
+      "description": "The Lean Innovation Company. Creating digital ventures with startups and enterprise.",
+      "position": "Web Developer",
+      "url": "https://www.dlabs.si/",
+      "startDate": "2018-01-11",
+      "endDate": "2019-06-31",
+      "summary": "The Lean Innovation Company. Creating digital ventures with startups and enterprise.",
+      "highlights": [
+        "PHP",
+        "Symfony"
+      ]
+    },
+    {
+      "name": "Up and Running Software",
+      "location": "Sarajevo, BA",
+      "description": "Custom software development, databases, and scalable systems, including new software, legacy/current system support and enhancements, and migrations.  We create the engines of sites for companies, nonprofit and educational organizations, startups, and entrepreneurs.",
+      "position": "Software development and testing",
+      "url": "https://www.upandrunningsoftware.com/",
+      "startDate": "2015-01-10",
+      "endDate": "2018-06-31",
+      "summary": "Custom software development, databases, and scalable systems, including new software, legacy/current system support and enhancements, and migrations.  We create the engines of sites for companies, nonprofit and educational organizations, startups, and entrepreneurs.",
+      "highlights": [
+        "Laravel",
+        "Angular",
+        "Elastic search",
+        "HTML5/CSS3",
+        "Responsive design"
+      ]
+    },
+    {
+      "name": "Skilling",
+      "location": "Marbella, Spain",
+      "description": "Trade the world’s foreign exchange market with tight spreads and zero commission. Skilling Trader, MT4 &amp; cTrader available. Regulated broker.",
+      "position": "Software development and testing",
+      "url": "https://skilling.com/row/en/",
+      "startDate": "2015-10-31",
+      "endDate": "2016-03-31",
+      "summary": "Trade the world’s foreign exchange market with tight spreads and zero commission. Skilling Trader, MT4 &amp; cTrader available. Regulated broker.",
+      "highlights": [
+        "Node.js",
+        "Angular",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "TradeFight.com",
+      "location": "Sarajevo, BA",
+      "description": "Payments made easy",
+      "position": "Web Developer",
+      "url": "https://www.facebook.com/tradefight/about/",
+      "startDate": "2015-01-31",
+      "endDate": "2015-10-31",
+      "summary": "Solutions built for technology businesses, enterprises, and financial institutions",
+      "highlights": [
+        "Node.js",
+        "Backbone",
+        "Socket.io"
+      ]
+    },
+    {
+      "name": "Monri Payments",
+      "location": "Sarajevo, BA",
+      "description": "Payments made easy",
+      "position": "Web Developer",
+      "url": "https://monri.com/en/",
+      "startDate": "2014-10-31",
+      "endDate": "2015-10-31",
+      "summary": "Solutions built for technology businesses, enterprises, and financial institutions",
+      "highlights": [
+        "CakePHP",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "IDEVCORP",
+      "location": "Sarajevo, BA",
+      "description": "Full-service software development company",
+      "position": "Web Developer",
+      "url": "http://idevcorp.net/",
+      "startDate": "2014-10-31",
+      "endDate": "2015-10-31",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Custom CMS",
+        "CakePHP",
+        "Node.js",
+        "Backbone"
+      ]
+    },
+    {
+      "name": "Digital Magics Italy",
+      "location": "Milano, IT",
+      "startDate": "2009-07-01",
+      "endDate": "2014-10-31",
+      "highlights": [],
+      "position": "PHP developer and software engineer",
+      "startDate": "2009-10-31",
+      "summary": "General website design and management for a broad base of clients, startups and etc. Working with a highly talented group of developers and web/social media experts to create beautiful, modern and fully accessible websites using cutting edge SEO technologies and rapid development with custom CMS implementations (LAMP architecture and custom WordPress themes). Experience using JIRA for project/task management. Responsible for overall UI, backend, SEO and building/tuning LAMP server (CentOS) architecture from scratch utilizing multiple levels of caching: Varnish static page cache, PHP OpCode caching, MySQL query caching and Memcached for PHP session management. Configured MySQL master/slave server architecture independent of web server for maximum performance under high traffic/load. Also responsible for overall website performance: CDN, browser caching, image compression, gzip compression, minification and optimal HTML DOM structuring for asynchronous loading of resources. Using New Relic for server analytics and monitoring to ensure performance remains top notch. Site created using a fully custom WordPress theme and custom-made plugins to suit our specific needs. Experience with complex multi-variate and A/B testing with Visual Website Optimizer, increasing conversion rate and reducing bounce rate by significant amounts. - Example of performance: http://www.webpagetest.org/result/120328_DM_3RN0V/ Latest project involved creating a fully customizable coupon syndication iFrame that affiliates can use to monetize their blogs/sites. Features dynamic frame resizing and a fully asynchronous code snippet to ensure no impact on overall page load. - Example iFrame implementation: http://foodnservice.com/coupon-codes/ Additionally, currently developing/maintaining our Social E-Commerce Application (TabJuice) built on CodeIgniter MVC framework. Integrates seamlessly with Authorize.Net, PayPal and Magento and has over 3000 shops currently set up on Facebook. Backend allows for full branding/appearance customization, payment options and usage statistics.",
+      "website": "http://www.digitalmagics.com/"
+    },
+    {
+      "name": "Digital Magics BH",
+      "location": "Sarajevo, BA",
+      "startDate": "2008-07-01",
+      "endDate": "2014-10-31",
+      "highlights": [],
+      "position": "PHP developer and software engineer",
+      "startDate": "2009-10-31",
+      "summary": "General website design and management for a broad base of clients, startups and etc. Working with a highly talented group of developers and web/social media experts to create beautiful, modern and fully accessible websites using cutting edge SEO technologies and rapid development with custom CMS implementations (LAMP architecture and custom WordPress themes). Experience using JIRA for project/task management. Responsible for overall UI, backend, SEO and building/tuning LAMP server (CentOS) architecture from scratch utilizing multiple levels of caching: Varnish static page cache, PHP OpCode caching, MySQL query caching and Memcached for PHP session management. Configured MySQL master/slave server architecture independent of web server for maximum performance under high traffic/load. Also responsible for overall website performance: CDN, browser caching, image compression, gzip compression, minification and optimal HTML DOM structuring for asynchronous loading of resources. Using New Relic for server analytics and monitoring to ensure performance remains top notch. Site created using a fully custom WordPress theme and custom-made plugins to suit our specific needs. Experience with complex multi-variate and A/B testing with Visual Website Optimizer, increasing conversion rate and reducing bounce rate by significant amounts. - Example of performance: http://www.webpagetest.org/result/120328_DM_3RN0V/ Latest project involved creating a fully customizable coupon syndication iFrame that affiliates can use to monetize their blogs/sites. Features dynamic frame resizing and a fully asynchronous code snippet to ensure no impact on overall page load. - Example iFrame implementation: http://foodnservice.com/coupon-codes/ Additionally, currently developing/maintaining our Social E-Commerce Application (TabJuice) built on CodeIgniter MVC framework. Integrates seamlessly with Authorize.Net, PayPal and Magento and has over 3000 shops currently set up on Facebook. Backend allows for full branding/appearance customization, payment options and usage statistics.",
+      "website": "http://www.digitalmagics.com/"
+    },
+    {
+      "name": "Team Consulting d.o.o.",
+      "location": "Sarajevo, BA",
+      "endDate": "2008-06-30",
+      "startDate": "2008-01-31",
+      "highlights": [],
+      "position": "Web developer",
+      "summary": "Worked in a team of developers to create avanced web 2.0 applications using the LAMP architecture. Designed/maintained a specialized, fully object-oriented MVC framework (PHP) that featured an extensive library of custom external API integrations (Authorize.Net, PayPal, Facebook etc.), complex relational databases, support for multiple javascript frameworks (DOJO, jQuery, MooTools), templated CSS and a large suite of internal utility functions/classes relating to all areas of e-commerce, input validation, logging and error handling. The framework also helped ensure protection against a variety of common web application vulnerabilities (SQL injection, XSS), allowed \"pretty\" URL rewrites, and handled database-oriented configurable session management. Created and maintained a fully documented API (PHP), allowing access to a host of services and guaranteeing security/authenticity of requests using SSL, MD5 signatures and public key cryptography. The API featured a backend UI panel, \"instructions\", statistics and other useful information. Obtained experience in elegant UI design. Maintained multiple checkout flows with complex A/B testing for analysis. Comprehensive understanding the of the XHTML DOM, including limitless access and manipulation of its elements. High level of expertise in CSS2/3, JS and AJAX needed to build rich, responsive client-side applications. Expert in XML/JSON data formatting and translation techniques. Implemented cross-domain AJAX capabilities in order to circumvent the \"same origin policy\" for iFrames and facilitate seamless protocol changes. Responsible for setting up our project repository in version control (specifically SVN). Well-versed in all SVN commands and IDEs and able to run statistical analysis on code if needed. Placed high emphasis on code portability and re usability, object-oriented design and performance optimization.",
+      "website": "https://team.ba"
+    },
+    {
+      "name": "Hermes / Comtrade",
+      "location": "Sarajevo, BA",
+      "startDate": "2008-01-31",
+      "endDate": "2008-05-31",
+      "highlights": [],
+      "position": "C++ developer",
+      "summary": "Developed prototype desktop applications for backups. My primary role included building front-end widgets and applications.",
+      "website": "https://www.comtrade.com"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Sarajevo",
+      "url": "https://www.etf.unsa.ba/",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2002",
+      "endDate": "2007",
+      "gpa": "",
+      "courses": [
+        "CISCO academy"
+      ]
+    },
+    {
+      "institution": "Turkey-Bosnian College",
+      "area": "Gymnasium",
+      "studyType": "High school",
+      "startDate": "1998",
+      "endDate": "2002",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML (4|5) / SEO",
+        "S(C|A)SS / CSS3 / Bootstrap (2|3|4) / BEM / Styled Components",
+        "Javascript (ES6+) / Typescript",
+        "Vue.js / Vuex",
+        "Angular",
+        "KnockoutJS",
+        "Backbone.js",
+        "Babel",
+        "Webpack",
+        "Gulp"
+      ],
+      "level": "Senior",
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Node / Express.js", 
+        "PHP / Laravel / Symfony / Yii / Codeigniter / Zend / Wordpress / CakePHP", 
+        "PHPUnit / Selenium",
+        "RabbitMQ",
+        "MySql / Postgres / MongoDB", 
+        "Redis", 
+        "Serverless",
+        "ElasticSearch",
+        "Flex"
+      ],
+      "level": "Senior",
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "AWS", 
+        "Heroku", 
+        "Nginx / Apache",
+        "Vagrant / Docker",
+        "Caching"
+      ],
+      "level": "Medior",
+      "name": "Devops"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "German",
+      "fluency": "Moderate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music"
+    },
+    {
+      "name": "Reading"
+    },
+    {
+      "name": "Open Source"
+    },
+    {
+      "name": "Travel"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
