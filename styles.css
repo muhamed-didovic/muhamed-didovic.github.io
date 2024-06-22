@@ -189,3 +189,8 @@ footer button[type="submit"]:hover {
     background-color: #60a5fa;
 }
 
+.non-clickable {
+    pointer-events: none;
+    color: gray; /* Optional: style the link to indicate it's disabled */
+}
+
