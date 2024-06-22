@@ -1,1311 +1,250 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Muhamed Didović</title>
-    <meta name="description" content="Experienced full stack web developer (over 15 years) with a demonstrated history of working in the information technology and services industry who can build apps from the ground up. I&#x27;ve worked mostly at startups so I am use to wearing many hats. I am a very product focused developer who priotizes user feedback first and foremost. I&#x27;m generally very flexible when investigating new roles." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
-    <style>:root {
-  /* Colors */
-  --primaryColor: #212529;
-  --secondaryColor: #95a5a6;
-  --accentColor: #f1c40f;
-  --linkColor: #2ecc71;
-  --mutedColor: #f4f6f6;
-
-  /* Typography */
-  --ratio: 1.25;
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 14px;
-}
-
-body {
-  color: var(--primaryColor);
-  display: grid;
-  font: 1em/1.5 Lato, sans-serif;
-  gap: 2em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
-  grid-template-rows: auto [content] 0;
-  margin-bottom: 4em;
-}
-
-body::before {
-  content: '';
-  grid-column: full;
-  grid-row: content;
-}
-
-ol,
-ul {
-  padding-left: 1em;
-}
-
-li + li {
-  margin-top: 0.2em;
-}
-
-li::marker {
-  color: var(--mutedColor);
-}
-
-a {
-  color: var(--linkColor);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:focus,
-a:hover {
-  color: var(--accentColor);
-}
-
-h1,
-h2,
-h3,
-h5 {
-  font-weight: normal;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: var(--scale5);
-}
-
-h2 {
-  color: var(--secondaryColor);
-  font-size: var(--scale4);
-}
-
-h3 {
-  color: var(--accentColor);
-  font-size: var(--scale3);
-  grid-column: side;
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: var(--scale2);
-}
-
-h5 {
-  font-size: var(--scale1);
-}
-
-h6 {
-  font-size: var(--scale0);
-}
-
-blockquote {
-  border-left: 0.2em solid var(--mutedColor);
-  padding-left: 1em;
-}
-
-cite {
-  color: var(--secondaryColor);
-  font-style: inherit;
-}
-
-cite::before {
-  content: '— ';
-}
-
-.masthead {
-  background: var(--mutedColor);
-  display: inherit;
-  gap: inherit;
-  grid-column: full;
-  grid-template-columns: inherit;
-  padding: 4em 0;
-  row-gap: 0;
-}
-
-.masthead > *,
-section {
-  grid-column: main;
-}
-
-article > * + *,
-blockquote > * + * {
-  margin-top: 0.6em;
-}
-
-.stack {
-  display: grid;
-  gap: 1.5em;
-}
-
-.grid-list {
-  display: grid;
-  gap: 1em;
-}
-
-.spaced-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.spaced-list:first-child::before {
-  border-bottom: 1px solid var(--mutedColor);
-  content: '';
-  flex-grow: 1;
-  margin: 0 1em;
-  order: 1;
-}
-
-.spaced-list > :nth-child(2) {
-  order: 2;
-}
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-}
-
-.tag-list > li {
-  background: var(--mutedColor);
-  margin: 0 0.2em 0.2em 0;
-  padding: 0.2em 0.6em;
-}
-
-@media print, (min-width: 48em) {
-  h3 {
-    text-align: right;
-    margin-bottom: inherit;
-  }
-
-  .masthead > *,
-  section {
-    grid-column: content;
-  }
-
-  section {
-    display: contents;
-  }
-
-  .grid-list {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-</style>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYZYXCT6XW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BYZYXCT6XW');
-</script>
-  </head>
-  <body>
-      <header class="masthead">
-          <h1>Muhamed Didović</h1>
-          <h2>Full Stack Web Developer</h2>
-      </header>
-      <section id="contact">
-        <h3>Contact</h3>
-        <div class="grid-list">
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:muhamed.didovic@gmail.com">muhamed.didovic@gmail.com</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrapers I've built</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="profile">
+        <img src="profile.png" alt="Profile Picture">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Tools</a></li>
+            <li><a href="#">Scrapers</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Scrapers I've built</h1>
+    <p>Here are some scrapers I’ve built. Email me if you want me to build one for you! adrian@thewebscrapingguy.com</p>
+    <section class="scrapers">
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/indeed.png" alt="Indeed Icon">
             </div>
-            <div>
-              <h4>Website</h4>
-              <a href="https://github.com/muhamed-didovic">github.com/muhamed-didovic</a>
-            </div>
+            <h2>Indeed Cheerio</h2>
+            <p><strong>Description:</strong> Scrapes job listings from Indeed using Cheerio. The Ultimate Indeed Scraper for Apify bypasses protections to extract job listings efficiently, providing valuable job market insights.</p>
+            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
+            <p><strong>Output:</strong> Gathers job titles, company names, locations, salary estimates, job descriptions, posting dates, and application links.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Indeed Cheerio Scraper
+            </a>
         </div>
-      </section>
-        <section id="about">
-          <h3>About</h3>
-          <article>
-            <p>Experienced full stack web developer (over 15 years) with a demonstrated history of working in the information technology and services industry who can build apps from the ground up. I've worked mostly at startups so I am use to wearing many hats. I am a very product focused developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles.</p>
-          </article>
-        </section>
-        <section id="profiles">
-          <h3>Profiles</h3>
-          <div class="grid-list">
-              <div>
-                  <h4>LinkedIn</h4>
-                    <a href="https://www.linkedin.com/in/muhamed-didovic-24935434/">muhamed-didovic</a>
-              </div>
-              <div>
-                  <h4>Github</h4>
-                    <a href="https://github.com/muhamed-didovic">muhamed-didovic</a>
-              </div>
-          </div>
-        </section>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/indeed.png" alt="Indeed Icon">
+            </div>
+            <h2>Indeed Scraper Bypassing Antibots or Protection</h2>
+            <p><strong>Description:</strong> The Ultimate Indeed Scraper is a powerful tool designed for the Apify platform, tailored to bypass protections and efficiently extract job listing information directly from Indeed.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Output:</strong> Gathers job titles, company names, locations, salary estimates, job descriptions, posting dates, and application links.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Indeed Cheerio Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/indeed.png" alt="Indeed Review Icon">
+            </div>
+            <h2>Indeed Review Scraper</h2>
+            <p><strong>Description:</strong> Scrapes reviews from Indeed, collecting details like review titles, ratings, dates, locations, author job titles, and pros and cons.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Output:</strong> Gathers review titles, descriptions, ratings, dates, locations, author job titles, and URLs.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Indeed Review Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/linkedin.png" alt="LinkedIn Icon">
+            </div>
+            <h2>LinkedIn Company People Scraper</h2>
+            <p><strong>Description:</strong> Extracts information from LinkedIn company pages, including names, positions, usernames, profile images, and profile URLs.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Output:</strong> Gathers names, job titles, LinkedIn usernames, profile images, profile URLs, and company names.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                LinkedIn Company People Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/linkedin.png" alt="LinkedIn Search Icon">
+            </div>
+            <h2>LinkedIn Search Results Scraper</h2>
+            <p><strong>Description:</strong> Scrapes LinkedIn search results for job postings.</p>
+            <p><strong>Technology:</strong> Crawlee, Apify</p>
+            <p><strong>Output:</strong> Collects job titles, descriptions, company details and etc.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                LinkedIn Search Results Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/linkedin.png" alt="LinkedIn Sales Navigator Icon">
+            </div>
+            <h2>LinkedIn Sales Navigator Scraper</h2>
+            <p><strong>Description:</strong> Extracts data from LinkedIn Sales Navigator for lead generation.</p>
+            <p><strong>Technology:</strong> Crawlee, Apify</p>
+            <p><strong>Functionality:</strong> Gathers leads' names, titles, and company information, including Account IQ section data.</p>
+            <p><strong>Output:</strong> Account IQ data.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                LinkedIn Sales Navigator Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/facebook.png" alt="Facebook Groups Icon">
+            </div>
+            <h2>Facebook Search Results Groups Scraper</h2>
+            <p><strong>Description:</strong> Scrapes Facebook groups, collecting details like group names, descriptions, privacy status, member counts, activity, and URLs.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Functionality:</strong> Supports multiple search queries and customizable configurations.</p>
+            <p><strong>Input:</strong> Facebook group search URLs and cookies for authentication.</p>
+            <p><strong>Output:</strong> Group names, descriptions, privacy status, member counts, activity, and URLs.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Facebook Groups Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/facebook.png" alt="Facebook Pages Icon">
+            </div>
+            <h2>Facebook Search Results Pages Scraper</h2>
+            <p><strong>Description:</strong> Scrapes Facebook pages, collecting details like page names, descriptions, photos, tags, reviews, and URLs.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Functionality:</strong> Supports multiple search queries and customizable configurations.</p>
+            <p><strong>Input:</strong> Facebook page search URLs and cookies for authentication.</p>
+            <p><strong>Output:</strong> Page names, descriptions, photos, tags, reviews, price range, location, hours open, followers, and URLs.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Facebook Search Pages Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/facebook.png" alt="Facebook Group Icon">
+            </div>
+            <h2>Facebook Group Scraper</h2>
+            <p><strong>Description:</strong> Scrapes data from Facebook group details for lead generation.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Input:</strong> Facebook group link and cookies for authentication.</p>
+            <p><strong>Output:</strong> Collects group details like names, descriptions, and member information.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Facebook Group Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/facebook.png" alt="Facebook Page Contact Icon">
+            </div>
+            <h2>Facebook Page/Bio/Contact Detail Scraper</h2>
+            <p><strong>Description:</strong> Scrapes profile details from Facebook profiles.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Functionality:</strong> Collects addresses, categories, emails, mobile numbers, likes, websites, ratings, hours open, check-ins, phone information, and social platform links.</p>
+            <p><strong>Input:</strong> Facebook profile URLs and cookies for authentication.</p>
+            <p><strong>Output:</strong> Contact details such as addresses, emails, phone numbers, websites, ratings and etc.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Facebook Page Contact Detail Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/facebook.png" alt="Facebook Page Contact Icon">
+            </div>
+            <h2>Facebook Page Contact Detail Scraper</h2>
+            <p><strong>Description:</strong> Scrapes contact details from Facebook pages, including addresses, categories, emails, and phone information.</p>
+            <p><strong>Technology:</strong> Apify</p>
+            <p><strong>Functionality:</strong> Collects addresses, categories, emails, mobile numbers, likes, websites, ratings, hours open, check-ins, phone information, and social platform links.</p>
+            <p><strong>Input:</strong> Facebook page URLs and cookies for authentication.</p>
+            <p><strong>Output:</strong> Contact details such as addresses, emails, phone numbers, websites, ratings, and hours open.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Facebook Page Contact Detail Scraper
+            </a>
+        </div>
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/quora.png" alt="Quora Icon">
+            </div>
+            <h2>Quora Scraper</h2>
+            <p><strong>Description:</strong> Scrapes data from Quora, including questions, answers, and user profiles.</p>
+            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
+            <p><strong>Functionality:</strong> Supports multiple search queries and authentication for enhanced data access.</p>
+            <p><strong>Input:</strong> Quora search URLs and cookies for authentication.</p>
+            <p><strong>Output:</strong> Titles, details, and metadata of questions, number of answers, author information, and user profiles.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Quora Scraper with Authentication
+            </a>
+        </div>
 
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Freelance</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>CEO/President</strong>
-                    <a href="muhamed-didovic.github.io">muhamed-didovic.github.io</a>
-                </div>
-              </header>
-                <p>Various contracts and consulting gigs. From WordPress sites to large-scale web applications with Laravel, Node.js and etc.</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>PayOnDelivery</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://www.payondelivery.com/">www.payondelivery.com</a>
-                </div>
-              </header>
-                <p>Person-to-person shopping: the way it should be. Buy and sell items on any local marketplace. Set-up deliveries and instantly transfer money online.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>Laravel</li>
-                    <li>React</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Artistik Designs</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://artistikdesigns.com">artistikdesigns.com</a>
-                </div>
-              </header>
-                <p>Artistik Designs is a premier print and web design company that can meet any of your graphic, marketing or web design needs. We are dedicated to creating the image your company strives for, along with providing maximum impact in design, quality, and performance.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>Symfony</li>
-                    <li>Vue</li>
-                    <li>WordPress</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Sportskred</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://sportskred.com/">sportskred.com</a>
-                </div>
-              </header>
-                <p>The customers are athletes who do not yet have large commercial contracts - these are aspiring and young dedicated and focused individuals, many of whom have Tokyo 2020 in mind. The other side of the market is brands, who are looking to get involved in the lives of the athletes, and are looking to reach the fans and followers of these athletes.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>KnockoutJS</li>
-                    <li>Symfony</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>MediaInfo</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://www.mediainfo.com/">www.mediainfo.com</a>
-                </div>
-              </header>
-                <p>MediaINFO is a Digital Library System made for easy browsing, searching, cataloging and sharing of digitized culture and heritage.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>Angular</li>
-                    <li>Symfony</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>ChinesePod</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://www.chinesepod.com/">www.chinesepod.com</a>
-                </div>
-              </header>
-                <p>Start speaking Mandarin Chinese immediately with ChinesePod’s library of 3,500+ lessons. ChinesePod creates Mandarin Chinese lessons with real language that native speakers use, not stiff, unnatural textbook phrases.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>Zend</li>
-                    <li>Symfony</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>MarketsFlow</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://www.dlabs.si/">www.dlabs.si</a>
-                </div>
-              </header>
-                <p>MarketsFlow is an award-winning, and highly disruptive Machine Learning based Robo Advisor and Digital Wealth Management Platform. We are the market leaders in using Machine Learning to empower clients to become Asset Managers, and enable them to create and manage Equity based Portfolios. Our proprietary platform has the ability to produce exemplary Portfolio performance in terms of Annualised returns , managed volatility, Sharpe ratios and risk management. We are also part of the first Fintech Cohort for Spark Entrepreneurial Programme managed by Royal Bank of Scotland in London.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>Laravel</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>DLabs</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://www.dlabs.si/">www.dlabs.si</a>
-                </div>
-              </header>
-                <p>The Lean Innovation Company. Creating digital ventures with startups and enterprise.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>Symfony</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Up and Running Software</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Software development and testing</strong>
-                    <a href="https://www.upandrunningsoftware.com/">www.upandrunningsoftware.com</a>
-                </div>
-              </header>
-                <p>Custom software development, databases, and scalable systems, including new software, legacy/current system support and enhancements, and migrations.  We create the engines of sites for companies, nonprofit and educational organizations, startups, and entrepreneurs.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Laravel</li>
-                    <li>Angular</li>
-                    <li>Elastic search</li>
-                    <li>HTML5/CSS3</li>
-                    <li>Responsive design</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Skilling</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Software development and testing</strong>
-                    <a href="https://skilling.com/row/en/">skilling.com/row/en</a>
-                </div>
-              </header>
-                <p>Trade the world’s foreign exchange market with tight spreads and zero commission. Skilling Trader, MT4 &amp; cTrader available. Regulated broker.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Angular</li>
-                    <li>RabbitMQ</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>TradeFight.com</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://www.facebook.com/tradefight/about/">www.facebook.com/tradefight/about</a>
-                </div>
-              </header>
-                <p>Solutions built for technology businesses, enterprises, and financial institutions</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Backbone</li>
-                    <li>Socket.io</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Monri Payments</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="https://monri.com/en/">monri.com/en</a>
-                </div>
-              </header>
-                <p>Solutions built for technology businesses, enterprises, and financial institutions</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>CakePHP</li>
-                    <li>Node.js</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>IDEVCORP</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Developer</strong>
-                    <a href="http://idevcorp.net/">idevcorp.net</a>
-                </div>
-              </header>
-                <p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Custom CMS</li>
-                    <li>CakePHP</li>
-                    <li>Node.js</li>
-                    <li>Backbone</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Digital Magics Italy</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>PHP developer and software engineer</strong>
-                </div>
-              </header>
-                <p>General website design and management for a broad base of clients, startups and etc. Working with a highly talented group of developers and web/social media experts to create beautiful, modern and fully accessible websites using cutting edge SEO technologies and rapid development with custom CMS implementations (LAMP architecture and custom WordPress themes). Experience using JIRA for project/task management. Responsible for overall UI, backend, SEO and building/tuning LAMP server (CentOS) architecture from scratch utilizing multiple levels of caching: Varnish static page cache, PHP OpCode caching, MySQL query caching and Memcached for PHP session management. Configured MySQL master/slave server architecture independent of web server for maximum performance under high traffic/load. Also responsible for overall website performance: CDN, browser caching, image compression, gzip compression, minification and optimal HTML DOM structuring for asynchronous loading of resources. Using New Relic for server analytics and monitoring to ensure performance remains top notch. Site created using a fully custom WordPress theme and custom-made plugins to suit our specific needs. Experience with complex multi-variate and A/B testing with Visual Website Optimizer, increasing conversion rate and reducing bounce rate by significant amounts. - Example of performance: http://www.webpagetest.org/result/120328_DM_3RN0V/ Latest project involved creating a fully customizable coupon syndication iFrame that affiliates can use to monetize their blogs/sites. Features dynamic frame resizing and a fully asynchronous code snippet to ensure no impact on overall page load. - Example iFrame implementation: http://foodnservice.com/coupon-codes/ Additionally, currently developing/maintaining our Social E-Commerce Application (TabJuice) built on CodeIgniter MVC framework. Integrates seamlessly with Authorize.Net, PayPal and Magento and has over 3000 shops currently set up on Facebook. Backend allows for full branding/appearance customization, payment options and usage statistics.</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Digital Magics BH</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>PHP developer and software engineer</strong>
-                </div>
-              </header>
-                <p>General website design and management for a broad base of clients, startups and etc. Working with a highly talented group of developers and web/social media experts to create beautiful, modern and fully accessible websites using cutting edge SEO technologies and rapid development with custom CMS implementations (LAMP architecture and custom WordPress themes). Experience using JIRA for project/task management. Responsible for overall UI, backend, SEO and building/tuning LAMP server (CentOS) architecture from scratch utilizing multiple levels of caching: Varnish static page cache, PHP OpCode caching, MySQL query caching and Memcached for PHP session management. Configured MySQL master/slave server architecture independent of web server for maximum performance under high traffic/load. Also responsible for overall website performance: CDN, browser caching, image compression, gzip compression, minification and optimal HTML DOM structuring for asynchronous loading of resources. Using New Relic for server analytics and monitoring to ensure performance remains top notch. Site created using a fully custom WordPress theme and custom-made plugins to suit our specific needs. Experience with complex multi-variate and A/B testing with Visual Website Optimizer, increasing conversion rate and reducing bounce rate by significant amounts. - Example of performance: http://www.webpagetest.org/result/120328_DM_3RN0V/ Latest project involved creating a fully customizable coupon syndication iFrame that affiliates can use to monetize their blogs/sites. Features dynamic frame resizing and a fully asynchronous code snippet to ensure no impact on overall page load. - Example iFrame implementation: http://foodnservice.com/coupon-codes/ Additionally, currently developing/maintaining our Social E-Commerce Application (TabJuice) built on CodeIgniter MVC framework. Integrates seamlessly with Authorize.Net, PayPal and Magento and has over 3000 shops currently set up on Facebook. Backend allows for full branding/appearance customization, payment options and usage statistics.</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Team Consulting d.o.o.</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web developer</strong>
-                </div>
-              </header>
-                <p>Worked in a team of developers to create avanced web 2.0 applications using the LAMP architecture. Designed/maintained a specialized, fully object-oriented MVC framework (PHP) that featured an extensive library of custom external API integrations (Authorize.Net, PayPal, Facebook etc.), complex relational databases, support for multiple javascript frameworks (DOJO, jQuery, MooTools), templated CSS and a large suite of internal utility functions/classes relating to all areas of e-commerce, input validation, logging and error handling. The framework also helped ensure protection against a variety of common web application vulnerabilities (SQL injection, XSS), allowed &quot;pretty&quot; URL rewrites, and handled database-oriented configurable session management. Created and maintained a fully documented API (PHP), allowing access to a host of services and guaranteeing security/authenticity of requests using SSL, MD5 signatures and public key cryptography. The API featured a backend UI panel, &quot;instructions&quot;, statistics and other useful information. Obtained experience in elegant UI design. Maintained multiple checkout flows with complex A/B testing for analysis. Comprehensive understanding the of the XHTML DOM, including limitless access and manipulation of its elements. High level of expertise in CSS2/3, JS and AJAX needed to build rich, responsive client-side applications. Expert in XML/JSON data formatting and translation techniques. Implemented cross-domain AJAX capabilities in order to circumvent the &quot;same origin policy&quot; for iFrames and facilitate seamless protocol changes. Responsible for setting up our project repository in version control (specifically SVN). Well-versed in all SVN commands and IDEs and able to run statistical analysis on code if needed. Placed high emphasis on code portability and re usability, object-oriented design and performance optimization.</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Hermes / Comtrade</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>C++ developer</strong>
-                </div>
-              </header>
-                <p>Developed prototype desktop applications for backups. My primary role included building front-end widgets and applications.</p>
-            </article>
+
+        <div class="scraper-card">
+            <div class="icon">
+                <img src="/assets/clutch.png" alt="Clutch.co Icon">
+            </div>
+            <h2>Clutch.co Scraper</h2>
+            <p><strong>Description:</strong> Scrapes comprehensive company details from Clutch.co, including client reviews, project portfolios, verification statuses, and geographical locations.</p>
+            <p><strong>Technology:</strong> Crawlee, Apify</p>
+            <p><strong>Functionality:</strong> Supports multiple search queries, scrapes category lists, and collects detailed company information.</p>
+            <p><strong>Input:</strong> Clutch.co category list URLs.</p>
+            <p><strong>Output:</strong> Company names, reviews, ratings, locations, websites, and other detailed information.</p>
+            <a href="#">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
+                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
+                </svg>
+                Clutch.co Comprehensive Scraper
+            </a>
         </div>
-      </section>
-      <section id="education">
-        <h3>Education</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>University of Sarajevo</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Computer Science</strong>
-                    <a href="https://www.etf.unsa.ba/">www.etf.unsa.ba</a>
-                </div>
-              </header>
-                <p>Bachelors</p>
-                <h5>Courses</h5>
-                <ul>
-                    <li>CISCO academy</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Turkey-Bosnian College</h4>
-                </div>
-                <div class="spaced-list">
-                    <strong>Gymnasium</strong>
-                </div>
-              </header>
-                <p>High school</p>
-            </article>
-        </div>
-      </section>
-      <section id="projects">
-        <h3>Projects</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>PayOnDelivery</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Team lead, Web Developer</strong>
-                      at <strong>PayOnDelivery</strong>
-                  </span>
-                    <a href="https://www.payondelivery.com/">www.payondelivery.com</a>
-                </div>
-              </header>
-                <p>We pick up, we deliver, you get a deal</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Person-to-person shopping: the way it should be.</li>
-                    <li>Buy and sell items on any local marketplace. Set-up deliveries and instantly transfer money online.</li>
-                    <li>Using modern technologies such as React, Laravel...</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Avaz</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>PayOnDelivery</strong>
-                  </span>
-                    <a href="https://avaz.ba/">avaz.ba</a>
-                </div>
-              </header>
-                <p>Most popualat newspaper in Bosnia and Herzegovina</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Covid-19 for Bosnia and Herzegovina</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Covid-19</strong>
-                  </span>
-                    <a href="https://covid-19.ba/">covid-19.ba</a>
-                </div>
-              </header>
-                <p>Covid-19 statistics for Bosnia and Herzegovina</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project with statistics regarding Covid-19</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Skilling</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Skilling</strong>
-                  </span>
-                    <a href="https://skilling.com/row/en/">skilling.com/row/en</a>
-                </div>
-              </header>
-                <p>Trade the world’s foreign exchange market with tight spreads and zero commission. Skilling Trader, MT4 &amp; cTrader available. Regulated broker.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Build new platform for trading</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>SPORTSKRED</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>SPORTSKRED</strong>
-                  </span>
-                    <a href="https://sportskred.com/">sportskred.com</a>
-                </div>
-              </header>
-                <p>Social Media Sponsorship’s Operating System</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>MarketsFlow</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>MarketsFlow</strong>
-                  </span>
-                    <a href="https://www.strowz.com/">www.strowz.com</a>
-                </div>
-              </header>
-                <p>MarketsFlow is a financial App that helps you invest your money for growth.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>MTHash</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>MTHash</strong>
-                  </span>
-                    <a href="https://www.mthash.com/">www.mthash.com</a>
-                </div>
-              </header>
-                <p>Mine crypto with tokens</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance, API maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Happy Car</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Happy Car</strong>
-                  </span>
-                    <a href="https://www.happycar.de/">www.happycar.de</a>
-                </div>
-              </header>
-                <p>Budget car rental - Price comparison</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Added support for implementing APIs of different rent a car companies</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Future N Focus</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>UAR</strong>
-                  </span>
-                    <a href="https://www.dreamcatcherprogram.com/">www.dreamcatcherprogram.com</a>
-                </div>
-              </header>
-                <p>Dream Catcher is a career readiness and workforce development curriculum designed to accelerate a student’s ability to discover an initial career path through discovering a clarity of purpose and self-worth.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Build project from the ground</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Nutriquest</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>UAR</strong>
-                  </span>
-                    <a href="https://nutriquest.com/">nutriquest.com</a>
-                </div>
-              </header>
-                <p>Dream Catcher is a career readiness and workforce development curriculum designed to accelerate a student’s ability to discover an initial career path through discovering a clarity of purpose and self-worth.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Austria Tourism</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Austria tourism</strong>
-                  </span>
-                    <a href="https://www.austria.info/en">www.austria.info/en</a>
-                </div>
-              </header>
-                <p>Holidays in Austria, Your Official Travel Guide</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Task was to upgrade project from Symfony 2.4 to Symfony 5.2 version</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Defirmakaas</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Defirmakaas</strong>
-                  </span>
-                    <a href="https://defirmakaas.nl/">defirmakaas.nl</a>
-                </div>
-              </header>
-                <p>Selling and delivery of cheese in Holland</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Task was to add support for responsive design of the site</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Lucid green</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>DLabs</strong>
-                  </span>
-                    <a href="https://lucidgreen.io/">lucidgreen.io</a>
-                </div>
-              </header>
-                <p>LUCID empowers consumers with the knowledge they need to have a safe, predictable, and enjoyable experience.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>building new website and app with Symfony</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Sibbach</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Artistik Designes</strong>
-                  </span>
-                    <a href="https://www.sibbach.com/">www.sibbach.com</a>
-                </div>
-              </header>
-                <p>The #1 Ranked Agent In Phoenix-Metro Welcomes You!</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Maintenance of WordPress project</li>
-                    <li>Fixing bugs and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Gruppen Unterkuenfte</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>IDEVCORP</strong>
-                  </span>
-                    <a href="https://www.gruppenunterkuenfte.de/">www.gruppenunterkuenfte.de</a>
-                </div>
-              </header>
-                <p>Direkt und einfach zu Ihrer Gruppenunterkunft</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Maintenance of project</li>
-                    <li>Fixing bugs and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Antique Purveyor</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Artistik Designes</strong>
-                  </span>
-                    <a href="https://www.antiquepurveyor.com/">www.antiquepurveyor.com</a>
-                </div>
-              </header>
-                <p>Furniture Store: Traditional Office and Dining Furniture</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Maintenance ASP.NET project</li>
-                    <li>Fixing bugs and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Alante air</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Artistik Designes</strong>
-                  </span>
-                    <a href="http://alanteair.com/">alanteair.com</a>
-                </div>
-              </header>
-                <p>We’re a team of industry veterans from private aviation and airline backgrounds, who have come together to provide value-driven solutions to today’s sophisticated aviation clientele.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building new web page with Laravel, Vue.js and Vux</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Stand-By Golf</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Team lead, Web Developer</strong>
-                      at <strong>Artistik Designes</strong>
-                  </span>
-                    <a href="https://standbygolf.com/">standbygolf.com</a>
-                </div>
-              </header>
-                <p>Stand-By Golf offers discounted rental clubs in all of our locations</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Using modern technologies such as Node.js and Angular to build new website</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Call2Action</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Team lead, Web Developer</strong>
-                      at <strong>Artistik Designes</strong>
-                  </span>
-                    <a href="https://call2actionportal.com/">call2actionportal.com</a>
-                </div>
-              </header>
-                <p>GET MORE DONE IN 5 DAYS THAN YOU HAVE IN 5 MONTHS</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>CALIFORNIA GOLF</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Team lead, Web Developer</strong>
-                      at <strong>Artistik Designes</strong>
-                  </span>
-                    <a href="https://calgolfnews.com/">calgolfnews.com</a>
-                </div>
-              </header>
-                <p>CALIFORNIA GOLF + TRAVEL FAVORITES – THE GIFTS WE’D LIKE TO RECEIVE</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Dagger Analytics</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Up and running software</strong>
-                  </span>
-                    <a href="https://www.daggeranalytics.com">www.daggeranalytics.com</a>
-                </div>
-              </header>
-                <p>Predictive Coding Software - Document Processing</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Predictive Coding and Text Analysis for the Legal Industry</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Fine Furniture</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Up and running software</strong>
-                  </span>
-                    <a href="https://www.furniturefish.com/">www.furniturefish.com</a>
-                </div>
-              </header>
-                <p>Fine Furniture for Designers &amp; Architects</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>ChinesePod</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>ChinesePod</strong>
-                  </span>
-                    <a href="https://www.daggeranalytics.com">www.daggeranalytics.com</a>
-                </div>
-              </header>
-                <p>ChinesePod creates Mandarin Chinese lessons with real language that native speakers use, not stiff, unnatural textbook phrases.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance, API maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Fagas</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="http://fagas.ba/">fagas.ba</a>
-                </div>
-              </header>
-                <p>The main activity of our company is the design and manufacturing of gas measurement and control equipment</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>4w Market Place</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="https://www.4wmarketplace.com/">www.4wmarketplace.com</a>
-                </div>
-              </header>
-                <p>The Connecting Marketplac</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Mess</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="http://mess.ba/">mess.ba</a>
-                </div>
-              </header>
-                <p>International Theater Festival MESS was founded in 1960 under the name of The Festival of Small and Experimental Stages of Yugoslavia which gave it the widely recognized acronym MES.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Srdjan Prodanovic</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="https://srdjanprodanovic.com/">srdjanprodanovic.com</a>
-                </div>
-              </header>
-                <p>Srdjan Prodanovic is a marketing, communication, and business consultant for the luxury industry that has more than 18 years of experience in the strategic and operational ares of fashion, interior design and travel industry.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Druga Kuća</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="http://drugakuca.ba/">drugakuca.ba</a>
-                </div>
-              </header>
-                <p>Druga Kuća is great restaurant with great food.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>City Hotel</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="http://cityhotel.ba/">cityhotel.ba</a>
-                </div>
-              </header>
-                <p>Located in the heart of downtown Sarajevo. In close proximity to the National Theater, the Old town called Bascarsija and very close to a shopping area, shopping mals and restaurans. This hotel puts you right in the middle of Sarajevo’s hottest city buzz.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Sarajevo Stan</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="http://sarajevostan.com.ba/">sarajevostan.com.ba</a>
-                </div>
-              </header>
-                <p>Maintenance for buildings</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Project maintenance and adding new features</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Simeco Milno</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="http://www.simecomilano.it/">www.simecomilano.it</a>
-                </div>
-              </header>
-                <p>Engineering, supply and construction services of industrial plants</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Simeco Systems BiH</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Digital Magics</strong>
-                  </span>
-                    <a href="http://simecosystems.com/">simecosystems.com</a>
-                </div>
-              </header>
-                <p>SIMECO.Systems is a company specialized in Consulting, Engineering and Procurement in the field of Oil and Gas Industrial and Power plants.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Nina Varga</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>Nina Varga</strong>
-                  </span>
-                    <a href="http://www.ninavarga.com/">www.ninavarga.com</a>
-                </div>
-              </header>
-                <p>SNina Varga is an independent designer, who creates innovative design. She works with clean and simple lines, with a good sense for detail. Nina prefers natural and lasting materials that are slightly different, supplemented with couture elements.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Connecting Stolac</h4>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Web Developer</strong>
-                      at <strong>CHWB Sarajevo</strong>
-                  </span>
-                    <a href="http://connectingstolac.ba/en/">connectingstolac.ba/en</a>
-                </div>
-              </header>
-                <p>Mobile application and web page to present a cultural heritage of small town Stolac in southeast Herzegovina.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Building project from scratch</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Frontend</h4>
-                <ul class="tag-list">
-                    <li>HTML (4|5) / SEO</li>
-                    <li>S(C|A)SS / CSS3 / Bootstrap (2|3|4) / BEM / Styled Components</li>
-                    <li>Javascript (ES6+) / Typescript</li>
-                    <li>Vue.js / Vuex</li>
-                    <li>Angular</li>
-                    <li>KnockoutJS</li>
-                    <li>Backbone.js</li>
-                    <li>Babel</li>
-                    <li>Webpack</li>
-                    <li>Gulp</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Backend</h4>
-                <ul class="tag-list">
-                    <li>Node / Express.js</li>
-                    <li>PHP / Laravel / Symfony / Yii / Codeigniter / Zend / Wordpress / CakePHP</li>
-                    <li>PHPUnit / Selenium</li>
-                    <li>RabbitMQ</li>
-                    <li>MySql / Postgres / MongoDB</li>
-                    <li>Redis</li>
-                    <li>Serverless</li>
-                    <li>ElasticSearch</li>
-                    <li>Flex</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Devops</h4>
-                <ul class="tag-list">
-                    <li>AWS</li>
-                    <li>Heroku</li>
-                    <li>Nginx / Apache</li>
-                    <li>Vagrant / Docker</li>
-                    <li>Caching</li>
-                </ul>
-            </div>
-        </div>
-      </section>
-      <section id="languages">
-        <h3>Languages</h3>
-        <div class="grid-list">
-            <div>
-                <h4>English</h4>
-              Professional
-            </div>
-            <div>
-                <h4>German</h4>
-              Moderate
-            </div>
-        </div>
-      </section>
-      <section id="interests">
-        <h3>Interests</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Music</h4>
-            </div>
-            <div>
-                <h4>Reading</h4>
-            </div>
-            <div>
-                <h4>Open Source</h4>
-            </div>
-            <div>
-                <h4>Travel</h4>
-            </div>
-        </div>
-      </section>
-  </body>
+    </section>
+
+</main>
+<footer>
+    <div class="newsletter">
+        <h2>Sign up for my email list</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</footer>
+</body>
 </html>

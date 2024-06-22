@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.outfit-100 {
+             font-family: "Outfit", sans-serif;
+             font-optical-sizing: auto;
+             font-weight: 100;
+             font-style: normal;
+         }
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #121212;
+    color: #e5e7eb;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 1rem;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #9ca3af;
+}
+
+.scrapers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scraper-card {
+    border-radius: 12px;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: left;
+    background-color: #1c1c1c;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.scraper-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #2a2a2a;
+}
+
+.scraper-card .icon {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    background-color: #000000; /* Ensure the background is transparent */
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    ring: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+
+.scraper-card .icon img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%; /* Ensure the image is rounded */
+    background-color: transparent; /* Ensure the image background is transparent */
+}
+
+.scraper-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.scraper-card p {
+    font-size: 0.875rem;
+    color: #9ca3af;
+    line-height: 1.5;
+}
+
+.scraper-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: color 0.3s;
+}
+
+.scraper-card a:hover {
+    color: #60a5fa;
+}
+
+.scraper-card .link-icon {
+    margin-right: 0.5rem;
+    width: 16px; /* Adjust the size as needed */
+    height: 16px; /* Adjust the size as needed */
+    fill: currentColor;
+}
+
+footer {
+    background-color: #1c1c1c;
+    padding: 1rem;
+    text-align: center;
+    color: #9ca3af;
+}
+
+footer .newsletter {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer input[type="email"] {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #9ca3af;
+    background-color: #1c1c1c;
+    color: #e5e7eb;
+}
+
+footer button[type="submit"] {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer button[type="submit"]:hover {
+    background-color: #60a5fa;
+}
+
