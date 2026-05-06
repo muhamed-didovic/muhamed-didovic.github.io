@@ -1,0 +1,3582 @@
+[
+  {
+    "id": "airbnb-scraper",
+    "title": "Airbnb Search \u00b7 with prices \u00b7 Reviews included",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/Oby-Anxexeb8lt-LncHepiamLSZOeZPPcOy4WAl8CR8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItUXZzT3dWM0pMMnN0ZlNFRnotY01SMjBJckNkVC1haXJibmIucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Get property descriptions, locations with coordinates, detailed pricing (base/discounts/fees), ratings, host profiles, structured amenities with icons, house rules, image galleries, and availability.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/airbnb-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apartmentfinder-com-scraper",
+    "title": "Apartmentfinder.com",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/Fcbi8aSCC7d_D42l8hoFkGGG5pVrS4bpu5sYyTZ4S7k/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItQkNsTHU3d3VmTlQ1dXg2QlAtZkFvalhrWU1Gay1BRi5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "location",
+      "contact",
+      "rating",
+      "rental pricing rent ranges",
+      "beds/baths",
+      "sq ft"
+    ],
+    "link": "https://apify.com/memo23/apartmentfinder-com-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apartments",
+    "title": "Apartments.com Listings",
+    "category": "real-estate",
+    "icon": "apartments.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Apartment rentals with rent ranges, bed/bath counts, pet policies, parking fees, and amenity details.",
+    "outputs": [
+      "rent",
+      "beds/baths",
+      "pets",
+      "parking",
+      "amenities",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/apify-apartments-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "agarmap-cheerio",
+    "title": "Aqarmap Scraper (/ 1K)",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/0lawCyFLMWwi3MOyCc1-cc399BCELZWK8Vn42s-zbns/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItakxMZ2UwVEVrczhKMThqcWItVHhBVGhYWXhjRC1hZ2FybWFuLmpwZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "This scraper extracts detailed Egyptian real estate data, including property listings (for sale/rent) and individual property details.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/agarmap-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "auction-com-scraper",
+    "title": "Auction.com [Only Search and Details",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/xFtYkH2uTRIjsg1BxitQXb-FSMN9-REAtwPgOhH7gXI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItVGF3TDgyckw3OFVLOXJhU3gtMGg1UGxGSE1VaS1hdWN0aW9uY29tLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "[$1 per 1,000] No limits, no quotas, unlimited extraction. Auction.com scraper that extracts structured property listings from search URLs and filters.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/auction-com-scraper",
+    "status": "public"
+  },
+  {
+    "id": "au-nz-realestate",
+    "title": "Australia & NZ Real Estate",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/xZn0tGxffNtufWAudQovbN_9AtgwbLQJYTiYkpLvb2E/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItcUJVYUR0ZHI2a1lTQlpFOEotT0U3ZUhHdkw4Zi1yZWFsZXN0YXRlLnBuZw.webp",
+    "thumb": "how-it-works-au-nz-v1.png",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Property listings across realestate.com.au and realestate.co.nz \u2014 pricing, agent details, inspections, sale history.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "land area",
+      "agent",
+      "sale history",
+      "inspection times"
+    ],
+    "link": "https://apify.com/memo23/realestate-au-listings",
+    "status": "public"
+  },
+  {
+    "id": "apify-bayut-scraper",
+    "title": "BAYUT \u00b7 Search & Detail(s) & Agent(s) & Company(s)",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/ZlGOmQX3KfP_KiacJiQzkR_PEOk1vpVNwfhlGtFptHI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItR0xlMzBZZ0FzNXhxek5CUWctSk16TGJiNTVlcy1uYXl1dC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Ideal for market analysis, lead generation, and property research.",
+    "outputs": [
+      "price",
+      "specs rooms",
+      "size",
+      "furnishing",
+      "location details",
+      "agent/agency info"
+    ],
+    "link": "https://apify.com/memo23/apify-bayut-scraper",
+    "status": "public"
+  },
+  {
+    "id": "craigslist-scraper",
+    "title": "Craigslist \u00b7 Search \u00b7 Details \u00b7 Email",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/-ZKSmYG4DEjwiL_18wxtAuzZ8L_yRFF5PnYD49kkYN8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItTllyTUNvMmJOa3NKVktlYmctYUFiN09tT0l0UC1jcmFpZ3NsaXN0LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Get attributes like bedrooms, square footage, prices, or compensation. Captures descriptions, high-res images, embedded map coordinates (Lat/Lon), phone numbers, and directly extracts EMAILS!",
+    "outputs": [
+      "description",
+      "high-res images",
+      "phone numbers"
+    ],
+    "link": "https://apify.com/memo23/craigslist-scraper",
+    "status": "public"
+  },
+  {
+    "id": "crexi",
+    "title": "Crexi Commercial Listings",
+    "category": "real-estate",
+    "icon": "crexi.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Puppeteer"
+    ],
+    "summary": "Commercial property listings on Crexi \u2014 name, asking price, location, broker, opportunity-zone metadata.",
+    "outputs": [
+      "name",
+      "asking price",
+      "location",
+      "type",
+      "broker",
+      "media"
+    ],
+    "link": "https://apify.com/memo23/apify-crexi",
+    "status": "public"
+  },
+  {
+    "id": "drhorton-scraper",
+    "title": "Drhorton.com",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/BBnVZ0ZlPwrCZ1YsnOcC4rhL0ejynWtiONpC-e98lpE/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItUEwxQzVGYXdGZHVtVFNCdlktc0lROEtJNWxwYy1kcmhvcnRvbi5qcGVn.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Elevate your real estate game with our DR Horton scraper. Uncover exclusive listings, detailed property insights, and market trends at lightning speed\u2014your shortcut to smarter, faster decisions.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/drhorton-scraper",
+    "status": "public"
+  },
+  {
+    "id": "dubizzle-search-listing-s-scraper",
+    "title": "DubizzleReal Estate & Cars Search & Detail & Brokers",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/_sToBzFHFyp7Q0L7sQ2_kvVbHdh_YBU_wXMDuy_eD7w/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItSURRZlQ0V3ozMENxd0lmUjgtTVFES1pmZTlLaS1kdWJpenpsZS5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Perfect for real estate professionals and investors seeking market insights and lead generation.",
+    "outputs": [
+      "listings including prices",
+      "amenities",
+      "agent contacts",
+      "high-res photos",
+      "location coordinates"
+    ],
+    "link": "https://apify.com/memo23/dubizzle-search-listing-s-scraper",
+    "status": "public"
+  },
+  {
+    "id": "forrent-com-scraper",
+    "title": "ForRent.com",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/OVGbNhRCd6aR8W3BIE9Rb9hBTrsHAsZoSdQHIqENs-k/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItRWp5bGpFRDByRG9Zb2ZpajMtSDVJZmJ6d1c0NS1mb3JyZW50LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "com. Extracts listings with pricing, floor plans, amenities, photos, walk scores, nearby points of interest, school ratings, and detailed leasing information.",
+    "outputs": [
+      "listings with pricing",
+      "floor plans",
+      "amenities",
+      "images",
+      "walk scores",
+      "nearby points of interest"
+    ],
+    "link": "https://apify.com/memo23/forrent-com-scraper",
+    "status": "public"
+  },
+  {
+    "id": "forrentuniversity-scraper",
+    "title": "ForRentUniversity.com",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/knob38rf08RjbTFOtyPTLKbUpJqNv69gLvD9GZvNHdY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3Itb2ZkQkJZZ0QzMndpZHZSemotT25mdk55NHJTQS1mcnUuanBlZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "price",
+      "amenities",
+      "rating",
+      "walkability scores",
+      "nearby schools",
+      "transit info"
+    ],
+    "link": "https://apify.com/memo23/forrentuniversity-scraper",
+    "status": "public"
+  },
+  {
+    "id": "funda",
+    "title": "Funda.nl Property Data",
+    "category": "real-estate",
+    "icon": "Funda-1.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Dutch real estate from Funda.nl \u2014 listings, prices, agent info, energy rating, neighborhood.",
+    "outputs": [
+      "price",
+      "size",
+      "rooms",
+      "agent",
+      "energy rating"
+    ],
+    "link": "https://apify.com/memo23/funda-scraper",
+    "status": "public"
+  },
+  {
+    "id": "furnished-finder",
+    "title": "FurnishedFinder Housing Data",
+    "category": "real-estate",
+    "icon": "furnished-finder.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Mid-term furnished rentals \u2014 pricing, amenities, landlord info, location \u2014 aimed at travel nurses and remote workers.",
+    "outputs": [
+      "price",
+      "amenities",
+      "reviews",
+      "landlord",
+      "address"
+    ],
+    "link": "https://apify.com/memo23/furnishedfinder-scraper-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "housesigma",
+    "title": "HouseSigma Property Analytics",
+    "category": "real-estate",
+    "icon": "housesigma.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Map-based"
+    ],
+    "summary": "Canadian property data via map-based geographic targeting \u2014 listings, historical sales, market trends, neighborhood analytics.",
+    "outputs": [
+      "price history",
+      "market stats",
+      "neighborhood",
+      "sale records",
+      "property details"
+    ],
+    "link": "https://apify.com/memo23/apify-housesigma-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "idealista-scraper",
+    "title": "Idealista \u00b7 \u00b7 Spain \u00b7 Italy \u00b7 Portugal",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/ykri-JbdhAabFoVBaLvVXsh4PmwdH6_doE0bl998L3E/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItT1RlODJKTlVHYTkzYVZjUmMtVXJEWnhnWENNYS1pZGVhbGlzdGEucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract comprehensive data: prices, locations, images, agent contacts, property features (rooms, bathrooms, amenities), detailed descriptions in multiple languages, and market insights.",
+    "outputs": [
+      "prices",
+      "location",
+      "images",
+      "agent contacts",
+      "property features rooms",
+      "beds/baths"
+    ],
+    "link": "https://apify.com/memo23/idealista-scraper",
+    "status": "public"
+  },
+  {
+    "id": "immobiliare-scraper",
+    "title": "Immobiliare.it \u00b7 Search \u00b7 Detail Pages \u00b7 Agencies",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/aqCf4lK1LpRtnSaQ8ugabA3OCWbWWO739bsSgewlMYY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItcDlRWnpVZEJDR1hNRHVLYWQtQ0themNZdWlNeC1pbW1vYmlsaWFyZS5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrape Immobiliare for only $0.7 per 1K results.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/immobiliare-scraper",
+    "status": "public"
+  },
+  {
+    "id": "immobilienscout24-scraper",
+    "title": "Immobilienscout24 (.de \u00b7 .ch \u00b7 .at) OnlySearch-Detail-Agent",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/_cDTqPY4GVG7sANn_saf5cEdJsyKmX_iwKDRZI1boIg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItY2lUZEhmZ09ra3dmRXpURTktYlhkWFNmQUtndy1pbW1vLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "size",
+      "rooms",
+      "location",
+      "high-res images",
+      "pricing insights",
+      "amenities balcony"
+    ],
+    "link": "https://apify.com/memo23/immobilienscout24-scraper",
+    "status": "public"
+  },
+  {
+    "id": "immonet-scraper",
+    "title": "Immonet \u00b7 Search \u00b7 Detail Pages",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/wXmXsMSkFaTFwiWqljUKaN7PYKRJkz-JULcWZstYq5o/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItZEN2cDMzeVd5cjlGa2UyRmctV2R0MG16Rk5rRS1pbW1vbmV0LmpwZWc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "..",
+    "outputs": [
+      "phone numbers",
+      "company profiles",
+      "high-resolution images"
+    ],
+    "link": "https://apify.com/memo23/immonet-scraper",
+    "status": "public"
+  },
+  {
+    "id": "immoweb",
+    "title": "Immoweb Belgian Property",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/1JcWA-ODMCvDlYijda8M0XzzZJ8YONaG3JzjTDFd3MI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItN2hyRXhOVGlEUnMwblBVWGgtWDl2V2k3b29DWi1pbW1vd2ViLnBuZw.webp",
+    "thumb": "how-it-works-immoweb-generated.png",
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Belgium's leading real estate marketplace \u2014 for-sale and rental listings, energy ratings, agent contact, neighborhood data.",
+    "outputs": [
+      "price",
+      "type",
+      "size",
+      "energy rating",
+      "agent",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/immoweb-scraper",
+    "status": "public"
+  },
+  {
+    "id": "immowelt-scraper",
+    "title": "Immowelt.de Agents & Search By Url or Keywords \ud83c\udde9\ud83c\uddea",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/3sTJbPIAZp3VSqoobx_8yW310UU7w5SNL2_kSKSH1WY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItdkxOR0ZQdUpRa3V4dFE0anQtTXNWRERBUGVsSS1pbW93LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract vehicle data from AutoScout24 for only $0.9 per 1000 results.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/immowelt-scraper",
+    "status": "public"
+  },
+  {
+    "id": "kyero",
+    "title": "Kyero Spanish Property",
+    "category": "real-estate",
+    "icon": "kyero.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Spanish property market \u2014 listings, dimensions, prices, agent details \u2014 across regions and property types.",
+    "outputs": [
+      "price",
+      "location",
+      "dimensions",
+      "images",
+      "agent"
+    ],
+    "link": "https://apify.com/memo23/kyero-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "land-com",
+    "title": "Land.com Property Listings",
+    "category": "real-estate",
+    "icon": "land.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Land and acreage listings with descriptions, attached documents, and geolocation \u2014 pagination handled, retries built-in.",
+    "outputs": [
+      "price",
+      "acreage",
+      "description",
+      "documents",
+      "geolocation"
+    ],
+    "link": "https://apify.com/memo23/land-search-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "land-search-cheerio-ppr",
+    "title": "Land.com Search",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/mMgvkDn0UXXS7hV55869uWVo6uIfnZQ6N6JNqSj-zFo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItQ0pPUmhEMm9DRjZIT3VZS2MtSHI5QmdEMUs3WS1sYW5kLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Unlock the full potential of Land.com with this powerful scraper!",
+    "outputs": [
+      "property listings",
+      "including prices",
+      "size",
+      "images",
+      "description",
+      "to save time"
+    ],
+    "link": "https://apify.com/memo23/land-search-cheerio-ppr",
+    "status": "public"
+  },
+  {
+    "id": "landandfarm-scraper",
+    "title": "Landandfarm.com Search \u00b7 Detail(s) \u00b7 PPE",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/XN6HtrbKAZ9mZwNIL002sUIoJi2dC3LActIjT0MBa7E/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItT29qSWxoNGpnQkFjVnRVbFotQkhHN2dtOHdPbC1sZi5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Ideal for real estate investors, market analysts, and property researchers, it tracks property details, pricing, and listing information.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/landandfarm-scraper",
+    "status": "public"
+  },
+  {
+    "id": "landsearch-scraper",
+    "title": "Landsearch.com \u00b7 \u00b7 Search \u00b7 Detail(s)",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/tfLZyVHoiP-VPYaBSnJ-DHEDZbSxiI__L4n6Y1ek440/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3IteklmUlVqaGFTM3NFSXlPaWgtRkFQT1FXRnhCTC1scy5qcGVn.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Our scraper extracts detailed listings, pricing history, and property features with precision. It handles pagination, monitors changes, and exports to multiple formats.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/landsearch-scraper",
+    "status": "public"
+  },
+  {
+    "id": "lennar-scraper",
+    "title": "Lennar.com",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/IvsGf6cgLnIfz1M0euONcMymx3Fm3kr43ipduCxpCMY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItM1AwTlYwekQ1Tm9PN3NESXgtemQwRUU3U1BUUi1MZW5uYXItTG9nby5qcGc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Revolutionize your home search with our Lennar scraper \u2013 your secret weapon for unlocking detailed, real-time property data.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/lennar-scraper",
+    "status": "public"
+  },
+  {
+    "id": "lokaleportalen-cheerio",
+    "title": "Lokaleportalen.dk",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/GH33fAh8TfzulWaZmZUdRIgkpLpBKgpXxH8t_BDIxYs/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItVkpObUpqVzd1M0lYbWVnbDUtc1dYNmE5YmFhRi1hYS5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/lokaleportalen-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "loopnet",
+    "title": "LoopNet Commercial Listings",
+    "category": "real-estate",
+    "icon": "loopnet.jpeg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Commercial real estate from LoopNet \u2014 property type, sale conditions, broker info, geographic coordinates.",
+    "outputs": [
+      "price",
+      "property type",
+      "broker",
+      "coordinates",
+      "images",
+      "sale condition"
+    ],
+    "link": "https://apify.com/memo23/apify-loopnet-search-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "loopnet-scraper-ppe",
+    "title": "LoopNet Search By Urls & Keywords \u00b7 Agent \u00b7 BizData",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/OWa9kJL7gqsCWnKo6lZR80k_riG91PzwIe70jgZCt_s/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItMFpDUU9OeEIzQmR5T3pyYkQtSmVPT0FKRE5idS1sb29wbmV0LmpwZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract detailed listings and agents' insights for smarter real estate decisions. Break the limitation of 500 enforced by Loopnet",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/loopnet-scraper-ppe",
+    "status": "public"
+  },
+  {
+    "id": "properstar",
+    "title": "Properstar International Property",
+    "category": "real-estate",
+    "icon": "properstar.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Global property listings in multiple currencies \u2014 international buyers, agent details, high-res media.",
+    "outputs": [
+      "price",
+      "currency",
+      "location",
+      "images",
+      "agent"
+    ],
+    "link": "https://apify.com/memo23/properstar-leads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "propwire-leads-scraper",
+    "title": "Propwire.com [From Leads",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/ZZSQ1ll9ImN8tFhsh9Ez_b0IpvwSdTF1eanxr1yCsvw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItVkVmYk5XR3RBZHc4Z2s0TG4tVWlsbEJBZWtPeC1wcm9wd2lyZS5qcGVn.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Get comprehensive property data: estimated equity, foreclosure status (auction dates/lenders), mortgage and transfer history, owner portfolios, and tax assessments.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/propwire-leads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "realtor-ca",
+    "title": "Realtor.ca Property & Agent",
+    "category": "real-estate",
+    "icon": "realtor-ca.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Canadian real estate \u2014 properties from map searches plus full agent profiles with social links and office affiliations.",
+    "outputs": [
+      "price",
+      "amenities",
+      "photos",
+      "agent profile",
+      "office",
+      "social links"
+    ],
+    "link": "https://apify.com/memo23/realtor-canada-search-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "realtor-com-agents",
+    "title": "Realtor.com Agents",
+    "category": "real-estate",
+    "icon": "realtor.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Agent profiles on Realtor.com \u2014 contact details, served areas, languages, office affiliations.",
+    "outputs": [
+      "agent profile",
+      "rating",
+      "languages",
+      "office",
+      "served areas"
+    ],
+    "link": "https://apify.com/memo23/apify-realtor-scraper",
+    "status": "public"
+  },
+  {
+    "id": "realtor-com",
+    "title": "Realtor.com Property Listings",
+    "category": "real-estate",
+    "icon": "realtor.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Realtor.com listings with prices, agent contact, mortgage estimates, and neighborhood community data.",
+    "outputs": [
+      "price",
+      "agent",
+      "mortgage estimate",
+      "community",
+      "school district"
+    ],
+    "link": "https://apify.com/memo23/realtor-search-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "redfin-property-agent",
+    "title": "Redfin Property & Agent Analytics",
+    "category": "real-estate",
+    "icon": "redfin.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio",
+      "Node.js"
+    ],
+    "summary": "Pulls Redfin listings and agent profiles together \u2014 pricing, amenities, transaction history, and per-agent performance metrics.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "agent profile",
+      "transaction history",
+      "neighborhood stats"
+    ],
+    "link": "https://apify.com/memo23/apify-redfin-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "rent-com-scraper",
+    "title": "Rent.Com",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/ujq68SMNBRMTa1FnVtnIvZzJGXtYJPKaPuhCBKc3a6s/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItWm1IaHdtdVdUdnFoRTQ1aFItdmlhV3Qwbk53Si1yZW50LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "com property data: pricing, bed/bath ranges, location coordinates, photos, special deals, contact info & availability.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/rent-com-scraper",
+    "status": "public"
+  },
+  {
+    "id": "rightmove-scraper",
+    "title": "RightmoveBuy-Rent-Sell-House-Agent-Commercial-Overseas",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/7dpeF8bBdxRaEAtJVsP66APZBymDDJeUtdGubRVuPRk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItUDliY1hQTHBxOWZyeXVnMW8teFFlVHZ6RXJJSi1ybTIuanBn.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrape Rightmove for sales, rentals, agents & sold prices. Extract 100+ data points per listing: historic pricing (price & year of past sales), price changes, images & floor plans.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/rightmove-scraper",
+    "status": "public"
+  },
+  {
+    "id": "ryanhomes",
+    "title": "RyanHomes New Construction",
+    "category": "real-estate",
+    "icon": "ryanhomes.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "RyanHomes communities and home designs across 16 states + DC \u2014 floor plans, pricing, amenities.",
+    "outputs": [
+      "community",
+      "floor plan",
+      "price",
+      "amenities",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/ryanhomes-scraper",
+    "status": "public"
+  },
+  {
+    "id": "semsarmasr-scraper",
+    "title": "Semsarmasr",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/Dbi3sldGhNryHg4R7NE0yzcl1Dio4rMtpLGkSogd0E4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItV3FpSk16eWJaZERFTzZlcjUtNHFBODJNSlk0QS1zZW1zYXJtYXNyLmpwZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The Semsarmasr scrapes detailed real estate listings from semsarmasr.com, extracting property details, pricing, location, contact information, and images for comprehensive market analysis.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/semsarmasr-scraper",
+    "status": "public"
+  },
+  {
+    "id": "spareroom-scraper",
+    "title": "Spareroom.co.uk",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/IpY9dDIyskGDnVJlDkLvI7IwnyL2K2DeTjdSqHLVgZQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItQjlReHBHSHlsc1AwZ3VIbnMtNTExenBKUWhiai1zcGFyZXJvb20ucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract comprehensive UK/USA property data from SpareRoom including detailed listings, pricing, availability, and property features.",
+    "outputs": [
+      "price",
+      "status",
+      "property features"
+    ],
+    "link": "https://apify.com/memo23/spareroom-scraper",
+    "status": "public"
+  },
+  {
+    "id": "streeteasy-ppr",
+    "title": "Streeteasy \u00b7 Buy \u00b7 Rent \u00b7 Sell \u00b7 Agent \u00b7 No Limits \u00b7 PPE",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/N3qnI6mW-XVXm7phmbBVvfraUTOS_oaEZNTSfd_47qY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItcHRzWFpVWEFEVjNPS1o1a2QtNlhvVHRYTHFvQi1zdHJlZXRlYXN5LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Comprehensive NYC StreetEasy data: sales/rentals, agents, buildings, amenities, pricing, media, coordinates.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/streeteasy-ppr",
+    "status": "public"
+  },
+  {
+    "id": "tollbrothers",
+    "title": "Toll Brothers Luxury Homes",
+    "category": "real-estate",
+    "icon": "tollbrothers.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Toll Brothers homes nationwide \u2014 specs, floor plans, mortgage rates, school district info, community amenities.",
+    "outputs": [
+      "home spec",
+      "floor plan",
+      "price",
+      "mortgage rate",
+      "schools",
+      "amenities"
+    ],
+    "link": "https://apify.com/memo23/tollbrothers-scraper",
+    "status": "public"
+  },
+  {
+    "id": "trulia-scraper",
+    "title": "Trulia Scraper Search by URLs and Keyword/Filters",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/NdiFciySNljw-hj9-fySZTlMG7HzesT52843IVHd4jA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItdDU0cmNOTUlSOElCdTVWelktNlBweVFBYlZSZi10cnVsaWEucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Fast, cost-effective data extraction with comprehensive property info",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/trulia-scraper",
+    "status": "public"
+  },
+  {
+    "id": "willhaben-scraper",
+    "title": "Willhaben.atMarktplatz-Immobilien-Auto-Job",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/gTkkGOlvzCvuRbAriIcooowMsPeQ0ENlHLWOt4WG41s/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItTzRoZ3labm4waXZNUXRyRU8tTWhLcTR6Q2tmSS0xNTU2LmpwZWc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract structured data from willhaben.at across Marktplatz, Immobilien, Auto & Motor, and Jobs. Impit TLS.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/willhaben-scraper",
+    "status": "public"
+  },
+  {
+    "id": "zillow-agents",
+    "title": "Zillow Agents",
+    "category": "real-estate",
+    "icon": "zillow.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Real estate agent profiles on Zillow \u2014 license, total sales, price ranges, reviews, contact details.",
+    "outputs": [
+      "license",
+      "reviews",
+      "total sales",
+      "yearly sales",
+      "price range",
+      "contact"
+    ],
+    "link": "https://apify.com/memo23/apify-zillow-agents-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "zillow-agents-leads-scraper-ppe",
+    "title": "Zillow Agents Leads",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/hO8OfXQs4PcWNwwIOxeXFLB04XKtbroJaAW3zrVkr1A/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItUEVUaElMaFBPdHdGeDlIV0stcFlnT0lybm8wSS16aWxsb3ctbG9nby5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Unlock the power of Zillow with automated agent profile scraping. Effortlessly gather key insights and contact data, including emails and phone numbers, from real estate agents.",
+    "outputs": [
+      "insights",
+      "contact data",
+      "including emails",
+      "phone numbers",
+      "from real estate agents"
+    ],
+    "link": "https://apify.com/memo23/zillow-agents-leads-scraper-ppe",
+    "status": "public"
+  },
+  {
+    "id": "zillow-lenders-scraper",
+    "title": "Zillow Lenders \u00b7 Search \u00b7 Detail Page(s)",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/3YQ_xe8ejpX4knleBJSMLytqlalLcjOIyKVKwxk6Hro/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItOGlTaEVrdWw3cFFjeUJPMTUtOXhNeHdxaWxUcS16aWxsb3cucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract mortgage lender data from Zillow including: lender names, NMLS IDs, contact info (phone, address, website), ratings & reviews, state licenses, specializations, and detailed bios.",
+    "outputs": [
+      "nmls ids",
+      "contact info phone",
+      "location",
+      "contact",
+      "ratings & reviews",
+      "state licenses"
+    ],
+    "link": "https://apify.com/memo23/zillow-lenders-scraper",
+    "status": "public"
+  },
+  {
+    "id": "zillow-property-managers",
+    "title": "Zillow Property Managers",
+    "category": "real-estate",
+    "icon": "zillow.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Property managers on Zillow \u2014 names, ratings, reviews, contact details, business address.",
+    "outputs": [
+      "manager profile",
+      "rating",
+      "reviews",
+      "contact",
+      "business address"
+    ],
+    "link": "https://apify.com/memo23/apify-zillow-property-managers-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "zillow-search",
+    "title": "Zillow Search & Detail",
+    "category": "real-estate",
+    "icon": "zillow.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Zillow search results plus property detail pages \u2014 price, beds, location, broker info, market status.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "address",
+      "broker",
+      "market status"
+    ],
+    "link": "https://apify.com/memo23/zillow-cheerio-scraper",
+    "status": "public"
+  },
+  {
+    "id": "zillow-scraper-ppe",
+    "title": "Zillow \u00b7 Bypass Zillow limit of 500 \u00b7 All-In-One",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/iwocfkL1_KasGTmIci0ex6A7c8NaLR4mTIB3GRqDTwA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItajNyckxiRkpEMXRkSXFadXUtcVNVZVpNYm4wdS16aWxsb3ctbG9nby5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Unleash the full power of Zillow data - no limits, no restrictions. Comprehensive scraping for any search URL, delivering complete property insights at scale.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/zillow-scraper-ppe",
+    "status": "public"
+  },
+  {
+    "id": "zonaprop-scraper",
+    "title": "Zonaprop.com.ar API",
+    "category": "real-estate",
+    "icon": "https://images.apifyusercontent.com/-O_OxiJ6xFWExPSaZjcaazBzjhHZMywpuQhYhXydPnI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItUHlDaXBCcmJOTzdLQmZuUWUtOHdOdXZCVHpDWC16b25hcHJvLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/zonaprop-scraper",
+    "status": "public"
+  },
+  {
+    "id": "bayt-search-cheerio-ppr",
+    "title": "Bayt.com \u00b7 \u00b7 Search by URL or Keywords",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/dd65AI36v3xMRTaZ3rnoKidXW3CC3RmrjNAaM22NhAg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItemNGc2FkSjFJaURnTndVajEtaXFneDdLOWxXMy1iYXl0LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Scrape job listings from Bayt.com, the leading Middle East job portal. Extract job titles, company names, locations, descriptions, requirements, salaries, and more.",
+    "outputs": [
+      "job titles",
+      "company names",
+      "location",
+      "description",
+      "requirements",
+      "price"
+    ],
+    "link": "https://apify.com/memo23/bayt-search-cheerio-ppr",
+    "status": "public"
+  },
+  {
+    "id": "careerbliss-scraper",
+    "title": "Careerbliss.com \u00b7 \u00b7 Reviews & Jobs",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/AFoZvxAFlWT-CGebHU7ACSmnT757npCPtVfiT3_CXrk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItcmJqTGJxeUphMWVPU1V3VVUtUUdlTEtnQXhzRS1jYXJlZXJibGlzc3MuanBlZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Get comprehensive employee reviews from CareerBliss. Extracts detailed feedback including job titles, locations, and full comments.",
+    "outputs": [
+      "feedback including job titles",
+      "location",
+      "full comments"
+    ],
+    "link": "https://apify.com/memo23/careerbliss-scraper",
+    "status": "public"
+  },
+  {
+    "id": "glassdoor-scraper-ppr",
+    "title": "GLASSDOOR PPE Reviews&Jobs&Interviews&Locations&Salary&Overview",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/X987VQEoLPYP4L2WR1AX44pBDnlRUqXrA84sPA0vouQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vOEYybDN6MGdLQ1lCQ0Y0QmMvaXNQSnExSWdDSmhuY244MFEtZ2xhc3Nkb29yLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract comprehensive employee reviews from Glassdoor effortlessly. Gather ratings, comments, and company responses to power your HR insights and market research.",
+    "outputs": [
+      "rating",
+      "reviews",
+      "market research"
+    ],
+    "link": "https://apify.com/memo23/glassdoor-scraper-ppr",
+    "status": "public"
+  },
+  {
+    "id": "glassdoor",
+    "title": "Glassdoor \u2014 Reviews, Salaries, Jobs, Companies",
+    "category": "jobs",
+    "icon": "glassdoor.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Reviews, interviews, salaries, jobs, locations, and full company profiles \u2014 multilingual, one configurable input switches the target.",
+    "outputs": [
+      "reviews",
+      "interviews",
+      "salaries",
+      "jobs",
+      "locations",
+      "company info"
+    ],
+    "link": "https://apify.com/memo23/apify-glassdoor-reviews-scraper",
+    "status": "public"
+  },
+  {
+    "id": "gowork-scraper",
+    "title": "GoWork Scraper (FR, DE & ES)",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/HRE431b78uRCMWoFNHsRXiiKmZxOhwN_8ZPxXKQU4bA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNmh3dkJxQzhMaGdaejhJaFQtRTExaThqemVCMy1nb3dvcmsucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/gowork-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apify-hiring-cafe-scraper",
+    "title": "Hiring.Cafe Search by URLs or Filters/Keywords",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/CZBPvJknrCW13Z4VTqf4jYgtx5ATFiD0CeCZO7cKFs4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNW1WNXJCc3ZtanRUVlJCOWgtaHE4TzVkenlpZy1oaXJpbmdjYWZlLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Users get fields like job ID, application URL, education requirements, employment type, company size, and geolocation coordinates for market analysis.",
+    "outputs": [
+      "job titles",
+      "description",
+      "requirements",
+      "company information",
+      "compensation details",
+      "location data"
+    ],
+    "link": "https://apify.com/memo23/apify-hiring-cafe-scraper",
+    "status": "public"
+  },
+  {
+    "id": "indeed-browser",
+    "title": "Indeed (Browser Automation)",
+    "category": "jobs",
+    "icon": "indeed.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Puppeteer"
+    ],
+    "summary": "Indeed jobs via full browser automation \u2014 handles dynamic content and anti-bot challenges.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/apify-indeed",
+    "status": "public"
+  },
+  {
+    "id": "apify-indeed-cheerio-ppr",
+    "title": "Indeed APISearch & Direct Jobs & Bypass 25 limit",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/tclrSuXdopaXrawKvxJwfl111_vOTELu_uN7c7XGKLo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItSURCMkFmTFlKU1BibXNEaEYtYUZpYkZZUWRpZS1pbmRlZWQucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Web scraper for Indeed.com job listings. Add Indeed URLs to customize searches. Set max jobs, concurrency, and other parameters to optimize performance while respecting site resources.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/apify-indeed-cheerio-ppr",
+    "status": "public"
+  },
+  {
+    "id": "indeed-reviews",
+    "title": "Indeed Company Reviews",
+    "category": "jobs",
+    "icon": "indeed.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Employee reviews of companies on Indeed \u2014 rating, pros, cons, role, location.",
+    "outputs": [
+      "rating",
+      "pros",
+      "cons",
+      "role",
+      "location",
+      "date"
+    ],
+    "link": "https://apify.com/memo23/apify-indeed-reviews",
+    "status": "public"
+  },
+  {
+    "id": "indeed-cheerio",
+    "title": "Indeed Jobs (Fast Cheerio crawler)",
+    "category": "jobs",
+    "icon": "indeed.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Lightweight Indeed crawler without browser \u2014 much faster and cheaper for high-volume runs.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/apify-indeed-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "apify-indeed-cheerio-keywords-ppr",
+    "title": "Indeed Jobs Scraper (Search by keywords)",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/o4GiwTikop1sWQ2lxIBHvjAROWg5-o5idhs4SPA97jw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItaGY2ZGpHeDJ3YlkzQ055dDAtODB0ZWJ6clNvSC1pbmRlZWQucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "",
+    "outputs": [
+      "job titles",
+      "price",
+      "company ratings",
+      "full descriptions",
+      "application links",
+      "size"
+    ],
+    "link": "https://apify.com/memo23/apify-indeed-cheerio-keywords-ppr",
+    "status": "public"
+  },
+  {
+    "id": "apify-indeed-reviews-ppr",
+    "title": "Indeed Reviews \u00b7 Interviews \u00b7 Location \u00b7 Salary \u00b7 Job",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/Ce9V36VnwOOZK4bGCjjw3CqequfqjWtmtpcwTPLFNwQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItcTBFUkxSNlRCb3h0WmhtVkstQ2RzVnlJRGh6by1pbmRlZWQucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Transform raw data into recruitment strategies, competitive analysis, and market trends with enterprise-grade HR analytics",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/apify-indeed-reviews-ppr",
+    "status": "public"
+  },
+  {
+    "id": "jora-search-cheerio-ppr",
+    "title": "Jora.com Search by URL or keywords",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/2acLmSkJbjgqNy5rB3Tv-PLZ9vlgIME-WPb2bttOzWU/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3IteVluUlBJcVJsUWxXWlgxcmYtSEZSUWFCUUo1UC1qb3JhLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "com (AU/NZ) job listings, extract titles, salaries, descriptions, employer information, and location details.",
+    "outputs": [
+      "title",
+      "price",
+      "description",
+      "employer information",
+      "location details"
+    ],
+    "link": "https://apify.com/memo23/jora-search-cheerio-ppr",
+    "status": "public"
+  },
+  {
+    "id": "linkedin-company-people",
+    "title": "LinkedIn Company People",
+    "category": "jobs",
+    "icon": "linkedin.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "All employees of a LinkedIn company \u2014 names, roles, locations \u2014 for sourcing and lead generation.",
+    "outputs": [
+      "name",
+      "role",
+      "location",
+      "profile url"
+    ],
+    "link": "https://apify.com/memo23/linkedin-company-people-scraper",
+    "status": "public"
+  },
+  {
+    "id": "linkedin-search",
+    "title": "LinkedIn Search Results",
+    "category": "jobs",
+    "icon": "linkedin.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "LinkedIn search by job, people, or company \u2014 captures full result set with pagination.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "snippet",
+      "url"
+    ],
+    "link": "https://apify.com/memo23/apify-linkedin-search-results-scraper",
+    "status": "public"
+  },
+  {
+    "id": "linkedin-profiles-cheerio",
+    "title": "Linkedin.com \u00b7 \u00b7 People/Users Profile",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/Kal8iTZr8XbKyiH4zSfUWRdQpYLZ6AS-HXyGOEQ4P28/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItbzZrRzBmb3FXczZjdTVPcmIteWtBY1FEUVgxRi1saW5rZWRpbi5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Stealthily unlock LinkedIn's professional goldmine\u2014extract verified profiles, employment histories, and skills with cookie-authenticated scraping.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/linkedin-profiles-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "monster-scraper",
+    "title": "Monster \u00b7 \u00b7 Search \u00b7 Details \u00b7 Scraper \u00b7 Richest Output",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/vUM4iVAe_4-FBKshes4vJTi9G0QCZuQbwLQ9LcZLYHY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNnNaY2N4R1dNMzhhT0kwRkUtZmZ0ZkpydTNHMC1tb25zdGVyLmpwZWc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "ids",
+      "title",
+      "company metadata",
+      "salary ranges",
+      "employment types",
+      "posting dates"
+    ],
+    "link": "https://apify.com/memo23/monster-scraper",
+    "status": "public"
+  },
+  {
+    "id": "naukri-scraper",
+    "title": "Naukri & Naukrigulf Jobs Search By Urls and Filters",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/C2g07F2nxXwJDAIl49UIYFlC2EsDbmEm-dMTVs8u9O0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItRVlYdk0wbzJsUzdyWXpnZXktbnVDcU5BV2tIVS1uYXVrcmkucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/naukri-scraper",
+    "status": "public"
+  },
+  {
+    "id": "nhs-scraper",
+    "title": "NHS UK Jobs Scraper Richest Output",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/Uy7wL4ixwrsRmHC86wD0gaNzYr7eDGGFR1oEvmQ98KU/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItOXdqaFhLaG45RVFlcG90NXUtT0EzS2luYm1CYy1uaHMucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "vacancy ids",
+      "employer details",
+      "pay scheme/band",
+      "narrative sections summary",
+      "duties",
+      "about us"
+    ],
+    "link": "https://apify.com/memo23/nhs-scraper",
+    "status": "public"
+  },
+  {
+    "id": "nofluffjobs",
+    "title": "NoFluffJobs Job Listings",
+    "category": "jobs",
+    "icon": "nofluffjobs.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "NoFluffJobs across PL, HU, CZ, SK, NL \u2014 title, company, salary, required skills, recruitment process.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "skills",
+      "benefits"
+    ],
+    "link": "https://apify.com/memo23/nofluffjobs-cheerio-scraper",
+    "status": "public"
+  },
+  {
+    "id": "randstad-com-scraper",
+    "title": "Randstad.com Jobs",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/JeFflZ0bVa33cUpSdpDYK9FCeZEKu65AEoN3GFICVlw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3Ita3Y5T0s4TENYNVZQYlBsTHUtN0U1YWloZ2RSWC1yYW5kc3RhZC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "job titles",
+      "description",
+      "price",
+      "company names",
+      "employment types",
+      "specialisms"
+    ],
+    "link": "https://apify.com/memo23/randstad-com-scraper",
+    "status": "public"
+  },
+  {
+    "id": "randstad-com-au-scraper",
+    "title": "Randstad.com.au Jobs",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/HM-RXEAkgY24qXOwqu5Hd_2_Uu2LOVejFNCcyAzTm90/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItR0M4aUg2SDZ0S01QYWhERHItRnF1QWMwdWJ0Ty1yYW5kc3RhZC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/randstad-com-au-scraper",
+    "status": "public"
+  },
+  {
+    "id": "randstad-nl-scraper",
+    "title": "Randstad.nl Jobs",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/rYCPeOnMKGKbiAJShvBOlotNu6CCoN2EyyPVOLicE9U/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItTjhuek16ZlFxNWIxTnUwQXQtV3NFczk5ZTdFMS1yYW5kc3RhZC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract job data from Randstad.nl including job titles, salaries, locations, contact details, company info, work hours, contract types, education requirements, and full descriptions.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/randstad-nl-scraper",
+    "status": "public"
+  },
+  {
+    "id": "randstad-usa-scraper",
+    "title": "RandstadUSA.com Jobs",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/He6DZKkLjg5jFWk894mMeDEey9zl508P7AHNODwD5kk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItbFVlUFMxdGtlZ1E1SWhmSlQtNFlTTUtJWDFmVy1yYW5kc3RhZC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrape RandstadUSA jobs with filters (location, distance, remote, job type, specialism). Get job titles, salaries, descriptions, skills, contact info, coordinates, and application URLs.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/randstad-usa-scraper",
+    "status": "public"
+  },
+  {
+    "id": "reed-jobs-scraper",
+    "title": "Reed Jobs",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/k4crLzRZecbuIBuZYxajsLYJT-G3X3Z96Pz3j3LvuXA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItRHFVTHEwc1ZMTkFDRGg0OEotUGM2R0JsNjc5Vy1yZWVkLmpwZWc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrape Reed.co.uk for rich, structured job data.",
+    "outputs": [
+      "exact min/max salaries",
+      "remote working options",
+      "required skills",
+      "full html descriptions",
+      "location coordinates",
+      "company names"
+    ],
+    "link": "https://apify.com/memo23/reed-jobs-scraper",
+    "status": "public"
+  },
+  {
+    "id": "stepstone-search-cheerio-ppr",
+    "title": "Stepstone.de Search Jobs by Url or Keywords",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/HlMmNs0iIFiwzvmARmLwSVCiYrg1NFlgDp2uQN7SLXs/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItcElWaHV2SFprVzJMbGZqcnItOE5pcUt6ZTQ2NS1zdGVwc3RvbmUuanBlZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Extract comprehensive job data from Stepstone.de, including Titles, Company Info, Locations, Salaries, Skills, and Descriptions.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/stepstone-search-cheerio-ppr",
+    "status": "public"
+  },
+  {
+    "id": "werk-nl-cheerio",
+    "title": "Werk.nl \u00b7 Search \u00b7 Detail",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/36NkeyIJaKrFjM7KYlTvlPQ3_7bYe1XJlESyeTTngj0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNWFJbGMwd01sWUQ1dm5RSVItYUZ5SzRhYnFUVC1XZXJrLm5sXy5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "",
+    "outputs": [
+      "job data including titles",
+      "price",
+      "location",
+      "employer details",
+      "contact information",
+      "requirements education"
+    ],
+    "link": "https://apify.com/memo23/werk-nl-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "xing-scraper",
+    "title": "Xing Search Jobs \u00b7 Profiles \u00b7 Companies",
+    "category": "jobs",
+    "icon": "https://images.apifyusercontent.com/ALgNuFKwU0t2hNv97TGGVylf2oI9hKfsXCF7QG9UHY4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItTmVDNmh2cEZPZDZQMTdJdDctY3l3WWV0bm5JYy14aW5nLmpwZWc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrape XING jobs, companies & profiles. Get job titles, salaries, descriptions, apply URLs, company info & social links.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/xing-scraper",
+    "status": "public"
+  },
+  {
+    "id": "ziprecruiter",
+    "title": "ZipRecruiter Jobs",
+    "category": "jobs",
+    "icon": "ziprecruiter.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Puppeteer"
+    ],
+    "summary": "Job listings from ZipRecruiter searches \u2014 titles, companies, salaries, descriptions, apply links.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description",
+      "apply link"
+    ],
+    "link": "https://apify.com/memo23/apify-ziprecruiter-scraper",
+    "status": "public"
+  },
+  {
+    "id": "facebook-comments-scraper",
+    "title": "Facebook Comments",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/a3QKNJs64eP-oR82z5ZkeH-jhKGUdCZcJDqwnBA8o0A/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItYm9IVHlYVmxUdkc1Vk0xZmUtUGNkcDlsMm4xZS1wbmctY2xpcGFydC1mYWNlYm9vay1sb2dvLWNvbXB1dGVyLWljb25zLXNvY2lhbC1tZWRpYS1mYWNlYm9vay15.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "avatar",
+      "url",
+      "comment metadata text",
+      "date",
+      "engagement",
+      "replies"
+    ],
+    "link": "https://apify.com/memo23/facebook-comments-scraper",
+    "status": "public"
+  },
+  {
+    "id": "facebook-group-posts",
+    "title": "Facebook Group Posts",
+    "category": "social",
+    "icon": "facebook.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Posts inside a Facebook group with full details \u2014 text, author, reactions, comments.",
+    "outputs": [
+      "post text",
+      "author",
+      "reactions",
+      "comments",
+      "timestamp"
+    ],
+    "link": "https://apify.com/memo23/apify-facebook-group-scraper",
+    "status": "public"
+  },
+  {
+    "id": "facebook-page-contact",
+    "title": "Facebook Page Contact Detail",
+    "category": "social",
+    "icon": "facebook.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Lightweight contact-only extraction from Facebook pages \u2014 for fast bulk lead-list generation.",
+    "outputs": [
+      "email",
+      "phone",
+      "website",
+      "address"
+    ],
+    "link": "https://apify.com/memo23/facebook-page-contact-detail-scraper",
+    "status": "public"
+  },
+  {
+    "id": "facebook-profile-bio-contact",
+    "title": "Facebook Profile / Bio / Contact",
+    "category": "social",
+    "icon": "facebook.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Full Facebook page detail \u2014 bio, contact info, website, hours, email, phone \u2014 for B2B lead enrichment.",
+    "outputs": [
+      "bio",
+      "email",
+      "phone",
+      "website",
+      "hours",
+      "address"
+    ],
+    "link": "https://apify.com/memo23/facebook-pages-and-contacts-scraper",
+    "status": "public"
+  },
+  {
+    "id": "facebook-group",
+    "title": "Facebook Public Group Posts (no cookies)",
+    "category": "social",
+    "icon": "facebook.png",
+    "thumb": "how-it-works-facebook-group-generated.png",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Full export of a public Facebook group \u2014 posts, nested comments, reactions \u2014 without needing login cookies.",
+    "outputs": [
+      "post text",
+      "author",
+      "comments",
+      "reactions",
+      "timestamp"
+    ],
+    "link": "https://apify.com/memo23/facebook-public-group-posts-scraper",
+    "status": "public"
+  },
+  {
+    "id": "facebook-search-groups",
+    "title": "Facebook Search \u2014 Groups",
+    "category": "social",
+    "icon": "facebook.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook groups discovered via search \u2014 name, member count, privacy, description, link.",
+    "outputs": [
+      "name",
+      "members",
+      "privacy",
+      "description",
+      "url"
+    ],
+    "link": "https://apify.com/memo23/facebook-search-groups-scraper",
+    "status": "public"
+  },
+  {
+    "id": "facebook-search-pages",
+    "title": "Facebook Search \u2014 Pages",
+    "category": "social",
+    "icon": "facebook.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook pages discovered via search \u2014 name, category, follower count, link to page.",
+    "outputs": [
+      "name",
+      "category",
+      "followers",
+      "url"
+    ],
+    "link": "https://apify.com/memo23/apify-facebook-page-search-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apify-instagram-comments-scraper",
+    "title": "Instagram Post Comments & Replies",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/zwqLx3VVB0S2XDp2XI9YJcohQsunPGWy-Kl-YGMfxq8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItQnVFU0VyTXMzU2s4ZHl4c0gtOHFYNmhYYlQ4bC1pbnN0YWdyYW0ucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "instagram comments",
+      "verification status",
+      "profile pics",
+      "reply counts",
+      "date",
+      "comment text"
+    ],
+    "link": "https://apify.com/memo23/apify-instagram-comments-scraper",
+    "status": "public"
+  },
+  {
+    "id": "instagram-profile",
+    "title": "Instagram Profiles",
+    "category": "social",
+    "icon": "instagram.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Instagram user profiles \u2014 bio, follower counts, engagement, optionally posts and account features.",
+    "outputs": [
+      "bio",
+      "followers",
+      "posts",
+      "engagement",
+      "verification"
+    ],
+    "link": "https://apify.com/memo23/apify-instagram-profile-scraper",
+    "status": "public"
+  },
+  {
+    "id": "linkedin-search-groups-scraper",
+    "title": "Linkedin Groups Search",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/X2Ek7pl2GIv5kZMoMZTwCfhg2wZjjvpxjr2_55gXVBc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItSFBrQ01mVUNtdk1uZVV3Z2QtaGZtVlZyaGVPdi1saW5rZWRpbi5qcGVn.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Gain structured LinkedIn group insights including IDs, public names, direct URLs, logos, member counts, and rich summaries, ready for analytics dashboards or CRM enrichment.",
+    "outputs": [
+      "ids",
+      "public names",
+      "direct urls",
+      "logos",
+      "member counts",
+      "rich summaries"
+    ],
+    "link": "https://apify.com/memo23/linkedin-search-groups-scraper",
+    "status": "public"
+  },
+  {
+    "id": "pinterest",
+    "title": "Pinterest Pins & Boards",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/_H7WYi-ZHJ1CDUXemEy6SH4DLrwxZaxJd6eTDKgKrL0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItM25jYjNJZ1FKWmtFUnZQSVUtbWVWTHdIclpmTC1waW50ZXJlc3QucG5n.webp",
+    "thumb": "how-it-works-pinterest-v1.png",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Pinterest pins, boards, ideas, and profile data \u2014 title, description, image, engagement, source link \u2014 by URL or keyword.",
+    "outputs": [
+      "pin title",
+      "description",
+      "image",
+      "saves",
+      "source link",
+      "board"
+    ],
+    "link": "https://apify.com/memo23/pinterest-scraper",
+    "status": "public"
+  },
+  {
+    "id": "quora",
+    "title": "Quora Q&A",
+    "category": "social",
+    "icon": "quora.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Questions, answers, and authors on Quora \u2014 works with optional logged-in cookies for restricted content.",
+    "outputs": [
+      "question",
+      "answer",
+      "author",
+      "upvotes",
+      "timestamp"
+    ],
+    "link": "https://apify.com/memo23/quora-scraper-with-optional-login",
+    "status": "public"
+  },
+  {
+    "id": "reddit",
+    "title": "Reddit Posts & Users",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/8koKWqSRzeQNe2bWAjBTEKI8ypF29WZbJwLeHmJYhXk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItZU1WcGJhSk5VOVZ6TUJHS0UtellnVEE4U3ZiOS1mcmVlLXJlZGRpdC1sb2dvLWljb24tMjQzNi10aHVtYi5wbmc.webp",
+    "thumb": "how-it-works-reddit.png",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Reddit subreddit, search, or post URLs \u2014 full post bodies, nested comment threads, user profiles, votes, awards.",
+    "outputs": [
+      "post",
+      "comments",
+      "votes",
+      "awards",
+      "author",
+      "subreddit"
+    ],
+    "link": "https://apify.com/memo23/reddit-scraper",
+    "status": "public"
+  },
+  {
+    "id": "skool-members",
+    "title": "Skool Members",
+    "category": "social",
+    "icon": "skool.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Skool group members \u2014 names, emails, social links \u2014 requires authenticated cookies.",
+    "outputs": [
+      "name",
+      "email",
+      "social links"
+    ],
+    "link": "https://apify.com/memo23/skool-members-scraper",
+    "status": "public"
+  },
+  {
+    "id": "skool-posts",
+    "title": "Skool Posts with Comments",
+    "category": "social",
+    "icon": "skool.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Skool community posts with full nested comment threads \u2014 content, users, upvotes, comment counts.",
+    "outputs": [
+      "post title",
+      "content",
+      "comments",
+      "user",
+      "upvotes"
+    ],
+    "link": "https://apify.com/memo23/skool-posts-with-comments-scraper",
+    "status": "public"
+  },
+  {
+    "id": "tiktok-ads-scraper-cheerio",
+    "title": "Tiktok Ads",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/mLZK0ZlPUB6bCHNnC8OxAdRxgPAGVfW84abEGd_QtDc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItZ2RWUTY5YVpGVkgwUjJJdGctVHkxOW9DNHJsUC1pbWFnZXMucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "",
+    "outputs": [
+      "author",
+      "content",
+      "engagement",
+      "date",
+      "url"
+    ],
+    "link": "https://apify.com/memo23/tiktok-ads-scraper-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "tiktok-profile-videos",
+    "title": "TikTok Profile Videos",
+    "category": "social",
+    "icon": "tiktok.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Videos from a TikTok profile \u2014 caption, audio, engagement, video URL \u2014 by username or profile URL.",
+    "outputs": [
+      "caption",
+      "audio",
+      "views",
+      "likes",
+      "comments",
+      "video url"
+    ],
+    "link": "https://apify.com/memo23/tiktok-profile-videos-scraper",
+    "status": "public"
+  },
+  {
+    "id": "tiktok-transcript",
+    "title": "TikTok Transcript Extractor",
+    "category": "social",
+    "icon": "tiktok.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Extracts auto-generated transcripts from TikTok videos \u2014 useful for content audit, search, accessibility.",
+    "outputs": [
+      "transcript",
+      "language",
+      "video metadata"
+    ],
+    "link": "https://apify.com/memo23/tiktok-transcript-extractor-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "truth-social-profile-scraper-with-posts",
+    "title": "TruthSocial.com \u00b7 \u00b7 Profile(s) \u00b7 Posts",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/2w011VPpZwniz8p6vlkSpKcTp8jjVvhMFVOhaJN1cWo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItSVdJT3Y3b2VOeGZjalRuWDUtcG1QTU14eUFtaC10cy5qcGVn.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "A powerful Apify actor for scraping Truth Social profiles and posts.",
+    "outputs": [
+      "posts",
+      "engagement metrics",
+      "more"
+    ],
+    "link": "https://apify.com/memo23/truth-social-profile-scraper-with-posts",
+    "status": "public"
+  },
+  {
+    "id": "twitter",
+    "title": "Twitter (X) Profiles & Tweets",
+    "category": "social",
+    "icon": "twitter.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Twitter/X profiles with tweets, engagement metrics, and metadata \u2014 input via username, profile URL, or cross-platform IG link.",
+    "outputs": [
+      "bio",
+      "follower count",
+      "tweets",
+      "engagement",
+      "media"
+    ],
+    "link": "https://apify.com/memo23/apify-twitter-profile-scraper",
+    "status": "public"
+  },
+  {
+    "id": "youtube-channel-videos",
+    "title": "YouTube Channel Videos",
+    "category": "social",
+    "icon": "youtube.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Every video on a YouTube channel \u2014 titles, descriptions, view counts, durations, thumbnails.",
+    "outputs": [
+      "video id",
+      "title",
+      "views",
+      "duration",
+      "thumbnails",
+      "publish date"
+    ],
+    "link": "https://apify.com/memo23/youtube-channel-video-details-scraper",
+    "status": "public"
+  },
+  {
+    "id": "youtube-comments",
+    "title": "YouTube Comments (with replies)",
+    "category": "social",
+    "icon": "youtube.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Comments and full reply threads on YouTube videos \u2014 author info, likes, timestamps.",
+    "outputs": [
+      "text",
+      "author",
+      "likes",
+      "replies",
+      "timestamp"
+    ],
+    "link": "https://apify.com/memo23/youtube-comments-scraper",
+    "status": "public"
+  },
+  {
+    "id": "youtube-search",
+    "title": "YouTube Search Results",
+    "category": "social",
+    "icon": "youtube.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "YouTube search by URL or keyword \u2014 videos with titles, channels, views, durations, thumbnails.",
+    "outputs": [
+      "title",
+      "channel",
+      "views",
+      "duration",
+      "thumbnail"
+    ],
+    "link": "https://apify.com/memo23/youtube-search-results-scraper",
+    "status": "public"
+  },
+  {
+    "id": "youtube-shorts-scraper",
+    "title": "YouTube Shorts",
+    "category": "social",
+    "icon": "https://images.apifyusercontent.com/QycCQx1quhTcnOrSBDOBxyYo4N_mTVwis9MhaMS94KQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItU1NSd2VwR0t3ekZLWWVScmstT1JvY0s0cUNoUC15dC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Unlock YouTube Shorts analytics! Extract views, likes, and engagement data from any channel. Get complete channel stats: 919M+ views tracking, subscriber counts, join dates, locations.",
+    "outputs": [
+      "author",
+      "content",
+      "engagement",
+      "date",
+      "url"
+    ],
+    "link": "https://apify.com/memo23/youtube-shorts-scraper",
+    "status": "public"
+  },
+  {
+    "id": "youtube-video-details",
+    "title": "YouTube Video Details",
+    "category": "social",
+    "icon": "youtube.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Per-video metadata and engagement metrics \u2014 title, description, tags, duration, channel info.",
+    "outputs": [
+      "title",
+      "description",
+      "tags",
+      "views",
+      "channel",
+      "duration"
+    ],
+    "link": "https://apify.com/memo23/youtube-video-details-scraper",
+    "status": "public"
+  },
+  {
+    "id": "autoscout24-scraper",
+    "title": "Autoscout24 API",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/fE2HaEVib2zitmvZ-xRB17okkDPVBJ2VgqTNZOCG5zw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3Itc21iaXlwdFdnRlhvN3FBaEstR3JRNno1a3FqRy1hdXRvc2NvdXQyNC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "This powerful scraper captures everything from technical specs and pricing to full descriptions and dealer info.",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/autoscout24-scraper",
+    "status": "public"
+  },
+  {
+    "id": "autotrader-cheerio",
+    "title": "Autotrader.co.uk \u00b7 Unlimited \u00b7 Richest output",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/4EDmJ3W97qx5II7GNg1T34pCPB-YGPuwHE1GjxqldtQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItQ2E3dEJxTmR1V2d5MkEycHEtbDlKZklyblFVbi1hdXRvdHJhZGVyLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "co.uk: pricing, specs (make/model/year/mileage), finance quotes with APR/payments, dealer ratings & contact, high-res images, vehicle checks, and CTAs.",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/autotrader-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "autotrader-australia-cheerio",
+    "title": "Autotrader.com.au Australia Search & Details Scraper\ud83c\udde6\ud83c\uddfa",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/pCkelbtHnioCVauMT6DM9tGYD81m-FmuhD-rXFDHMC4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItYWFINGlJOWIwc2dNNkNWeVMtanhmc2ZZeEVBWi1hdXRvdHJhZGVyLWF1cy5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Scrape AutoTrader.com.au search and listing pages with normalized vehicle, price, dealer, location, media, and spec data.",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/autotrader-australia-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "carsales-cheerio",
+    "title": "Carsales.com.au \u00b7 Search \u00b7 Unlimited \u00b7 Richest Output",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/XjjBXzw5DxlNxQk_LzgTYxrZwKSKRGlCgSRf2IfX0vg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItTGpiNVhYaUNtamxwVzE2TUItNFR1aUh2NDR1Vy1jYXJzYWxlcy5qcGc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Get comprehensive car data from Carsales!",
+    "outputs": [
+      "vehicle info",
+      "including make",
+      "model",
+      "year",
+      "price",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/carsales-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "chronext",
+    "title": "Chronext Watch Catalog",
+    "category": "ecommerce",
+    "icon": "chronext.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Watch listings from Chronext \u2014 specs, brand, model, condition, pricing, availability, images.",
+    "outputs": [
+      "name",
+      "brand",
+      "model",
+      "price",
+      "condition",
+      "specs",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/chronext-scraper",
+    "status": "public"
+  },
+  {
+    "id": "cinch-co-uk-scraper",
+    "title": "Cinch.co.uk \u00b7 \u00b7 Search \u00b7 Details",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/FoDOMDkBD6dnXmkyNsh-sIKzQcnqQMpHYkl8ZDxxcBQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItOWdoZ2ZaR3dxU0tVNnFDdmktQ2gwUjZGT1JVMS1jaW5jaC5qcGc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "uk vehicle data: pricing",
+      "specs",
+      "finance options",
+      "service history",
+      "technical details",
+      "equipment lists"
+    ],
+    "link": "https://apify.com/memo23/cinch-co-uk-scraper",
+    "status": "public"
+  },
+  {
+    "id": "copart-scraper",
+    "title": "Copart UK Search By Urls and Keywords \u00b7 Auctions",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/lbZyvOqEoe_OZtf_USabovHajrdOIttrSJdQO-4X5ns/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNmdhOExjejNvVlVTYkhnS00tbks0ZE1laTB5My1jb3BhcnQuanBn.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "[Only $1.5] Copart UK lots via search URL or filters (make, model, year, odometer, yards, chips).",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/copart-scraper",
+    "status": "public"
+  },
+  {
+    "id": "debijenkorf",
+    "title": "De Bijenkorf Catalog",
+    "category": "ecommerce",
+    "icon": "debijenkorf.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Dutch luxury department store De Bijenkorf \u2014 products, prices, brands, sizes, availability.",
+    "outputs": [
+      "name",
+      "brand",
+      "price",
+      "sizes",
+      "stock",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/debijenkorf-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "easyauto123-scraper",
+    "title": "Easyauto123",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/z-GnTZTnga13mdCEicG-doFezmzAkio-upGzvZ1bgoQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItTnJMdFVhcU1zUlZObEhPRjYtdWJjUlBYdUFqUS1lYXN5YXV0bzEyMy5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrape easyauto123 used-car listings and detail pages.",
+    "outputs": [
+      "price",
+      "drive-away price",
+      "vin",
+      "rego",
+      "odometer",
+      "make/model/variant"
+    ],
+    "link": "https://apify.com/memo23/easyauto123-scraper",
+    "status": "public"
+  },
+  {
+    "id": "ebay",
+    "title": "eBay Search & Listing Details",
+    "category": "ecommerce",
+    "icon": "ebay2.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "eBay search results plus item detail pages \u2014 title, price, seller metrics, item specifics, shipping info.",
+    "outputs": [
+      "title",
+      "price",
+      "condition",
+      "seller",
+      "shipping",
+      "specifics"
+    ],
+    "link": "https://apify.com/memo23/apify-ebay-search-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "edel-optics",
+    "title": "Edel-optics Eyewear",
+    "category": "ecommerce",
+    "icon": "edel-optics.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Eyewear catalog from edel-optics.com with brand-specific targeting \u2014 names, brands, high-res images.",
+    "outputs": [
+      "product name",
+      "brand",
+      "price",
+      "images",
+      "specs"
+    ],
+    "link": "https://apify.com/memo23/edel-optics-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "facebook-marketplace-scraper-ppe",
+    "title": "Facebook Marketplace Get newest items ASAP",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/nKMo9NFaL_X5HFMFiKNHuGA-Ci2vE_qSh-zwYSCpsFo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItZWF5Y2pFdUNNS0hCRHVMOXotUnhiWUF0SjBsdy1mYWNlYm9vay5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/facebook-marketplace-scraper-ppe",
+    "status": "public"
+  },
+  {
+    "id": "gumtree-cheerio",
+    "title": "Gumtree Search By URL or Keywords",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/kgmlrObtAUBzodAVIvIlEOYc5nL28EawQHmrI3258Tk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItSG9wcTN5ZWJXRVRkVko0d0EtaDJ2ZVBuZ3RGMC1ndW10cmVlLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Get rich media (images, videos), location data, and competitor analysis.",
+    "outputs": [
+      "seller info",
+      "vehicle specs vin",
+      "mileage",
+      "condition",
+      "electronics details",
+      "furniture dimensions"
+    ],
+    "link": "https://apify.com/memo23/gumtree-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "kijiji-scraper",
+    "title": "Kijiji Search \u00b7 Detail page(s)",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/o9T81yxx3AqlGnWhLlnU2dojhDIA9r8oYRqvGdx6rUE/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItZzNyN3JPQmZZZXUzVW5wdlotSGNFb2ZvTlBmcS1raWppamktbG9nby1wbmdfc2Vla2xvZ28tMzI0NDY1LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "kijiji listings with title",
+      "price",
+      "location coordinates",
+      "full description",
+      "images",
+      "attributes"
+    ],
+    "link": "https://apify.com/memo23/kijiji-scraper",
+    "status": "public"
+  },
+  {
+    "id": "kleinanzeigen",
+    "title": "Kleinanzeigen Classifieds",
+    "category": "ecommerce",
+    "icon": "kleinanzeigen.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Germany's biggest classifieds marketplace \u2014 products, services, real estate listings \u2014 titles, prices, images, seller details.",
+    "outputs": [
+      "title",
+      "price",
+      "description",
+      "images",
+      "seller",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/kleinanzeigen-search-scraper-ppe",
+    "status": "public"
+  },
+  {
+    "id": "mobile-de-scraper",
+    "title": "Mobile.de Unlimited Search & Detail",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/45_qonAW8nei1lrox9bVYiI0EEkVcit6aif80yOz4zw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItdXk0ZzRRcUtrMm1pUWUybGItN040N3hOMEZ0Wi1tb2JpbGUucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract comprehensive vehicle data: make/model, pricing, technical specs, dealer info, images, features, condition, location, contact details, and market ratings.",
+    "outputs": [
+      "vehicle data: make/model",
+      "price",
+      "technical specs",
+      "dealer info",
+      "images",
+      "amenities"
+    ],
+    "link": "https://apify.com/memo23/mobile-de-scraper",
+    "status": "public"
+  },
+  {
+    "id": "njuskalo-scraper",
+    "title": "Njuskalo.hr Search All categories and details",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/MPHc2Lp0Vb5qdL3tDgxMYHlKtwYSBKTIfiBSof05UFE/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItVHNOM000RDYyRDlUVXN0d1UtSzNmTEtBUWNtdi1uanVza2Fsby5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/njuskalo-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apify-ricardo-ch-scraper",
+    "title": "Ricardo.ch",
+    "category": "ecommerce",
+    "icon": "https://images.apifyusercontent.com/asBO98zIahbfg3jALtfdvkz9AKR7c-qGUqPUu9Vw9S8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItN0Z3NE9ZamZNYXBNNmw0OUQtdGZvcnhMQUdyWS1yaWNhcmRvLmpwZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract detailed product listings from Ricardo.ch including: pricing (auction/buy-now), product specs, seller info, high-res images, shipping options, payment methods, and condition.",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/apify-ricardo-ch-scraper",
+    "status": "public"
+  },
+  {
+    "id": "smartbuyglasses",
+    "title": "Smartbuyglasses Catalog",
+    "category": "ecommerce",
+    "icon": "smartglasses.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Smartbuyglasses brand catalog \u2014 frame and lens specs, prices, prescription compatibility, image URLs.",
+    "outputs": [
+      "name",
+      "frame",
+      "material",
+      "lens",
+      "price",
+      "Rx-compatible"
+    ],
+    "link": "https://apify.com/memo23/smartbuyglasses-scraper",
+    "status": "public"
+  },
+  {
+    "id": "zalando",
+    "title": "Zalando Products",
+    "category": "ecommerce",
+    "icon": "zalando.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Zalando categories and search results \u2014 product details, sizes, prices, images, stock status.",
+    "outputs": [
+      "name",
+      "price",
+      "sizes",
+      "images",
+      "stock"
+    ],
+    "link": "https://apify.com/memo23/zalando-scraper",
+    "status": "public"
+  },
+  {
+    "id": "cicek",
+    "title": "\u00c7i\u00e7ekSepeti Collection",
+    "category": "ecommerce",
+    "icon": "cicek.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "\u00c7i\u00e7ekSepeti (Turkey's flower & gift marketplace) catalog \u2014 product names, prices, images, options.",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "category"
+    ],
+    "link": "https://apify.com/memo23/cicek",
+    "status": "public"
+  },
+  {
+    "id": "expedia-scraper",
+    "title": "Expedia.comExtract Reviews & Ratings &Sentiment Analysis",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/S3jQnQO1Qq7Evmm8G6HhWSwePurMx4mbNBaxjT2ShAg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNkkxaEJLTk1nQk5IZVl4dUwtOXNoSm5hbnd2Ni1leC5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "[Only $2.5] Extract comprehensive hotel reviews from Expedia.com.",
+    "outputs": [
+      "rating",
+      "review text",
+      "author",
+      "date"
+    ],
+    "link": "https://apify.com/memo23/expedia-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apify-gartner-scraper-ppr",
+    "title": "Gartner.com Reviews V2",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/Bvo7H80md8SZnm3Y37CAB5DK-giakC1lREEt65haGHs/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItUml0WUw4eGFIOTlkMG1pSE4td2NnblE0aVZjUy1nYXJ0bmVyLWxvZ28ucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extracts structured Gartner review data: ratings, company size, industry, job titles, detailed Q&A sections, vendor comparisons, deployment info, and reviewer demographics.",
+    "outputs": [
+      "company size",
+      "category",
+      "job titles",
+      "q&sections",
+      "vendor comparisons",
+      "deployment info"
+    ],
+    "link": "https://apify.com/memo23/apify-gartner-scraper-ppr",
+    "status": "public"
+  },
+  {
+    "id": "google-maps-reviews-scraper",
+    "title": "Google Maps Reviews",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/0PJb6Fl_ZldMZnrfFA5CkWu0sun4ITQXiyPrfotofMI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3Ita0EyWkxORGZwT3VOaDdtS24tQWh0ZURwTEN2ei1nb29nbGVfbWFwcy5qcGc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Get review text, rating, published date, response from owner, review URL, images, and reviewer's details.",
+    "outputs": [
+      "rating",
+      "review text",
+      "author",
+      "date"
+    ],
+    "link": "https://apify.com/memo23/google-maps-reviews-scraper",
+    "status": "public"
+  },
+  {
+    "id": "hotels-scraper",
+    "title": "Hotels.com ReviewsScraper-Guest Feedback & Sentiment",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/ldFCG6Uu8v_124jRUB1Mt_Ub73a7Ee0iEC_5Yx5jdIc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItUHNXNW9wamRLYjZ2dnVUekgtVWxuaHVjTXJVSi1ob3RlbHMucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Only $2.15 Extract reviews from Hotels.com with ratings, sentiment analysis, travel companion data, reviewer info, photos & responses.",
+    "outputs": [
+      "rating",
+      "review text",
+      "author",
+      "date"
+    ],
+    "link": "https://apify.com/memo23/hotels-scraper",
+    "status": "public"
+  },
+  {
+    "id": "repvue-scraper",
+    "title": "Repvue.com Reviews Scraper (PPE)",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/LAy0shFkGdSJiB-bpOqaQjmSeWP7bnhzbSt08WPAzUI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItbTlLYjZDYkdsRWk2VmQwODQtT29kU0ZVbEFXWS1yZXB2dWUuanBlZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Stop guessing\u2014scrape verified Repvue reviews, comp data & company trends instantly. Your edge in hiring, sales & market research.",
+    "outputs": [
+      "rating",
+      "review text",
+      "author",
+      "date"
+    ],
+    "link": "https://apify.com/memo23/repvue-scraper",
+    "status": "public"
+  },
+  {
+    "id": "tripadvisor",
+    "title": "TripAdvisor Hotels & Reviews",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/Wl4vqlSKKmg5QUyISj4D_SuMVBo1HQKjNm1Ebz6UOuU/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItTWRDbllpbGhWdTBtaVpFbnEtalVpVGMxc0VEZy10cmlwYWR2aXNvci5wbmc.webp",
+    "thumb": "how-it-works-tripadvisor.png",
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Hotels, restaurants, and attractions on TripAdvisor with full review threads, ratings, and amenities.",
+    "outputs": [
+      "name",
+      "rating",
+      "reviews",
+      "price",
+      "amenities",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/tripadvisor-scraper",
+    "status": "public"
+  },
+  {
+    "id": "trustpilot",
+    "title": "Trustpilot Reviews",
+    "category": "reviews",
+    "icon": "trustpilot.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Trustpilot reviews per business with consumer details, ratings, business replies, and aggregate stats.",
+    "outputs": [
+      "review text",
+      "rating",
+      "consumer",
+      "business reply",
+      "review stats"
+    ],
+    "link": "https://apify.com/memo23/apify-trustpilot-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "uber-eats-scraper",
+    "title": "Uber Eats Full Menu & Reviews",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/iGz4nBJvBo4z2xmv2mdJu9kjkGH_nAq3-QWb5ZBrF00/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItZUxiYkZxemNpU3piZnpXMkQtREd2UkNWRnB0MC11YmVyLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "rating",
+      "review text",
+      "author",
+      "date"
+    ],
+    "link": "https://apify.com/memo23/uber-eats-scraper",
+    "status": "public"
+  },
+  {
+    "id": "yelp-scraper",
+    "title": "YELP.com Search & Business & Reviews",
+    "category": "reviews",
+    "icon": "https://images.apifyusercontent.com/jXsUEQ0uQOVidyR8cAU65SxnN1oLUML28m9ob8xshq8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItQTBSeW1KWGlHbmRrWGl1eGctcDFGdzBtWFNKOC15ZWxwLWxvZ28teWVscC1pY29uLXRyYW5zcGFyZW50LWZyZWUtcG5nLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "yelp business data: name",
+      "rating",
+      "price level",
+      "category",
+      "full address",
+      "contact"
+    ],
+    "link": "https://apify.com/memo23/yelp-scraper",
+    "status": "public"
+  },
+  {
+    "id": "bizbuysell",
+    "title": "BizBuySell Business Listings",
+    "category": "business",
+    "icon": "bizbuysell.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Businesses for sale \u2014 asking price, location, descriptions, broker contacts \u2014 for investors and acquisition researchers.",
+    "outputs": [
+      "asking price",
+      "location",
+      "industry",
+      "broker contact",
+      "listing metadata"
+    ],
+    "link": "https://apify.com/memo23/apify-bizbuysell-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "bizquest-scraper",
+    "title": "Bizquest",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/3_qpcFJlqU-SBRZQnRsqxbtlx3rMxueXko3ipLDOjIc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItMFRvT29oTUJ1Qjl5VzgwQTctWlpBNnhMdGpVQS1pbWFnZXMuanBlZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/bizquest-scraper",
+    "status": "public"
+  },
+  {
+    "id": "businessesforsale-scraper",
+    "title": "Businessesforsale",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/CFzAwLz8JOfEgnPqHZND8RhgW-J4cSjYDeikcyNOMrY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNVVMY01JUm9NVHhYWm9kb3Itd2lJcDFnZkNwYy1idXNzaW5lc3Nlc2ZvcnNhbGUucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Only $0.85 per 1,000 results. Scrapes BusinessesForSale.com to extract business listings with JSON-LD data, search metadata (criteria, tags, age filters, listings count), and search context.",
+    "outputs": [
+      "search metadata criteria",
+      "tags",
+      "age filters",
+      "listings count",
+      "search context"
+    ],
+    "link": "https://apify.com/memo23/businessesforsale-scraper",
+    "status": "public"
+  },
+  {
+    "id": "clutch",
+    "title": "Clutch.co Agencies & Reviews",
+    "category": "business",
+    "icon": "clutch.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "B2B service providers on Clutch.co \u2014 company profile, services, ratings, project reviews, pricing.",
+    "outputs": [
+      "agency",
+      "services",
+      "rating",
+      "reviews",
+      "pricing"
+    ],
+    "link": "https://apify.com/memo23/apify-clutch-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "comparably-cheerio-scraper",
+    "title": "Comparably.com Reviews and Stats",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/s5UwOz4T_9AZY09Z7ZxQ9EuymlwClnsfCkk1KwH4vnY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItN3BSS2hhaktoOElJbEJWVnMtZVJkMmx0V1NFbi1jb21wYXJhYmx5LmpwZWc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Access detailed employee reviews, company culture metrics, and CEO approval ratings to make informed HR decisions and benchmark workplace satisfaction",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/comparably-cheerio-scraper",
+    "status": "public"
+  },
+  {
+    "id": "europeancoffeetrip-leads-scraper",
+    "title": "Europeancoffeetrip.com LEADS",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/rX59L1qBs_mAWOlf1W-yhepchJ-LcM3ghZEMPz4-jVQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3IteG5LRW45VzBkOHFBdXpNUngtZ2sya0lkZ0czbS1ldXJvcGVhbi5wbmc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrapes European Coffee Trip cafes with comprehensive data: name, address, coordinates, photos, social links, opening hours, features, and premium status.",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/europeancoffeetrip-leads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "flippa-scraper",
+    "title": "FLIPPA.com \u00b7 \u00b7 Search by Url \u00b7 Detail Pages",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/OQmS4d3TZdVw5cqBXKpKTC7hq8JrUyNIgYFKXFYjdDo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItMzY5bENpemp1YnpFMFpFNnMtZFk1eGRrTkg0TC1mbGlwcGEucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract Revenue, Profit, Multiples, Traffic (Views/Uniques) & Seller Verification. Supports SaaS, Apps & Domains.",
+    "outputs": [
+      "revenue",
+      "profit",
+      "multiples"
+    ],
+    "link": "https://apify.com/memo23/flippa-scraper",
+    "status": "public"
+  },
+  {
+    "id": "fundainbusiness-scraper",
+    "title": "Fundainbusiness.nl \u00b7 Search \u00b7 Details",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/tqgDsUopWBzNFJaRLKW_CDfCs_R7I3DlmH0YbkRS-X4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItbXFpbUVzZFY3eDloRVJwYnktdlZkaWNIY2s2Ny1maWIucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrapes Fundainbusiness.nl commercial property listings and detail pages across the Netherlands.",
+    "outputs": [
+      "ids",
+      "url",
+      "location",
+      "price",
+      "surfaces",
+      "building"
+    ],
+    "link": "https://apify.com/memo23/fundainbusiness-scraper",
+    "status": "public"
+  },
+  {
+    "id": "g2-scraper",
+    "title": "G2.com \u00b7 \u00b7 Search results",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/3E11OGrx-dkiYD646b4TYDUB6y2-n1dseQQ13nQiq0M/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItaGJpUWdCeEt4aG00dGZCUXotMW90SGpxUFRjdS10b1pOTFhWcEZqOUE1RmN5My1hY3Rvci1kUDZUcENmTDVSaGZoek9FaC1XSW9DRktEYjFjLUNoYXRHUFRfSW1h.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extracts Product Name, Star Ratings, Review Counts, Vendor Details, Pricing Type, and Sponsorship status.",
+    "outputs": [
+      "title",
+      "star ratings",
+      "review counts",
+      "vendor details",
+      "pricing type",
+      "sponsorship status"
+    ],
+    "link": "https://apify.com/memo23/g2-scraper",
+    "status": "public"
+  },
+  {
+    "id": "inhersight-cheerio-scraper",
+    "title": "InHerSight.com Company Insights/Reviews and Stats",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/D0vEfEjPE_WMeUQo3ModiQMQFQ_j7xEVowjYrQaBfOs/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItMHIySjd5aUsxQ2REenBDVjktejRxVG5idVVOaC1pbmhlcnNpZ2h0LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/inhersight-cheerio-scraper",
+    "status": "public"
+  },
+  {
+    "id": "linkedin-ads-scraper",
+    "title": "Linkedin Ads Search & Details",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/zneiqXrwOATkbNDK8BT6Ms7MLiDik_wAQ5Hm5V3WEsA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3IteE9ZeE9VVFFGQmZLemtkU1ctWVpmN0xKeVZNcS1saW5rZWRpbi5qcGc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrape ads by company, keyword, or country.",
+    "outputs": [
+      "advertiser name & url",
+      "paid by entity",
+      "cta buttons",
+      "destination click urls",
+      "raw media links images",
+      "video"
+    ],
+    "link": "https://apify.com/memo23/linkedin-ads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "pagesjaunes-scraper-cheerio",
+    "title": "PagesJaunes.fr Leads with Emails & Phones Included",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/1pJeycBSGc0fZ5C8HNjVkrBsNm6iU7ZO01Ep_yXdSis/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItSzhsMEdzNnpiZDd2bUJMRGotcExaVXJyVnhkcC10b1pOTFhWcEZqOUE1RmN5My1hY3Rvci1ZUXRNc1RTcGRmV2JwQWh6Ny1DQXEwWmhiNWtCLXBhZ2VzamF1bmVz.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "fr. Whether you're a marketer, sales professional, or researcher, our scraper delivers accurate, structured data to help you identify leads, analyze market trends, and make data-driven decisions",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/pagesjaunes-scraper-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "tendersontime-leads-scraper",
+    "title": "Tendersontime.com Leads",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/1CJCbkcLtYPwrZZas8by7NP4v6oO8_jQ74nzfZQGZm4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItdEd4U3BETk4wZjVnN3d0Tm0tVW1HSEVlVmFTci10ZW5kZXJzb250aW1lLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extracts detailed tender data from TendersOnTime: titles, descriptions, reference numbers, deadlines, values, locations, documents, and more for efficient opportunity tracking.",
+    "outputs": [
+      "description",
+      "reference numbers",
+      "deadlines",
+      "values",
+      "location",
+      "documents"
+    ],
+    "link": "https://apify.com/memo23/tendersontime-leads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "thomasnet-scraper",
+    "title": "Thomasnet.com",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/lridPTtiFViHIoWRL3snOM-c2zqIs-yajwbIFLEdJ-M/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItVWxSanlCdHdhMnlnaXN4WXgtQnN2TmxoN0FkQi10aG9tYXNuZXQucG5n.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/thomasnet-scraper",
+    "status": "public"
+  },
+  {
+    "id": "trustpilot-scraper-ppe",
+    "title": "TrustpilotBypass 200 Limit",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/Po1dImTpRhmfcLh7g6udKbWb9mI31NBRqzIksrw1g6U/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItSFl1T2tlMDB3WTRlbUxIejEtZUJ5MWNTdEZJYi10cnVzdHBpbG90LWxvZ28tdGV4dC1vbmx5LnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Enterprise-grade Trustpilot scraper that extracts 40+ data points per review with built-in analytics and 100% verified reviews coverage.",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/trustpilot-scraper-ppe",
+    "status": "public"
+  },
+  {
+    "id": "whop-leaderboards-scraper",
+    "title": "Whop.com Search & Details & Leaderboards",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/ILZzDLGzyVGI9uTiISPtjAZLP7CBIqBQhxYWA8ELZmg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItYkZqWms5WEdsQXBWWmFmbGEtbWF5ZVM1QllGOC13aG9wLmpwZWc.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Unlock comprehensive insights from Whop.com leaderboards effortlessly with our scraper.",
+    "outputs": [
+      "user rankings",
+      "statistics",
+      "rating",
+      "profiles",
+      "for accurate",
+      "up-to-date market research"
+    ],
+    "link": "https://apify.com/memo23/whop-leaderboards-scraper",
+    "status": "public"
+  },
+  {
+    "id": "yc",
+    "title": "Y Combinator Jobs & Companies",
+    "category": "business",
+    "icon": "https://images.apifyusercontent.com/-vsh8uNeTs-b4Lw94N7w1xt0oj25E6BrIBsKIPi_Vg4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItU3JJZmNkcktzNlZKcjdNOFctR1BiRDMwTjBZTC15Yy5qcGc.webp",
+    "thumb": "how-it-works-yc.png",
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Y Combinator's directory \u2014 companies, batches, founders, industry, location, status, and open jobs.",
+    "outputs": [
+      "company",
+      "batch",
+      "founders",
+      "industry",
+      "location",
+      "status",
+      "jobs"
+    ],
+    "link": "https://apify.com/memo23/y-combinator-scraper",
+    "status": "public"
+  },
+  {
+    "id": "angi",
+    "title": "Angi Pros & Reviews",
+    "category": "other",
+    "icon": "https://images.apifyusercontent.com/4vsVt7-ybo63tSN4uWzWQtNVfzYvyOHCdDaVyapSgmE/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItOFlzNlYxSTBRdzd1YlBDYkotcG50SHhlMU5RSS1BbmdpLndlYnA.webp",
+    "thumb": "how-it-works-angi.png",
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Home-service pros on Angi \u2014 business profile, services offered, ratings, reviews, contact info \u2014 for lead-gen and market research.",
+    "outputs": [
+      "business name",
+      "services",
+      "rating",
+      "reviews",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/angi-scraper",
+    "status": "public"
+  },
+  {
+    "id": "psychologytoday",
+    "title": "Psychology Today Therapists",
+    "category": "other",
+    "icon": "https://images.apifyusercontent.com/N6iU-HHbfvfRJl6aHD8nEgNt96CT5zu0nn8oIXpIn6w/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItNkhaUTBIMmhJYkxpTE80TzEtcjNBNzBVTE5WeS1zZXNzaW9uc19sb2dvLndlYnA.webp",
+    "thumb": "how-it-works-psychologytoday.png",
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Therapist directory on Psychology Today \u2014 name, modalities, insurance, fees, location, accepting-new-clients flag.",
+    "outputs": [
+      "name",
+      "specialties",
+      "insurance",
+      "fees",
+      "location",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/psychologytoday-scraper",
+    "status": "public"
+  },
+  {
+    "id": "skyscanner-scraper",
+    "title": "Skyscanner.com",
+    "category": "other",
+    "icon": "https://images.apifyusercontent.com/Y8BEJLqVyRmOjPrKGZKG7tNE_vw4SUfQvvnYZ_oxOiA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItMmlBSXFlQldGTm8yaXpPbFQtSWtNd2ZDd1lFbC1za3lzY2FubmVyLnBuZw.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract detailed flight itineraries from Skyscanner: prices, airlines, schedules, and routes. Search with a flights link or your parameters\u2014one-way, round trip, cabin, passengers, multi-city legs.",
+    "outputs": [
+      "airlines",
+      "schedules",
+      "routes"
+    ],
+    "link": "https://apify.com/memo23/skyscanner-scraper",
+    "status": "public"
+  },
+  {
+    "id": "virtuals",
+    "title": "Virtuals.io Agent & Token Data",
+    "category": "other",
+    "icon": "virtuals.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Sentient and Prototype agents on Virtuals.io with full tokenomics, market cap, and ascension progress.",
+    "outputs": [
+      "agent profile",
+      "tokenomics",
+      "market cap",
+      "ascension progress",
+      "links"
+    ],
+    "link": "https://apify.com/memo23/virtuals-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "yangming",
+    "title": "Yangming Container Tracking",
+    "category": "other",
+    "icon": "yangming.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Real-time container tracking and vessel schedules from Yangming Marine \u2014 for logistics and supply-chain monitoring.",
+    "outputs": [
+      "container status",
+      "vessel info",
+      "port activity",
+      "freight rate",
+      "shipping timeline"
+    ],
+    "link": "https://apify.com/memo23/yangming-cheerio",
+    "status": "public"
+  },
+  {
+    "id": "zumper",
+    "title": "Zumper Rental Listings",
+    "category": "real-estate",
+    "icon": "zumper.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Every Zumper rental in a city \u2014 price, beds, photos, agent contact \u2014 with deduplication across pagination.",
+    "outputs": [
+      "price",
+      "amenities",
+      "media",
+      "agent contact",
+      "pricing history"
+    ],
+    "link": null,
+    "status": "private"
+  },
+  {
+    "id": "edjoin",
+    "title": "Edjoin Education Jobs",
+    "category": "jobs",
+    "icon": "edjoin.jpeg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Education-sector jobs from Edjoin.org \u2014 district, salary, application deadlines, contact info.",
+    "outputs": [
+      "title",
+      "district",
+      "location",
+      "salary",
+      "deadline",
+      "contact"
+    ],
+    "link": null,
+    "status": "private"
+  },
+  {
+    "id": "amazon",
+    "title": "Amazon Product Details",
+    "category": "ecommerce",
+    "icon": "amazon.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Puppeteer",
+      "CapSolver"
+    ],
+    "summary": "Amazon products with multi-seller offers \u2014 title, ASIN, price, ratings, reviews, captcha-resilient.",
+    "outputs": [
+      "title",
+      "ASIN",
+      "price",
+      "rating",
+      "reviews",
+      "offers"
+    ],
+    "link": null,
+    "status": "private"
+  },
+  {
+    "id": "fashionnova",
+    "title": "Fashionnova (Shopify) Products",
+    "category": "ecommerce",
+    "icon": "fashionnova.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Puppeteer"
+    ],
+    "summary": "Fashionnova product collections \u2014 title, description, images, prices, variants, options.",
+    "outputs": [
+      "title",
+      "description",
+      "price",
+      "images",
+      "variants",
+      "options"
+    ],
+    "link": null,
+    "status": "private"
+  },
+  {
+    "id": "t5ear",
+    "title": "T5ear Product Reviews",
+    "category": "reviews",
+    "icon": "t5ear.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Cheerio"
+    ],
+    "summary": "Product reviews from T5ear with admin replies and order linkage \u2014 for review aggregation and moderation tooling.",
+    "outputs": [
+      "review id",
+      "rating",
+      "text",
+      "admin reply",
+      "customer",
+      "timestamp"
+    ],
+    "link": null,
+    "status": "private"
+  },
+  {
+    "id": "viewstats",
+    "title": "Viewstats YouTube Analytics",
+    "category": "reviews",
+    "icon": "viewstats.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "YouTube channel analytics from Viewstats \u2014 subscribers, growth, engagement rates, global rankings.",
+    "outputs": [
+      "subscriber count",
+      "growth",
+      "engagement",
+      "ranking",
+      "video metrics"
+    ],
+    "link": null,
+    "status": "private"
+  },
+  {
+    "id": "linkedin-sales-navigator",
+    "title": "LinkedIn Sales Navigator",
+    "category": "business",
+    "icon": "linkedin.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Puppeteer"
+    ],
+    "summary": "LinkedIn Sales Navigator Account IQ extraction \u2014 strategic priorities, business challenges, growth, headcount.",
+    "outputs": [
+      "account IQ",
+      "strategic priorities",
+      "challenges",
+      "headcount",
+      "growth",
+      "news"
+    ],
+    "link": null,
+    "status": "private"
+  },
+  {
+    "id": "teamblind",
+    "title": "TeamBlind Workplace Discussions",
+    "category": "business",
+    "icon": null,
+    "thumb": "how-it-works-teamblind.png",
+    "tech": [
+      "Apify",
+      "Crawlee",
+      "Puppeteer"
+    ],
+    "summary": "Anonymous workplace posts and salary signals from TeamBlind \u2014 for tech compensation research and competitive intel.",
+    "outputs": [
+      "post",
+      "company",
+      "topic",
+      "comments",
+      "votes",
+      "timestamp"
+    ],
+    "link": null,
+    "status": "private"
+  }
+]

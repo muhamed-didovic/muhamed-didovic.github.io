@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Muhamed Didovic</h1>
-<h3 align="center">A passionate frontend developer from Bosnia</h3>
+<h3 align="center">A passionate full-stack developer from Bosnia</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=muhamed-didovic&label=Profile%20views&color=0e75b6&style=flat" alt="muhamed-didovic" /> </p>
 

@@ -1,1240 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scrapers I've built</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scrapers I've built — Muhamed Didović</title>
+  <meta name="description" content="60+ production-grade Apify scrapers built by Muhamed Didović — real estate, jobs, social media, e-commerce, reviews. Rent on Apify or commission a custom one." />
+  <meta name="author" content="Muhamed Didović" />
+  <meta name="theme-color" content="#08080c" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Scrapers I've built — Muhamed Didović" />
+  <meta property="og:description" content="60+ production-grade Apify scrapers across real estate, jobs, social, and e-commerce." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/3872717?s=400&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4" />
+  <meta property="og:url" content="https://muhamed-didovic.github.io" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Scrapers I've built — Muhamed Didović" />
+  <meta name="twitter:description" content="60+ production-grade Apify scrapers across real estate, jobs, social, and e-commerce." />
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/3872717?s=400&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header>
-    <div class="profile">
-        <img src="https://avatars.githubusercontent.com/u/3872717?s=400&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4" alt="Muhamed Didovic"/>
-    </div>
-    <nav>
-<!--        <ul>-->
-<!--            <li><a href="#">About</a></li>-->
-<!--            <li><a href="#">Tools</a></li>-->
-<!--            <li><a href="#">Scrapers</a></li>-->
-<!--        </ul>-->
-    </nav>
+
+<!-- Reusable SVG icon defs ----------------------------------- -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-link" viewBox="0 0 24 24">
+      <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-search" viewBox="0 0 24 24">
+      <path d="M10 4a6 6 0 1 0 3.873 10.582l4.272 4.272a1 1 0 0 0 1.414-1.414l-4.272-4.272A6 6 0 0 0 10 4Zm-4 6a4 4 0 1 1 8 0 4 4 0 0 1-8 0Z"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 4 8 5 8-5V6l-8 5-8-5v2Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- Header --------------------------------------------------- -->
+<header class="site">
+  <a href="#" class="brand" aria-label="Muhamed Didović — home">
+    <img class="brand-img" src="https://avatars.githubusercontent.com/u/3872717?s=400&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4" alt="" />
+    <span class="brand-name">Muhamed Didović<small>Full-stack developer</small></span>
+  </a>
+  <nav class="primary" aria-label="Primary">
+    <a href="projects.html">Resume</a>
+    <a href="https://github.com/muhamed-didovic" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://apify.com/memo23" target="_blank" rel="noopener">Apify</a>
+    <a href="mailto:muhamed.didovic@gmail.com">Email</a>
+  </nav>
 </header>
+
 <main>
+
+  <!-- Hero --------------------------------------------------- -->
+  <section class="hero">
     <h1>Scrapers I've built</h1>
-    <p>Here are some scrapers I’ve built and some can be rented on <a href="https://apify.com/memo23">Apify.com</a> majority is private, but I can share them with you. Email me if you want me to build one for you! muhamed.didovic@gmail.com</p>
-    <section class="scrapers">
+    <p class="lede">
+      A growing catalog of production-grade web scrapers — most are public on
+      <a href="https://apify.com/memo23" target="_blank" rel="noopener">Apify</a>
+      and rentable today. Need something custom?
+      <a href="mailto:muhamed.didovic@gmail.com">Email me</a> and I'll build it.
+    </p>
 
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/redfin.png" alt="Redfin Icon">
-            </div>
-            <h2>Redfin Property and Agent Analytics Scraper</h2>
-            <p><strong>Description:</strong> Comprehensive scraper for extracting detailed property listings and agent data from Redfin.com, including property details, pricing, amenities, transaction history, and agent profiles with performance metrics.</p>
-            <p><strong>Technology:</strong> Apify, Cheerio, Node.js</p>
-            <p><strong>Functionality:</strong> Extracts property data (rental/sale listings), agent profiles, transaction histories, neighborhood details, and market analytics. Features persistent storage with deduplication and supports proxy configuration for robust data collection.</p>
-            <p><strong>Input:</strong> Redfin URLs for property listings or agent directories, with configurable options for concurrency, retries, proxy settings, and custom storage names.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive property details, agent profiles, transaction histories, and neighborhood analytics with support for multiple export formats (JSON, CSV, Excel).</p>
-            <a href="https://apify.com/memo23/apify-redfin-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Redfin Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/land.png" alt="Land.com Icon">
-            </div>
-            <h2>Land.com Property Listings Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting comprehensive land and property listings from Land.com. Designed for real estate investors, researchers, and developers seeking detailed property data including acreage, amenities, and location details.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts property details including location, price, acreage, descriptions, and attached documents. Features robust pagination handling and automatic retry mechanisms for reliable data collection.</p>
-            <p><strong>Input:</strong> Land.com URLs with customizable parameters for concurrent processing and proxy settings. Supports filtering by property type and location.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive property information, attached documents, and geolocation data. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/land-search-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Land.com Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/zumper.png" alt="Zumper.com Icon">
-            </div>
-            <h2>Zumper.com Rental Listings Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting rental listings and property data from Zumper.com. Perfect for real estate professionals, market researchers, and analysts seeking detailed rental market insights.</p>
-            <p><strong>Technology:</strong> Apify, Automated Pagination, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts comprehensive rental details including pricing, amenities, media assets, and agent information. Features customizable data storage with deduplication and reliable proxy support.</p>
-            <p><strong>Input:</strong> Zumper.com URLs with configurable parameters for concurrent processing and retry settings. Supports custom storage names for data persistence and deduplication.</p>
-            <p><strong>Output:</strong> Structured JSON data including detailed property information, amenities, pricing history, and agent details. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/zumper-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Zumper.com Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/housesigma.png" alt="HouseSigma Icon">
-            </div>
-            <h2>HouseSigma.com Property Analytics Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraper for extracting comprehensive Canadian real estate data from HouseSigma.com, including property listings, historical sales, market trends, and neighborhood analytics, designed for investors, agents, and researchers.</p>
-            <p><strong>Technology:</strong> Apify, Map-Based Scraping, Proxy Integration, Crawlee</p>
-            <p><strong>Functionality:</strong> Extracts property details, historical sales data, market analytics, and neighborhood trends through map-based geographic targeting. Features customizable workflows for large-scale data collection with built-in proxy support.</p>
-            <p><strong>Input:</strong> HouseSigma map view URLs with configurable parameters for geographic areas, property types, and data limits. Supports residential proxy configuration for reliable scraping.</p>
-            <p><strong>Output:</strong> Structured JSON data including property details, price history, market statistics, and community analytics. Exportable to JSON, CSV, or Excel formats for easy analysis.</p>
-            <a href="https://apify.com/memo23/apify-housesigma-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                HouseSigma Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/bizbuysell.png" alt="BizBuySell.com Icon">
-            </div>
-            <h2>BizBuySell.com Business Listings Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting business-for-sale listings from BizBuySell.com. Perfect for investors, entrepreneurs, and researchers seeking comprehensive business opportunity data.</p>
-            <p><strong>Technology:</strong> Apify, Automated Data Collection, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed business information including prices, locations, descriptions, and broker contacts. Features customizable data storage with deduplication and persistent storage capabilities.</p>
-            <p><strong>Input:</strong> BizBuySell.com URLs with configurable parameters for concurrent processing and retry settings. Supports custom storage names for data persistence.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive business details, contact information, and listing metadata. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/apify-bizbuysell-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                BizBuySell.com Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/virtuals.png" alt="Virtuals.io Icon">
-            </div>
-            <h2>Virtuals.io Agent and Token Data Scraper</h2>
-            <p><strong>Description:</strong> Specialized scraping solution for extracting detailed agent and token data from Virtuals.io. Perfect for crypto researchers, analysts, and developers seeking comprehensive virtual ecosystem insights.</p>
-            <p><strong>Technology:</strong> Apify, Token Analytics, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed information about Sentient and Prototype agents, including tokenomics, market capitalization, and ascension progress. Features customizable data storage with deduplication capabilities.</p>
-            <p><strong>Input:</strong> Agent type selection (Sentient/Prototype) with configurable parameters for concurrent processing and data persistence. Supports custom storage names for long-term analysis.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive agent profiles, token metrics, and market analytics. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/apify-virtuals-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Virtuals.io Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/furnished-finder.png" alt="FurnishedFinder Icon">
-            </div>
-            <h2>FurnishedFinder Housing Data Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting furnished housing listings from FurnishedFinder.com. Perfect for traveling professionals, property investors, and researchers seeking detailed rental property information.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts comprehensive rental details including pricing, amenities, landlord information, and location data. Features customizable data storage with deduplication capabilities.</p>
-            <p><strong>Input:</strong> FurnishedFinder.com URLs with configurable parameters for concurrent processing and retry settings. Supports custom storage names for data persistence.</p>
-            <p><strong>Output:</strong> Structured JSON data including detailed property information, amenities, reviews, and landlord details. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/furnishedfinder-scraper-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                FurnishedFinder Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/kleinanzeigen.jpg" alt="Kleinanzeigen Icon">
-            </div>
-            <h2>Kleinanzeigen.de Classified Listings Scraper</h2>
-            <p><strong>Description:</strong> Comprehensive scraper for extracting classified listings from Kleinanzeigen.de, Germany's leading marketplace. Gather detailed data about products, services, and real estate listings including prices, descriptions, locations, and seller information.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts complete listing details including titles, prices, descriptions, images, seller information, and location data. Features automatic pagination and robust error handling with configurable retry strategies.</p>
-            <p><strong>Input:</strong> Kleinanzeigen.de URLs (category pages, search results, or specific listings) with customizable parameters for concurrent scraping, retry limits, and proxy settings.</p>
-            <p><strong>Output:</strong> Structured JSON data containing comprehensive listing information, specifications, images, and metadata. Exportable to multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/kleinanzeigen-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Kleinanzeigen Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/yangming.png" alt="Yangming Icon">
-            </div>
-            <h2>Yangming Marine Transport Corporation Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting real-time container tracking, vessel schedules, and shipping data from Yangming.com. Designed for logistics professionals and supply chain analysts to automate shipping operations monitoring.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Container Tracking API Integration, Proxy Support</p>
-            <p><strong>Functionality:</strong> Extracts container statuses, vessel information, port activities, and freight rates in real-time. Features customizable tracking parameters and robust error handling for reliable data collection.</p>
-            <p><strong>Input:</strong> Container numbers with configurable parameters for concurrent processing and proxy settings. Supports bulk container tracking and customizable retry strategies.</p>
-            <p><strong>Output:</strong> Structured JSON data including container locations, vessel details, port activities, and complete shipping timelines. Available in multiple export formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/yangming-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Yangming Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/properstar.png" alt="Properstar.com Icon">
-            </div>
-            <h2>Properstar.com International Property Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting global property listings from Properstar.com. Perfect for real estate professionals, international investors, and researchers seeking comprehensive property data across different markets.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed property information including prices in multiple currencies, locations, media assets, and agent details. Features customizable crawling parameters and robust retry mechanisms.</p>
-            <p><strong>Input:</strong> Properstar.com URLs with configurable parameters for concurrent processing and retry settings. Supports multiple property types and regions.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive property details, high-resolution images, and contact information. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/apify-properstar-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Properstar.com Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/kyero.png" alt="Kyero.com Icon">
-            </div>
-            <h2>Kyero.com Spanish Property Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting Spanish property listings from Kyero.com. Perfect for real estate professionals, international investors, and researchers seeking comprehensive data on the Spanish property market.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed property information including prices, locations, dimensions, and agent details. Features flexible input options and customizable scraping parameters for efficient data collection.</p>
-            <p><strong>Input:</strong> Kyero.com URLs with configurable parameters for concurrent processing and retry settings. Supports various property types and regions across Spain.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive property details, high-resolution images, and agent information. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/apify-kyero-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Kyero.com Scraper
-            </a>
-        </div>
-        
-        
-        <!-- <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/redfin.png" alt="Redfin Icon">
-            </div>
-            <h2>Redfin.com Scraper</h2>
-            <p><strong>Description:</strong> Extracts property listings, agent details, and market data from Redfin.com, providing comprehensive real estate insights.</p>
-            <p><strong>Technology:</strong> Node.js, Puppeteer, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes property listings and agent profiles with details such as price, location, features, and contact information.</p>
-            <p><strong>Input:</strong> Redfin search URLs, agent profile URLs, and configurable scraping parameters.</p>
-            <p><strong>Output:</strong> Provides structured JSON data including property details (price, address, features) and agent information (name, ratings, contact details).</p>
-            <a href="https://apify.com/memo23/redfin-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Redfin Scraper
-            </a>
-        </div> -->
+    <div class="stats">
+      <div class="stat">
+        <div class="num" id="stat-total">—</div>
+        <div class="lbl">scrapers</div>
+      </div>
+      <div class="stat">
+        <div class="num" id="stat-public">—</div>
+        <div class="lbl">public on Apify</div>
+      </div>
+      <div class="stat">
+        <div class="num" id="stat-cats">—</div>
+        <div class="lbl">categories</div>
+      </div>
+    </div>
 
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/viewstats.png" alt="Viewstats Icon">
-            </div>
-            <h2>Viewstats YouTube Analytics Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed YouTube channel analytics and statistics from Viewstats.com, including subscriber counts, growth trends, and video metrics.</p>
-            <p><strong>Technology:</strong> Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes YouTube channel analytics, providing insights such as engagement rates, global rankings, and video performance. Supports both search results and detailed channel analysis pages.</p>
-            <p><strong>Input:</strong> Viewstats URLs or channel names with configurable options for profile details, concurrency, retries, and proxy settings.</p>
-            <p><strong>Output:</strong> Delivers structured data including channel statistics, subscriber counts, video metrics, and rankings.</p>
-            <a href="https://apify.com/memo23/apify-viewstats-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Viewstats Scraper
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/trustpilot.png" alt="Trustpilot Icon">
-            </div>
-            <h2>Trustpilot Reviews Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed reviews from Trustpilot, including review text, ratings, consumer details, business replies, and statistical data.</p>
-            <p><strong>Technology:</strong> Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes Trustpilot reviews for specific businesses or domains. Includes options for company details, review filtering, and statistical analysis.</p>
-            <p><strong>Input:</strong> Trustpilot review URLs, configurable options for concurrency, retries, and inclusion of company details and statistics.</p>
-            <p><strong>Output:</strong> Provides structured data for each review, including text, ratings, consumer details, company information, and review statistics.</p>
-            <a href="https://apify.com/memo23/apify-trustpilot-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Trustpilot Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/realtor-ca.jpg" alt="Realtor.ca Icon">
-            </div>
-            <h2>Realtor.ca Property & Agent Scraper</h2>
-            <p><strong>Description:</strong> Dual-purpose scraping solution for extracting both property listings and agent profiles from Realtor.ca. Perfect for real estate professionals, recruiters, and market analysts seeking comprehensive Canadian real estate data.</p>
-            <p><strong>Technology:</strong> Apify, Dual Data Extraction, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed property information including prices, amenities, and photos, plus comprehensive agent profiles with contact details, office affiliations, and social media links. Features map-based property search and customizable data collection parameters.</p>
-            <p><strong>Input:</strong> Realtor.ca URLs for both property searches and agent directories, with configurable parameters for search limits and proxy settings. Supports both map-based property searches and agent directory scraping.</p>
-            <p><strong>Output:</strong> Structured JSON data including property details with high-resolution images and complete agent profiles with social media links. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/realtor-canada-search-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Realtor.ca Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/realtor.png" alt="Realtor.com Icon">
-            </div>
-            <h2>Realtor.com Property Listings Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting detailed property listings and market data from Realtor.com. Designed for real estate professionals, market researchers, and analysts to gather comprehensive property information and market insights.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Multi-page Scraping, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts property details, prices, agent information, mortgage estimates, and community data. Features customizable search parameters and robust error handling for reliable data collection across multiple listings.</p>
-            <p><strong>Input:</strong> Realtor.com search URLs with configurable parameters for location, property types, and search limits. Supports proxy configuration for enhanced reliability.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive property details, pricing information, agent contacts, and mortgage estimates. Exportable to multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/realtor-search-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Realtor.com Scraper
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/realtor.png" alt="Realtor.com Icon">
-            </div>
-            <h2>Realtor.com Agents Scraper</h2>
-            <p><strong>Description:</strong> Scrape detailed information about real estate agents from Realtor.com, including names, contact details, office information, and languages spoken.</p>
-            <p><strong>Technology:</strong> Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Extracts agent profiles, contact details, served areas, specializations, and office data, supporting location-based and direct profile scraping.</p>
-            <p><strong>Input:</strong> URLs of Realtor.com agent directories or specific agent profiles with configurable options for maximum agents, retries, and concurrency.</p>
-            <p><strong>Output:</strong> Delivers structured data including agent profiles, ratings, languages spoken, and office details.</p>
-            <a href="https://apify.com/memo23/apify-realtor-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Realtor.com Agents Scraper
-            </a>
-        </div>
+    <div class="ctas">
+      <a class="btn btn--primary" href="https://apify.com/memo23" target="_blank" rel="noopener">
+        <svg><use href="#i-link"/></svg> Browse on Apify
+      </a>
+      <a class="btn" href="mailto:muhamed.didovic@gmail.com">
+        <svg><use href="#i-mail"/></svg> Commission a scraper
+      </a>
+    </div>
+  </section>
 
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/loopnet.jpeg" alt="LoopNet Icon">
-            </div>
-            <h2>LoopNet Search Results and Details Scraper</h2>
-            <p><strong>Description:</strong> Gather detailed information about commercial real estate listings from LoopNet.com, including property details, pricing, and listing metadata.</p>
-            <p><strong>Technology:</strong> Crawlee, Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes search results and detailed property listing pages to provide comprehensive data such as address, property type, price, broker details, and geographic coordinates.</p>
-            <p><strong>Input:</strong> LoopNet search result URLs with configurable options for maximum items, concurrency, retries, and detailed listing data inclusion.</p>
-            <p><strong>Output:</strong> Provides structured data including property details, listing URLs, images, sale conditions, broker information, and agent profiles.</p>
-            <a href="https://apify.com/memo23/apify-loopnet-search-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                LoopNet Scraper
-            </a>
-        </div>
-        
+  <!-- Filters ------------------------------------------------ -->
+  <section class="filters" aria-label="Filter scrapers">
+    <div class="search">
+      <svg class="search-icon"><use href="#i-search"/></svg>
+      <input id="search" type="search" placeholder="Search scrapers, sites, tech…" autocomplete="off" spellcheck="false" />
+      <button id="search-clear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+      <kbd class="search-kbd" aria-hidden="true">/</kbd>
+    </div>
+    <div class="chips" role="tablist" id="chips">
+      <button class="chip active" data-cat="all" role="tab">All</button>
+      <button class="chip" data-cat="real-estate" role="tab">Real Estate</button>
+      <button class="chip" data-cat="jobs"        role="tab">Jobs</button>
+      <button class="chip" data-cat="social"      role="tab">Social</button>
+      <button class="chip" data-cat="ecommerce"   role="tab">E-commerce</button>
+      <button class="chip" data-cat="reviews"     role="tab">Reviews</button>
+      <button class="chip" data-cat="business"    role="tab">Business</button>
+      <button class="chip" data-cat="other"       role="tab">Other</button>
+    </div>
+  </section>
 
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/apartments.png" alt="Apartments.com Icon">
-            </div>
-            <h2>Apartments.com Search Results and Details Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed apartment listing data from Apartments.com, including prices, amenities, property features, and contact details. Ideal for market research, rental comparisons, and investment analysis.</p>
-            <p><strong>Technology:</strong> Crawlee, Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes search results and individual property pages, providing rich data like rent ranges, bedroom/bathroom counts, pet policies, parking fees, and more.</p>
-            <p><strong>Input:</strong> URLs from Apartments.com search results or specific categories, with configurable proxy and concurrency options.</p>
-            <p><strong>Output:</strong> Provides structured data including apartment details, rental costs, amenities, and location information.</p>
-            <a href="https://apify.com/memo23/apify-apartments-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Apartments.com Scraper
-            </a>
-        </div>
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/glassdoor.png" alt="Glassdoor Icon">
-            </div>
-            <h2> Glassdoor Reviews, Interviews, Locations, Salaries, Jobs, and Company Details Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed data from Glassdoor including reviews, interviews, salaries, job postings, office locations, and company details for comprehensive business insights.</p>
-            <p><strong>Technology:</strong> Crawlee, Apify, Cheerio</p>
-            <p><strong>Features:</strong>        
-                Scrapes reviews, interviews, office locations, salaries, jobs, and company details.
-                Customizable input for URLs and maximum number of items to scrape.
-                Proxy support for reliability and avoiding rate limiting.
-                Supports multi-language scraping and provides structured outputs in JSON, CSV, and other formats.
-            </p>
-            <!-- <p><strong>Input Parameters:</strong>
-                <strong>startUrls:</strong> Array of Glassdoor company URLs.
-                <strong>command:</strong> Choose scraping target: reviews, interviews, locations, salaries, jobs, or overview.
-                <strong>maxItems:</strong> Limit the number of items to scrape (default: 100).
-                <strong>proxy:</strong> Proxy configuration to enhance scraping reliability.           
-            </p> -->
-            <p><strong>Output:</strong> Structured data including company reviews, interview questions, salary statistics, job details, office locations, and comprehensive company information such as ratings, size, and industry.</p>
-            <a href="https://apify.com/memo23/apify-glassdoor-reviews-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Glassdoor Reviews, Interviews, Locations, Salaries, Jobs, and Company Details Scraper
-            </a>
-        </div>
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/zillow.png" alt="Zillow Icon">
-            </div>
-            <h2>Zillow Search Results and Detail Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed property listings, pricing, and market data from Zillow.com for real estate analysis, market research, or property investment strategies.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes property listings and individual property details, providing comprehensive data such as price, bedrooms, bathrooms, location, and broker information.</p>
-            <p><strong>Input:</strong> Zillow search result URLs, with configurable options for property details, maximum items, concurrency, and retries.</p>
-            <p><strong>Output:</strong> Delivers structured data including property details, geographical data, listing prices, and market status.</p>
-            <a href="https://apify.com/memo23/zillow-cheerio-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Zillow Search Results and Detail Scraper
-            </a>
-        </div>
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/zillow.png" alt="Zillow Icon">
-            </div>
-            <h2>Zillow Agents Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed information about real estate agents listed on Zillow, including licenses, business names, locations, contact details, and sales metrics.</p>
-            <p><strong>Technology:</strong> Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes agent profiles and collects comprehensive data such as licenses, reviews, total sales counts, sales over the past year, and price ranges.</p>
-            <p><strong>Input:</strong> Configurable JSON input for state selection, concurrency, retries, and proxy settings.</p>
-            <p><strong>Output:</strong> Delivers structured data including agent details, contact information, sales performance, and profile links.</p>
-            <a href="https://apify.com/memo23/apify-zillow-agents-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Zillow Agents Scraper
-            </a>
-        </div>
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/zillow.png" alt="Zillow Icon">
-            </div>
-            <h2>Zillow Property Managers Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed information about property managers listed on Zillow, including names, reviews, contact details, and business information.</p>
-            <p><strong>Technology:</strong> Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes property manager profiles and gathers comprehensive data, including professional information, ratings, and reviews.</p>
-            <p><strong>Input:</strong> Start URLs for property manager listing pages, with options to configure proxies, concurrency, and maximum items.</p>
-            <p><strong>Output:</strong> Delivers structured data including manager profiles, contact details, reviews, ratings, and business addresses.</p>
-            <a href="https://apify.com/memo23/apify-zillow-property-managers-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Zillow Property Managers Scraper
-            </a>
-        </div>
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/ryanhomes.png" alt="RyanHomes.com Icon">
-            </div>
-            <h2>RyanHomes.com New Construction Data Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting new home construction data from RyanHomes.com. Perfect for homebuyers, real estate professionals, and researchers seeking comprehensive information about new communities and home designs across multiple states.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed community information including locations, amenities, and available home designs. Features state-based filtering and comprehensive data collection about floor plans, pricing, and features.</p>
-            <p><strong>Input:</strong> State selection with configurable parameters for concurrent processing and retry settings. Supports data collection across 16 states and Washington D.C.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive community details, home designs, and high-resolution images. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/apify-ryanhomes-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                RyanHomes.com Scraper
-            </a>
-        </div>
-    
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/tollbrothers.png" alt="Toll Brothers Icon">
-            </div>
-            <h2>Toll Brothers Luxury Home Data Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting luxury home data from Toll Brothers across all 50 US states. Perfect for real estate professionals, market analysts, and researchers seeking comprehensive property and community information.</p>
-            <p><strong>Technology:</strong> Apify, Nationwide Data Collection, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed property specifications, floor plans, pricing, and community amenities. Features state-based filtering and comprehensive data collection including mortgage rates and school districts.</p>
-            <p><strong>Input:</strong> State selection with configurable parameters for concurrent processing and retry settings. Supports data collection across all US states.</p>
-            <p><strong>Output:</strong> Structured JSON data including detailed home specifications, community insights, and media content. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/tollbrothers-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Toll Brothers Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/edel-optics.webp" alt="Edel Optics Icon">
-            </div>
-            <h2>Edel-optics.com Eyewear Data Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting eyewear product data from Edel-optics.com. Perfect for e-commerce analysts, market researchers, and competitors seeking comprehensive optical product information.</p>
-            <p><strong>Technology:</strong> Apify, Brand-specific Data Collection, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed product information including names, brands, and high-quality image URLs. Features brand-specific targeting and customizable scraping depth for efficient data collection.</p>
-            <p><strong>Input:</strong> Edel Optics URLs with configurable parameters for concurrent processing and retry settings. Supports brand-specific product page targeting.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive product details and high-resolution image URLs. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/apify-edel-optics-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Edel Optics Scraper
-            </a>
-        </div>
-        
-        
-        
-        <!-- <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/zillow.png" alt="Zillow Icon">
-            </div>
-            <h2>Zillow Property Scraper</h2>
-            <p><strong>Description:</strong> Unlock the power of real estate data with a scraper that extracts detailed property listings from Zillow.com for analysis, market research, and investment strategies.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Scrape property details, pricing, and location-based data from Zillow with customizable input and depth options, supporting large-scale data extraction.</p>
-            <p><strong>Input:</strong> Zillow search URLs for cities or regions, options to include property details, and settings for concurrency.</p>
-            <p><strong>Output:</strong> Detailed property data including address, price, number of bedrooms and bathrooms, and listing status.</p>
-            <a href="https://apify.com/memo23/zillow-cheerio-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Zillow Scraper
-            </a>
-        </div> -->
-        
-        <!-- <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/glassdoor.png" alt="Glassdoor Icon">
-            </div>
-            <h2>Glassdoor Reviews Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed employee reviews from Glassdoor. Gather comprehensive insights including ratings, comments, and company responses to inform your HR strategies and market research.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Company-specific review scraping, detailed review data extraction, multilingual support, and customizable scraping settings.</p>
-            <p><strong>Input:</strong> Glassdoor company review URLs, cookies, proxy settings.</p>
-            <p><strong>Output:</strong> Review ratings, titles, pros, cons, author details, and company responses.</p>
-            <a href="https://apify.com/memo23/apify-glassdoor-reviews-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Glassdoor Reviews Scraper
-            </a>
-        </div> -->
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/ebay2.png" alt="eBay Icon">
-            </div>
-            <h2>eBay Search Results and Listing Details Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed product information from eBay search results and listing pages. Perfect for market analysis, competitive research, and data collection.</p>
-            <p><strong>Technology:</strong> Crawlee, Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes data like product titles, prices, seller information, shipping details, and more from eBay's search and product detail pages.</p>
-            <p><strong>Input:</strong> Start URLs for eBay search results or product categories, with proxy support for large-scale scraping.</p>
-            <p><strong>Output:</strong> Provides structured data including product details, pricing, condition, seller metrics, and item specifics.</p>
-            <a href="https://apify.com/memo23/apify-ebay-search-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                eBay Scraper
-            </a>
-        </div>
-
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/twitter.jpg" alt="Twitter Icon">
-            </div>
-            <h2>Twitter (X) Profiles and Tweets Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed data from Twitter profiles and tweets, including profile information, engagement metrics, and tweet metadata for comprehensive analysis.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports input formats like usernames, profile URLs, and Instagram cross-platform profiles. Configurable concurrency for efficient data extraction.</p>
-            <p><strong>Input:</strong> Twitter profile URLs, usernames, or Instagram profile URLs for cross-platform scraping.</p>
-            <p><strong>Output:</strong> Extracts user information, tweet content, engagement stats, and more.</p>
-            <a href="https://apify.com/memo23/apify-twitter-profile-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Twitter Scraper
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/zalando.png" alt="Zalando Icon">
-            </div>
-            <h2>Zalando Product Scraper</h2>
-            <p><strong>Description:</strong> Unleash the full potential of Zalando data with a powerful scraper designed to extract comprehensive product details for market analysis, competitive research, and business intelligence.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Scrape product details, prices, sizes, and images from category and search result pages on Zalando with adjustable scraping parameters and proxy support.</p>
-            <p><strong>Input:</strong> Category or search result URLs from Zalando, with options to set maximum items, concurrency, and retry attempts.</p>
-            <p><strong>Output:</strong> Detailed product information, including product name, price, size availability, images, and stock status.</p>
-            <a href="https://apify.com/memo23/zalando-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Zalando Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/edjoin.jpeg" alt="Edjoin Icon">
-            </div>
-            <h2>Edjoin Job Listings Scraper</h2>
-            <p><strong>Description:</strong> Unlock detailed insights from educational job listings by extracting comprehensive job information from Edjoin.org. Ideal for job seekers, educational recruiters, and researchers looking for job market insights in the education sector.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping job titles, locations, salary, and application details with customizable search parameters and automatic pagination.</p>
-            <p><strong>Input:</strong> Edjoin search URL with your desired parameters, concurrency settings, and retry attempts.</p>
-            <p><strong>Output:</strong> Job listing details, including job title, district, location, salary, application deadline, and contact information.</p>
-            <a href="https://apify.com/memo23/apify-edjoin-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Edjoin Job Listings Scraper
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/instagram.png" alt="Instagram Icon">
-            </div>
-            <h2>Instagram Profile Scraper</h2>
-            <p><strong>Description:</strong> Unlock detailed insights from Instagram profiles by extracting user details, engagement metrics, and post data. Ideal for social media marketers, researchers, and analysts looking to gather insights from Instagram profiles.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping profile information, user engagement metrics, and post data, with options to include or exclude post details.</p>
-            <p><strong>Input:</strong> Instagram profile URLs or usernames, include posts flag, concurrency settings, and retry attempts.</p>
-            <p><strong>Output:</strong> Profile details (username, biography, follower count), post details (titles, engagement metrics), and account features (verification status, privacy).</p>
-            <a href="https://apify.com/memo23/apify-instagram-profile-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Instagram Profile Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/skool.png" alt="Skool Icon">
-            </div>
-            <h2>Skool Posts with Comments Scraper</h2>
-            <p><strong>Description:</strong> Unlock valuable insights from Skool.com discussions by extracting comprehensive post data and nested comments. Ideal for community analysis and content strategy optimization.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping detailed post information, user details, and nested comments from specific Skool.com community URLs.</p>
-            <p><strong>Input:</strong> Skool community URLs, include comments flag, maximum items to scrape, concurrency settings, and retry attempts.</p>
-            <p><strong>Output:</strong> Post title, content, user details, comment threads, engagement metrics (e.g., upvotes, comment counts).</p>
-            <a href="https://apify.com/memo23/skool-posts-with-comments-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Skool Community (Tab) with Comments Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/skool.png" alt="Skool.com Icon">
-            </div>
-            <h2>Skool.com Members/Users Scraper</h2>
-            <p><strong>Description:</strong> Scrapes user details from Skool.com groups, including names, emails, and social media links.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple page URLs, requires authentication, and customizable settings.</p>
-            <p><strong>Input:</strong> Skool.com group member URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> User details such as names, emails, and links to social media profiles.</p>
-            <a href="https://apify.com/memo23/skool-members-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Skool.com Members/Users Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/smartglasses.png" alt="Smartbuyglasses Icon">
-            </div>
-            <h2>Smartbuyglasses Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed product information from Smartbuyglasses.com, including product names, colors, materials, and frame details. Ideal for e-commerce analysis, market research, and comparisons in the eyewear industry.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping all products from a specified brand, capturing frame and lens specifications, pricing, image URLs, and compatibility data.</p>
-            <p><strong>Input:</strong> Brand page URLs from Smartbuyglasses.com, proxy settings, maximum items to scrape, concurrency settings, and retries.</p>
-            <p><strong>Output:</strong> Product name, frame color, material, shape, lens details, price, image URLs, prescription compatibility, and more.</p>
-            <a href="https://apify.com/memo23/apify-smartbuyglasses-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Smartbuyglasses Scraper
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/youtube.png" alt="YouTube Icon">
-            </div>
-            <h2>YouTube Channel Videos Details Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed information about all videos from a specific YouTube channel, including titles, descriptions, view counts, publication dates, and more. Perfect for analyzing channel performance, video trends, and content strategies.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping all videos from a specified YouTube channel, capturing comprehensive video metadata, engagement metrics, and rich media assets such as thumbnails.</p>
-            <p><strong>Input:</strong> YouTube channel video URLs, proxy settings, maximum items to scrape, concurrency settings, and retries.</p>
-            <p><strong>Output:</strong> Video ID, title, description snippet, publication date, view count, duration, thumbnails, and other engagement data.</p>
-            <a href="https://apify.com/memo23/youtube-channel-video-details-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                YouTube Channel Videos Details Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/youtube.png" alt="YouTube Icon">
-            </div>
-            <h2>YouTube Video Details Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed metadata and engagement metrics from YouTube videos, including video title, description, view count, keywords, thumbnail URLs, and more. Ideal for content creators, marketers, and researchers looking to analyze video performance and metadata.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping YouTube video URLs to provide comprehensive video and channel data, along with engagement statistics.</p>
-            <p><strong>Input:</strong> YouTube video URLs, proxy settings, concurrency settings, and retries.</p>
-            <p><strong>Output:</strong> Video title, description, duration, tags, view count, author information, and thumbnail URLs.</p>
-            <a href="https://apify.com/memo23/youtube-video-details-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                YouTube Video Details Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/youtube.png" alt="YouTube Icon">
-            </div>
-            <h2>YouTube Search Results Scraper</h2>
-            <p><strong>Description:</strong> Extract valuable search results data from YouTube, including video titles, thumbnails, channel information, and engagement metrics. Ideal for content creators, marketers, and researchers seeking to analyze trends or discover new content opportunities.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping both YouTube search URLs and keywords, provides detailed video and channel data, and captures engagement metrics such as views and durations.</p>
-            <p><strong>Input:</strong> YouTube search URLs or keywords, proxy settings, max items, and concurrency configurations.</p>
-            <p><strong>Output:</strong> Video titles, thumbnails, channel information, view counts, video durations, and additional statistics.</p>
-            <a href="https://apify.com/memo23/youtube-search-results-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                YouTube Search Results Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/youtube.png" alt="YouTube Icon">
-            </div>
-            <h2>YouTube Comments Scraper</h2>
-            <p><strong>Description:</strong> Extract comprehensive comment data from YouTube videos, including author details, engagement metrics, and replies. Ideal for content creators, marketers, and researchers seeking to analyze audience engagement.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping single or multiple videos, provides detailed comment data, and captures engagement metrics (votes, replies) along with author information.</p>
-            <p><strong>Input:</strong> YouTube video URLs, proxy settings, max items, and concurrency configurations.</p>
-            <p><strong>Output:</strong> Comment text, author information, engagement stats (likes, replies), and timestamps for published comments.</p>
-            <a href="https://apify.com/memo23/youtube-comments-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                YouTube Comments Scraper (with replies)
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/ziprecruiter.jpg" alt="ZipRecruiter Icon">
-            </div>
-            <h2>ZipRecruiter Scraper</h2>
-            <p><strong>Description:</strong> Extract comprehensive job listing data from ZipRecruiter including titles, company details, locations, salary, job descriptions, and more.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping multiple search URLs, gathers detailed job data across categories and industries, handles proxy configurations to avoid IP blocks.</p>
-            <p><strong>Input:</strong> ZipRecruiter search URLs, proxy settings, maxItems, and concurrency configurations.</p>
-            <p><strong>Output:</strong> Job titles, company names, salaries, locations, job descriptions, and links for applying to jobs.</p>
-            <a href="https://apify.com/memo23/apify-ziprecruiter-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                ZipRecruiter.com Job Listings Scraper
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/crexi.png" alt="Crexi Icon">
-            </div>
-            <h2>Crexi.com Property Listings Scraper</h2>
-            <p><strong>Description:</strong> Scrapes property listings from Crexi.com, extracting key details such as property name, description, asking price, location, property type, broker information, and metadata.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search URLs from Crexi.com and customizable scraping settings.</p>
-            <p><strong>Input:</strong> Crexi property listing URLs.</p>
-            <p><strong>Output:</strong> Property name, description, asking price, location, property type, broker information, and metadata such as media files, status, and opportunity zone details.</p>
-            <a href="https://apify.com/memo23/apify-crexi">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Crexi.com Property Listings Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/chronext.png" alt="Chronext Icon">
-            </div>
-            <h2>Chronext.de Scraper</h2>
-            <p><strong>Description:</strong> Scrapes detailed watch data from the Chronext website, including specifications, pricing, and availability.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports scraping multiple pages of watch listings with configurable concurrency settings and pagination handling.</p>
-            <p><strong>Input:</strong> Chronext watch listing URLs.</p>
-            <p><strong>Output:</strong> Watch name, price, SKU, condition, specifications (such as model, brand, diameter, etc.), images, and availability status.</p>
-            <a href="https://apify.com/memo23/apify-crexi">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Chronext Scraper
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/nofluffjobs.png" alt="NoFluffJobs Icon">
-            </div>
-            <h2>NoFluffJobs.com Job Listings Scraper</h2>
-            <p><strong>Description:</strong> Scrapes job listings from NoFluffJobs.com, extracting comprehensive details such as job title, company information, salary, location, required skills, benefits, and more. The scraper supports multiple regional versions (Poland, Hungary, Czech Republic, Slovakia, and Netherlands) for a complete view of job opportunities.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Supports cross-region job searches, detailed job information extraction, and multilingual support.</p>
-            <p><strong>Input:</strong> NoFluffJobs search URLs.</p>
-            <p><strong>Output:</strong> Job title, company details, salary, location, required skills, benefits, recruitment process, and various other metadata.</p>
-            <a href="https://apify.com/memo23/apify-nofluffjobs-cheerio-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                NoFluffJobs Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/tiktok.png" alt="TikTok Icon">
-            </div>
-            <h2>TikTok Profile Videos Scraper</h2>
-            <p><strong>Description:</strong> Unleash the power of TikTok data with our advanced Profile Videos Scraper. Effortlessly extract comprehensive video information from any TikTok profile, providing you with rich insights for content analysis, trend tracking, and more.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Profile-specific scraping, comprehensive video data extraction, customizable scraping settings, and proxy support.</p>
-            <p><strong>Input:</strong> TikTok profile URLs, cookies, proxy settings.</p>
-            <p><strong>Output:</strong> Detailed video information including metadata, engagement stats, audio details, and more.</p>
-            <a href="https://apify.com/memo23/apify-tiktok-profile-videos-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                TikTok Profile Videos Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/tiktok.png" alt="TikTok Icon">
-            </div>
-            <h2>TikTok Transcript Extractor Scraper</h2>
-            <p><strong>Description:</strong> Specialized tool for extracting and converting TikTok video captions into WebVTT format. Perfect for content creators, accessibility specialists, and researchers needing structured video transcripts.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, WebVTT Format Conversion, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Automatically extracts captions from TikTok videos and converts them to WebVTT format with precise timestamps. Features configurable concurrency settings and robust retry mechanisms for reliable extraction.</p>
-            <p><strong>Input:</strong> TikTok video URLs with customizable parameters for concurrent processing and proxy configuration. Supports batch processing of multiple video URLs.</p>
-            <p><strong>Output:</strong> Structured WebVTT format transcripts including timestamps and synchronized text. Ready for use in subtitle systems or content analysis.</p>
-            <a href="https://apify.com/memo23/tiktok-transcript-extractor-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                TikTok Transcript Scraper
-            </a>
-        </div>
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/indeed.png" alt="Ultimate Indeed Scraper Icon">
-            </div>
-            <h2>Indeed Scraper Browser Automation</h2>
-            <p><strong>Description:</strong> Bypasses protections to extract job listings from Indeed, including job titles, company names, locations, salary estimates, and job descriptions.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search queries and customizable settings.</p>
-            <p><strong>Input:</strong> Indeed job listing URLs.</p>
-            <p><strong>Output:</strong> Job titles, company names, locations, salary estimates, job descriptions, application links, company information, and metadata.</p>
-            <a href="https://apify.com/memo23/apify-indeed">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Indeed Scraper Browser Automation
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/indeed.png" alt="Indeed Icon">
-            </div>
-            <h2>Fast Indeed Jobs Scraper (Cheerio cralwer without browser automation)</h2>
-            <p><strong>Description:</strong> Allows you to scrape job listings from Indeed.com and retrieve important details such as job title, company name, location, salary information, job description and etc.</p>
-            <p><strong>Technology:</strong> Crawlee, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search URLs, customizable parameters, location-based search, metadata extraction, and application details extraction.</p>
-            <p><strong>Input:</strong> Indeed job search URLs with filters such as job title, company name, and location.</p>
-            <p><strong>Output:</strong> Detailed job information, posting details, company information, salary information, job description, application details, job attributes, location information, search and tracking information and etc</p>
-<!--            user interaction data, technical details, ranking scores, additional metadata, links and URLs, taxonomy attributes, job info model details, miscellaneous data, and more links.-->
-            <a href="https://apify.com/memo23/apify-indeed-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Fast Indeed Jobs Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/indeed.png" alt="Indeed Review Icon">
-            </div>
-            <h2>Indeed Review Scraper</h2>
-            <p><strong>Description:</strong> Scrapes reviews from Indeed, collecting details like review titles, descriptions, ratings, dates, locations, author job titles, and pros and cons.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search queries and customizable settings.</p>
-            <p><strong>Input:</strong> Indeed review URLs and optional parameters like max number of reviews and max date.</p>
-            <p><strong>Output:</strong> Review titles, descriptions, ratings, dates, locations, author job titles, review URLs, pros and cons, and comments.</p>
-            <a href="https://apify.com/memo23/apify-indeed-reviews">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Indeed Review Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/linkedin.png" alt="LinkedIn Icon">
-            </div>
-            <h2>LinkedIn Company People Scraper</h2>
-            <p><strong>Description:</strong> Extracts employee information from LinkedIn company pages, including names, positions, profile images, and LinkedIn profile URLs.</p>
-            <p><strong>Technology:</strong>  Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple page URLs, requires authentication, and customizable settings.</p>
-            <p><strong>Input:</strong> LinkedIn company URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> Names, positions, profile images, LinkedIn profile URLs, and associated company names.</p>
-            <a href="https://apify.com/memo23/linkedin-company-people-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                LinkedIn Company People Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/linkedin.png" alt="LinkedIn Icon">
-            </div>
-            <h2>LinkedIn Search Results Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting job listings from LinkedIn. Perfect for recruiters, job seekers, and market researchers seeking comprehensive job market data and insights.</p>
-            <p><strong>Technology:</strong> Apify, Job Market Analytics, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts detailed job information including titles, companies, locations, and application insights. Features keyword-based searching and customizable scraping parameters for targeted data collection.</p>
-            <p><strong>Input:</strong> Keywords and location parameters with configurable settings for concurrent processing and delay times. Supports multiple search criteria and locations.</p>
-            <p><strong>Output:</strong> Structured JSON data including comprehensive job details, company information, and application statistics. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/apify-linkedin-search-results-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                LinkedIn Search Results Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/clutch.png" alt="Clutch.co Icon">
-            </div>
-            <h2>Clutch.co Scraper</h2>
-            <p><strong>Description:</strong> Scrapes comprehensive company details from Clutch.co, including client reviews, project portfolios, verification statuses, and geographical locations.</p>
-            <p><strong>Technology:</strong> Crawlee, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search queries, scrapes category lists, and collects detailed company information.</p>
-            <p><strong>Input:</strong> Clutch.co category list URLs.</p>
-            <p><strong>Output:</strong> Company names, reviews, ratings, locations, websites, and other detailed information.</p>
-            <a href="https://apify.com/memo23/apify-clutch-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Clutch.co Comprehensive Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/quora.png" alt="Quora Icon">
-            </div>
-            <h2>Quora Scraper</h2>
-            <p><strong>Description:</strong> Scrapes data from Quora, including questions, answers, and user profiles.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search queries and authentication for enhanced data access.</p>
-            <p><strong>Input:</strong> Quora search URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> Titles, details, and metadata of questions, number of answers, author information, and user profiles.</p>
-            <a href="https://apify.com/memo23/quora-scraper-with-optional-login">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Quora Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/facebook.png" alt="Facebook Groups Icon">
-            </div>
-            <h2>Facebook Search Results Groups Scraper</h2>
-            <p><strong>Description:</strong> Scrapes Facebook groups, collecting details like group names, descriptions, privacy status, member counts, activity, and URLs.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search queries and customizable configurations.</p>
-            <p><strong>Input:</strong> Facebook group search URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> Group names, descriptions, privacy status, member counts, activity, and URLs.</p>
-            <a href="https://apify.com/memo23/facebook-search-groups-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Facebook Groups Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/facebook.png" alt="Facebook Icon">
-            </div>
-            <h2>Facebook Group Posts and Details Scraper</h2>
-            <p><strong>Description:</strong> Advanced tool for extracting comprehensive data from Facebook groups including post content, author information, engagement metrics, and interaction data, perfect for social media analysis and community research.</p>
-            <p><strong>Technology:</strong> Apify, Cookie Authentication, Puppeteer</p>
-            <p><strong>Functionality:</strong> Extracts post content, author details, engagement metrics (likes, comments, shares), and post metadata from both public and private Facebook groups. Features configurable delays and proxy support for reliable data collection.</p>
-            <p><strong>Input:</strong> Facebook group URLs, authentication cookies, customizable parameters for post limits, date ranges, and proxy settings via simple JSON configuration.</p>
-            <p><strong>Output:</strong> Structured data including post IDs, content, author information, profile URLs, and engagement metrics, available in multiple formats (JSON, CSV, Excel).</p>
-            <a href="https://apify.com/memo23/apify-facebook-group-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Facebook Group Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/facebook.png" alt="Facebook Pages Icon">
-            </div>
-            <h2>Facebook Search Results Pages Scraper</h2>
-            <p><strong>Description:</strong> Scrapes Facebook pages, collecting details like page names, descriptions, photos, tags, reviews, and URLs.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search queries and customizable configurations.</p>
-            <p><strong>Input:</strong> Facebook page search URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> Page names, descriptions, photos, tags, reviews, price range, location, hours open, followers, and URLs.</p>
-            <a href="https://apify.com/memo23/apify-facebook-page-search-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Facebook Search Pages Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/facebook.png" alt="Facebook Page Contact Icon">
-            </div>
-            <h2>Facebook Profile/Bio/Contact Detail Scraper</h2>
-            <p><strong>Description:</strong> Scrapes profile details from Facebook profiles.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Collects addresses, categories, emails, mobile numbers, likes, websites, ratings, hours open, check-ins, phone information, and social platform links.</p>
-            <p><strong>Input:</strong> Facebook profile URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> Contact details such as addresses, emails, phone numbers, websites, ratings and etc.</p>
-            <a href="https://apify.com/memo23/facebook-pages-and-contacts-scraper" class="non-clickable">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Facebook Page Contact Detail Scraper [Private for now]
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/facebook.png" alt="Facebook Page Contact Icon">
-            </div>
-            <h2>Facebook Page Contact Detail Scraper</h2>
-            <p><strong>Description:</strong> Scrapes contact details from Facebook pages, including addresses, categories, emails, and phone information.</p>
-            <p><strong>Technology:</strong> Apify</p>
-            <p><strong>Functionality:</strong> Collects addresses, categories, emails, mobile numbers, likes, websites, ratings, hours open, check-ins, phone information, and social platform links.</p>
-            <p><strong>Input:</strong> Facebook page URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> Contact details such as addresses, emails, phone numbers, websites, ratings, and hours open.</p>
-            <a href="https://apify.com/memo23/facebook-page-contact-detail-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Facebook Page Contact Detail Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/facebook.png" alt="Facebook Icon">
-            </div>
-            <h2>Facebook Search and Page Details Scraper</h2>
-            <p><strong>Description:</strong> Scrapes Facebook pages from search results and retrieves important details such as page name, description, photo URL, verification status, tags or categories, reviews, price range, location, hours of operation, number of followers, page slug, and page link.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search URLs, authentication via cookies, location-based search, detailed page information extraction, customizable parameters, and proxy configuration.</p>
-            <p><strong>Input:</strong> Facebook search URLs and cookies for authentication.</p>
-            <p><strong>Output:</strong> Page name, description, photo URL, verification status, tags or categories, reviews, price range, location, hours of operation, number of followers, page slug, and page link.</p>
-            <a href="https://apify.com/memo23/facebook-pages-and-contacts-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Facebook Search and Page Details Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/cicek.png" alt="ÇiçekSepeti Icon">
-            </div>
-            <h2>Çiçek(Sepeti) Collection Scraper</h2>
-            <p><strong>Description:</strong> Scrapes various product collections/categories from ÇiçekSepeti, including jewelry models, flower arrangements, gift items, and more.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Allows input of specific URLs for targeted scraping and configurable to scrape a maximum number of pages per category.</p>
-            <p><strong>Input:</strong> URLs of specific ÇiçekSepeti collections/categories and maximum pages to scrape.</p>
-            <p><strong>Output:</strong> Detailed product information including titles, prices, descriptions, image URLs, and product URLs.</p>
-            <a href="https://apify.com/memo23/cicek-apify">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Çiçek(Sepeti) Collection Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/Funda-1.png" alt="Funda.nl Icon">
-            </div>
-            <h2>Funda.nl Property Data Scraper</h2>
-            <p><strong>Description:</strong> Advanced scraping solution for extracting comprehensive property listings from Funda.nl, the Netherlands' leading real estate platform. Perfect for real estate professionals, market researchers, and analysts seeking detailed Dutch property market data.</p>
-            <p><strong>Technology:</strong> Apify, Crawlee, Proxy Integration</p>
-            <p><strong>Functionality:</strong> Extracts complete property information including prices, features, floor plans, and media assets. Features city-specific or nationwide data collection with deduplication and persistent storage capabilities.</p>
-            <p><strong>Input:</strong> City selection or all-cities option with customizable parameters for concurrent processing and proxy settings. Supports persistent data storage for deduplication.</p>
-            <p><strong>Output:</strong> Structured JSON data including detailed property information, high-resolution images, floor plans, and 360° photos. Available in multiple formats including JSON, CSV, and Excel.</p>
-            <a href="https://apify.com/memo23/funda-scraper">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Funda.nl Scraper
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/debijenkorf.png" alt="De Bijenkorf Icon">
-            </div>
-            <h2>DeBijenkorf.nl Scraper</h2>
-            <p><strong>Description:</strong> Extract detailed product information from DeBijenkorf.nl, including names, descriptions, pricing, stock availability, and related metadata.</p>
-            <p><strong>Technology:</strong> Apify, Cheerio</p>
-            <p><strong>Functionality:</strong> Scrapes product data from De Bijenkorf's luxury retail website, covering fashion, beauty, homeware, and more. Supports category pages, product listing pages, and filter-based URLs.</p>
-            <p><strong>Input:</strong> Category and product URLs, max concurrency settings, request retries, and proxy configurations.</p>
-            <p><strong>Output:</strong> Provides structured data with product details, pricing, availability, metadata, and related product recommendations.</p>
-            <a href="https://apify.com/memo23/apify-debijenkorf-cheerio">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                De Bijenkorf Scraper
-            </a>
-        </div>
-
-        <!-- Private ones -->
-        <!-- <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/facebook.png" alt="Facebook Group Icon">
-            </div>
-            <h2>Facebook Group Scraper</h2>
-            <p><strong>Description:</strong> Scrapes data from Facebook group details for lead generation.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Collects details like post text, post links, and email if available.</p>
-            <p><strong>Input:</strong> Facebook group URLs.</p>
-            <p><strong>Output:</strong> Post details including text and email.</p>
-            <a href="#" class="non-clickable">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Facebook Group Scraper [Private for now]
-            </a>
-        </div> -->
-        <!-- <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/linkedin.png" alt="LinkedIn Search Results Icon">
-            </div>
-            <h2>LinkedIn Search Results Scraper</h2>
-            <p><strong>Description:</strong> Scrapes LinkedIn search results for job postings, collecting job titles, descriptions, company details, and more.</p>
-            <p><strong>Technology:</strong> Crawlee, Apify</p>
-            <p><strong>Functionality:</strong> Supports multiple search queries and customizable settings.</p>
-            <p><strong>Input:</strong> LinkedIn search URLs and optional parameters like keywords and location.</p>
-            <p><strong>Output:</strong> Job titles, descriptions, company details, seniority level, employment type, job function, industries, location, number of applicants, and more.</p>
-            <a href="#" class="non-clickable">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                LinkedIn Search Results Scraper [Private for now]
-            </a>
-        </div> -->
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/linkedin.png" alt="LinkedIn Sales Navigator Icon">
-            </div>
-            <h2>LinkedIn Sales Navigator Scraper</h2>
-            <p><strong>Description:</strong> Extracts data from LinkedIn Sales Navigator for lead generation, including Account IQ section data.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Scrapes detailed company data like names, titles, company information, and strategic priorities.</p>
-            <p><strong>Input:</strong> Sales Navigator URL or LinkedIn company ID.</p>
-            <p><strong>Output:</strong> Account IQ data, including how the company makes money, strategic priorities, business challenges, competitive landscape, headcount insights, growth rates, and related news.</p>
-            <a href="#"  class="non-clickable">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                LinkedIn Sales Navigator Scraper [Private for now]
-            </a>
-        </div>
-
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/fashionnova.webp" alt="Shopify Fashionnova Icon">
-            </div>
-            <h2>Shopify Fashionnova Scraper</h2>
-            <p><strong>Description:</strong> Scrapes product details from Fashionnova, including product title, description, images, prices, and variants.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify</p>
-            <p><strong>Functionality:</strong> Allows input of specific product collection URLs for targeted scraping and configurable to scrape a maximum number of items.</p>
-            <p><strong>Input:</strong> URLs of specific Fashionnova product collections and maximum items to scrape.</p>
-            <p><strong>Output:</strong> Detailed product information including URL, ID, title, description, product type, images, brand, category, options, and variants.</p>
-            <a href="#"  class="non-clickable">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07-.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Fashionnova Scraper [Private for now]
-            </a>
-        </div>
-        
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/t5ear.png" alt="T5ear Scraper Icon">
-            </div>
-            <h2>T5ear Scraper</h2>
-            <p><strong>Description:</strong> Scrapes product reviews from T5ear, collecting details like review ID, customer ID, product ID, order ID, rating, review text, admin response, and timestamps.</p>
-            <p><strong>Technology:</strong> Crawlee, Cheerio, Apify</p>
-            <p><strong>Functionality:</strong> Allows input of specific product review URLs for targeted scraping and configurable to scrape a maximum number of reviews.</p>
-            <p><strong>Input:</strong> URLs of specific T5ear product reviews and maximum items to scrape.</p>
-            <p><strong>Output:</strong> Detailed review information including review ID, customer ID, product ID, order ID, rating, review text, admin response, timestamps, and customer details.</p>
-            <a href="#" class="non-clickable">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07-.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                T5ear Scraper [Private for now]
-            </a>
-        </div>
-        <div class="scraper-card">
-            <div class="icon">
-                <img src="/assets/amazon.png" alt="Amazon Icon">
-            </div>
-            <h2>Amazon Scraper</h2>
-            <p><strong>Description:</strong> Scrapes product details from Amazon, including titles, ASINs, prices, ratings, reviews, and offers from different sellers.</p>
-            <p><strong>Technology:</strong> Crawlee, Puppeteer, Apify, Captcha Solver(Capsolver)</p>
-            <p><strong>Functionality:</strong> Supports multiple product URLs and customizable scraping settings.</p>
-            <p><strong>Input:</strong> Amazon product URLs.</p>
-            <p><strong>Output:</strong> Product titles, ASINs, prices, ratings, reviews, and offers from different sellers.</p>
-            <a href="#" class="non-clickable">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="link-icon">
-                    <path d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z" fill="currentColor"></path>
-                </svg>
-                Amazon Scraper [Private for now]
-            </a>
-        </div>
-
-
-    </section>
+  <!-- Card grid ---------------------------------------------- -->
+  <div class="grid-wrap">
+    <div class="grid" id="grid" aria-live="polite"></div>
+    <p class="empty" id="empty" hidden>No scrapers match your search.</p>
+  </div>
 
 </main>
-<!--<footer>-->
-<!--    <div class="newsletter">-->
-<!--        <h2>Sign up for my email list</h2>-->
-<!--        <form>-->
-<!--            <input type="email" placeholder="Enter your email">-->
-<!--            <button type="submit">Sign Up</button>-->
-<!--        </form>-->
-<!--    </div>-->
-<!--</footer>-->
+
+<!-- Footer -------------------------------------------------- -->
+<footer class="site">
+  <h2>Need a scraper that's not on the list?</h2>
+  <p>Most of my work is private. Tell me what data you need and I'll quote a custom build.<br/>
+     <a href="mailto:muhamed.didovic@gmail.com">muhamed.didovic@gmail.com</a></p>
+  <div class="links">
+    <a href="https://apify.com/memo23" target="_blank" rel="noopener">Apify</a>
+    <a href="https://github.com/muhamed-didovic" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://linkedin.com/in/muhamed-didovic-24935434" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="projects.html">Resume</a>
+  </div>
+</footer>
+
+<!-- Render script ------------------------------------------- -->
+<script>
+(() => {
+  const grid    = document.getElementById('grid');
+  const empty   = document.getElementById('empty');
+  const search  = document.getElementById('search');
+  const searchClear = document.getElementById('search-clear');
+  const searchKbd   = document.querySelector('.search-kbd');
+  const chips   = document.querySelectorAll('.chip');
+  const statTotal  = document.getElementById('stat-total');
+  const statPublic = document.getElementById('stat-public');
+  const statCats   = document.getElementById('stat-cats');
+
+  let data = [];
+  let activeCat = 'all';
+  let q = '';
+
+  // Pill class lookup ----
+  const pillClass = (t) => {
+    const k = t.toLowerCase().replace(/[^a-z]/g, '');
+    if (k === 'apify')      return 'pill pill--apify';
+    if (k === 'cheerio')    return 'pill pill--cheerio';
+    if (k === 'crawlee')    return 'pill pill--crawlee';
+    if (k === 'puppeteer')  return 'pill pill--puppeteer';
+    if (k === 'playwright') return 'pill pill--playwright';
+    if (k === 'nodejs')     return 'pill pill--node';
+    if (k === 'capsolver')  return 'pill pill--capsolver';
+    if (k === 'mapbased')   return 'pill pill--map';
+    return 'pill';
+  };
+
+  const escape = (s) => String(s).replace(/[&<>"']/g, m => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[m]));
+
+  const cardHTML = (s) => {
+    const techHTML = s.tech.map(t =>
+      `<li class="${pillClass(t)}">${escape(t)}</li>`
+    ).join('');
+
+    const outputsHTML = s.outputs && s.outputs.length
+      ? `<p class="outputs"><strong>Returns:</strong>${escape(s.outputs.join(' · '))}</p>`
+      : '';
+
+    const thumbSrc = s.thumb
+      ? (/^https?:/.test(s.thumb) ? s.thumb : `assets/thumbs/${s.thumb}`)
+      : null;
+    const thumbHTML = thumbSrc
+      ? `<div class="thumb"><img loading="lazy" decoding="async" src="${escape(thumbSrc)}" alt=""></div>`
+      : '';
+
+    const badge = s.status === 'public'
+      ? `<span class="badge badge--public"><span class="dot"></span>Public</span>`
+      : `<span class="badge badge--private"><span class="dot"></span>Private</span>`;
+
+    const cta = s.status === 'public' && s.link
+      ? `<a class="cta" href="${escape(s.link)}" target="_blank" rel="noopener">
+           <svg><use href="#i-link"/></svg> View on Apify
+         </a>`
+      : `<span class="cta cta--disabled">
+           <svg><use href="#i-mail"/></svg> Private — email me
+         </span>`;
+
+    const iconSrc = s.icon
+      ? (/^https?:/.test(s.icon) ? s.icon : `assets/${s.icon}`)
+      : null;
+    const iconHTML = iconSrc
+      ? `<div class="icon"><img loading="lazy" decoding="async" src="${escape(iconSrc)}" alt=""></div>`
+      : `<div class="icon icon--letter">${escape((s.title || '?').trim().charAt(0).toUpperCase())}</div>`;
+
+    return `
+      <article class="card" data-cat="${escape(s.category)}" id="${escape(s.id)}">
+        ${thumbHTML}
+        ${badge}
+        <header class="card__head">
+          ${iconHTML}
+          <h2>${escape(s.title)}</h2>
+        </header>
+        <p class="summary">${escape(s.summary)}</p>
+        <ul class="pills">${techHTML}</ul>
+        ${outputsHTML}
+        ${cta}
+      </article>
+    `;
+  };
+
+  const haystack = (s) => (
+    s.title + ' ' + s.summary + ' ' + s.category + ' ' +
+    s.tech.join(' ') + ' ' + (s.outputs || []).join(' ')
+  ).toLowerCase();
+
+  const render = () => {
+    const filtered = data.filter(s =>
+      (activeCat === 'all' || s.category === activeCat) &&
+      (!q || haystack(s).includes(q))
+    );
+    grid.innerHTML = filtered.map(cardHTML).join('');
+    empty.hidden = filtered.length > 0;
+  };
+
+  const updateChipCounts = () => {
+    chips.forEach(chip => {
+      const cat = chip.dataset.cat;
+      const n = cat === 'all' ? data.length : data.filter(s => s.category === cat).length;
+      // append a count node if none exists
+      let countEl = chip.querySelector('.count');
+      if (!countEl) {
+        countEl = document.createElement('span');
+        countEl.className = 'count';
+        chip.appendChild(countEl);
+      }
+      countEl.textContent = n;
+    });
+  };
+
+  fetch('scrapers.json')
+    .then(r => r.json())
+    .then(d => {
+      data = d;
+      statTotal.textContent  = d.length;
+      statPublic.textContent = d.filter(s => s.status === 'public').length;
+      statCats.textContent   = new Set(d.map(s => s.category)).size;
+      updateChipCounts();
+      render();
+    })
+    .catch(err => {
+      console.error('Failed to load scrapers.json', err);
+      empty.textContent = 'Could not load scraper data.';
+      empty.hidden = false;
+    });
+
+  const updateSearchUI = () => {
+    const hasText = search.value.length > 0;
+    searchClear.hidden = !hasText;
+    if (searchKbd) searchKbd.hidden = hasText;
+  };
+
+  search.addEventListener('input', e => {
+    q = e.target.value.trim().toLowerCase();
+    render();
+    updateSearchUI();
+  });
+
+  searchClear.addEventListener('click', () => {
+    search.value = '';
+    q = '';
+    render();
+    updateSearchUI();
+    search.focus();
+  });
+
+  // Keyboard: "/" focuses search, Escape clears
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && !/^(input|textarea|select)$/i.test(e.target.tagName)) {
+      e.preventDefault();
+      search.focus();
+      search.select();
+    } else if (e.key === 'Escape' && document.activeElement === search) {
+      search.value = '';
+      q = '';
+      render();
+      updateSearchUI();
+      search.blur();
+    }
+  });
+
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    chips.forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    activeCat = chip.dataset.cat;
+    render();
+  }));
+})();
+</script>
 </body>
 </html>
