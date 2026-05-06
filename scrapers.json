@@ -30,7 +30,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Apartmentfinder.com.",
     "outputs": [
       "location",
       "contact",
@@ -152,6 +152,26 @@
     "status": "public"
   },
   {
+    "id": "comparis-ch-scraper",
+    "title": "Comparis.ch",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-i1wvsthSBEAlT0xzp-DzEhicpcpu-comparis2.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract detailed Swiss real estate and vehicle listings including pricing, specifications, images, and seller contact info.",
+    "outputs": [
+      "swiss real estate",
+      "specifications",
+      "images",
+      "seller contact info"
+    ],
+    "link": "https://apify.com/memo23/comparis-ch-scraper",
+    "status": "public"
+  },
+  {
     "id": "craigslist-scraper",
     "title": "Craigslist \u00b7 Search \u00b7 Details \u00b7 Email",
     "category": "real-estate",
@@ -236,6 +256,25 @@
     "status": "public"
   },
   {
+    "id": "property24-scraper",
+    "title": "Fast Property24 \u00b7 Search \u00b7 Property \u00b7 Scraper (Richest output)",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-L0FBskQdtIJdnZTg6-faJPnQR4aa-property24.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract comprehensive South African property data including detailed listings, agent info, high-res images, and market trends.",
+    "outputs": [
+      "agent info",
+      "high-res images",
+      "market trends"
+    ],
+    "link": "https://apify.com/memo23/property24-scraper",
+    "status": "public"
+  },
+  {
     "id": "forrent-com-scraper",
     "title": "ForRent.com",
     "category": "real-estate",
@@ -267,7 +306,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for ForRentUniversity.com.",
     "outputs": [
       "price",
       "amenities",
@@ -344,6 +383,27 @@
     "status": "public"
   },
   {
+    "id": "idealista-scraper-rental",
+    "title": "Idealista \u00b7 Spain \u00b7 Italy \u00b7 Portugal \u00b7 Richest Output \u00b7 Rental",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-EjrM4GrTgzhDCI2zY-yooBn6j8z8-idealista.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract comprehensive property data from Idealista.com: prices, locations, images, agent contacts, property features (rooms, bathrooms, amenities), detailed descriptions in multiple languages, and market insights.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "location",
+      "agent",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/idealista-scraper-rental",
+    "status": "public"
+  },
+  {
     "id": "idealista-scraper",
     "title": "Idealista \u00b7 \u00b7 Spain \u00b7 Italy \u00b7 Portugal",
     "category": "real-estate",
@@ -387,6 +447,28 @@
     "status": "public"
   },
   {
+    "id": "immobilienscout24-search-scraper-rental",
+    "title": "Immobilienscout24 (.de \u00b7 .ch \u00b7 .at) All-in-one",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-CPmCAlt1ld61i50ke-2Ihsbz8GZ6-immo.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Apify actor for Immobilienscout24 (.de \u00b7 .ch \u00b7 .at) All-in-one.",
+    "outputs": [
+      "size",
+      "rooms",
+      "location",
+      "high-res images",
+      "pricing insights",
+      "amenities balcony"
+    ],
+    "link": "https://apify.com/memo23/immobilienscout24-search-scraper-rental",
+    "status": "public"
+  },
+  {
     "id": "immobilienscout24-scraper",
     "title": "Immobilienscout24 (.de \u00b7 .ch \u00b7 .at) OnlySearch-Detail-Agent",
     "category": "real-estate",
@@ -396,7 +478,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Immobilienscout24 (.de \u00b7 .ch \u00b7 .at) OnlySearch-Detail-Agent.",
     "outputs": [
       "size",
       "rooms",
@@ -578,6 +660,25 @@
     "status": "public"
   },
   {
+    "id": "landwatch-scraper",
+    "title": "Landwatch.com \u00b7 Search \u00b7 Details \u00b7 Agent(s) Unlimited",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-PeEfaQ6dadt8aiXzd-Nb2b1WLJDX-lw.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The LandWatch Scraper is a tool for extracting property data from LandWatch.com. Ideal for real estate investors, market analysts, and property researchers, it tracks property details, pricing, and listing information.",
+    "outputs": [
+      "structured property",
+      "agent directory listings",
+      "agent profiles"
+    ],
+    "link": "https://apify.com/memo23/landwatch-scraper",
+    "status": "public"
+  },
+  {
     "id": "lennar-scraper",
     "title": "Lennar.com",
     "category": "real-estate",
@@ -608,7 +709,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "",
+    "summary": "Get instant, structured access to every detail on lokaleportalen.dk\u2014property specs, landlord info, images, prices, and more\u2014all delivered in clean JSON, ready for your business, analytics, or next big real estate move!",
     "outputs": [
       "price",
       "beds/baths",
@@ -682,6 +783,25 @@
       "agent"
     ],
     "link": "https://apify.com/memo23/properstar-leads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "propertyfinder-leads-scraper",
+    "title": "PropertyFinder \u00b7 Search \u00b7 Listing(s) \u00b7 Brokers \u00b7 All countries",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gAeFCToTd2UbRqBF9-Npfls2n4BJ-pf.jpeg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract 150+ data fields per listing including pricing, specs, amenities, agent/broker details, and high-res media across 11+ Property Finder domains.",
+    "outputs": [
+      "specs",
+      "amenities",
+      "agent/broker details"
+    ],
+    "link": "https://apify.com/memo23/propertyfinder-leads-scraper",
     "status": "public"
   },
   {
@@ -916,6 +1036,28 @@
     "status": "public"
   },
   {
+    "id": "apify-streeteasy-cheerio",
+    "title": "Streeteasy.com",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-78UWNeqywwtKfp5z6-MbR8J282nq-streeteasy.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Unlock the NYC real estate market with instant access to detailed property data, pricing trends, and neighborhood insights.",
+    "outputs": [
+      "address-based searches",
+      "individual-listing scraping",
+      "multi-page",
+      "building-level crawling",
+      "agent profile extraction",
+      "neighborhood"
+    ],
+    "link": "https://apify.com/memo23/apify-streeteasy-cheerio",
+    "status": "public"
+  },
+  {
     "id": "tollbrothers",
     "title": "Toll Brothers Luxury Homes",
     "category": "real-estate",
@@ -1118,7 +1260,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Zonaprop.com.ar API.",
     "outputs": [
       "price",
       "beds/baths",
@@ -1127,6 +1269,26 @@
       "images"
     ],
     "link": "https://apify.com/memo23/zonaprop-scraper",
+    "status": "public"
+  },
+  {
+    "id": "zoopla-cheerio-scraper",
+    "title": "ZOOPLA \u00b7 Buy \u00b7 Rent \u00b7 Sell \u00b7 House Price \u00b7 Agent \u00b7 UPRN",
+    "category": "real-estate",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-b7zVcmrwdrWRBIUsu-NbhNcfv57h-zoopla.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Your key to mastering UK real estate data. Get instant access to Zoopla's extensive property listings, complete with pricing, features, and agent details.",
+    "outputs": [
+      "for-sale search results",
+      "to-rent search results",
+      "estate agent directory pages",
+      "house-prices/sold-price pages"
+    ],
+    "link": "https://apify.com/memo23/zoopla-cheerio-scraper",
     "status": "public"
   },
   {
@@ -1168,6 +1330,48 @@
       "full comments"
     ],
     "link": "https://apify.com/memo23/careerbliss-scraper",
+    "status": "public"
+  },
+  {
+    "id": "edjoin-scraper",
+    "title": "Edjoin",
+    "category": "jobs",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/Tar9v1qiOIvzeFWVR/iDEDJ3buQ9f6goKUd-download.jpeg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Empower your recruitment process with data-driven insights. Our Edjoin Scraper transforms scattered job listings into a comprehensive talent acquisition strategy for schools and districts.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/edjoin-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apify-dice-scraper",
+    "title": "Fastest Dice.com Job(s) API \u00b7 Search by Url OR Filters/Keywords",
+    "category": "jobs",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xUPneOdhlxUKJjj1B-xcBfZdmoL4-dice.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract data from Dice.com including detailed job descriptions, company profiles, locations, salaries, and application details.",
+    "outputs": [
+      "job descriptions",
+      "company profiles",
+      "location",
+      "salary",
+      "application details"
+    ],
+    "link": "https://apify.com/memo23/apify-dice-scraper",
     "status": "public"
   },
   {
@@ -1222,7 +1426,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for GoWork Scraper (FR, DE & ES).",
     "outputs": [
       "title",
       "company",
@@ -1231,6 +1435,28 @@
       "description"
     ],
     "link": "https://apify.com/memo23/gowork-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apify-hiring-cafe-scraper-rental",
+    "title": "Hiring.Cafe Fastest Scraper (Rental)",
+    "category": "jobs",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-4aeD2BznlpF4rRpiZ-X0qrhH0Er0-hiringcafe.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Get job listings from hiring.cafe, including job titles, descriptions, requirements, company information, compensation details, and location data.",
+    "outputs": [
+      "job titles",
+      "description",
+      "requirements",
+      "company information",
+      "compensation details",
+      "location data"
+    ],
+    "link": "https://apify.com/memo23/apify-hiring-cafe-scraper-rental",
     "status": "public"
   },
   {
@@ -1351,7 +1577,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "",
+    "summary": "Apify actor for Indeed Jobs Scraper (Search by keywords).",
     "outputs": [
       "job titles",
       "price",
@@ -1477,7 +1703,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Collects Monster.com job data including IDs, titles, company metadata, salary ranges, employment types, posting dates, HTML descriptions, normalized locations, and apply URLs for recruitment analytics.",
     "outputs": [
       "ids",
       "title",
@@ -1499,7 +1725,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Scrape Naukri & Naukrigulf job listings with full details: jobIds, company data, work mode, education, salary brackets, experience ranges, locations, skills, and apply links\u2014ready for analytics pipelines.",
     "outputs": [
       "title",
       "company",
@@ -1520,7 +1746,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for NHS UK Jobs Scraper Richest Output.",
     "outputs": [
       "vacancy ids",
       "employer details",
@@ -1565,7 +1791,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Randstad.com Jobs.",
     "outputs": [
       "job titles",
       "description",
@@ -1587,7 +1813,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Randstad.com.au Jobs.",
     "outputs": [
       "title",
       "company",
@@ -1684,6 +1910,27 @@
     "status": "public"
   },
   {
+    "id": "upwork-jobs-scraper",
+    "title": "Upwork Search Job(s) Scraper (No Cookies) (Richest output)",
+    "category": "jobs",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ctt9I7mcOMd3d9Pkc-SWtUg5kre2-up.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract detailed Upwork job listings with our scraper. Get job descriptions, budgets, required skills, client history, and engagement terms in a structured format.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "description"
+    ],
+    "link": "https://apify.com/memo23/upwork-jobs-scraper",
+    "status": "public"
+  },
+  {
     "id": "werk-nl-cheerio",
     "title": "Werk.nl \u00b7 Search \u00b7 Detail",
     "category": "jobs",
@@ -1693,7 +1940,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "",
+    "summary": "Apify actor for Werk.nl \u00b7 Search \u00b7 Detail.",
     "outputs": [
       "job data including titles",
       "price",
@@ -1759,7 +2006,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Extracts Facebook comments with profile data (name, ID, avatar, URL), comment metadata (text, date, likes, replies), post context (title, URL), and threading info for posts, reels, photos, and group content.",
     "outputs": [
       "avatar",
       "url",
@@ -1810,6 +2057,27 @@
       "address"
     ],
     "link": "https://apify.com/memo23/facebook-page-contact-detail-scraper",
+    "status": "public"
+  },
+  {
+    "id": "apify-facebook-post-search-scraper",
+    "title": "Facebook Post Search",
+    "category": "social",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2rQEFezeV2BFpCjX2-70PM6fuSFB-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract and analyze public Facebook posts with detailed engagement metrics, author insights, and rich media data.",
+    "outputs": [
+      "author",
+      "content",
+      "engagement",
+      "date",
+      "url"
+    ],
+    "link": "https://apify.com/memo23/apify-facebook-post-search-scraper",
     "status": "public"
   },
   {
@@ -1906,7 +2174,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Instagram Post Comments & Replies.",
     "outputs": [
       "instagram comments",
       "verification status",
@@ -1960,6 +2228,27 @@
       "rich summaries"
     ],
     "link": "https://apify.com/memo23/linkedin-search-groups-scraper",
+    "status": "public"
+  },
+  {
+    "id": "loom-scraper",
+    "title": "Loom Video Download & Transcript Extractor",
+    "category": "social",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zmFTo4N9y4e63usIC-zIfDCfobye-loom.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Extract transcripts and metadata from public Loom videos. Delivers cleaned text, VTT, and SRT formats alongside title, creator, and duration details.",
+    "outputs": [
+      "author",
+      "content",
+      "engagement",
+      "date",
+      "url"
+    ],
+    "link": "https://apify.com/memo23/loom-scraper",
     "status": "public"
   },
   {
@@ -2048,6 +2337,28 @@
     "status": "public"
   },
   {
+    "id": "skool-members-scraper-rent",
+    "title": "Skool Members",
+    "category": "social",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/fQuUYLIpVzY2cD6C7/TVsk2iicQdTeAOtkB-skool.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Boost your business leads with our Skool.com Groups' Members/Users Scraper. Gather user details like names, emails, and social media links (Facebook, Instagram, LinkedIn, Twitter, etc.).",
+    "outputs": [
+      "user details like names",
+      "contact",
+      "social media links facebook",
+      "instagram",
+      "linkedin",
+      "twitter"
+    ],
+    "link": "https://apify.com/memo23/skool-members-scraper-rent",
+    "status": "public"
+  },
+  {
     "id": "skool-posts",
     "title": "Skool Posts with Comments",
     "category": "social",
@@ -2079,7 +2390,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "",
+    "summary": "Apify actor for Tiktok Ads.",
     "outputs": [
       "author",
       "content",
@@ -2402,7 +2713,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Cinch.co.uk \u00b7 \u00b7 Search \u00b7 Details.",
     "outputs": [
       "uk vehicle data: pricing",
       "specs",
@@ -2533,7 +2844,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Facebook Marketplace Get newest items ASAP.",
     "outputs": [
       "name",
       "price",
@@ -2576,7 +2887,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Kijiji Search \u00b7 Detail page(s).",
     "outputs": [
       "kijiji listings with title",
       "price",
@@ -2611,6 +2922,27 @@
     "status": "public"
   },
   {
+    "id": "kleinanzeigen-search-cheerio",
+    "title": "Kleinanzeigen.de Scraper (Richest output)",
+    "category": "ecommerce",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-C5EVBUBeyyhwA3pg7-yz1kBXpvQh-kl.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Extract detailed listings from Kleinanzeigen.de, saving you time by automating data collection for property, product, and service ads.",
+    "outputs": [
+      "name",
+      "price",
+      "images",
+      "options",
+      "availability"
+    ],
+    "link": "https://apify.com/memo23/kleinanzeigen-search-cheerio",
+    "status": "public"
+  },
+  {
     "id": "mobile-de-scraper",
     "title": "Mobile.de Unlimited Search & Detail",
     "category": "ecommerce",
@@ -2642,7 +2974,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Njuskalo.hr Search All categories and details.",
     "outputs": [
       "name",
       "price",
@@ -2741,6 +3073,26 @@
     "status": "public"
   },
   {
+    "id": "doordash-reviews-cheerio",
+    "title": "DoorDash \u00b7 Meta \u00b7 Menu \u00b7 Reviews \u00b7 Business \u00b7 Search...",
+    "category": "reviews",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-9jTOJO8sdazv6taBp-bEkelFdS72-dd.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Extract complete DoorDash restaurant intelligence: full menus, pricing, reviews, ratings, and operational data.",
+    "outputs": [
+      "price",
+      "reviews",
+      "rating",
+      "operational data"
+    ],
+    "link": "https://apify.com/memo23/doordash-reviews-cheerio",
+    "status": "public"
+  },
+  {
     "id": "expedia-scraper",
     "title": "Expedia.comExtract Reviews & Ratings &Sentiment Analysis",
     "category": "reviews",
@@ -2823,6 +3175,28 @@
     "status": "public"
   },
   {
+    "id": "opentable-reviews-cheerio",
+    "title": "OpenTable \u00b7 Meta \u00b7 Menu \u00b7 Reviews \u00b7 Availability \u00b7 Offers...",
+    "category": "reviews",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Fja8wGf5MsiqHKZxS-SUWiJJdMlE-ot.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Extract complete OpenTable restaurant intelligence: detailed info, full menus with prices, comprehensive reviews & ratings, real-time availability, VIP offers, loyalty programs, photos, and operational data.",
+    "outputs": [
+      "full menus with prices",
+      "reviews & ratings",
+      "real-time availability",
+      "vip offers",
+      "loyalty programs",
+      "images"
+    ],
+    "link": "https://apify.com/memo23/opentable-reviews-cheerio",
+    "status": "public"
+  },
+  {
     "id": "repvue-scraper",
     "title": "Repvue.com Reviews Scraper (PPE)",
     "category": "reviews",
@@ -2896,7 +3270,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Uber Eats Full Menu & Reviews.",
     "outputs": [
       "rating",
       "review text",
@@ -2904,6 +3278,28 @@
       "date"
     ],
     "link": "https://apify.com/memo23/uber-eats-scraper",
+    "status": "public"
+  },
+  {
+    "id": "viewstats-scraper",
+    "title": "Viewstats.com Search Results and Channel Details",
+    "category": "reviews",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/0W4hjkGOgG0a7jLNA/y9JjKYIN0R3XyBZoR-viewstats.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Unlock powerful insights from YouTube channels with the Viewstats Search Results and Channel Details Scraper. Get in-depth analytics, growth metrics, and channel comparisons effortlessly.",
+    "outputs": [
+      "location",
+      "category",
+      "avatars/banners",
+      "subscriber",
+      "view counts",
+      "video counts"
+    ],
+    "link": "https://apify.com/memo23/viewstats-scraper",
     "status": "public"
   },
   {
@@ -2916,7 +3312,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for YELP.com Search & Business & Reviews.",
     "outputs": [
       "yelp business data: name",
       "rating",
@@ -2959,7 +3355,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Bizquest.",
     "outputs": [
       "company",
       "rating",
@@ -3118,6 +3514,28 @@
     "status": "public"
   },
   {
+    "id": "google-ad-transparency-scraper-cheerio",
+    "title": "Google Ads Transparency Leads",
+    "category": "business",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-VQOu2GOHbeRAoOSGi-AgOlJRj0EV-Google_Ads_logo.svg.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Unlock deep insights into any brand\u2019s Google ads\u2014across regions, formats, and time.",
+    "outputs": [
+      "status",
+      "region/country",
+      "ad format image",
+      "video",
+      "text",
+      "tags"
+    ],
+    "link": "https://apify.com/memo23/google-ad-transparency-scraper-cheerio",
+    "status": "public"
+  },
+  {
     "id": "inhersight-cheerio-scraper",
     "title": "InHerSight.com Company Insights/Reviews and Stats",
     "category": "business",
@@ -3127,7 +3545,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "",
+    "summary": "Apify actor for InHerSight.com Company Insights/Reviews and Stats.",
     "outputs": [
       "company",
       "rating",
@@ -3158,6 +3576,27 @@
       "video"
     ],
     "link": "https://apify.com/memo23/linkedin-ads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "linkedin-company-about-scraper",
+    "title": "Linkedin Company About Page",
+    "category": "business",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZtdXyb9PAdYL5SbDq-nfdf9mwo3Y-linkedin.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scrapes LinkedIn company \"About\" pages for: company name, description, tagline, website URL, phone number, employee count, founding year, specialties, headquarters address, industries, and unique identifiers.",
+    "outputs": [
+      "company",
+      "rating",
+      "category",
+      "contact",
+      "location"
+    ],
+    "link": "https://apify.com/memo23/linkedin-company-about-scraper",
     "status": "public"
   },
   {
@@ -3213,7 +3652,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "",
+    "summary": "Apify actor for Thomasnet.com.",
     "outputs": [
       "company",
       "rating",
@@ -3399,50 +3838,6 @@
     "status": "public"
   },
   {
-    "id": "zumper",
-    "title": "Zumper Rental Listings",
-    "category": "real-estate",
-    "icon": "zumper.png",
-    "thumb": null,
-    "tech": [
-      "Apify",
-      "Cheerio"
-    ],
-    "summary": "Every Zumper rental in a city \u2014 price, beds, photos, agent contact \u2014 with deduplication across pagination.",
-    "outputs": [
-      "price",
-      "amenities",
-      "media",
-      "agent contact",
-      "pricing history"
-    ],
-    "link": null,
-    "status": "private"
-  },
-  {
-    "id": "edjoin",
-    "title": "Edjoin Education Jobs",
-    "category": "jobs",
-    "icon": "edjoin.jpeg",
-    "thumb": null,
-    "tech": [
-      "Apify",
-      "Crawlee",
-      "Cheerio"
-    ],
-    "summary": "Education-sector jobs from Edjoin.org \u2014 district, salary, application deadlines, contact info.",
-    "outputs": [
-      "title",
-      "district",
-      "location",
-      "salary",
-      "deadline",
-      "contact"
-    ],
-    "link": null,
-    "status": "private"
-  },
-  {
     "id": "amazon",
     "title": "Amazon Product Details",
     "category": "ecommerce",
@@ -3513,27 +3908,6 @@
     "status": "private"
   },
   {
-    "id": "viewstats",
-    "title": "Viewstats YouTube Analytics",
-    "category": "reviews",
-    "icon": "viewstats.png",
-    "thumb": null,
-    "tech": [
-      "Apify",
-      "Cheerio"
-    ],
-    "summary": "YouTube channel analytics from Viewstats \u2014 subscribers, growth, engagement rates, global rankings.",
-    "outputs": [
-      "subscriber count",
-      "growth",
-      "engagement",
-      "ranking",
-      "video metrics"
-    ],
-    "link": null,
-    "status": "private"
-  },
-  {
     "id": "linkedin-sales-navigator",
     "title": "LinkedIn Sales Navigator",
     "category": "business",
@@ -3558,25 +3932,24 @@
   },
   {
     "id": "teamblind",
-    "title": "TeamBlind Workplace Discussions",
-    "category": "business",
-    "icon": null,
+    "title": "TeamBlind Reviews",
+    "category": "reviews",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-v15u9rVzySBav6fBF-IPRN3GBPeA-teamblind.png",
     "thumb": "how-it-works-teamblind.png",
     "tech": [
       "Apify",
-      "Crawlee",
-      "Puppeteer"
+      "Crawlee"
     ],
-    "summary": "Anonymous workplace posts and salary signals from TeamBlind \u2014 for tech compensation research and competitive intel.",
+    "summary": "Every public review for any company on TeamBlind \u2014 rating, pros & cons, job title, tenure, date, reviewer location, plus per-company logo, HQ, employee size, and aggregate ratings. No login.",
     "outputs": [
-      "post",
-      "company",
-      "topic",
-      "comments",
-      "votes",
-      "timestamp"
+      "rating",
+      "pros & cons",
+      "job title",
+      "tenure",
+      "date",
+      "reviewer location"
     ],
-    "link": null,
-    "status": "private"
+    "link": "https://apify.com/memo23/teamblind-scraper",
+    "status": "public"
   }
 ]

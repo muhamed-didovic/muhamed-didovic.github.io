@@ -4,21 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Scrapers I've built — Muhamed Didović</title>
-  <meta name="description" content="60+ production-grade Apify scrapers built by Muhamed Didović — real estate, jobs, social media, e-commerce, reviews. Rent on Apify or commission a custom one." />
+  <meta name="description" content="180+ production-grade Apify scrapers built by Muhamed Didović — real estate, jobs, social media, e-commerce, reviews. Rent on Apify or commission a custom one." />
   <meta name="author" content="Muhamed Didović" />
   <meta name="theme-color" content="#08080c" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Scrapers I've built — Muhamed Didović" />
-  <meta property="og:description" content="60+ production-grade Apify scrapers across real estate, jobs, social, and e-commerce." />
+  <meta property="og:description" content="180+ production-grade Apify scrapers across real estate, jobs, social, and e-commerce." />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/3872717?s=400&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4" />
   <meta property="og:url" content="https://muhamed-didovic.github.io" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Scrapers I've built — Muhamed Didović" />
-  <meta name="twitter:description" content="60+ production-grade Apify scrapers across real estate, jobs, social, and e-commerce." />
+  <meta name="twitter:description" content="180+ production-grade Apify scrapers across real estate, jobs, social, and e-commerce." />
   <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/3872717?s=400&u=0347279297c79c031fbd4327965455be8f7e8fb5&v=4" />
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -181,12 +181,8 @@
       ? `<p class="outputs"><strong>Returns:</strong>${escape(s.outputs.join(' · '))}</p>`
       : '';
 
-    const thumbSrc = s.thumb
-      ? (/^https?:/.test(s.thumb) ? s.thumb : `assets/thumbs/${s.thumb}`)
-      : null;
-    const thumbHTML = thumbSrc
-      ? `<div class="thumb"><img loading="lazy" decoding="async" src="${escape(thumbSrc)}" alt=""></div>`
-      : '';
+    // Thumbnails dropped — they made card heights inconsistent across rows.
+    const thumbHTML = '';
 
     const badge = s.status === 'public'
       ? `<span class="badge badge--public"><span class="dot"></span>Public</span>`
