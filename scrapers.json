@@ -30,7 +30,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Apartmentfinder.com.",
+    "summary": "US apartment listings from Apartmentfinder.com \u2014 rent ranges, beds/baths, amenities, location, contact.",
     "outputs": [
       "location",
       "contact",
@@ -306,7 +306,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for ForRentUniversity.com.",
+    "summary": "Off-campus student housing from ForRentUniversity.com \u2014 by school, with pricing, beds/baths, lease terms, contact.",
     "outputs": [
       "price",
       "amenities",
@@ -435,7 +435,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Scrape Immobiliare for only $0.7 per 1K results.",
+    "summary": "Italian property market on Immobiliare.it \u2014 for-sale and rental listings, agency details, energy class, location.",
     "outputs": [
       "price",
       "beds/baths",
@@ -500,7 +500,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "..",
+    "summary": "German real estate listings from Immonet.de \u2014 search and detail pages with pricing, size, agent details.",
     "outputs": [
       "phone numbers",
       "company profiles",
@@ -534,7 +534,7 @@
   },
   {
     "id": "immowelt-scraper",
-    "title": "Immowelt.de Agents & Search By Url or Keywords \ud83c\udde9\ud83c\uddea",
+    "title": "Immowelt.de Agents & Search By Url or Keywords",
     "category": "real-estate",
     "icon": "https://images.apifyusercontent.com/3sTJbPIAZp3VSqoobx_8yW310UU7w5SNL2_kSKSH1WY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItdkxOR0ZQdUpRa3V4dFE0anQtTXNWRERBUGVsSS1pbW93LnBuZw.webp",
     "thumb": null,
@@ -542,7 +542,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Extract vehicle data from AutoScout24 for only $0.9 per 1000 results.",
+    "summary": "A targeted web scraper for Immowelt.de that extracts comprehensive German real estate listings and structured property data for analytics and outreach.",
     "outputs": [
       "price",
       "beds/baths",
@@ -1260,7 +1260,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Zonaprop.com.ar API.",
+    "summary": "Argentine real estate from Zonaprop.com.ar \u2014 property listings, prices in ARS/USD, neighborhood data, agent contact.",
     "outputs": [
       "price",
       "beds/baths",
@@ -1426,7 +1426,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for GoWork Scraper (FR, DE & ES).",
+    "summary": "GoWork job listings across France, Germany, and Spain \u2014 title, employer, salary, location, application link.",
     "outputs": [
       "title",
       "company",
@@ -1577,7 +1577,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "Apify actor for Indeed Jobs Scraper (Search by keywords).",
+    "summary": "Indeed jobs by keyword search \u2014 fast cheerio-based extraction with title, company, salary, full description.",
     "outputs": [
       "job titles",
       "price",
@@ -1746,7 +1746,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for NHS UK Jobs Scraper Richest Output.",
+    "summary": "NHS UK job postings \u2014 clinical and non-clinical roles with salary band, location, contract type, apply link.",
     "outputs": [
       "vacancy ids",
       "employer details",
@@ -1791,7 +1791,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Randstad.com Jobs.",
+    "summary": "Randstad.com global job listings \u2014 title, employer, salary, location, full description.",
     "outputs": [
       "job titles",
       "description",
@@ -1813,7 +1813,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Randstad.com.au Jobs.",
+    "summary": "Randstad.com.au Australian job listings \u2014 title, employer, salary, location, full description.",
     "outputs": [
       "title",
       "company",
@@ -1834,7 +1834,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Extract job data from Randstad.nl including job titles, salaries, locations, contact details, company info, work hours, contract types, education requirements, and full descriptions.",
+    "summary": "Randstad.nl Dutch job listings \u2014 title, employer, salary, location, full description.",
     "outputs": [
       "title",
       "company",
@@ -1855,7 +1855,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Scrape RandstadUSA jobs with filters (location, distance, remote, job type, specialism). Get job titles, salaries, descriptions, skills, contact info, coordinates, and application URLs.",
+    "summary": "Randstad USA job listings \u2014 title, employer, salary, location, full description.",
     "outputs": [
       "title",
       "company",
@@ -1876,7 +1876,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Scrape Reed.co.uk for rich, structured job data.",
+    "summary": "Reed.co.uk UK job listings with salary, employer, location, full description, and apply links.",
     "outputs": [
       "exact min/max salaries",
       "remote working options",
@@ -1940,7 +1940,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "Apify actor for Werk.nl \u00b7 Search \u00b7 Detail.",
+    "summary": "Dutch government job board Werk.nl \u2014 title, employer, salary, location, full description.",
     "outputs": [
       "job data including titles",
       "price",
@@ -2174,7 +2174,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Instagram Post Comments & Replies.",
+    "summary": "Comments and replies on Instagram posts \u2014 author, text, likes, timestamp, reply threads.",
     "outputs": [
       "instagram comments",
       "verification status",
@@ -2390,7 +2390,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "Apify actor for Tiktok Ads.",
+    "summary": "TikTok Ads Library \u2014 ad creatives, advertisers, target countries, spend ranges, dates.",
     "outputs": [
       "author",
       "content",
@@ -2638,7 +2638,7 @@
   },
   {
     "id": "autotrader-australia-cheerio",
-    "title": "Autotrader.com.au Australia Search & Details Scraper\ud83c\udde6\ud83c\uddfa",
+    "title": "Autotrader.com.au Australia Search & Details Scraper",
     "category": "ecommerce",
     "icon": "https://images.apifyusercontent.com/pCkelbtHnioCVauMT6DM9tGYD81m-FmuhD-rXFDHMC4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItYWFINGlJOWIwc2dNNkNWeVMtanhmc2ZZeEVBWi1hdXRvdHJhZGVyLWF1cy5wbmc.webp",
     "thumb": null,
@@ -2667,7 +2667,7 @@
       "Apify",
       "Cheerio"
     ],
-    "summary": "Get comprehensive car data from Carsales!",
+    "summary": "Carsales.com.au listings \u2014 make, model, mileage, price, seller info, condition, photos.",
     "outputs": [
       "vehicle info",
       "including make",
@@ -2713,7 +2713,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Cinch.co.uk \u00b7 \u00b7 Search \u00b7 Details.",
+    "summary": "Cinch.co.uk used cars \u2014 make, model, mileage, price, monthly finance, photos, location.",
     "outputs": [
       "uk vehicle data: pricing",
       "specs",
@@ -2778,7 +2778,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Scrape easyauto123 used-car listings and detail pages.",
+    "summary": "easyauto123 used-car listings \u2014 make, model, year, price, mileage, location, photos.",
     "outputs": [
       "price",
       "drive-away price",
@@ -2844,7 +2844,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Facebook Marketplace Get newest items ASAP.",
+    "summary": "Facebook Marketplace items by location and category \u2014 title, price, seller, photos, posted time.",
     "outputs": [
       "name",
       "price",
@@ -2887,7 +2887,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Kijiji Search \u00b7 Detail page(s).",
+    "summary": "Kijiji.ca classifieds \u2014 title, price, seller, location, description, photos across all categories.",
     "outputs": [
       "kijiji listings with title",
       "price",
@@ -3270,7 +3270,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Uber Eats Full Menu & Reviews.",
+    "summary": "Uber Eats restaurants with full menu, item prices, reviews, ratings, and operating hours.",
     "outputs": [
       "rating",
       "review text",
@@ -3312,7 +3312,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for YELP.com Search & Business & Reviews.",
+    "summary": "Yelp businesses, reviews, and ratings \u2014 name, category, address, hours, photos, full review text.",
     "outputs": [
       "yelp business data: name",
       "rating",
@@ -3355,7 +3355,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Bizquest.",
+    "summary": "Businesses for sale on BizQuest \u2014 asking price, revenue, location, industry, broker contact.",
     "outputs": [
       "company",
       "rating",
@@ -3566,7 +3566,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Scrape ads by company, keyword, or country.",
+    "summary": "LinkedIn Ads Library \u2014 search ads by company, keyword, or country with creative, format, advertiser.",
     "outputs": [
       "advertiser name & url",
       "paid by entity",
@@ -3652,7 +3652,7 @@
       "Apify",
       "Crawlee"
     ],
-    "summary": "Apify actor for Thomasnet.com.",
+    "summary": "B2B suppliers and manufacturers on Thomasnet.com \u2014 company, products, certifications, contact, location.",
     "outputs": [
       "company",
       "rating",
@@ -3849,7 +3849,7 @@
       "Puppeteer",
       "CapSolver"
     ],
-    "summary": "Amazon products with multi-seller offers \u2014 title, ASIN, price, ratings, reviews, captcha-resilient.",
+    "summary": "Amazon products with multi-seller offers \u2014 title, ASIN, price, ratings, reviews. Captcha-resilient, currently private.",
     "outputs": [
       "title",
       "ASIN",
@@ -3872,7 +3872,7 @@
       "Crawlee",
       "Puppeteer"
     ],
-    "summary": "Fashionnova product collections \u2014 title, description, images, prices, variants, options.",
+    "summary": "Fashionnova product collections \u2014 title, description, images, prices, variants, options. Currently private.",
     "outputs": [
       "title",
       "description",
@@ -3895,7 +3895,7 @@
       "Crawlee",
       "Cheerio"
     ],
-    "summary": "Product reviews from T5ear with admin replies and order linkage \u2014 for review aggregation and moderation tooling.",
+    "summary": "Product reviews from T5ear with admin replies and order linkage \u2014 currently private.",
     "outputs": [
       "review id",
       "rating",
@@ -3918,7 +3918,7 @@
       "Crawlee",
       "Puppeteer"
     ],
-    "summary": "LinkedIn Sales Navigator Account IQ extraction \u2014 strategic priorities, business challenges, growth, headcount.",
+    "summary": "LinkedIn Sales Navigator Account IQ extraction \u2014 strategic priorities, business challenges, growth, headcount. Currently private.",
     "outputs": [
       "account IQ",
       "strategic priorities",
