@@ -1333,6 +1333,29 @@
     "status": "public"
   },
   {
+    "id": "charityjob-scraper",
+    "title": "CharityJob.co.uk Jobs",
+    "category": "jobs",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zQuZx45r3BPT3BEfs-QnXewqG6VV-charityjob.jpeg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "UK charity-sector job postings from CharityJob.co.uk \u2014 title, salary band, workplace type, employer, location, posted and closing dates.",
+    "outputs": [
+      "title",
+      "salary",
+      "workplace type",
+      "employer",
+      "location",
+      "posted date",
+      "closing date"
+    ],
+    "link": "https://apify.com/memo23/charityjob-scraper",
+    "status": "public"
+  },
+  {
     "id": "edjoin-scraper",
     "title": "Edjoin",
     "category": "jobs",
@@ -1414,6 +1437,29 @@
       "company info"
     ],
     "link": "https://apify.com/memo23/apify-glassdoor-reviews-scraper",
+    "status": "public"
+  },
+  {
+    "id": "goodmoves-scraper",
+    "title": "Goodmoves.org Jobs",
+    "category": "jobs",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-WSBQwNxRgTP2erbbd-GjVINBDitg-goodmoves.jpg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scottish charity-sector job postings from Goodmoves.org \u2014 title, salary, workplace type, employer, posted and closing dates.",
+    "outputs": [
+      "title",
+      "salary",
+      "workplace type",
+      "employer",
+      "location",
+      "posted date",
+      "closing date"
+    ],
+    "link": "https://apify.com/memo23/goodmoves-scraper",
     "status": "public"
   },
   {
@@ -1886,6 +1932,28 @@
       "company names"
     ],
     "link": "https://apify.com/memo23/reed-jobs-scraper",
+    "status": "public"
+  },
+  {
+    "id": "s1jobs-scraper",
+    "title": "s1jobs.com Scottish Jobs",
+    "category": "jobs",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-W28iRmd9Krgtrvdsp-1sDb1eizZx-S1Jobs-Logo-2024.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Scottish job postings (all sectors) from s1jobs.com \u2014 title, salary, employer, location with real lat/lng coordinates.",
+    "outputs": [
+      "title",
+      "salary",
+      "employer",
+      "location",
+      "lat/lng",
+      "sector"
+    ],
+    "link": "https://apify.com/memo23/s1jobs-scraper",
     "status": "public"
   },
   {
@@ -3217,6 +3285,28 @@
     "status": "public"
   },
   {
+    "id": "teamblind",
+    "title": "TeamBlind Reviews",
+    "category": "reviews",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-v15u9rVzySBav6fBF-IPRN3GBPeA-teamblind.png",
+    "thumb": "how-it-works-teamblind.png",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every public review for any company on TeamBlind \u2014 rating, pros & cons, job title, tenure, date, reviewer location, plus per-company logo, HQ, employee size, and aggregate ratings. No login.",
+    "outputs": [
+      "rating",
+      "pros & cons",
+      "job title",
+      "tenure",
+      "date",
+      "reviewer location"
+    ],
+    "link": "https://apify.com/memo23/teamblind-scraper",
+    "status": "public"
+  },
+  {
     "id": "tripadvisor",
     "title": "TripAdvisor Hotels & Reviews",
     "category": "reviews",
@@ -3322,6 +3412,29 @@
       "contact"
     ],
     "link": "https://apify.com/memo23/yelp-scraper",
+    "status": "public"
+  },
+  {
+    "id": "avvo-scraper",
+    "title": "Avvo.com Lawyer Directory",
+    "category": "business",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-DILG6P5rKhAKw7ZRa-MzqTagajgG-avvo.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Avvo.com US-attorney directory \u2014 name, firm, phone, full address, license info, practice areas, ratings, and reviews. $1 per 1,000 results, no limits.",
+    "outputs": [
+      "name",
+      "firm",
+      "phone",
+      "address",
+      "practice areas",
+      "rating",
+      "reviews"
+    ],
+    "link": "https://apify.com/memo23/avvo-scraper",
     "status": "public"
   },
   {
@@ -3448,6 +3561,29 @@
       "location"
     ],
     "link": "https://apify.com/memo23/europeancoffeetrip-leads-scraper",
+    "status": "public"
+  },
+  {
+    "id": "findlaw-scraper",
+    "title": "FindLaw Lawyer Directory",
+    "category": "business",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-b6gnkmdfAcfwou4H0-5x8OiA5Hw9-FindLaw-Logo.webp",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Lawyers.findlaw.com \u2014 one row per firm with every office address (lat/long), every attorney on staff, practice areas, and contact details.",
+    "outputs": [
+      "firm",
+      "office addresses",
+      "lat/long",
+      "attorneys",
+      "practice areas",
+      "phone",
+      "website"
+    ],
+    "link": "https://apify.com/memo23/findlaw-scraper",
     "status": "public"
   },
   {
@@ -3600,6 +3736,28 @@
     "status": "public"
   },
   {
+    "id": "martindale-scraper",
+    "title": "Martindale Lawyer Directory",
+    "category": "business",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-skLQrNbzLG1V55zpl-5QjcXRobOH-martindale.jpeg",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US attorneys from Martindale.com \u2014 name, phone, full address with city/state/zip, firm website, headshot, and Martindale rating.",
+    "outputs": [
+      "name",
+      "phone",
+      "address",
+      "firm website",
+      "headshot",
+      "rating"
+    ],
+    "link": "https://apify.com/memo23/martindale-scraper",
+    "status": "public"
+  },
+  {
     "id": "pagesjaunes-scraper-cheerio",
     "title": "PagesJaunes.fr Leads with Emails & Phones Included",
     "category": "business",
@@ -3682,6 +3840,27 @@
       "location"
     ],
     "link": "https://apify.com/memo23/trustpilot-scraper-ppe",
+    "status": "public"
+  },
+  {
+    "id": "us-state-bar-scraper",
+    "title": "US State Bar License Verification",
+    "category": "business",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-wpeR8wjEtdiGKVDEm-TGaq1AEVdX-logo-1024.png",
+    "thumb": null,
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Verify US attorneys against their state bar's official roster \u2014 name, license status (Active / Inactive), admission date, disciplinary history. $1 per 1,000 results.",
+    "outputs": [
+      "name",
+      "license status",
+      "admission date",
+      "disciplinary history",
+      "state"
+    ],
+    "link": "https://apify.com/memo23/us-state-bar-scraper",
     "status": "public"
   },
   {
@@ -3929,27 +4108,5 @@
     ],
     "link": null,
     "status": "private"
-  },
-  {
-    "id": "teamblind",
-    "title": "TeamBlind Reviews",
-    "category": "reviews",
-    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-v15u9rVzySBav6fBF-IPRN3GBPeA-teamblind.png",
-    "thumb": "how-it-works-teamblind.png",
-    "tech": [
-      "Apify",
-      "Crawlee"
-    ],
-    "summary": "Every public review for any company on TeamBlind \u2014 rating, pros & cons, job title, tenure, date, reviewer location, plus per-company logo, HQ, employee size, and aggregate ratings. No login.",
-    "outputs": [
-      "rating",
-      "pros & cons",
-      "job title",
-      "tenure",
-      "date",
-      "reviewer location"
-    ],
-    "link": "https://apify.com/memo23/teamblind-scraper",
-    "status": "public"
   }
 ]
