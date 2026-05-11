@@ -347,6 +347,45 @@ main { position: relative; z-index: 1; }
   opacity: 0.7;
 }
 
+/* Sort dropdown ------------------------------------------------ */
+.sort {
+  position: relative;
+  flex: 0 0 auto;
+}
+.sort::after {
+  content: '';
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 6px;
+  height: 6px;
+  border-right: 1.5px solid var(--muted);
+  border-bottom: 1.5px solid var(--muted);
+  pointer-events: none;
+}
+.sort select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0.45rem 1.95rem 0.45rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.16s;
+}
+.sort select:hover { color: var(--text); background: rgba(255, 255, 255, 0.07); border-color: var(--border-hi); }
+.sort select:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px var(--accent-1), 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+.sort select option { background: var(--bg-1-solid); color: var(--text); }
+
 /* Card grid ------------------------------------------------------ */
 .grid-wrap {
   max-width: 1400px;
@@ -627,6 +666,7 @@ footer .links a:hover {
     padding: 0.7rem 1rem;
   }
   .search { flex: 1; max-width: none; }
+  .sort, .sort select { width: 100%; }
   .grid { grid-template-columns: 1fr; gap: 1rem; }
   .grid-wrap { padding: 1.25rem 1rem 3rem; }
   .card { padding: 1rem; }
