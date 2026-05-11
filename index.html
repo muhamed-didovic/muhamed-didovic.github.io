@@ -114,6 +114,14 @@
       <button class="chip" data-cat="business"    role="tab">Business</button>
       <button class="chip" data-cat="other"       role="tab">Other</button>
     </div>
+    <label class="sort" aria-label="Sort scrapers">
+      <select id="sort">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="updated">Recently updated</option>
+        <option value="alpha">A → Z</option>
+      </select>
+    </label>
   </section>
 
   <!-- Card grid ---------------------------------------------- -->
@@ -146,6 +154,7 @@
   const searchClear = document.getElementById('search-clear');
   const searchKbd   = document.querySelector('.search-kbd');
   const chips   = document.querySelectorAll('.chip');
+  const sortSel = document.getElementById('sort');
   const statTotal  = document.getElementById('stat-total');
   const statPublic = document.getElementById('stat-public');
   const statCats   = document.getElementById('stat-cats');
@@ -153,6 +162,7 @@
   let data = [];
   let activeCat = 'all';
   let q = '';
+  let sortBy = 'newest';
 
   // Pill class lookup ----
   const pillClass = (t) => {
@@ -224,11 +234,20 @@
     s.tech.join(' ') + ' ' + (s.outputs || []).join(' ')
   ).toLowerCase();
 
+  const sortFn = {
+    newest:  (a, b) => (b.createdAt  || '').localeCompare(a.createdAt  || ''),
+    oldest:  (a, b) => (a.createdAt  || '￿').localeCompare(b.createdAt  || '￿'),
+    updated: (a, b) => (b.modifiedAt || '').localeCompare(a.modifiedAt || ''),
+    alpha:   (a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()),
+  };
+
   const render = () => {
-    const filtered = data.filter(s =>
-      (activeCat === 'all' || s.category === activeCat) &&
-      (!q || haystack(s).includes(q))
-    );
+    const filtered = data
+      .filter(s =>
+        (activeCat === 'all' || s.category === activeCat) &&
+        (!q || haystack(s).includes(q))
+      )
+      .sort(sortFn[sortBy] || sortFn.newest);
     grid.innerHTML = filtered.map(cardHTML).join('');
     empty.hidden = filtered.length > 0;
   };
@@ -305,6 +324,8 @@
     activeCat = chip.dataset.cat;
     render();
   }));
+
+  sortSel.addEventListener('change', e => { sortBy = e.target.value; render(); });
 })();
 </script>
 </body>

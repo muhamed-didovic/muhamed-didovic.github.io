@@ -18,7 +18,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/airbnb-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-09-06T18:55:24.391Z",
+    "modifiedAt": "2026-05-08T17:11:35.392Z"
   },
   {
     "id": "apartmentfinder-com-scraper",
@@ -40,7 +42,9 @@
       "sq ft"
     ],
     "link": "https://apify.com/memo23/apartmentfinder-com-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-17T22:04:58.404Z",
+    "modifiedAt": "2026-05-08T17:09:00.226Z"
   },
   {
     "id": "apartments",
@@ -63,7 +67,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/apify-apartments-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-29T08:36:25.427Z",
+    "modifiedAt": "2026-05-08T15:54:15.277Z"
   },
   {
     "id": "agarmap-cheerio",
@@ -84,7 +90,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/agarmap-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-13T19:26:38.983Z",
+    "modifiedAt": "2026-05-08T17:10:02.672Z"
   },
   {
     "id": "auction-com-scraper",
@@ -105,7 +113,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/auction-com-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-14T22:37:32.436Z",
+    "modifiedAt": "2026-05-08T17:08:39.322Z"
   },
   {
     "id": "au-nz-realestate",
@@ -127,7 +137,9 @@
       "inspection times"
     ],
     "link": "https://apify.com/memo23/realestate-au-listings",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-05T10:12:25.983Z",
+    "modifiedAt": "2026-05-09T10:12:00.632Z"
   },
   {
     "id": "apify-bayut-scraper",
@@ -149,7 +161,9 @@
       "agent/agency info"
     ],
     "link": "https://apify.com/memo23/apify-bayut-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-26T21:34:46.490Z",
+    "modifiedAt": "2026-05-08T15:50:46.203Z"
   },
   {
     "id": "comparis-ch-scraper",
@@ -169,7 +183,9 @@
       "seller contact info"
     ],
     "link": "https://apify.com/memo23/comparis-ch-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-03T20:57:09.354Z",
+    "modifiedAt": "2026-05-04T19:56:01.199Z"
   },
   {
     "id": "craigslist-scraper",
@@ -188,7 +204,9 @@
       "phone numbers"
     ],
     "link": "https://apify.com/memo23/craigslist-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-02-18T21:36:07.711Z",
+    "modifiedAt": "2026-05-08T15:36:48.619Z"
   },
   {
     "id": "crexi",
@@ -211,7 +229,9 @@
       "media"
     ],
     "link": "https://apify.com/memo23/apify-crexi",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-02-01T21:04:33.990Z",
+    "modifiedAt": "2026-05-08T15:46:50.208Z"
   },
   {
     "id": "drhorton-scraper",
@@ -232,7 +252,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/drhorton-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-12T09:17:29.674Z",
+    "modifiedAt": "2026-05-08T17:04:25.683Z"
   },
   {
     "id": "dubizzle-search-listing-s-scraper",
@@ -253,7 +275,9 @@
       "location coordinates"
     ],
     "link": "https://apify.com/memo23/dubizzle-search-listing-s-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-30T12:02:21.477Z",
+    "modifiedAt": "2026-05-08T17:03:34.294Z"
   },
   {
     "id": "property24-scraper",
@@ -272,7 +296,9 @@
       "market trends"
     ],
     "link": "https://apify.com/memo23/property24-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-08-02T10:33:29.133Z",
+    "modifiedAt": "2026-05-08T16:50:04.885Z"
   },
   {
     "id": "forrent-com-scraper",
@@ -294,7 +320,9 @@
       "nearby points of interest"
     ],
     "link": "https://apify.com/memo23/forrent-com-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-19T03:42:47.142Z",
+    "modifiedAt": "2026-05-07T21:29:15.247Z"
   },
   {
     "id": "forrentuniversity-scraper",
@@ -316,7 +344,9 @@
       "transit info"
     ],
     "link": "https://apify.com/memo23/forrentuniversity-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-19T21:27:23.514Z",
+    "modifiedAt": "2026-05-08T17:02:04.584Z"
   },
   {
     "id": "funda",
@@ -337,7 +367,9 @@
       "energy rating"
     ],
     "link": "https://apify.com/memo23/funda-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-13T11:10:45.304Z",
+    "modifiedAt": "2026-05-08T16:22:07.560Z"
   },
   {
     "id": "furnished-finder",
@@ -358,7 +390,9 @@
       "address"
     ],
     "link": "https://apify.com/memo23/furnishedfinder-scraper-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-12-26T22:32:30.955Z",
+    "modifiedAt": "2026-05-08T15:41:05.252Z"
   },
   {
     "id": "housesigma",
@@ -380,7 +414,9 @@
       "property details"
     ],
     "link": "https://apify.com/memo23/apify-housesigma-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-02-02T15:43:37.365Z",
+    "modifiedAt": "2026-05-08T17:03:44.937Z"
   },
   {
     "id": "idealista-scraper-rental",
@@ -401,7 +437,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/idealista-scraper-rental",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-06T09:12:36.818Z",
+    "modifiedAt": "2026-05-08T16:19:16.732Z"
   },
   {
     "id": "idealista-scraper",
@@ -423,7 +461,9 @@
       "beds/baths"
     ],
     "link": "https://apify.com/memo23/idealista-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-09-29T13:56:35.764Z",
+    "modifiedAt": "2026-05-08T22:28:10.894Z"
   },
   {
     "id": "immobiliare-scraper",
@@ -444,7 +484,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/immobiliare-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-02T11:29:14.150Z",
+    "modifiedAt": "2026-05-08T16:30:05.911Z"
   },
   {
     "id": "immobilienscout24-search-scraper-rental",
@@ -466,7 +508,9 @@
       "amenities balcony"
     ],
     "link": "https://apify.com/memo23/immobilienscout24-search-scraper-rental",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-06T09:29:50.131Z",
+    "modifiedAt": "2026-05-08T16:37:15.859Z"
   },
   {
     "id": "immobilienscout24-scraper",
@@ -488,7 +532,9 @@
       "amenities balcony"
     ],
     "link": "https://apify.com/memo23/immobilienscout24-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-20T22:11:51.347Z",
+    "modifiedAt": "2026-05-08T16:51:51.372Z"
   },
   {
     "id": "immonet-scraper",
@@ -507,7 +553,9 @@
       "high-resolution images"
     ],
     "link": "https://apify.com/memo23/immonet-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-14T21:26:27.946Z",
+    "modifiedAt": "2026-05-08T16:58:26.148Z"
   },
   {
     "id": "immoweb",
@@ -530,7 +578,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/immoweb-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-23T11:07:58.584Z",
+    "modifiedAt": "2026-05-08T15:41:39.333Z"
   },
   {
     "id": "immowelt-scraper",
@@ -551,7 +601,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/immowelt-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-11T22:43:47.150Z",
+    "modifiedAt": "2026-05-08T16:58:15.690Z"
   },
   {
     "id": "kyero",
@@ -572,7 +624,9 @@
       "agent"
     ],
     "link": "https://apify.com/memo23/kyero-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-20T16:17:07.611Z",
+    "modifiedAt": "2026-05-08T16:55:35.353Z"
   },
   {
     "id": "land-com",
@@ -593,7 +647,9 @@
       "geolocation"
     ],
     "link": "https://apify.com/memo23/land-search-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-11T22:28:24.038Z",
+    "modifiedAt": "2026-04-04T06:12:23.327Z"
   },
   {
     "id": "land-search-cheerio-ppr",
@@ -615,7 +671,9 @@
       "to save time"
     ],
     "link": "https://apify.com/memo23/land-search-cheerio-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-11-09T21:58:35.049Z",
+    "modifiedAt": "2026-05-08T15:46:54.711Z"
   },
   {
     "id": "landandfarm-scraper",
@@ -636,7 +694,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/landandfarm-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-24T21:44:37.062Z",
+    "modifiedAt": "2026-05-08T16:53:42.477Z"
   },
   {
     "id": "landsearch-scraper",
@@ -657,7 +717,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/landsearch-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-25T13:48:14.481Z",
+    "modifiedAt": "2026-05-08T16:56:10.951Z"
   },
   {
     "id": "landwatch-scraper",
@@ -676,7 +738,9 @@
       "agent profiles"
     ],
     "link": "https://apify.com/memo23/landwatch-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-23T21:49:48.515Z",
+    "modifiedAt": "2026-05-05T13:27:59.722Z"
   },
   {
     "id": "lennar-scraper",
@@ -697,7 +761,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/lennar-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-07-11T10:29:48.340Z",
+    "modifiedAt": "2026-05-08T16:53:28.779Z"
   },
   {
     "id": "lokaleportalen-cheerio",
@@ -718,7 +784,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/lokaleportalen-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-04-28T13:23:12.898Z",
+    "modifiedAt": "2026-04-28T21:40:03.900Z"
   },
   {
     "id": "loopnet",
@@ -741,7 +809,9 @@
       "sale condition"
     ],
     "link": "https://apify.com/memo23/apify-loopnet-search-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-01T17:42:31.225Z",
+    "modifiedAt": "2026-05-08T20:57:01.618Z"
   },
   {
     "id": "loopnet-scraper-ppe",
@@ -762,7 +832,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/loopnet-scraper-ppe",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-11-10T12:02:58.745Z",
+    "modifiedAt": "2026-05-08T20:56:35.896Z"
   },
   {
     "id": "properstar",
@@ -783,7 +855,9 @@
       "agent"
     ],
     "link": "https://apify.com/memo23/properstar-leads-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-20T17:22:09.675Z",
+    "modifiedAt": "2026-05-08T16:50:26.162Z"
   },
   {
     "id": "propertyfinder-leads-scraper",
@@ -802,7 +876,9 @@
       "agent/broker details"
     ],
     "link": "https://apify.com/memo23/propertyfinder-leads-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-29T03:27:00.939Z",
+    "modifiedAt": "2026-05-08T16:14:27.657Z"
   },
   {
     "id": "propwire-leads-scraper",
@@ -823,7 +899,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/propwire-leads-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-18T14:02:43.268Z",
+    "modifiedAt": "2026-05-08T16:49:59.413Z"
   },
   {
     "id": "realtor-ca",
@@ -845,7 +923,9 @@
       "social links"
     ],
     "link": "https://apify.com/memo23/realtor-canada-search-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-14T14:07:51.624Z",
+    "modifiedAt": "2026-05-08T16:43:12.921Z"
   },
   {
     "id": "realtor-com-agents",
@@ -866,7 +946,9 @@
       "served areas"
     ],
     "link": "https://apify.com/memo23/apify-realtor-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-08-27T12:37:41.543Z",
+    "modifiedAt": "2026-05-08T15:53:52.380Z"
   },
   {
     "id": "realtor-com",
@@ -887,7 +969,9 @@
       "school district"
     ],
     "link": "https://apify.com/memo23/realtor-search-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-15T14:03:26.866Z",
+    "modifiedAt": "2026-05-08T15:41:11.811Z"
   },
   {
     "id": "redfin-property-agent",
@@ -909,7 +993,9 @@
       "neighborhood stats"
     ],
     "link": "https://apify.com/memo23/apify-redfin-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-12-18T13:28:59.488Z",
+    "modifiedAt": "2026-05-10T10:39:51.895Z"
   },
   {
     "id": "rent-com-scraper",
@@ -930,7 +1016,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/rent-com-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-29T22:51:15.312Z",
+    "modifiedAt": "2026-05-08T16:33:33.115Z"
   },
   {
     "id": "rightmove-scraper",
@@ -951,7 +1039,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/rightmove-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-24T12:53:32.041Z",
+    "modifiedAt": "2026-05-08T15:46:37.393Z"
   },
   {
     "id": "ryanhomes",
@@ -972,7 +1062,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/ryanhomes-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-07-25T11:13:36.238Z",
+    "modifiedAt": "2026-05-08T16:41:34.729Z"
   },
   {
     "id": "semsarmasr-scraper",
@@ -993,7 +1085,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/semsarmasr-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-10T18:16:25.739Z",
+    "modifiedAt": "2026-05-08T16:40:49.743Z"
   },
   {
     "id": "spareroom-scraper",
@@ -1012,7 +1106,9 @@
       "property features"
     ],
     "link": "https://apify.com/memo23/spareroom-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-12T21:38:29.158Z",
+    "modifiedAt": "2026-05-08T16:39:49.176Z"
   },
   {
     "id": "streeteasy-ppr",
@@ -1033,7 +1129,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/streeteasy-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-08-16T19:51:50.931Z",
+    "modifiedAt": "2026-05-10T09:39:14.314Z"
   },
   {
     "id": "apify-streeteasy-cheerio",
@@ -1055,7 +1153,9 @@
       "neighborhood"
     ],
     "link": "https://apify.com/memo23/apify-streeteasy-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-02-11T12:55:27.360Z",
+    "modifiedAt": "2026-05-10T09:40:20.063Z"
   },
   {
     "id": "tollbrothers",
@@ -1077,7 +1177,9 @@
       "amenities"
     ],
     "link": "https://apify.com/memo23/tollbrothers-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-02-28T16:48:56.640Z",
+    "modifiedAt": "2026-04-06T20:04:36.961Z"
   },
   {
     "id": "trulia-scraper",
@@ -1098,7 +1200,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/trulia-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-29T23:12:13.153Z",
+    "modifiedAt": "2026-05-08T16:31:41.993Z"
   },
   {
     "id": "willhaben-scraper",
@@ -1119,7 +1223,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/willhaben-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-06T11:39:11.058Z",
+    "modifiedAt": "2026-05-11T06:15:39.987Z"
   },
   {
     "id": "zillow-agents",
@@ -1141,7 +1247,9 @@
       "contact"
     ],
     "link": "https://apify.com/memo23/apify-zillow-agents-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-08T22:08:46.297Z",
+    "modifiedAt": "2026-04-24T15:33:27.767Z"
   },
   {
     "id": "zillow-agents-leads-scraper-ppe",
@@ -1162,7 +1270,9 @@
       "from real estate agents"
     ],
     "link": "https://apify.com/memo23/zillow-agents-leads-scraper-ppe",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-19T21:35:11.060Z",
+    "modifiedAt": "2026-05-08T15:47:14.921Z"
   },
   {
     "id": "zillow-lenders-scraper",
@@ -1184,7 +1294,9 @@
       "state licenses"
     ],
     "link": "https://apify.com/memo23/zillow-lenders-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-08T10:24:03.499Z",
+    "modifiedAt": "2026-05-08T15:58:11.190Z"
   },
   {
     "id": "zillow-property-managers",
@@ -1205,7 +1317,9 @@
       "business address"
     ],
     "link": "https://apify.com/memo23/apify-zillow-property-managers-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-11T08:39:26.661Z",
+    "modifiedAt": "2026-05-08T15:54:57.912Z"
   },
   {
     "id": "zillow-search",
@@ -1227,7 +1341,9 @@
       "market status"
     ],
     "link": "https://apify.com/memo23/zillow-cheerio-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-10-10T05:14:09.636Z",
+    "modifiedAt": "2026-05-08T15:41:44.665Z"
   },
   {
     "id": "zillow-scraper-ppe",
@@ -1248,7 +1364,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/zillow-scraper-ppe",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-19T21:42:42.306Z",
+    "modifiedAt": "2026-05-08T15:38:42.179Z"
   },
   {
     "id": "zonaprop-scraper",
@@ -1269,7 +1387,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/zonaprop-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-03-31T10:01:38.361Z",
+    "modifiedAt": "2026-05-08T16:24:34.609Z"
   },
   {
     "id": "zoopla-cheerio-scraper",
@@ -1289,7 +1409,9 @@
       "house-prices/sold-price pages"
     ],
     "link": "https://apify.com/memo23/zoopla-cheerio-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-02-21T09:17:21.244Z",
+    "modifiedAt": "2026-04-28T22:03:05.743Z"
   },
   {
     "id": "bayt-search-cheerio-ppr",
@@ -1311,7 +1433,9 @@
       "price"
     ],
     "link": "https://apify.com/memo23/bayt-search-cheerio-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-11-25T21:29:40.603Z",
+    "modifiedAt": "2026-05-08T17:06:37.418Z"
   },
   {
     "id": "careerbliss-scraper",
@@ -1330,7 +1454,9 @@
       "full comments"
     ],
     "link": "https://apify.com/memo23/careerbliss-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-04T21:28:46.441Z",
+    "modifiedAt": "2026-05-08T17:06:53.531Z"
   },
   {
     "id": "charityjob-scraper",
@@ -1353,7 +1479,9 @@
       "closing date"
     ],
     "link": "https://apify.com/memo23/charityjob-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-07T20:51:16.983Z",
+    "modifiedAt": "2026-05-10T22:18:55.313Z"
   },
   {
     "id": "edjoin-scraper",
@@ -1374,7 +1502,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/edjoin-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-05T14:31:18.533Z",
+    "modifiedAt": "2026-04-28T21:07:42.894Z"
   },
   {
     "id": "apify-dice-scraper",
@@ -1395,7 +1525,9 @@
       "application details"
     ],
     "link": "https://apify.com/memo23/apify-dice-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-08T18:32:35.620Z",
+    "modifiedAt": "2026-04-28T21:05:04.846Z"
   },
   {
     "id": "glassdoor-scraper-ppr",
@@ -1414,7 +1546,9 @@
       "market research"
     ],
     "link": "https://apify.com/memo23/glassdoor-scraper-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-12-07T21:08:46.581Z",
+    "modifiedAt": "2026-05-09T18:48:32.967Z"
   },
   {
     "id": "glassdoor",
@@ -1437,7 +1571,9 @@
       "company info"
     ],
     "link": "https://apify.com/memo23/apify-glassdoor-reviews-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-04-22T23:46:47.676Z",
+    "modifiedAt": "2026-05-09T18:51:26.562Z"
   },
   {
     "id": "goodmoves-scraper",
@@ -1460,7 +1596,9 @@
       "closing date"
     ],
     "link": "https://apify.com/memo23/goodmoves-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-08T21:24:52.685Z",
+    "modifiedAt": "2026-05-10T12:10:12.578Z"
   },
   {
     "id": "gowork-scraper",
@@ -1481,7 +1619,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/gowork-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-02T08:35:20.633Z",
+    "modifiedAt": "2026-05-08T17:00:45.194Z"
   },
   {
     "id": "apify-hiring-cafe-scraper-rental",
@@ -1503,7 +1643,9 @@
       "location data"
     ],
     "link": "https://apify.com/memo23/apify-hiring-cafe-scraper-rental",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-06T10:06:40.532Z",
+    "modifiedAt": "2026-05-09T12:52:15.545Z"
   },
   {
     "id": "apify-hiring-cafe-scraper",
@@ -1525,7 +1667,9 @@
       "location data"
     ],
     "link": "https://apify.com/memo23/apify-hiring-cafe-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-16T20:41:36.265Z",
+    "modifiedAt": "2026-05-09T13:19:04.914Z"
   },
   {
     "id": "indeed-browser",
@@ -1547,7 +1691,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/apify-indeed",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-01-21T15:01:47.263Z",
+    "modifiedAt": "2026-05-01T12:12:27.970Z"
   },
   {
     "id": "apify-indeed-cheerio-ppr",
@@ -1568,7 +1714,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/apify-indeed-cheerio-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-04-23T10:59:16.649Z",
+    "modifiedAt": "2026-05-08T21:43:04.326Z"
   },
   {
     "id": "indeed-reviews",
@@ -1590,7 +1738,9 @@
       "date"
     ],
     "link": "https://apify.com/memo23/apify-indeed-reviews",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-04-06T16:50:46.107Z",
+    "modifiedAt": "2026-05-08T16:24:27.343Z"
   },
   {
     "id": "indeed-cheerio",
@@ -1611,7 +1761,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/apify-indeed-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-08-02T16:15:10.034Z",
+    "modifiedAt": "2026-05-01T12:10:35.482Z"
   },
   {
     "id": "apify-indeed-cheerio-keywords-ppr",
@@ -1633,7 +1785,9 @@
       "size"
     ],
     "link": "https://apify.com/memo23/apify-indeed-cheerio-keywords-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-09-26T20:15:17.615Z",
+    "modifiedAt": "2026-05-08T16:19:15.371Z"
   },
   {
     "id": "apify-indeed-reviews-ppr",
@@ -1654,7 +1808,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/apify-indeed-reviews-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-04-23T11:34:28.013Z",
+    "modifiedAt": "2026-05-08T16:19:40.419Z"
   },
   {
     "id": "jora-search-cheerio-ppr",
@@ -1675,7 +1831,9 @@
       "location details"
     ],
     "link": "https://apify.com/memo23/jora-search-cheerio-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-11-13T11:43:33.495Z",
+    "modifiedAt": "2026-05-08T16:17:09.526Z"
   },
   {
     "id": "linkedin-company-people",
@@ -1695,7 +1853,9 @@
       "profile url"
     ],
     "link": "https://apify.com/memo23/linkedin-company-people-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-03-26T16:24:34.823Z",
+    "modifiedAt": "2026-04-28T21:39:04.270Z"
   },
   {
     "id": "linkedin-search",
@@ -1716,7 +1876,9 @@
       "url"
     ],
     "link": "https://apify.com/memo23/apify-linkedin-search-results-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-17T19:23:38.573Z",
+    "modifiedAt": "2026-04-24T15:16:59.367Z"
   },
   {
     "id": "linkedin-profiles-cheerio",
@@ -1737,7 +1899,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/linkedin-profiles-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-02-17T09:53:46.456Z",
+    "modifiedAt": "2026-05-08T16:52:43.781Z"
   },
   {
     "id": "monster-scraper",
@@ -1759,7 +1923,9 @@
       "posting dates"
     ],
     "link": "https://apify.com/memo23/monster-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-09-27T22:25:43.797Z",
+    "modifiedAt": "2026-05-08T16:54:24.899Z"
   },
   {
     "id": "naukri-scraper",
@@ -1780,7 +1946,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/naukri-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-06T07:10:50.170Z",
+    "modifiedAt": "2026-05-08T16:15:29.356Z"
   },
   {
     "id": "nhs-scraper",
@@ -1802,7 +1970,9 @@
       "about us"
     ],
     "link": "https://apify.com/memo23/nhs-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-09-30T14:37:17.327Z",
+    "modifiedAt": "2026-05-08T16:51:18.953Z"
   },
   {
     "id": "nofluffjobs",
@@ -1825,7 +1995,9 @@
       "benefits"
     ],
     "link": "https://apify.com/memo23/nofluffjobs-cheerio-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-16T21:38:35.828Z",
+    "modifiedAt": "2026-05-08T17:03:27.384Z"
   },
   {
     "id": "randstad-com-scraper",
@@ -1847,7 +2019,9 @@
       "specialisms"
     ],
     "link": "https://apify.com/memo23/randstad-com-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-19T10:55:42.677Z",
+    "modifiedAt": "2026-05-08T16:14:23.073Z"
   },
   {
     "id": "randstad-com-au-scraper",
@@ -1868,7 +2042,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/randstad-com-au-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-16T12:18:54.571Z",
+    "modifiedAt": "2026-05-08T16:17:53.980Z"
   },
   {
     "id": "randstad-nl-scraper",
@@ -1889,7 +2065,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/randstad-nl-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-15T07:47:43.860Z",
+    "modifiedAt": "2026-05-08T16:16:30.716Z"
   },
   {
     "id": "randstad-usa-scraper",
@@ -1910,7 +2088,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/randstad-usa-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-19T19:37:19.643Z",
+    "modifiedAt": "2026-05-08T16:50:50.488Z"
   },
   {
     "id": "reed-jobs-scraper",
@@ -1932,7 +2112,9 @@
       "company names"
     ],
     "link": "https://apify.com/memo23/reed-jobs-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-03-04T14:30:02.875Z",
+    "modifiedAt": "2026-05-08T16:43:50.455Z"
   },
   {
     "id": "s1jobs-scraper",
@@ -1954,7 +2136,9 @@
       "sector"
     ],
     "link": "https://apify.com/memo23/s1jobs-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-08T22:31:57.870Z",
+    "modifiedAt": "2026-05-10T15:31:10.201Z"
   },
   {
     "id": "stepstone-search-cheerio-ppr",
@@ -1975,7 +2159,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/stepstone-search-cheerio-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-11-30T11:42:51.702Z",
+    "modifiedAt": "2026-05-08T16:42:49.985Z"
   },
   {
     "id": "upwork-jobs-scraper",
@@ -1996,7 +2182,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/upwork-jobs-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-03-19T09:43:38.216Z",
+    "modifiedAt": "2026-05-08T16:32:50.894Z"
   },
   {
     "id": "werk-nl-cheerio",
@@ -2018,7 +2206,9 @@
       "requirements education"
     ],
     "link": "https://apify.com/memo23/werk-nl-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-13T14:11:37.940Z",
+    "modifiedAt": "2026-05-08T15:53:34.556Z"
   },
   {
     "id": "xing-scraper",
@@ -2039,7 +2229,9 @@
       "description"
     ],
     "link": "https://apify.com/memo23/xing-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-02-28T10:12:52.336Z",
+    "modifiedAt": "2026-05-08T16:29:56.526Z"
   },
   {
     "id": "ziprecruiter",
@@ -2062,7 +2254,9 @@
       "apply link"
     ],
     "link": "https://apify.com/memo23/apify-ziprecruiter-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-09-10T20:06:41.849Z",
+    "modifiedAt": "2026-05-08T16:25:09.200Z"
   },
   {
     "id": "facebook-comments-scraper",
@@ -2084,7 +2278,9 @@
       "replies"
     ],
     "link": "https://apify.com/memo23/facebook-comments-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-03-20T20:46:43.302Z",
+    "modifiedAt": "2026-05-08T17:03:24.537Z"
   },
   {
     "id": "facebook-group-posts",
@@ -2105,7 +2301,9 @@
       "timestamp"
     ],
     "link": "https://apify.com/memo23/apify-facebook-group-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-16T10:13:01.656Z",
+    "modifiedAt": "2026-04-26T12:27:29.391Z"
   },
   {
     "id": "facebook-page-contact",
@@ -2125,7 +2323,9 @@
       "address"
     ],
     "link": "https://apify.com/memo23/facebook-page-contact-detail-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-02-29T09:47:06.272Z",
+    "modifiedAt": "2026-03-30T11:51:10.015Z"
   },
   {
     "id": "apify-facebook-post-search-scraper",
@@ -2146,7 +2346,9 @@
       "url"
     ],
     "link": "https://apify.com/memo23/apify-facebook-post-search-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-26T16:31:55.975Z",
+    "modifiedAt": "2026-05-05T20:22:13.267Z"
   },
   {
     "id": "facebook-profile-bio-contact",
@@ -2168,7 +2370,9 @@
       "address"
     ],
     "link": "https://apify.com/memo23/facebook-pages-and-contacts-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-06-30T21:04:09.190Z",
+    "modifiedAt": "2025-10-13T11:09:24.383Z"
   },
   {
     "id": "facebook-group",
@@ -2189,7 +2393,9 @@
       "timestamp"
     ],
     "link": "https://apify.com/memo23/facebook-public-group-posts-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-23T11:22:39.948Z",
+    "modifiedAt": "2026-05-08T16:22:46.162Z"
   },
   {
     "id": "facebook-search-groups",
@@ -2210,7 +2416,9 @@
       "url"
     ],
     "link": "https://apify.com/memo23/facebook-search-groups-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-02-15T16:01:14.905Z",
+    "modifiedAt": "2025-09-29T19:44:26.674Z"
   },
   {
     "id": "facebook-search-pages",
@@ -2230,7 +2438,9 @@
       "url"
     ],
     "link": "https://apify.com/memo23/apify-facebook-page-search-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-02-24T12:49:02.987Z",
+    "modifiedAt": "2026-04-05T19:50:39.260Z"
   },
   {
     "id": "apify-instagram-comments-scraper",
@@ -2252,7 +2462,9 @@
       "comment text"
     ],
     "link": "https://apify.com/memo23/apify-instagram-comments-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-23T10:09:30.315Z",
+    "modifiedAt": "2026-05-08T16:17:18.121Z"
   },
   {
     "id": "instagram-profile",
@@ -2274,7 +2486,9 @@
       "verification"
     ],
     "link": "https://apify.com/memo23/apify-instagram-profile-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-10-04T09:10:42.242Z",
+    "modifiedAt": "2026-05-08T16:57:03.714Z"
   },
   {
     "id": "linkedin-search-groups-scraper",
@@ -2296,7 +2510,9 @@
       "rich summaries"
     ],
     "link": "https://apify.com/memo23/linkedin-search-groups-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-09-25T06:28:35.935Z",
+    "modifiedAt": "2026-04-28T21:39:14.679Z"
   },
   {
     "id": "loom-scraper",
@@ -2317,7 +2533,9 @@
       "url"
     ],
     "link": "https://apify.com/memo23/loom-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-25T22:01:19.613Z",
+    "modifiedAt": "2026-05-08T16:53:06.904Z"
   },
   {
     "id": "pinterest",
@@ -2339,7 +2557,9 @@
       "board"
     ],
     "link": "https://apify.com/memo23/pinterest-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-16T08:20:56.856Z",
+    "modifiedAt": "2026-04-28T21:41:55.054Z"
   },
   {
     "id": "quora",
@@ -2360,7 +2580,9 @@
       "timestamp"
     ],
     "link": "https://apify.com/memo23/quora-scraper-with-optional-login",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-01-15T13:59:10.212Z",
+    "modifiedAt": "2026-05-08T16:25:04.325Z"
   },
   {
     "id": "reddit",
@@ -2382,7 +2604,9 @@
       "subreddit"
     ],
     "link": "https://apify.com/memo23/reddit-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-15T10:55:39.177Z",
+    "modifiedAt": "2026-05-08T16:47:57.460Z"
   },
   {
     "id": "skool-members",
@@ -2402,7 +2626,9 @@
       "social links"
     ],
     "link": "https://apify.com/memo23/skool-members-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-06-02T19:49:15.950Z",
+    "modifiedAt": "2026-05-08T16:40:57.075Z"
   },
   {
     "id": "skool-members-scraper-rent",
@@ -2424,7 +2650,9 @@
       "twitter"
     ],
     "link": "https://apify.com/memo23/skool-members-scraper-rent",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-10-17T07:20:04.465Z",
+    "modifiedAt": "2026-04-06T19:47:51.703Z"
   },
   {
     "id": "skool-posts",
@@ -2446,7 +2674,9 @@
       "upvotes"
     ],
     "link": "https://apify.com/memo23/skool-posts-with-comments-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-09-30T11:08:47.811Z",
+    "modifiedAt": "2026-05-08T15:49:02.620Z"
   },
   {
     "id": "tiktok-ads-scraper-cheerio",
@@ -2467,7 +2697,9 @@
       "url"
     ],
     "link": "https://apify.com/memo23/tiktok-ads-scraper-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-03-17T18:01:40.826Z",
+    "modifiedAt": "2026-05-10T21:28:04.154Z"
   },
   {
     "id": "tiktok-profile-videos",
@@ -2489,7 +2721,9 @@
       "video url"
     ],
     "link": "https://apify.com/memo23/tiktok-profile-videos-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-29T09:18:08.512Z",
+    "modifiedAt": "2026-05-08T16:43:01.630Z"
   },
   {
     "id": "tiktok-transcript",
@@ -2508,7 +2742,9 @@
       "video metadata"
     ],
     "link": "https://apify.com/memo23/tiktok-transcript-extractor-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-13T21:00:08.647Z",
+    "modifiedAt": "2026-05-08T16:40:42.395Z"
   },
   {
     "id": "truth-social-profile-scraper-with-posts",
@@ -2527,7 +2763,9 @@
       "more"
     ],
     "link": "https://apify.com/memo23/truth-social-profile-scraper-with-posts",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-06-22T04:22:08.361Z",
+    "modifiedAt": "2026-05-10T21:21:59.112Z"
   },
   {
     "id": "twitter",
@@ -2549,7 +2787,9 @@
       "media"
     ],
     "link": "https://apify.com/memo23/apify-twitter-profile-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-10-15T07:21:23.071Z",
+    "modifiedAt": "2026-03-30T05:34:43.653Z"
   },
   {
     "id": "youtube-channel-videos",
@@ -2572,7 +2812,9 @@
       "publish date"
     ],
     "link": "https://apify.com/memo23/youtube-channel-video-details-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-10-01T05:36:27.091Z",
+    "modifiedAt": "2026-05-08T16:28:57.288Z"
   },
   {
     "id": "youtube-comments",
@@ -2594,7 +2836,9 @@
       "timestamp"
     ],
     "link": "https://apify.com/memo23/youtube-comments-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-09-19T17:29:30.937Z",
+    "modifiedAt": "2026-05-08T16:28:30.111Z"
   },
   {
     "id": "youtube-search",
@@ -2616,7 +2860,9 @@
       "thumbnail"
     ],
     "link": "https://apify.com/memo23/youtube-search-results-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-09-25T11:55:31.848Z",
+    "modifiedAt": "2026-05-04T10:51:57.047Z"
   },
   {
     "id": "youtube-shorts-scraper",
@@ -2637,7 +2883,9 @@
       "url"
     ],
     "link": "https://apify.com/memo23/youtube-shorts-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-02-01T22:24:00.647Z",
+    "modifiedAt": "2026-05-08T15:56:22.490Z"
   },
   {
     "id": "youtube-video-details",
@@ -2660,7 +2908,9 @@
       "duration"
     ],
     "link": "https://apify.com/memo23/youtube-video-details-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-09-30T06:21:48.091Z",
+    "modifiedAt": "2026-05-08T16:56:02.709Z"
   },
   {
     "id": "autoscout24-scraper",
@@ -2681,7 +2931,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/autoscout24-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-24T20:21:20.580Z",
+    "modifiedAt": "2026-05-09T20:23:20.231Z"
   },
   {
     "id": "autotrader-cheerio",
@@ -2702,7 +2954,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/autotrader-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-08-16T23:06:31.449Z",
+    "modifiedAt": "2026-05-08T15:54:39.775Z"
   },
   {
     "id": "autotrader-australia-cheerio",
@@ -2723,7 +2977,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/autotrader-australia-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-03-09T10:21:55.960Z",
+    "modifiedAt": "2026-05-08T15:54:38.911Z"
   },
   {
     "id": "carsales-cheerio",
@@ -2745,7 +3001,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/carsales-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-05-05T22:58:51.989Z",
+    "modifiedAt": "2026-05-10T15:20:07.039Z"
   },
   {
     "id": "chronext",
@@ -2769,7 +3027,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/chronext-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-06-04T22:01:45.239Z",
+    "modifiedAt": "2026-04-28T21:00:21.909Z"
   },
   {
     "id": "cinch-co-uk-scraper",
@@ -2791,7 +3051,9 @@
       "equipment lists"
     ],
     "link": "https://apify.com/memo23/cinch-co-uk-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-08-25T04:16:09.989Z",
+    "modifiedAt": "2026-05-08T17:06:10.816Z"
   },
   {
     "id": "copart-scraper",
@@ -2812,7 +3074,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/copart-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-11T19:39:10.029Z",
+    "modifiedAt": "2026-05-08T16:22:59.515Z"
   },
   {
     "id": "debijenkorf",
@@ -2834,7 +3098,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/debijenkorf-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-12-09T11:13:11.701Z",
+    "modifiedAt": "2026-05-08T17:05:12.849Z"
   },
   {
     "id": "easyauto123-scraper",
@@ -2856,7 +3122,9 @@
       "make/model/variant"
     ],
     "link": "https://apify.com/memo23/easyauto123-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-03-11T21:50:15.905Z",
+    "modifiedAt": "2026-05-08T16:23:05.177Z"
   },
   {
     "id": "ebay",
@@ -2879,7 +3147,9 @@
       "specifics"
     ],
     "link": "https://apify.com/memo23/apify-ebay-search-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-10-30T22:07:18.358Z",
+    "modifiedAt": "2026-05-10T22:33:49.652Z"
   },
   {
     "id": "edel-optics",
@@ -2900,7 +3170,9 @@
       "specs"
     ],
     "link": "https://apify.com/memo23/edel-optics-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-03T17:35:08.730Z",
+    "modifiedAt": "2026-04-28T21:05:42.169Z"
   },
   {
     "id": "facebook-marketplace-scraper-ppe",
@@ -2921,7 +3193,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/facebook-marketplace-scraper-ppe",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-18T20:18:19.039Z",
+    "modifiedAt": "2026-05-08T16:23:05.409Z"
   },
   {
     "id": "gumtree-cheerio",
@@ -2943,7 +3217,9 @@
       "furniture dimensions"
     ],
     "link": "https://apify.com/memo23/gumtree-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-05-10T21:27:18.609Z",
+    "modifiedAt": "2026-05-08T15:46:10.446Z"
   },
   {
     "id": "kijiji-scraper",
@@ -2965,7 +3241,9 @@
       "attributes"
     ],
     "link": "https://apify.com/memo23/kijiji-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-10-14T06:00:12.417Z",
+    "modifiedAt": "2026-05-08T17:22:28.355Z"
   },
   {
     "id": "kleinanzeigen",
@@ -2987,7 +3265,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/kleinanzeigen-search-scraper-ppe",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-06T21:33:40.987Z",
+    "modifiedAt": "2026-05-08T16:57:58.013Z"
   },
   {
     "id": "kleinanzeigen-search-cheerio",
@@ -3008,7 +3288,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/kleinanzeigen-search-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-17T22:56:56.139Z",
+    "modifiedAt": "2026-04-24T20:04:51.599Z"
   },
   {
     "id": "mobile-de-scraper",
@@ -3030,7 +3312,9 @@
       "amenities"
     ],
     "link": "https://apify.com/memo23/mobile-de-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-07-04T17:23:48.683Z",
+    "modifiedAt": "2026-05-08T16:15:06.894Z"
   },
   {
     "id": "njuskalo-scraper",
@@ -3051,7 +3335,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/njuskalo-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-13T14:01:29.317Z",
+    "modifiedAt": "2026-04-28T21:44:25.679Z"
   },
   {
     "id": "apify-ricardo-ch-scraper",
@@ -3072,7 +3358,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/apify-ricardo-ch-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-03T08:57:32.057Z",
+    "modifiedAt": "2026-04-28T21:46:37.313Z"
   },
   {
     "id": "smartbuyglasses",
@@ -3095,7 +3383,9 @@
       "Rx-compatible"
     ],
     "link": "https://apify.com/memo23/smartbuyglasses-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-04T18:41:39.197Z",
+    "modifiedAt": "2026-05-08T16:39:54.054Z"
   },
   {
     "id": "zalando",
@@ -3117,7 +3407,9 @@
       "stock"
     ],
     "link": "https://apify.com/memo23/zalando-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-10-11T09:39:02.406Z",
+    "modifiedAt": "2026-05-08T15:57:27.531Z"
   },
   {
     "id": "cicek",
@@ -3138,7 +3430,9 @@
       "category"
     ],
     "link": "https://apify.com/memo23/cicek",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-01-06T17:21:44.017Z",
+    "modifiedAt": "2026-03-31T21:25:47.209Z"
   },
   {
     "id": "doordash-reviews-cheerio",
@@ -3158,7 +3452,9 @@
       "operational data"
     ],
     "link": "https://apify.com/memo23/doordash-reviews-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-02T13:13:24.270Z",
+    "modifiedAt": "2026-05-08T15:44:12.661Z"
   },
   {
     "id": "expedia-scraper",
@@ -3178,7 +3474,9 @@
       "date"
     ],
     "link": "https://apify.com/memo23/expedia-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-02-05T11:32:07.138Z",
+    "modifiedAt": "2026-05-10T19:29:19.835Z"
   },
   {
     "id": "apify-gartner-scraper-ppr",
@@ -3200,7 +3498,9 @@
       "deployment info"
     ],
     "link": "https://apify.com/memo23/apify-gartner-scraper-ppr",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-08-24T18:31:55.468Z",
+    "modifiedAt": "2026-05-08T16:23:15.103Z"
   },
   {
     "id": "google-maps-reviews-scraper",
@@ -3220,7 +3520,9 @@
       "date"
     ],
     "link": "https://apify.com/memo23/google-maps-reviews-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-27T20:06:05.044Z",
+    "modifiedAt": "2026-05-11T05:40:45.569Z"
   },
   {
     "id": "hotels-scraper",
@@ -3240,7 +3542,9 @@
       "date"
     ],
     "link": "https://apify.com/memo23/hotels-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-02-05T13:48:33.426Z",
+    "modifiedAt": "2026-05-08T16:19:15.009Z"
   },
   {
     "id": "opentable-reviews-cheerio",
@@ -3262,7 +3566,9 @@
       "images"
     ],
     "link": "https://apify.com/memo23/opentable-reviews-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-02T09:49:19.476Z",
+    "modifiedAt": "2026-05-08T16:14:42.603Z"
   },
   {
     "id": "repvue-scraper",
@@ -3282,7 +3588,9 @@
       "date"
     ],
     "link": "https://apify.com/memo23/repvue-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-03-03T14:12:29.422Z",
+    "modifiedAt": "2026-05-08T16:43:18.527Z"
   },
   {
     "id": "teamblind",
@@ -3304,7 +3612,9 @@
       "reviewer location"
     ],
     "link": "https://apify.com/memo23/teamblind-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-05T21:40:16.744Z",
+    "modifiedAt": "2026-05-08T16:37:38.203Z"
   },
   {
     "id": "tripadvisor",
@@ -3327,7 +3637,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/tripadvisor-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-19T08:06:59.724Z",
+    "modifiedAt": "2026-05-08T17:54:36.653Z"
   },
   {
     "id": "trustpilot",
@@ -3348,7 +3660,9 @@
       "review stats"
     ],
     "link": "https://apify.com/memo23/apify-trustpilot-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-06T13:48:36.323Z",
+    "modifiedAt": "2026-04-29T10:09:21.302Z"
   },
   {
     "id": "uber-eats-scraper",
@@ -3368,7 +3682,9 @@
       "date"
     ],
     "link": "https://apify.com/memo23/uber-eats-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-03-26T14:48:35.349Z",
+    "modifiedAt": "2026-05-08T15:57:10.552Z"
   },
   {
     "id": "viewstats-scraper",
@@ -3390,7 +3706,9 @@
       "video counts"
     ],
     "link": "https://apify.com/memo23/viewstats-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-11-18T15:29:48.839Z",
+    "modifiedAt": "2026-03-24T20:52:17.634Z"
   },
   {
     "id": "yelp-scraper",
@@ -3412,7 +3730,9 @@
       "contact"
     ],
     "link": "https://apify.com/memo23/yelp-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-02-16T20:49:38.513Z",
+    "modifiedAt": "2026-05-11T06:14:18.913Z"
   },
   {
     "id": "avvo-scraper",
@@ -3435,7 +3755,9 @@
       "reviews"
     ],
     "link": "https://apify.com/memo23/avvo-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-09T12:20:33.187Z",
+    "modifiedAt": "2026-05-10T15:50:25.531Z"
   },
   {
     "id": "bizbuysell",
@@ -3456,7 +3778,9 @@
       "listing metadata"
     ],
     "link": "https://apify.com/memo23/apify-bizbuysell-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-06T20:45:48.546Z",
+    "modifiedAt": "2026-05-08T15:49:41.513Z"
   },
   {
     "id": "bizquest-scraper",
@@ -3477,7 +3801,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/bizquest-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-03-28T11:13:13.824Z",
+    "modifiedAt": "2026-05-09T11:39:13.515Z"
   },
   {
     "id": "businessesforsale-scraper",
@@ -3498,7 +3824,9 @@
       "search context"
     ],
     "link": "https://apify.com/memo23/businessesforsale-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-07-24T14:04:54.479Z",
+    "modifiedAt": "2026-05-11T06:19:02.216Z"
   },
   {
     "id": "clutch",
@@ -3519,7 +3847,9 @@
       "pricing"
     ],
     "link": "https://apify.com/memo23/apify-clutch-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2024-05-30T21:26:19.109Z",
+    "modifiedAt": "2026-05-08T15:48:41.446Z"
   },
   {
     "id": "comparably-cheerio-scraper",
@@ -3540,7 +3870,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/comparably-cheerio-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-04-11T09:13:49.407Z",
+    "modifiedAt": "2026-04-06T21:03:06.116Z"
   },
   {
     "id": "europeancoffeetrip-leads-scraper",
@@ -3561,7 +3893,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/europeancoffeetrip-leads-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-09T19:54:30.149Z",
+    "modifiedAt": "2026-05-08T17:06:34.982Z"
   },
   {
     "id": "findlaw-scraper",
@@ -3584,7 +3918,9 @@
       "website"
     ],
     "link": "https://apify.com/memo23/findlaw-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-09T20:35:01.870Z",
+    "modifiedAt": "2026-05-10T15:42:16.987Z"
   },
   {
     "id": "flippa-scraper",
@@ -3603,7 +3939,9 @@
       "multiples"
     ],
     "link": "https://apify.com/memo23/flippa-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-17T21:03:42.423Z",
+    "modifiedAt": "2026-05-08T15:53:48.855Z"
   },
   {
     "id": "fundainbusiness-scraper",
@@ -3625,7 +3963,9 @@
       "building"
     ],
     "link": "https://apify.com/memo23/fundainbusiness-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-11-17T15:24:27.111Z",
+    "modifiedAt": "2026-05-08T17:01:03.390Z"
   },
   {
     "id": "g2-scraper",
@@ -3647,7 +3987,9 @@
       "sponsorship status"
     ],
     "link": "https://apify.com/memo23/g2-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-01-24T17:37:58.478Z",
+    "modifiedAt": "2026-05-08T16:23:29.960Z"
   },
   {
     "id": "google-ad-transparency-scraper-cheerio",
@@ -3669,7 +4011,9 @@
       "tags"
     ],
     "link": "https://apify.com/memo23/google-ad-transparency-scraper-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-04-09T21:13:12.024Z",
+    "modifiedAt": "2026-05-10T15:37:12.974Z"
   },
   {
     "id": "inhersight-cheerio-scraper",
@@ -3690,7 +4034,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/inhersight-cheerio-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-04-10T08:41:29.520Z",
+    "modifiedAt": "2026-05-08T16:57:30.754Z"
   },
   {
     "id": "linkedin-ads-scraper",
@@ -3712,7 +4058,9 @@
       "video"
     ],
     "link": "https://apify.com/memo23/linkedin-ads-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-02-23T22:00:08.431Z",
+    "modifiedAt": "2026-05-08T15:41:45.021Z"
   },
   {
     "id": "linkedin-company-about-scraper",
@@ -3733,7 +4081,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/linkedin-company-about-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-09-25T18:35:51.867Z",
+    "modifiedAt": "2026-04-28T21:37:54.710Z"
   },
   {
     "id": "martindale-scraper",
@@ -3755,7 +4105,9 @@
       "rating"
     ],
     "link": "https://apify.com/memo23/martindale-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-10T19:12:00.621Z",
+    "modifiedAt": "2026-05-10T19:33:04.383Z"
   },
   {
     "id": "pagesjaunes-scraper-cheerio",
@@ -3776,7 +4128,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/pagesjaunes-scraper-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-01T23:07:27.499Z",
+    "modifiedAt": "2026-05-08T16:50:14.010Z"
   },
   {
     "id": "tendersontime-leads-scraper",
@@ -3798,7 +4152,9 @@
       "documents"
     ],
     "link": "https://apify.com/memo23/tendersontime-leads-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-21T19:36:07.257Z",
+    "modifiedAt": "2026-05-08T16:34:21.757Z"
   },
   {
     "id": "thomasnet-scraper",
@@ -3819,7 +4175,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/thomasnet-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-05-11T22:58:46.910Z",
+    "modifiedAt": "2026-05-08T16:13:45.898Z"
   },
   {
     "id": "trustpilot-scraper-ppe",
@@ -3840,7 +4198,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/trustpilot-scraper-ppe",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-12-30T15:53:19.498Z",
+    "modifiedAt": "2026-05-08T15:38:53.950Z"
   },
   {
     "id": "us-state-bar-scraper",
@@ -3861,7 +4221,9 @@
       "state"
     ],
     "link": "https://apify.com/memo23/us-state-bar-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-09T21:45:12.185Z",
+    "modifiedAt": "2026-05-10T19:36:39.916Z"
   },
   {
     "id": "whop-leaderboards-scraper",
@@ -3883,7 +4245,9 @@
       "up-to-date market research"
     ],
     "link": "https://apify.com/memo23/whop-leaderboards-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-02-28T09:15:45.748Z",
+    "modifiedAt": "2026-05-08T16:30:15.130Z"
   },
   {
     "id": "yc",
@@ -3907,7 +4271,9 @@
       "jobs"
     ],
     "link": "https://apify.com/memo23/y-combinator-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-01T12:08:05.446Z",
+    "modifiedAt": "2026-05-09T11:36:47.254Z"
   },
   {
     "id": "angi",
@@ -3930,7 +4296,9 @@
       "location"
     ],
     "link": "https://apify.com/memo23/angi-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-25T16:35:38.764Z",
+    "modifiedAt": "2026-05-08T17:08:27.629Z"
   },
   {
     "id": "psychologytoday",
@@ -3953,7 +4321,9 @@
       "availability"
     ],
     "link": "https://apify.com/memo23/psychologytoday-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-05-05T10:22:46.474Z",
+    "modifiedAt": "2026-05-08T16:47:31.180Z"
   },
   {
     "id": "skyscanner-scraper",
@@ -3972,7 +4342,9 @@
       "routes"
     ],
     "link": "https://apify.com/memo23/skyscanner-scraper",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2026-04-26T19:32:32.495Z",
+    "modifiedAt": "2026-05-07T14:56:43.140Z"
   },
   {
     "id": "virtuals",
@@ -3993,7 +4365,9 @@
       "links"
     ],
     "link": "https://apify.com/memo23/virtuals-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-02T20:47:00.797Z",
+    "modifiedAt": "2026-04-28T21:56:38.852Z"
   },
   {
     "id": "yangming",
@@ -4014,7 +4388,9 @@
       "shipping timeline"
     ],
     "link": "https://apify.com/memo23/yangming-cheerio",
-    "status": "public"
+    "status": "public",
+    "createdAt": "2025-01-20T18:38:49.296Z",
+    "modifiedAt": "2026-05-08T16:30:06.582Z"
   },
   {
     "id": "amazon",
@@ -4038,7 +4414,9 @@
       "offers"
     ],
     "link": null,
-    "status": "private"
+    "status": "private",
+    "createdAt": null,
+    "modifiedAt": null
   },
   {
     "id": "fashionnova",
@@ -4061,7 +4439,9 @@
       "options"
     ],
     "link": null,
-    "status": "private"
+    "status": "private",
+    "createdAt": null,
+    "modifiedAt": null
   },
   {
     "id": "t5ear",
@@ -4084,7 +4464,9 @@
       "timestamp"
     ],
     "link": null,
-    "status": "private"
+    "status": "private",
+    "createdAt": null,
+    "modifiedAt": null
   },
   {
     "id": "linkedin-sales-navigator",
@@ -4107,6 +4489,8 @@
       "news"
     ],
     "link": null,
-    "status": "private"
+    "status": "private",
+    "createdAt": null,
+    "modifiedAt": null
   }
 ]
