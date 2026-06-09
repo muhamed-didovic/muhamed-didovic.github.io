@@ -95,6 +95,30 @@
     "modifiedAt": "2026-05-08T17:10:02.672Z"
   },
   {
+    "id": "au-property-multi-portal-scraper",
+    "title": "AU Property \u2014 All Major Portals",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Australian property listings across Domain.com.au + Ray White office subdomains in one unified output. Auto-classifies the input URL.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "address",
+      "agent",
+      "photos",
+      "portal"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tOV6rMEvY9xcktgov-JApi54OkrM-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/au-property-multi-portal-scraper",
+    "status": "public",
+    "createdAt": "2026-05-28T12:25:17.495Z",
+    "modifiedAt": "2026-06-06T21:08:35.439Z"
+  },
+  {
     "id": "auction-com-scraper",
     "title": "Auction.com [Only Search and Details",
     "category": "real-estate",
@@ -164,6 +188,30 @@
     "status": "public",
     "createdAt": "2025-06-26T21:34:46.490Z",
     "modifiedAt": "2026-05-08T15:50:46.203Z"
+  },
+  {
+    "id": "commercialrealestate-au-scraper",
+    "title": "Commercialrealestate.com.au",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Commercial property from commercialrealestate.com.au \u2014 40+ fields per row covering offices, retail, industrial, development sites, and businesses.",
+    "outputs": [
+      "price",
+      "property type",
+      "size",
+      "location",
+      "agent",
+      "sale/lease"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-0TyyflTseRIMkqqDD-x5Ds1LaWez-commercialrs.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/commercialrealestate-au-scraper",
+    "status": "public",
+    "createdAt": "2026-05-28T13:27:32.394Z",
+    "modifiedAt": "2026-06-07T04:28:54.268Z"
   },
   {
     "id": "comparis-ch-scraper",
@@ -417,6 +465,30 @@
     "status": "public",
     "createdAt": "2024-12-26T22:32:30.955Z",
     "modifiedAt": "2026-05-08T15:41:05.252Z"
+  },
+  {
+    "id": "harcourts-scraper",
+    "title": "Harcourts AU Property Listings",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Harcourts Australia property listings \u2014 buy / sold / rent search (with location, price, bedroom filters) or individual property URLs.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "address",
+      "agent",
+      "sale status",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-FwTnO4g2hswAw1JXj-I7Pf453s9K-harcourts.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/harcourts-scraper",
+    "status": "public",
+    "createdAt": "2026-06-02T12:44:18.591Z",
+    "modifiedAt": "2026-06-06T21:09:53.398Z"
   },
   {
     "id": "housesigma",
@@ -883,6 +955,30 @@
     "status": "public",
     "createdAt": "2026-05-17T20:22:42.952Z",
     "modifiedAt": "2026-05-28T05:37:43.895Z"
+  },
+  {
+    "id": "otodom-scraper",
+    "title": "Otodom Polish Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "otodom.pl Polish property listings \u2014 sale or rent search (with filters) and individual offers. Returns address, rooms, m\u00b2, price, agent.",
+    "outputs": [
+      "price",
+      "rooms",
+      "m\u00b2",
+      "address",
+      "agent",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-bt6fiYnxZ2nn9La0s-SYhGEHYkPT-otodom.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/otodom-scraper",
+    "status": "public",
+    "createdAt": "2026-06-05T10:03:53.587Z",
+    "modifiedAt": "2026-06-06T21:34:46.345Z"
   },
   {
     "id": "pap-scraper",
@@ -1534,6 +1630,30 @@
     "modifiedAt": "2026-04-28T22:03:05.743Z"
   },
   {
+    "id": "asva-scraper",
+    "title": "ASVA Scottish Visitor-Attraction Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "asva.co.uk Scottish visitor-attraction jobs board \u2014 RSS + detail-page enrichment: organisation, parsed salary, location, job type.",
+    "outputs": [
+      "title",
+      "organisation",
+      "salary",
+      "location",
+      "job type",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-vCd2fTK3TA7J8Peif-Osvppd9kom-asva.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/asva-scraper",
+    "status": "public",
+    "createdAt": "2026-05-19T22:31:47.166Z",
+    "modifiedAt": "2026-06-05T09:56:58.086Z"
+  },
+  {
     "id": "bayt-search-cheerio-ppr",
     "title": "Bayt.com \u00b7 \u00b7 Search by URL or Keywords",
     "category": "jobs",
@@ -1816,6 +1936,30 @@
     "modifiedAt": "2026-05-08T17:00:45.194Z"
   },
   {
+    "id": "greenhouse-jobs-scraper",
+    "title": "Greenhouse Jobs (any board)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every job from any Greenhouse board \u2014 paste a boards.greenhouse.io URL or company token. Gets title, requisition ID, and full HTML description.",
+    "outputs": [
+      "title",
+      "requisition id",
+      "description",
+      "location",
+      "department",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-WcvnoodOT18aBz6Yp-sK62sybYbQ-greenhouse.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/greenhouse-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-06-02T03:33:22.443Z",
+    "modifiedAt": "2026-06-02T12:43:04.865Z"
+  },
+  {
     "id": "highlandjobs-scraper",
     "title": "Highland Jobs (Scotland)",
     "category": "jobs",
@@ -1838,6 +1982,30 @@
     "status": "public",
     "createdAt": "2026-05-19T22:23:14.368Z",
     "modifiedAt": "2026-05-22T22:50:41.735Z"
+  },
+  {
+    "id": "hijobs-scraper",
+    "title": "HIJOBS Scotland Highlands & Islands",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "hijobs.net \u2014 Scotland's Highlands & Islands jobs board \u2014 via the official HIJOBS mobile API. Title, employer, salary, location, hours.",
+    "outputs": [
+      "title",
+      "employer",
+      "salary",
+      "location",
+      "hours",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-eKTs35b7fXQ7mLOcU-o07k1Wspbp-hijobs-0_275_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/hijobs-scraper",
+    "status": "public",
+    "createdAt": "2026-06-05T10:24:17.149Z",
+    "modifiedAt": "2026-06-05T22:14:14.992Z"
   },
   {
     "id": "apify-hiring-cafe-scraper-rental",
@@ -2381,6 +2549,30 @@
     "modifiedAt": "2026-05-10T15:31:10.201Z"
   },
   {
+    "id": "seek-scraper",
+    "title": "Seek.com.au Jobs (AU & NZ)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Seek.com.au (AU & NZ) job listings \u2014 any keyword/location search with filters, or individual job URLs. Title, company, salary, type, full description.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "type",
+      "description"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-OK8tebww5GVDZE6Dw-2RhbcbYVrn-seek.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/seek-scraper",
+    "status": "public",
+    "createdAt": "2026-06-07T10:18:26.076Z",
+    "modifiedAt": "2026-06-08T06:27:39.280Z"
+  },
+  {
     "id": "stepstone-search-cheerio-ppr",
     "title": "Stepstone.de Search Jobs by Url or Keywords",
     "category": "jobs",
@@ -2545,6 +2737,30 @@
     "status": "public",
     "createdAt": "2026-05-22T17:32:36.028Z",
     "modifiedAt": "2026-05-25T13:18:35.620Z"
+  },
+  {
+    "id": "workday-jobs-scraper",
+    "title": "Workday Jobs (any company)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any company's Workday careers page \u2014 paste a {tenant}.myworkdayjobs.com URL and get structured rows: title, JR requisition ID, full description.",
+    "outputs": [
+      "title",
+      "requisition id",
+      "description",
+      "location",
+      "posted",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-uAhzsEvoCV2TeUmIn-TP8fLiz8od-workday.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/workday-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-05-22T19:39:59.780Z",
+    "modifiedAt": "2026-05-28T12:21:56.265Z"
   },
   {
     "id": "xing-scraper",
@@ -3297,6 +3513,30 @@
     "modifiedAt": "2026-05-08T16:56:02.709Z"
   },
   {
+    "id": "autohero-cars-scraper",
+    "title": "Autohero Used Cars (All Europe)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Used-car listings from Autohero across all 10 EU storefronts \u2014 make, model, trim, price, mileage, power, fuel, transmission.",
+    "outputs": [
+      "make/model",
+      "price",
+      "mileage",
+      "power",
+      "fuel",
+      "transmission"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7BfEuCkqVJ5xbASKZ-uyMxV2cTYg-autohero.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/autohero-cars-scraper",
+    "status": "public",
+    "createdAt": "2026-05-31T03:42:36.994Z",
+    "modifiedAt": "2026-06-01T22:25:17.637Z"
+  },
+  {
     "id": "autoscout24-scraper",
     "title": "Autoscout24 API",
     "category": "ecommerce",
@@ -3438,6 +3678,30 @@
     "status": "public",
     "createdAt": "2024-06-04T22:01:45.239Z",
     "modifiedAt": "2026-04-28T21:00:21.909Z"
+  },
+  {
+    "id": "chrono24-scraper",
+    "title": "Chrono24 Watch Listings",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "All-in-one Chrono24 scraper \u2014 auto-classifies detail, brand-index, model-index, and search URLs. 35+ fields per listing including reference and movement.",
+    "outputs": [
+      "brand",
+      "model",
+      "reference",
+      "price",
+      "condition",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-R16QZrhnVcm6C4A6u-yptt2OlrtG-Chrono24-scaled.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/chrono24-scraper",
+    "status": "public",
+    "createdAt": "2026-05-28T03:51:01.070Z",
+    "modifiedAt": "2026-06-03T16:43:42.583Z"
   },
   {
     "id": "cinch-co-uk-scraper",
@@ -4355,6 +4619,30 @@
     "modifiedAt": "2026-04-06T21:03:06.116Z"
   },
   {
+    "id": "crunchbase-scraper",
+    "title": "Crunchbase Companies + Funding",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "One clean structured row per company \u2014 funding rounds, people, M&A, tech stack, traffic, IT spend, growth/IPO predictions.",
+    "outputs": [
+      "company",
+      "funding",
+      "people",
+      "M&A",
+      "tech stack",
+      "growth signals"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-A2kXKBteDaITbXxSE-nibOm6Uo68-crunchbase-logo-png_seeklogo-491107.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/crunchbase-scraper",
+    "status": "public",
+    "createdAt": "2026-06-02T15:54:30.514Z",
+    "modifiedAt": "2026-06-08T17:42:47.125Z"
+  },
+  {
     "id": "europeancoffeetrip-leads-scraper",
     "title": "Europeancoffeetrip.com LEADS",
     "category": "business",
@@ -4803,6 +5091,30 @@
     "status": "public",
     "createdAt": "2026-04-25T16:35:38.764Z",
     "modifiedAt": "2026-05-08T17:08:27.629Z"
+  },
+  {
+    "id": "google-flights-scraper",
+    "title": "Google Flights \u2014 Fares & Multi-City",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google Flights scraper for fare monitoring and price comparison \u2014 one-way, round-trip and multi-city with full result sets, not just the top fare.",
+    "outputs": [
+      "fare",
+      "airline",
+      "stops",
+      "duration",
+      "origin",
+      "destination"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ulPbFXCmcjxx3iPnp-cM0XbbaUgy-google-flights-logo-icon-free-png.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-flights-scraper",
+    "status": "public",
+    "createdAt": "2026-06-05T21:19:48.638Z",
+    "modifiedAt": "2026-06-08T19:58:28.017Z"
   },
   {
     "id": "psychologytoday",
