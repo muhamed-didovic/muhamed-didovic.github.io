@@ -2573,6 +2573,30 @@
     "modifiedAt": "2026-06-08T06:27:39.280Z"
   },
   {
+    "id": "snicket-scraper",
+    "title": "Snicket Bradford / W. Yorkshire Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bradford and West Yorkshire community-sector vacancies from snicket.org \u2014 RSS + labelled detail-page extraction: title, organisation, salary, hours, closing date.",
+    "outputs": [
+      "title",
+      "organisation",
+      "salary",
+      "hours",
+      "closing date",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ycofj5Wy7fB1iH3AL-HlbBuof22E-snicket.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/snicket-scraper",
+    "status": "public",
+    "createdAt": "2026-05-19T22:33:14.653Z",
+    "modifiedAt": "2026-06-09T14:36:10.338Z"
+  },
+  {
     "id": "stepstone-search-cheerio-ppr",
     "title": "Stepstone.de Search Jobs by Url or Keywords",
     "category": "jobs",
@@ -3065,6 +3089,30 @@
     "status": "public",
     "createdAt": "2025-09-25T06:28:35.935Z",
     "modifiedAt": "2026-04-28T21:39:14.679Z"
+  },
+  {
+    "id": "linkedin-posts-scraper",
+    "title": "LinkedIn Posts (no cookies)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Track any LinkedIn creator or company's posts \u2014 no login, no cookies. Text, author, typed reactions, comment counts, media, with unique IDs.",
+    "outputs": [
+      "text",
+      "author",
+      "reactions",
+      "comments",
+      "media",
+      "post id"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-posts-scraper",
+    "status": "public",
+    "createdAt": "2026-06-09T16:52:32.693Z",
+    "modifiedAt": "2026-06-12T11:36:15.320Z"
   },
   {
     "id": "loom-scraper",
@@ -3965,6 +4013,30 @@
     "modifiedAt": "2026-04-24T20:04:51.599Z"
   },
   {
+    "id": "leboncoin-scraper",
+    "title": "Leboncoin.fr (any category)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn any leboncoin.fr search into a clean dataset \u2014 real estate, cars, jobs, goods. One row per ad: price, full description, GPS coordinates, seller.",
+    "outputs": [
+      "price",
+      "description",
+      "GPS",
+      "seller",
+      "category",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-X0CLvyRjAOievM7oh-1zSoDciSMm-leboncoin.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/leboncoin-scraper",
+    "status": "public",
+    "createdAt": "2026-06-10T13:50:45.802Z",
+    "modifiedAt": "2026-06-11T04:06:39.006Z"
+  },
+  {
     "id": "mobile-de-scraper",
     "title": "Mobile.de Unlimited Search & Detail",
     "category": "ecommerce",
@@ -4105,6 +4177,54 @@
     "status": "public",
     "createdAt": "2024-01-06T17:21:44.017Z",
     "modifiedAt": "2026-03-31T21:25:47.209Z"
+  },
+  {
+    "id": "agoda-scraper",
+    "title": "Agoda Hotel Listings",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search hotels and accommodations on Agoda by destination + dates \u2014 per hotel: name, star rating, review score & count, nightly price, area.",
+    "outputs": [
+      "name",
+      "stars",
+      "review score",
+      "nightly price",
+      "area",
+      "city"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-BLTnhwue7dmLi1DAo-g8NdhKPGwp-agoda-logo-png_seeklogo-371025.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/agoda-scraper",
+    "status": "public",
+    "createdAt": "2026-06-09T16:15:02.988Z",
+    "modifiedAt": "2026-06-09T21:53:05.602Z"
+  },
+  {
+    "id": "agoda-reviews-scraper",
+    "title": "Agoda Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Guest reviews from any Agoda hotel by URL or hotel ID \u2014 per review: rating, title, full text, reviewer country, traveler type.",
+    "outputs": [
+      "rating",
+      "title",
+      "review text",
+      "reviewer country",
+      "traveler type",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-OmUp3yzm6tWBf5Shn-MmychOIkA5-agoda-logo-png_seeklogo-371025.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/agoda-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-06-09T19:52:37.879Z",
+    "modifiedAt": "2026-06-09T21:03:13.243Z"
   },
   {
     "id": "ambitionbox-reviews-scraper",
@@ -4666,6 +4786,30 @@
     "modifiedAt": "2026-05-08T17:06:34.982Z"
   },
   {
+    "id": "eventbrite-scraper",
+    "title": "Eventbrite Events + Organizer Leads",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn Eventbrite into an events feed AND an organizer lead list \u2014 event name, dates, venue, geo, ticket price range, plus organizer website and socials.",
+    "outputs": [
+      "event",
+      "dates",
+      "venue",
+      "ticket price",
+      "organizer",
+      "website"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-PUihl1MM6KItcsRdk-7kNN8La6zF-eventbrite.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/eventbrite-scraper",
+    "status": "public",
+    "createdAt": "2026-06-10T16:10:07.797Z",
+    "modifiedAt": "2026-06-12T08:33:36.376Z"
+  },
+  {
     "id": "findlaw-scraper",
     "title": "FindLaw Lawyer Directory",
     "category": "business",
@@ -4923,6 +5067,30 @@
     "status": "public",
     "createdAt": "2026-05-24T23:08:07.426Z",
     "modifiedAt": "2026-05-25T06:54:35.447Z"
+  },
+  {
+    "id": "similarweb-scraper",
+    "title": "Similarweb Traffic + Rank",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Similarweb traffic data for any domain \u2014 global/country/category rank, monthly visits + 3-month trend, bounce rate, traffic-source split, top countries.",
+    "outputs": [
+      "rank",
+      "monthly visits",
+      "trend",
+      "bounce rate",
+      "sources",
+      "top countries"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-H1Dwl3dskxPQMI4ol-2RN8ho7M41-similarweb-ltd-logo-png_seeklogo-390847.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/similarweb-scraper",
+    "status": "public",
+    "createdAt": "2026-06-10T16:10:44.756Z",
+    "modifiedAt": "2026-06-12T11:42:53.241Z"
   },
   {
     "id": "tendersontime-leads-scraper",
