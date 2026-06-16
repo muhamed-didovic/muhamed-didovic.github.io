@@ -1630,6 +1630,30 @@
     "modifiedAt": "2026-04-28T22:03:05.743Z"
   },
   {
+    "id": "ashby-scraper",
+    "title": "Ashby Jobs (any company)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every open job from any company on Ashby (jobs.ashbyhq.com) \u2014 paste a board URL or org slug, get the full board in one API call with company, title, and email contacts.",
+    "outputs": [
+      "company",
+      "title",
+      "location",
+      "department",
+      "email",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-TvhArelecxDxrXLgO-KsCNpeVniF-Ashby.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ashby-scraper",
+    "status": "public",
+    "createdAt": "2026-06-14T05:36:24.724Z",
+    "modifiedAt": "2026-06-15T11:58:11.672Z"
+  },
+  {
     "id": "asva-scraper",
     "title": "ASVA Scottish Visitor-Attraction Jobs",
     "category": "jobs",
@@ -1652,6 +1676,54 @@
     "status": "public",
     "createdAt": "2026-05-19T22:31:47.166Z",
     "modifiedAt": "2026-06-05T09:56:58.086Z"
+  },
+  {
+    "id": "barnsleycvs-scraper",
+    "title": "Barnsley CVS Voluntary Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "barnsleycvs.org.uk Webflow job board for Barnsley voluntary-sector vacancies \u2014 title, employer, parsed salary, closing date, full HTML description.",
+    "outputs": [
+      "title",
+      "employer",
+      "salary",
+      "closing date",
+      "description",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-9pQsFRcwf6S03XpgE-waYkLoNk0J-barnsley.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/barnsleycvs-scraper",
+    "status": "public",
+    "createdAt": "2026-05-19T22:35:14.068Z",
+    "modifiedAt": "2026-06-12T21:17:55.696Z"
+  },
+  {
+    "id": "bcvs-scraper",
+    "title": "Bassetlaw CVS Voluntary Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "bcvs.org.uk (Bassetlaw + Bolsover) \u2014 title, body, closing date, contact email, plus the job-spec PDF attachment URL for downstream parsing.",
+    "outputs": [
+      "title",
+      "body",
+      "closing date",
+      "contact email",
+      "PDF spec",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-MkHZTU1tu1DGxZUIg-xH9GfPnvh2-bcvs.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bcvs-scraper",
+    "status": "public",
+    "createdAt": "2026-05-19T23:09:51.492Z",
+    "modifiedAt": "2026-06-13T18:30:41.609Z"
   },
   {
     "id": "bayt-search-cheerio-ppr",
@@ -1746,6 +1818,30 @@
     "status": "public",
     "createdAt": "2026-05-07T20:51:16.983Z",
     "modifiedAt": "2026-05-10T22:18:55.313Z"
+  },
+  {
+    "id": "cfy-scraper",
+    "title": "Community First Yorkshire Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Jobs and portfolio content from communityfirstyorkshire.org.uk via WP-JSON portfolio CPT \u2014 filter by taxonomy (default jobs).",
+    "outputs": [
+      "title",
+      "content",
+      "taxonomy",
+      "posted",
+      "organization",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-octykdMCvsfXz8dJP-cvhbvd5hVm-communityfirstyorkshire.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/cfy-scraper",
+    "status": "public",
+    "createdAt": "2026-05-19T23:10:51.805Z",
+    "modifiedAt": "2026-06-13T18:33:40.166Z"
   },
   {
     "id": "cwjobs-scraper",
@@ -2665,6 +2761,30 @@
     "status": "public",
     "createdAt": "2025-03-19T09:43:38.216Z",
     "modifiedAt": "2026-05-08T16:32:50.894Z"
+  },
+  {
+    "id": "varotherham-scraper",
+    "title": "VA Rotherham Voluntary Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "varotherham.org.uk South Yorkshire voluntary-sector job board (Wix CMS) \u2014 one HTTP request, every job inline: title, employer, location, closing date.",
+    "outputs": [
+      "title",
+      "employer",
+      "location",
+      "closing date",
+      "sector",
+      "hours"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-LHhfoeEOe6Z5Bqr3j-srVeBIy7qS-varotheram.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/varotherham-scraper",
+    "status": "public",
+    "createdAt": "2026-05-19T22:34:05.305Z",
+    "modifiedAt": "2026-06-12T13:17:10.288Z"
   },
   {
     "id": "vassheffield-scraper",
@@ -4808,6 +4928,30 @@
     "status": "public",
     "createdAt": "2026-06-10T16:10:07.797Z",
     "modifiedAt": "2026-06-12T08:33:36.376Z"
+  },
+  {
+    "id": "facebook-ads-library-scraper-ppe",
+    "title": "Facebook Ads Library (Reach + PPE)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search the Meta Ad Library by keyword or page URL \u2014 export every ad with creatives, copy, spend & impressions, EU reach, and transparency data.",
+    "outputs": [
+      "ad creative",
+      "copy",
+      "spend",
+      "impressions",
+      "EU reach",
+      "advertiser"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-deHCjsAPKMHrNQYW1-GwUNRwemO4-Facebook_icon_2013.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-ads-library-scraper-ppe",
+    "status": "public",
+    "createdAt": "2026-06-14T13:17:15.866Z",
+    "modifiedAt": "2026-06-15T04:32:38.074Z"
   },
   {
     "id": "findlaw-scraper",
