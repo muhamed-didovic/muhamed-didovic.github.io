@@ -421,6 +421,30 @@
     "modifiedAt": "2026-05-08T17:02:04.584Z"
   },
   {
+    "id": "fotocasa-scraper",
+    "title": "Fotocasa Spain Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Fotocasa.es property listings \u2014 any buy/rent search URL with filters. Returns price, \u20ac/m\u00b2, type, rooms, bathrooms, m\u00b2, full description.",
+    "outputs": [
+      "price",
+      "\u20ac/m\u00b2",
+      "rooms",
+      "bathrooms",
+      "m\u00b2",
+      "description"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-jqQF1tNQj00XtOpva-7k3lfN2eaT-fotocasa.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/fotocasa-scraper",
+    "status": "public",
+    "createdAt": "2026-06-20T21:12:26.552Z",
+    "modifiedAt": "2026-06-21T10:43:19.173Z"
+  },
+  {
     "id": "funda",
     "title": "Funda.nl Property Data",
     "category": "real-estate",
@@ -1303,6 +1327,30 @@
     "modifiedAt": "2026-05-08T16:39:49.176Z"
   },
   {
+    "id": "sreality-scraper",
+    "title": "Sreality.cz Czech Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Sreality.cz \u2014 Czech Republic's #1 property portal. Any sale or rent search URL returns price, K\u010d/m\u00b2, disposition, address, GPS, photos and agency.",
+    "outputs": [
+      "price",
+      "K\u010d/m\u00b2",
+      "disposition",
+      "address",
+      "GPS",
+      "agency"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-voJr59DfGCJigfewO-MuRLWxrUoY-sreality.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/sreality-scraper",
+    "status": "public",
+    "createdAt": "2026-06-21T12:45:34.770Z",
+    "modifiedAt": "2026-06-22T21:05:24.971Z"
+  },
+  {
     "id": "streeteasy-ppr",
     "title": "Streeteasy \u00b7 Buy \u00b7 Rent \u00b7 Sell \u00b7 Agent \u00b7 No Limits \u00b7 PPE",
     "category": "real-estate",
@@ -1676,6 +1724,30 @@
     "status": "public",
     "createdAt": "2026-05-19T22:31:47.166Z",
     "modifiedAt": "2026-06-05T09:56:58.086Z"
+  },
+  {
+    "id": "bamboohr-scraper",
+    "title": "BambooHR Jobs (any company)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every open job from any company on BambooHR \u2014 give a company subdomain and get each role with full description, compensation, location, department.",
+    "outputs": [
+      "title",
+      "description",
+      "compensation",
+      "location",
+      "department",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-bKsMXXZteLn3JpuXU-0afk1U8tc0-bamboohr.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bamboohr-scraper",
+    "status": "public",
+    "createdAt": "2026-06-14T22:52:46.936Z",
+    "modifiedAt": "2026-06-19T23:02:54.949Z"
   },
   {
     "id": "barnsleycvs-scraper",
@@ -2293,6 +2365,30 @@
     "modifiedAt": "2026-05-08T16:19:40.419Z"
   },
   {
+    "id": "infojobs-scraper",
+    "title": "InfoJobs Spain Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every job on InfoJobs.net (Spain) \u2014 title, company + rating, salary band, location, contract, experience, required skills & languages, benefits.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "contract",
+      "skills",
+      "benefits"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-NXQ0jYuSSyPZgz2eg-lWOhq1VIJO-infojobs-programmer-computer-icons-saved-by-the-bell-blue-text-t",
+    "thumb": null,
+    "link": "https://apify.com/memo23/infojobs-scraper",
+    "status": "public",
+    "createdAt": "2026-06-20T17:36:47.125Z",
+    "modifiedAt": "2026-06-21T09:36:56.799Z"
+  },
+  {
     "id": "jobsite-scraper",
     "title": "Jobsite UK Jobs",
     "category": "jobs",
@@ -2317,6 +2413,30 @@
     "modifiedAt": "2026-05-22T17:12:00.863Z"
   },
   {
+    "id": "jobstreet-scraper",
+    "title": "Jobstreet & JobsDB (SE-Asia)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Jobstreet & JobsDB jobs across SE-Asia (MY, PH, SG, ID, VN, TH, HK) \u2014 paste any keyword/location search URL. Returns title, company, salary, closing date.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "salary",
+      "country",
+      "closing date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-RJFqA5shoot8chgeP-KAhndSEbHO-jobstreet-icon-filled-256.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/jobstreet-scraper",
+    "status": "public",
+    "createdAt": "2026-06-20T18:09:32.678Z",
+    "modifiedAt": "2026-06-20T20:37:46.039Z"
+  },
+  {
     "id": "jora-search-cheerio-ppr",
     "title": "Jora.com Search by URL or keywords",
     "category": "jobs",
@@ -2338,6 +2458,30 @@
     "status": "public",
     "createdAt": "2025-11-13T11:43:33.495Z",
     "modifiedAt": "2026-05-08T16:17:09.526Z"
+  },
+  {
+    "id": "lever-scraper",
+    "title": "Lever Jobs (any company)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every open job from any company on Lever (jobs.lever.co). Paste a board URL or org slug \u2014 full posting in one API call with title and description.",
+    "outputs": [
+      "company",
+      "title",
+      "description",
+      "location",
+      "team",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-MODSbHcBjmLJFtjFv-oVjSPHfdZh-lever.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/lever-scraper",
+    "status": "public",
+    "createdAt": "2026-06-14T22:19:36.346Z",
+    "modifiedAt": "2026-06-23T19:27:25.230Z"
   },
   {
     "id": "linkedin-company-people",
@@ -2432,6 +2576,30 @@
     "modifiedAt": "2026-05-08T16:54:24.899Z"
   },
   {
+    "id": "ats-jobs-scraper",
+    "title": "Multi-ATS Jobs + Company Emails",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn job listings into a lead list. Pulls open roles from any company across 10 ATS platforms \u2014 Greenhouse, Lever, Ashby, Workday, Workable, Recruitee + more.",
+    "outputs": [
+      "company",
+      "title",
+      "description",
+      "location",
+      "email",
+      "ATS platform"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aypv72AiEsNAm9xjN-7eiNIfTPmh-ATS-Global-Logo-1.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ats-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-06-21T15:14:06.616Z",
+    "modifiedAt": "2026-06-23T21:12:01.259Z"
+  },
+  {
     "id": "naukri-scraper",
     "title": "Naukri & Naukrigulf Jobs Search By Urls and Filters",
     "category": "jobs",
@@ -2502,6 +2670,30 @@
     "status": "public",
     "createdAt": "2024-05-16T21:38:35.828Z",
     "modifiedAt": "2026-05-08T17:03:27.384Z"
+  },
+  {
+    "id": "personio-scraper",
+    "title": "Personio Jobs (any company)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every open job from any company on Personio (jobs.personio.com) \u2014 give a company subdomain and get each position with description and department.",
+    "outputs": [
+      "title",
+      "description",
+      "location",
+      "department",
+      "employment type",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-E5TTyuWbPerOqlYhi-x0X6MPojrN-personio.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/personio-scraper",
+    "status": "public",
+    "createdAt": "2026-06-14T22:52:49.664Z",
+    "modifiedAt": "2026-06-23T19:33:15.444Z"
   },
   {
     "id": "randstad-com-scraper",
@@ -2667,6 +2859,30 @@
     "status": "public",
     "createdAt": "2026-06-07T10:18:26.076Z",
     "modifiedAt": "2026-06-08T06:27:39.280Z"
+  },
+  {
+    "id": "smartrecruiters-scraper",
+    "title": "SmartRecruiters Jobs (any company)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every open job from any company on SmartRecruiters \u2014 give a company ID and get each role with full description, location, department, employment type.",
+    "outputs": [
+      "title",
+      "description",
+      "location",
+      "department",
+      "employment type",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-FrP3hwwxEB7T3TVnD-IsdM7JIM7l-smartrecruiters.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/smartrecruiters-scraper",
+    "status": "public",
+    "createdAt": "2026-06-14T22:32:20.553Z",
+    "modifiedAt": "2026-06-19T14:49:16.171Z"
   },
   {
     "id": "snicket-scraper",
@@ -3187,6 +3403,30 @@
     "modifiedAt": "2026-05-08T16:57:03.714Z"
   },
   {
+    "id": "apify-instagram-profile-scraper-ppe",
+    "title": "Instagram Profiles, Posts & Comments (no cookies)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Instagram profiles, posts, reels and comments in one run \u2014 no cookies, no login. Rich post objects with 90+ fields including caption and media URLs.",
+    "outputs": [
+      "profile",
+      "posts",
+      "reels",
+      "comments",
+      "captions",
+      "media"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-enIXRUKCDcoy6JQd9-qdGUHULzC2-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/apify-instagram-profile-scraper-ppe",
+    "status": "public",
+    "createdAt": "2026-06-20T21:42:46.133Z",
+    "modifiedAt": "2026-06-22T23:15:11.740Z"
+  },
+  {
     "id": "linkedin-search-groups-scraper",
     "title": "Linkedin Groups Search",
     "category": "social",
@@ -3256,6 +3496,30 @@
     "status": "public",
     "createdAt": "2026-01-25T22:01:19.613Z",
     "modifiedAt": "2026-05-08T16:53:06.904Z"
+  },
+  {
+    "id": "meetup-scraper",
+    "title": "Meetup Events + Groups + Members",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Meetup events with the host group behind each \u2014 name, date, online/in-person, venue + geo, fee, RSVP count, group member count and topics.",
+    "outputs": [
+      "event",
+      "date",
+      "venue",
+      "fee",
+      "RSVP",
+      "group"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Ev2zlIYedF90pNjPG-uJm5PMVu3K-Meetup_Logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/meetup-scraper",
+    "status": "public",
+    "createdAt": "2026-06-12T12:19:51.843Z",
+    "modifiedAt": "2026-06-18T12:47:25.537Z"
   },
   {
     "id": "pinterest",
@@ -3798,6 +4062,30 @@
     "modifiedAt": "2026-05-08T15:54:38.911Z"
   },
   {
+    "id": "cars-scraper",
+    "title": "Cars.com (VIN \u00b7 Price History \u00b7 Specs)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Cars.com vehicle listings via the mobile GraphQL API \u2014 make, model, year, trim, price, MSRP, mileage, VIN, drivetrain, engine, MPG.",
+    "outputs": [
+      "make/model",
+      "price",
+      "mileage",
+      "VIN",
+      "specs",
+      "dealer"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Apf6XnL8UgxgVqMUL-wjIpWvsgUt-cars.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/cars-scraper",
+    "status": "public",
+    "createdAt": "2026-06-14T19:01:22.345Z",
+    "modifiedAt": "2026-06-19T04:36:15.251Z"
+  },
+  {
     "id": "carsales-cheerio",
     "title": "Carsales.com.au \u00b7 Search \u00b7 Unlimited \u00b7 Richest Output",
     "category": "ecommerce",
@@ -3967,6 +4255,30 @@
     "modifiedAt": "2026-05-08T16:23:05.177Z"
   },
   {
+    "id": "ebay-search-scraper-ppe",
+    "title": "eBay Active & Sold (17 markets)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "eBay active & sold listings across 17 marketplaces. Search by keyword or URL \u2014 get prices, sold price & date, sell-through rate, condition, shipping.",
+    "outputs": [
+      "price",
+      "sold price",
+      "sold date",
+      "sell-through rate",
+      "condition",
+      "shipping"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gMpyLo1gOJVKTz8p5-27nFOKwna0-ebay_logo_icon_189246.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ebay-search-scraper-ppe",
+    "status": "public",
+    "createdAt": "2026-06-21T13:18:14.570Z",
+    "modifiedAt": "2026-06-21T22:43:19.904Z"
+  },
+  {
     "id": "ebay",
     "title": "eBay Search & Listing Details",
     "category": "ecommerce",
@@ -4013,6 +4325,30 @@
     "status": "public",
     "createdAt": "2024-05-03T17:35:08.730Z",
     "modifiedAt": "2026-04-28T21:05:42.169Z"
+  },
+  {
+    "id": "etsy-scraper",
+    "title": "Etsy Products + Seller Leads",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn Etsy into a seller lead list. Products by URL or keyword, enriched with each shop's lifetime sales, Star-Seller status, listing count, contact.",
+    "outputs": [
+      "product",
+      "price",
+      "seller",
+      "lifetime sales",
+      "star seller",
+      "contact"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-PQjnABrAzaNBlmkfd-JXjolcgfOQ-etsy.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/etsy-scraper",
+    "status": "public",
+    "createdAt": "2026-06-20T23:44:44.089Z",
+    "modifiedAt": "2026-06-22T21:44:16.380Z"
   },
   {
     "id": "facebook-marketplace-scraper-ppe",
@@ -4883,6 +5219,30 @@
     "modifiedAt": "2026-06-08T17:42:47.125Z"
   },
   {
+    "id": "empireflippers-scraper",
+    "title": "Empire Flippers Businesses For Sale",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Full Empire Flippers marketplace of online businesses for sale \u2014 asking price, valuation multiple (SDE), monthly net profit/revenue/expenses, niche.",
+    "outputs": [
+      "asking price",
+      "multiple",
+      "monthly profit",
+      "revenue",
+      "niche",
+      "age"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-0BprLOARmT2AUc5lb-CoVSpAhj8J-Logo-Empire-Flippers-Black-Circle.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/empireflippers-scraper",
+    "status": "public",
+    "createdAt": "2026-06-16T20:18:07.660Z",
+    "modifiedAt": "2026-06-16T22:06:12.050Z"
+  },
+  {
     "id": "europeancoffeetrip-leads-scraper",
     "title": "Europeancoffeetrip.com LEADS",
     "category": "business",
@@ -5093,6 +5453,30 @@
     "status": "public",
     "createdAt": "2025-04-10T08:41:29.520Z",
     "modifiedAt": "2026-05-08T16:57:30.754Z"
+  },
+  {
+    "id": "justdial-business-scraper",
+    "title": "Justdial Business Leads",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Justdial business listings \u2014 name, decoded phone, WhatsApp, email, full address, GPS, rating, reviews, category, hours, year & turnover.",
+    "outputs": [
+      "name",
+      "phone",
+      "email",
+      "address",
+      "GPS",
+      "category"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/justdial-business-scraper",
+    "status": "public",
+    "createdAt": "2026-06-22T22:40:59.859Z",
+    "modifiedAt": "2026-06-23T20:46:38.805Z"
   },
   {
     "id": "linkedin-ads-scraper",
@@ -5307,6 +5691,30 @@
     "modifiedAt": "2026-05-08T15:38:53.950Z"
   },
   {
+    "id": "ubersuggest-scraper",
+    "title": "Ubersuggest SEO Data",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Ubersuggest SEO data \u2014 keyword volume, CPC, difficulty, intent & global breakdown, SERP results, keyword suggestions, domain ranking keywords, backlinks.",
+    "outputs": [
+      "keyword",
+      "volume",
+      "CPC",
+      "difficulty",
+      "SERP",
+      "backlinks"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-fmWTk5N1bqNKTwpKM-XrKF9Cttki-ubersuggest.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ubersuggest-scraper",
+    "status": "public",
+    "createdAt": "2026-06-12T12:25:05.774Z",
+    "modifiedAt": "2026-06-20T11:57:45.339Z"
+  },
+  {
     "id": "us-state-bar-scraper",
     "title": "US State Bar License Verification",
     "category": "business",
@@ -5328,6 +5736,30 @@
     "status": "public",
     "createdAt": "2026-05-09T21:45:12.185Z",
     "modifiedAt": "2026-05-10T19:36:39.916Z"
+  },
+  {
+    "id": "vitals-scraper",
+    "title": "Vitals.com Doctor Directory",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Vitals.com US doctor & dentist profiles \u2014 by specialty/location browse or individual profile URLs. Name, NPI, specialty, education, licenses, reviews.",
+    "outputs": [
+      "name",
+      "NPI",
+      "specialty",
+      "education",
+      "licenses",
+      "reviews"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-0Umbn8AjFafALxZIg-r9xjCK2Md8-vitals.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/vitals-scraper",
+    "status": "public",
+    "createdAt": "2026-06-12T12:29:40.388Z",
+    "modifiedAt": "2026-06-17T20:00:43.298Z"
   },
   {
     "id": "whop-leaderboards-scraper",
@@ -5429,6 +5861,30 @@
     "modifiedAt": "2026-06-08T19:58:28.017Z"
   },
   {
+    "id": "google-news-scraper",
+    "title": "Google News (full article bodies)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google News with full publisher article bodies, not just snippets. Decodes the CBM redirect and extracts Article JSON-LD (title, body, entities).",
+    "outputs": [
+      "title",
+      "body",
+      "entities",
+      "publisher",
+      "published",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-WTktWf5RMdQbgg6d0-xGqmCshJaK-google_news_logo_icon_159341.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-news-scraper",
+    "status": "public",
+    "createdAt": "2026-06-18T16:41:29.364Z",
+    "modifiedAt": "2026-06-23T20:36:34.289Z"
+  },
+  {
     "id": "psychologytoday",
     "title": "Psychology Today Therapists",
     "category": "other",
@@ -5452,6 +5908,30 @@
     "status": "public",
     "createdAt": "2026-05-05T10:22:46.474Z",
     "modifiedAt": "2026-05-08T16:47:31.180Z"
+  },
+  {
+    "id": "ryanair-scraper",
+    "title": "Ryanair Flight Fares",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Ryanair fares \u2014 cheapest one-way and round-trip prices by route and flexible date window. Plus an explore mode that finds the cheapest destinations.",
+    "outputs": [
+      "route",
+      "fare",
+      "date",
+      "origin",
+      "destination",
+      "stops"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/ryanair-scraper",
+    "status": "public",
+    "createdAt": "2026-06-22T19:47:48.148Z",
+    "modifiedAt": "2026-06-23T20:26:50.354Z"
   },
   {
     "id": "skyscanner-scraper",
