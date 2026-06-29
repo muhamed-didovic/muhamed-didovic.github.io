@@ -726,6 +726,30 @@
     "modifiedAt": "2026-05-08T16:58:15.690Z"
   },
   {
+    "id": "inmuebles24-scraper",
+    "title": "Inmuebles24 Mexico RE + Agent Contact",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Inmuebles24.com listings from any search URL \u2014 price, m\u00b2, rooms, year, fees, geo-coordinates, photos, agency & WhatsApp. 45 fields plus lead-gen agent data.",
+    "outputs": [
+      "price",
+      "m\u00b2",
+      "rooms",
+      "GPS",
+      "agency",
+      "WhatsApp"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zMfYuj5we34aHghy3-PA6dhvi7ia-inmuebles.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/inmuebles24-scraper",
+    "status": "public",
+    "createdAt": "2026-06-28T14:02:40.552Z",
+    "modifiedAt": "2026-06-29T11:13:33.683Z"
+  },
+  {
     "id": "kyero",
     "title": "Kyero Spanish Property",
     "category": "real-estate",
@@ -957,6 +981,30 @@
     "modifiedAt": "2026-05-08T20:56:35.896Z"
   },
   {
+    "id": "magicbricks-property-scraper",
+    "title": "MagicBricks India Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "MagicBricks property listings \u2014 price, BHK, carpet & covered area, locality, project, builder, amenities, images and lister. Any filtered search.",
+    "outputs": [
+      "price",
+      "BHK",
+      "carpet area",
+      "locality",
+      "builder",
+      "lister"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Iwd6IelfXkctvGFOW-VXLDEvdY43-magicbricjs.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/magicbricks-property-scraper",
+    "status": "public",
+    "createdAt": "2026-06-25T12:42:36.022Z",
+    "modifiedAt": "2026-06-26T22:02:33.807Z"
+  },
+  {
     "id": "newhomesource-scraper",
     "title": "NewHomeSource New Construction",
     "category": "real-estate",
@@ -1027,6 +1075,30 @@
     "status": "public",
     "createdAt": "2026-05-25T08:38:29.958Z",
     "modifiedAt": "2026-05-26T19:16:23.593Z"
+  },
+  {
+    "id": "pincali-scraper",
+    "title": "Pincali.com Mexico RE",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Pincali.com Mexican real-estate listings \u2014 price, price/m\u00b2, bedrooms, bathrooms, parking, lot & construction size, GPS coordinates, full photo gallery, agent.",
+    "outputs": [
+      "price",
+      "price/m\u00b2",
+      "bedrooms",
+      "lot size",
+      "GPS",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-deeXMCPd9ecuSIzkM-NHu0geGMdO-pincali.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pincali-scraper",
+    "status": "public",
+    "createdAt": "2026-06-27T20:38:12.896Z",
+    "modifiedAt": "2026-06-28T04:18:00.085Z"
   },
   {
     "id": "properstar",
@@ -1916,6 +1988,30 @@
     "modifiedAt": "2026-06-13T18:33:40.166Z"
   },
   {
+    "id": "creativescotland-scraper",
+    "title": "Creative Scotland Opportunities",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "opportunities.creativescotland.com \u2014 Scotland's creative hub for jobs, workshops, festivals, training. Cloudflare WAF bypassed via residential proxy rotation.",
+    "outputs": [
+      "title",
+      "type",
+      "organization",
+      "location",
+      "deadline",
+      "description"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-C78ZC1ucLeRoP6Wiq-qhQa6HYZe1-creativescotlan.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/creativescotland-scraper",
+    "status": "public",
+    "createdAt": "2026-05-22T18:10:51.638Z",
+    "modifiedAt": "2026-06-24T19:20:49.862Z"
+  },
+  {
     "id": "cwjobs-scraper",
     "title": "CWjobs UK Tech Jobs",
     "category": "jobs",
@@ -2128,6 +2224,30 @@
     "modifiedAt": "2026-06-02T12:43:04.865Z"
   },
   {
+    "id": "gulftalent-scraper",
+    "title": "GulfTalent Middle East Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "GulfTalent.com job listings \u2014 the Middle East's leading professional job site. Title, company, location, salary, industry, role, employment type.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "salary",
+      "industry",
+      "employment type"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hS0f7FF7EjZJagmYt-Wx2lFbm41u-gulftalent.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/gulftalent-scraper",
+    "status": "public",
+    "createdAt": "2026-06-26T07:40:57.962Z",
+    "modifiedAt": "2026-06-27T21:05:44.844Z"
+  },
+  {
     "id": "highlandjobs-scraper",
     "title": "Highland Jobs (Scotland)",
     "category": "jobs",
@@ -2150,6 +2270,30 @@
     "status": "public",
     "createdAt": "2026-05-19T22:23:14.368Z",
     "modifiedAt": "2026-05-22T22:50:41.735Z"
+  },
+  {
+    "id": "highlandtsi-scraper",
+    "title": "Highland TSI Third Sector Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every Third Sector vacancy from highlandtsi.org.uk in a single run \u2014 title, charity, location, salary, hours, contract type, deadline, contact email.",
+    "outputs": [
+      "title",
+      "charity",
+      "location",
+      "salary",
+      "hours",
+      "deadline"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ka7TfDJn3nonKpLqg-7gq5XES0vl-highland.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/highlandtsi-scraper",
+    "status": "public",
+    "createdAt": "2026-06-05T08:21:16.729Z",
+    "modifiedAt": "2026-06-25T11:00:44.245Z"
   },
   {
     "id": "hijobs-scraper",
@@ -2696,6 +2840,30 @@
     "modifiedAt": "2026-06-23T19:33:15.444Z"
   },
   {
+    "id": "pracuj-scraper",
+    "title": "Pracuj.pl Poland Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Pracuj.pl \u2014 Poland's #1 job board. Any search URL returns title, company, salary, contract, work mode, location and an AI summary.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "contract",
+      "work mode",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Po0DMqiXJz87JtdMO-LKVxl77Zaa-pracuj.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pracuj-scraper",
+    "status": "public",
+    "createdAt": "2026-06-22T20:10:09.297Z",
+    "modifiedAt": "2026-06-24T12:56:51.265Z"
+  },
+  {
     "id": "randstad-com-scraper",
     "title": "Randstad.com Jobs",
     "category": "jobs",
@@ -2859,6 +3027,30 @@
     "status": "public",
     "createdAt": "2026-06-07T10:18:26.076Z",
     "modifiedAt": "2026-06-08T06:27:39.280Z"
+  },
+  {
+    "id": "skillshouse-scraper",
+    "title": "Skillshouse Bradford Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "skillshouse.co.uk \u2014 Bradford district employment & skills hub powered by Alcium ATS. SSR HTML cards parsed in one HTTP fetch: ~100 vacancies.",
+    "outputs": [
+      "title",
+      "employer",
+      "location",
+      "salary",
+      "hours",
+      "sector"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-EdMAjbG2IzQdII7qV-EcYi15ZGeF-skillhouse.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/skillshouse-scraper",
+    "status": "public",
+    "createdAt": "2026-05-22T17:51:39.951Z",
+    "modifiedAt": "2026-06-24T19:39:43.714Z"
   },
   {
     "id": "smartrecruiters-scraper",
@@ -3027,6 +3219,30 @@
     "modifiedAt": "2026-05-23T21:37:33.510Z"
   },
   {
+    "id": "welcometothejungle-jobs-scraper",
+    "title": "Welcome to the Jungle Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every matching Welcome to the Jungle job in one run \u2014 board-wide keyword search (US + global), or scrape specific companies, or crawl the whole board. 44 fields.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "contract",
+      "perks",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-D8umagZdiaIaxie6l-LYZ85ll9zP-wttj.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/welcometothejungle-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-06-27T04:10:24.967Z",
+    "modifiedAt": "2026-06-28T14:25:06.386Z"
+  },
+  {
     "id": "wellfound-jobs-scraper",
     "title": "Wellfound Startup Jobs + Funding",
     "category": "jobs",
@@ -3146,6 +3362,30 @@
     "modifiedAt": "2026-05-08T16:29:56.526Z"
   },
   {
+    "id": "yorkcvs-scraper",
+    "title": "York CVS Voluntary Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "yorkcvs.livevacancies.co.uk \u2014 Vue SPA hosted by hireful, but no browser needed. Actor reverse-engineered the public JSON API.",
+    "outputs": [
+      "title",
+      "salary",
+      "location",
+      "hours",
+      "closing date",
+      "employer"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-EYqyplVnYLDvVth5p-d7ksVcoWjw-yorkcsv.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yorkcvs-scraper",
+    "status": "public",
+    "createdAt": "2026-05-22T17:50:39.871Z",
+    "modifiedAt": "2026-06-24T15:54:21.219Z"
+  },
+  {
     "id": "ziprecruiter",
     "title": "ZipRecruiter Jobs",
     "category": "jobs",
@@ -3169,6 +3409,30 @@
     "status": "public",
     "createdAt": "2024-09-10T20:06:41.849Z",
     "modifiedAt": "2026-05-08T16:25:09.200Z"
+  },
+  {
+    "id": "tiktok-profile-videos-cheerio",
+    "title": "Bulk TikTok Transcripts (no browser)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Bulk TikTok video transcripts from any profile URL \u2014 reads each video's own TikTok caption (free, instant) with optional AI Whisper fallback for no-caption videos.",
+    "outputs": [
+      "transcript",
+      "caption",
+      "video URL",
+      "author",
+      "duration",
+      "views"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-nKx29tU3PaudRbdee-eL8YenOaoL-TikTok-Icon-White-Dark-Background-Logo.wine.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-profile-videos-cheerio",
+    "status": "public",
+    "createdAt": "2026-06-26T09:06:39.463Z",
+    "modifiedAt": "2026-06-29T10:54:08.818Z"
   },
   {
     "id": "facebook-comments-scraper",
@@ -3734,6 +3998,30 @@
     "modifiedAt": "2026-05-10T21:28:04.154Z"
   },
   {
+    "id": "tiktok-suggestions-scraper",
+    "title": "TikTok Keyword Suggestions",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "TikTok autocomplete search suggestions for any seed keyword \u2014 A\u2013Z & 0\u20139 expansion, recursive keyword trees, and true per-country results via proxy.",
+    "outputs": [
+      "keyword",
+      "suggestion",
+      "volume",
+      "country",
+      "seed",
+      "depth"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Mluvd8FAKPdTNgnRB-7ny26scWGx-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-suggestions-scraper",
+    "status": "public",
+    "createdAt": "2026-06-25T08:54:10.134Z",
+    "modifiedAt": "2026-06-25T13:25:52.131Z"
+  },
+  {
     "id": "tiktok-profile-videos",
     "title": "TikTok Profile Videos",
     "category": "social",
@@ -4016,6 +4304,30 @@
     "modifiedAt": "2026-05-15T20:40:29.495Z"
   },
   {
+    "id": "autotrader-ca-scraper",
+    "title": "AutoTrader.ca Canada",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "AutoTrader.ca vehicle listings (Canada) \u2014 price, make, model, year, trim, mileage, dealer, location, full specs and every photo. All filters supported.",
+    "outputs": [
+      "price",
+      "make/model",
+      "year",
+      "mileage",
+      "dealer",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Bqn5zodNWjIfmOXMS-RCWi4nU5HX-autotraderca_logo.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/autotrader-ca-scraper",
+    "status": "public",
+    "createdAt": "2026-06-23T20:02:34.549Z",
+    "modifiedAt": "2026-06-29T08:54:11.445Z"
+  },
+  {
     "id": "autotrader-cheerio",
     "title": "Autotrader.co.uk \u00b7 Unlimited \u00b7 Richest output",
     "category": "ecommerce",
@@ -4060,6 +4372,30 @@
     "status": "public",
     "createdAt": "2026-03-09T10:21:55.960Z",
     "modifiedAt": "2026-05-08T15:54:38.911Z"
+  },
+  {
+    "id": "blinkit-scraper",
+    "title": "Blinkit Multi-City Products (India)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Blinkit product data by keyword or by pasting product/category/search URLs across any delivery location in India \u2014 name, brand, variant, MRP, stock, delivery ETA.",
+    "outputs": [
+      "name",
+      "brand",
+      "price",
+      "MRP",
+      "stock",
+      "delivery ETA"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-5qtGKXVTess3Ydcv5-ITJMPdKXY6-blinkit.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/blinkit-scraper",
+    "status": "public",
+    "createdAt": "2026-06-24T12:15:13.050Z",
+    "modifiedAt": "2026-06-25T12:56:27.155Z"
   },
   {
     "id": "cars-scraper",
@@ -4493,6 +4829,30 @@
     "modifiedAt": "2026-06-11T04:06:39.006Z"
   },
   {
+    "id": "mercadolibre-scraper",
+    "title": "MercadoLibre LATAM",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "MercadoLibre across 7 LATAM countries \u2014 product title, price, condition, rating, images and individual reviews. Search by keyword, category URL, or product.",
+    "outputs": [
+      "title",
+      "price",
+      "condition",
+      "rating",
+      "reviews",
+      "country"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-LzKBo6ojZkW9ZgOyS-86UvITXdnI-mercado.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/mercadolibre-scraper",
+    "status": "public",
+    "createdAt": "2026-06-27T12:31:10.525Z",
+    "modifiedAt": "2026-06-29T09:04:15.410Z"
+  },
+  {
     "id": "mobile-de-scraper",
     "title": "Mobile.de Unlimited Search & Detail",
     "category": "ecommerce",
@@ -4563,6 +4923,30 @@
     "modifiedAt": "2026-04-28T21:46:37.313Z"
   },
   {
+    "id": "dtc-product-scraper",
+    "title": "Shopify & DTC Products (Quince, Everlane, Allbirds)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any DTC or Shopify store \u2014 selling price, retail price, auto-calculated discount %, variants, images, ratings & reviews. Covers Quince, Everlane, Allbirds and more.",
+    "outputs": [
+      "price",
+      "retail price",
+      "discount",
+      "variants",
+      "ratings",
+      "reviews"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/dtc-product-scraper",
+    "status": "public",
+    "createdAt": "2026-06-23T22:22:28.275Z",
+    "modifiedAt": "2026-06-24T15:13:53.323Z"
+  },
+  {
     "id": "smartbuyglasses",
     "title": "Smartbuyglasses Catalog",
     "category": "ecommerce",
@@ -4610,6 +4994,30 @@
     "status": "public",
     "createdAt": "2024-10-11T09:39:02.406Z",
     "modifiedAt": "2026-05-08T15:57:27.531Z"
+  },
+  {
+    "id": "zepto-product-scraper",
+    "title": "Zepto Multi-City Products (India)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Zepto product listings for any delivery location in India \u2014 name, brand, price, MRP, discount, pack size, stock, rating, image. By keyword or category URL.",
+    "outputs": [
+      "name",
+      "brand",
+      "price",
+      "MRP",
+      "stock",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-IpMuaACewIJkDhBMh-0xR6fbhWDi-zepto-logo-app-icon-hd.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/zepto-product-scraper",
+    "status": "public",
+    "createdAt": "2026-06-24T09:49:36.353Z",
+    "modifiedAt": "2026-06-29T07:01:05.087Z"
   },
   {
     "id": "cicek",
@@ -4938,6 +5346,30 @@
     "modifiedAt": "2026-05-08T17:54:36.653Z"
   },
   {
+    "id": "trustmate-reviews-scraper",
+    "title": "TrustMate.io Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any TrustMate.io company profile into structured review data \u2014 rating, full text, author, date, company replies, verified flag and translations.",
+    "outputs": [
+      "rating",
+      "review text",
+      "author",
+      "date",
+      "company reply",
+      "verified"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-d1l1XRuQrHU9hsDov-jEzp8hb4j0-trustmate.io.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/trustmate-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-06-26T09:39:24.875Z",
+    "modifiedAt": "2026-06-27T12:12:00.521Z"
+  },
+  {
     "id": "trustpilot",
     "title": "Trustpilot Reviews",
     "category": "reviews",
@@ -5053,6 +5485,30 @@
     "status": "public",
     "createdAt": "2026-02-16T20:49:38.513Z",
     "modifiedAt": "2026-05-11T06:14:18.913Z"
+  },
+  {
+    "id": "acquire-scraper",
+    "title": "Acquire.com \u2014 Full Financials",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Acquire.com businesses-for-sale marketplace with the full logged-in dataset \u2014 TTM & monthly revenue/profit, multiples, growth, ARR, churn, customers, tech stack.",
+    "outputs": [
+      "asking price",
+      "TTM revenue",
+      "profit",
+      "multiple",
+      "ARR",
+      "tech stack"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZzKDcDfJDVJHwmQb6-PVgFpg7qLe-acquiredotcom_logo.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/acquire-scraper",
+    "status": "public",
+    "createdAt": "2026-06-25T11:18:56.228Z",
+    "modifiedAt": "2026-06-27T12:10:51.782Z"
   },
   {
     "id": "avvo-scraper",
@@ -5621,6 +6077,30 @@
     "modifiedAt": "2026-06-12T11:42:53.241Z"
   },
   {
+    "id": "startupfast-scraper",
+    "title": "Startup Fast Launches + Emails",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "startupfa.st scraper \u2014 startup & product launches by category or across all 37 categories. Each project: name, tagline, website, founder email.",
+    "outputs": [
+      "name",
+      "tagline",
+      "website",
+      "category",
+      "founder",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-O8sFrT8wcRUwPOS6W-nWu7UXUCVu-startup.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/startupfast-scraper",
+    "status": "public",
+    "createdAt": "2026-06-23T19:48:50.962Z",
+    "modifiedAt": "2026-06-23T22:09:12.493Z"
+  },
+  {
     "id": "tendersontime-leads-scraper",
     "title": "Tendersontime.com Leads",
     "category": "business",
@@ -5837,6 +6317,54 @@
     "modifiedAt": "2026-05-08T17:08:27.629Z"
   },
   {
+    "id": "award-flights-scraper",
+    "title": "Award Flights (Flightpoints + Roame)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Multi-source award flight availability from Flightpoints.com + Roame.travel \u2014 search any route and date for miles, taxes, seats, cabins and loyalty programs.",
+    "outputs": [
+      "miles",
+      "taxes",
+      "seats",
+      "cabin",
+      "program",
+      "itinerary"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-sOdTHjAlzdcaSurPI-HkBc9pbSUs-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/award-flights-scraper",
+    "status": "public",
+    "createdAt": "2026-06-24T09:40:54.927Z",
+    "modifiedAt": "2026-06-29T03:57:05.171Z"
+  },
+  {
+    "id": "easyjet-scraper",
+    "title": "EasyJet Flight Fares",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "EasyJet flights by route and flexible date window \u2014 one-way or round-trip. Every flight is a row: fare + all fare families, flight number, exact departure.",
+    "outputs": [
+      "route",
+      "fare",
+      "fare family",
+      "flight number",
+      "departure",
+      "arrival"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/easyjet-scraper",
+    "status": "public",
+    "createdAt": "2026-06-27T04:38:39.017Z",
+    "modifiedAt": "2026-06-27T22:19:20.930Z"
+  },
+  {
     "id": "google-flights-scraper",
     "title": "Google Flights \u2014 Fares & Multi-City",
     "category": "other",
@@ -5955,6 +6483,30 @@
     "modifiedAt": "2026-05-07T14:56:43.140Z"
   },
   {
+    "id": "tours-activities-scraper",
+    "title": "Tours & Activities (GetYourGuide, Viator, Klook, Tiqets)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Compare tour prices and reviews across GetYourGuide, Viator, Klook and Tiqets from one scraper \u2014 price, currency, rating, full reviews, duration.",
+    "outputs": [
+      "tour",
+      "price",
+      "rating",
+      "reviews",
+      "duration",
+      "platform"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-VdhZpgOOi6ug1iIqa-bjifYVcJqz-getyourguide.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tours-activities-scraper",
+    "status": "public",
+    "createdAt": "2026-06-23T21:57:13.028Z",
+    "modifiedAt": "2026-06-27T03:33:12.936Z"
+  },
+  {
     "id": "virtuals",
     "title": "Virtuals.io Agent & Token Data",
     "category": "other",
@@ -5976,6 +6528,30 @@
     "status": "public",
     "createdAt": "2025-01-02T20:47:00.797Z",
     "modifiedAt": "2026-04-28T21:56:38.852Z"
+  },
+  {
+    "id": "wizzair-scraper",
+    "title": "Wizz Air Fare Calendar",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Wizz Air fares by route and flexible date window \u2014 the cheapest price for every day, one-way or round-trip (both directions).",
+    "outputs": [
+      "route",
+      "date",
+      "price",
+      "currency",
+      "direction",
+      "flight"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-1lYxjIpNfHa6g0OjL-jhASXYJI2a-wizzair.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/wizzair-scraper",
+    "status": "public",
+    "createdAt": "2026-06-27T22:26:53.727Z",
+    "modifiedAt": "2026-06-29T12:35:02.328Z"
   },
   {
     "id": "yangming",
