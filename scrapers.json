@@ -72,6 +72,30 @@
     "modifiedAt": "2026-05-08T15:54:15.277Z"
   },
   {
+    "id": "apartments-cheerio-ppe",
+    "title": "Apartments.com US + CA (with emails)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Apartments.com US + Canada \u2014 with leasing-office emails, walk/transit scores, and full property details. Cheaper than the leader with broader scope.",
+    "outputs": [
+      "rent",
+      "beds/baths",
+      "amenities",
+      "email",
+      "walk score",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hp4XAJyDqHL4rxUFO-aG4P2PsPuB-apartments.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/apartments-cheerio-ppe",
+    "status": "public",
+    "createdAt": "2026-06-29T19:54:06.979Z",
+    "modifiedAt": "2026-06-29T22:26:57.560Z"
+  },
+  {
     "id": "agarmap-cheerio",
     "title": "Aqarmap Scraper (/ 1K)",
     "category": "real-estate",
@@ -1236,6 +1260,30 @@
     "status": "public",
     "createdAt": "2025-01-15T14:03:26.866Z",
     "modifiedAt": "2026-05-08T15:41:11.811Z"
+  },
+  {
+    "id": "apify-redfin-cheerio-ppe",
+    "title": "Redfin Agent Database (email + phone)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Redfin scraper with an instant agent database \u2014 10,800+ agents, all 50 states, email + phone + deal stats, uncapped. Filter by State/City/Brokerage.",
+    "outputs": [
+      "agent",
+      "email",
+      "phone",
+      "deals",
+      "brokerage",
+      "state"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hjewwnFGmbKrwynTr-7vjXjxagKR-redfin.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/apify-redfin-cheerio-ppe",
+    "status": "public",
+    "createdAt": "2026-06-29T08:53:19.836Z",
+    "modifiedAt": "2026-07-01T09:00:52.679Z"
   },
   {
     "id": "redfin-property-agent",
@@ -3411,6 +3459,30 @@
     "modifiedAt": "2026-05-08T16:25:09.200Z"
   },
   {
+    "id": "biolink-scraper",
+    "title": "Bio-Link Profiles (Linktree, Beacons, Komi \u2026)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Link-in-bio profiles from Linktree, Beacons, Komi, link.me, Pillar, Tap.bio & bio.link \u2014 one actor, one schema. Name, bio, avatar, verified, all outbound links.",
+    "outputs": [
+      "name",
+      "bio",
+      "avatar",
+      "verified",
+      "outbound links",
+      "platform"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2wwK4YTAGQENmkFqw-BmapHsdtBJ-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/biolink-scraper",
+    "status": "public",
+    "createdAt": "2026-06-30T23:24:56.408Z",
+    "modifiedAt": "2026-07-02T12:31:00.445Z"
+  },
+  {
     "id": "tiktok-profile-videos-cheerio",
     "title": "Bulk TikTok Transcripts (no browser)",
     "category": "social",
@@ -4233,6 +4305,30 @@
     "modifiedAt": "2026-05-08T16:56:02.709Z"
   },
   {
+    "id": "allegro-scraper",
+    "title": "Allegro.pl Products",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Allegro.pl products by keyword, category, seller or offer URL \u2014 pure HTTP, no browser. Price, original price, seller rating, condition, parameters, images.",
+    "outputs": [
+      "price",
+      "original price",
+      "seller",
+      "rating",
+      "condition",
+      "specs"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-dDgeV7mNZAcpGwUh6-NpmVbapWJ0-allegro.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/allegro-scraper",
+    "status": "public",
+    "createdAt": "2026-06-27T13:22:35.352Z",
+    "modifiedAt": "2026-07-01T09:09:15.900Z"
+  },
+  {
     "id": "autohero-cars-scraper",
     "title": "Autohero Used Cars (All Europe)",
     "category": "ecommerce",
@@ -4829,6 +4925,30 @@
     "modifiedAt": "2026-06-11T04:06:39.006Z"
   },
   {
+    "id": "marktplaats-nl-scraper",
+    "title": "Marktplaats.nl Classifieds",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Marktplaats.nl listings \u2014 keyword search, paste any search/category URL, or pull a seller's items. Title, price + bid type, condition, delivery, location.",
+    "outputs": [
+      "title",
+      "price",
+      "bid type",
+      "condition",
+      "delivery",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-k2AO71yfQoZjIxf3c-bR5zeaWwSj-marktplaats-nl-logo-png_seeklogo-481833.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/marktplaats-nl-scraper",
+    "status": "public",
+    "createdAt": "2026-06-29T10:26:06.063Z",
+    "modifiedAt": "2026-06-30T11:16:23.396Z"
+  },
+  {
     "id": "mercadolibre-scraper",
     "title": "MercadoLibre LATAM",
     "category": "ecommerce",
@@ -4970,6 +5090,30 @@
     "status": "public",
     "createdAt": "2024-05-04T18:41:39.197Z",
     "modifiedAt": "2026-05-08T16:39:54.054Z"
+  },
+  {
+    "id": "subito-scraper",
+    "title": "Subito.it Italian Classifieds",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Subito.it Italian classifieds across every category \u2014 cars, real estate, electronics, jobs and goods. Title, full description, price, condition, category features.",
+    "outputs": [
+      "title",
+      "description",
+      "price",
+      "condition",
+      "category",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-cBCyuL4IUZp8mZTZT-pagL1Y7jwo-subito.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/subito-scraper",
+    "status": "public",
+    "createdAt": "2026-07-01T09:13:12.892Z",
+    "modifiedAt": "2026-07-01T09:38:26.938Z"
   },
   {
     "id": "zalando",
@@ -5115,6 +5259,30 @@
     "modifiedAt": "2026-05-24T05:40:39.537Z"
   },
   {
+    "id": "app-store-scraper",
+    "title": "Apple App Store \u00b7 Apps \u00b7 Reviews \u00b7 Devs",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Apple App Store \u2014 app details, reviews, ranked search (ASO), similar apps and developer portfolios across multiple countries. Optional ratings history.",
+    "outputs": [
+      "app",
+      "rating",
+      "reviews",
+      "developer",
+      "email",
+      "country"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Yjk15VoV8iIYzUBUj-hEVwjwC3YS-app-store_logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/app-store-scraper",
+    "status": "public",
+    "createdAt": "2026-06-29T11:37:29.599Z",
+    "modifiedAt": "2026-07-02T20:06:24.028Z"
+  },
+  {
     "id": "capterra-scraper",
     "title": "Capterra B2B Software Reviews",
     "category": "reviews",
@@ -5181,6 +5349,30 @@
     "status": "public",
     "createdAt": "2026-02-05T11:32:07.138Z",
     "modifiedAt": "2026-05-10T19:29:19.835Z"
+  },
+  {
+    "id": "feedaty-reviews-scraper",
+    "title": "Feedaty Merchant Reviews (Italy)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Merchant reviews from Feedaty.com, the Italian e-commerce review platform \u2014 full review text, star rating, date and language, plus each shop's average rating.",
+    "outputs": [
+      "review text",
+      "rating",
+      "date",
+      "language",
+      "shop",
+      "avg rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-SBTQqx5CkQmFZI0Wp-W3h2UhtccY-feedaty.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/feedaty-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-06-26T09:59:05.310Z",
+    "modifiedAt": "2026-06-30T21:09:29.368Z"
   },
   {
     "id": "apify-gartner-scraper-ppr",
@@ -5795,6 +5987,30 @@
     "modifiedAt": "2026-05-10T15:42:16.987Z"
   },
   {
+    "id": "fiverr-scraper",
+    "title": "Fiverr Gigs, Sellers, Packages",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Fiverr gigs, sellers, packages, reviews and pricing \u2014 search by keyword or category, or paste gig/seller URLs. One row per gig with starting price and all packages.",
+    "outputs": [
+      "gig",
+      "starting price",
+      "packages",
+      "seller",
+      "reviews",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-GsoZcjPI1EamtqzUD-ZI9dcjyFSP-fiverr-logo-icon-online-platform-for-freelancers-free-vector.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/fiverr-scraper",
+    "status": "public",
+    "createdAt": "2026-06-29T07:50:01.119Z",
+    "modifiedAt": "2026-06-30T11:09:53.116Z"
+  },
+  {
     "id": "flippa-scraper",
     "title": "FLIPPA.com \u00b7 \u00b7 Search by Url \u00b7 Detail Pages",
     "category": "business",
@@ -6363,6 +6579,30 @@
     "status": "public",
     "createdAt": "2026-06-27T04:38:39.017Z",
     "modifiedAt": "2026-06-27T22:19:20.930Z"
+  },
+  {
+    "id": "flights-aggregator-scraper",
+    "title": "Flight Price Aggregator (5 sources)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Compare flight prices across Ryanair, Wizz Air, EasyJet, Google Flights & Skyscanner in one call. Fans out in parallel, merges by flight identity, cross-source price-matched.",
+    "outputs": [
+      "route",
+      "fare",
+      "source",
+      "airline",
+      "stops",
+      "match confidence"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-IkVzHICvrnnkSbkQY-rDg3FMd93O-logo_256.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/flights-aggregator-scraper",
+    "status": "public",
+    "createdAt": "2026-07-02T09:35:40.408Z",
+    "modifiedAt": "2026-07-02T12:43:12.610Z"
   },
   {
     "id": "google-flights-scraper",
