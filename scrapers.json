@@ -306,6 +306,54 @@
     "modifiedAt": "2026-05-08T15:46:50.208Z"
   },
   {
+    "id": "crexi-ppe",
+    "title": "Crexi Commercial RE (PPE)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Commercial real estate on Crexi \u2014 sale & lease listings, property records with tax/ownership history, demographics and agent profiles. Instant database mode.",
+    "outputs": [
+      "price",
+      "property records",
+      "tax history",
+      "demographics",
+      "broker",
+      "GPS"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-RFHKIbn1NrZbEYBLC-JNqMKTbiZC-crexi.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/crexi-ppe",
+    "status": "public",
+    "createdAt": "2026-07-03T09:43:03.233Z",
+    "modifiedAt": "2026-07-08T12:02:02.417Z"
+  },
+  {
+    "id": "daft-ie-property-scraper",
+    "title": "Daft.ie Ireland Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Daft.ie property listings by Irish location or URL \u2014 price, beds, baths, BER energy rating, floor area, type, GPS, images and agent contact.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "BER",
+      "floor area",
+      "GPS",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-1Ca9SBMXIiTHRpNbD-SHGDTSSDDD-daft.ie.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/daft-ie-property-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:25:09.476Z",
+    "modifiedAt": "2026-07-08T11:50:51.423Z"
+  },
+  {
     "id": "domain-com-au-scraper",
     "title": "Domain.com.au Property + Agents",
     "category": "real-estate",
@@ -328,6 +376,30 @@
     "status": "public",
     "createdAt": "2026-05-15T21:51:07.753Z",
     "modifiedAt": "2026-05-20T04:35:17.698Z"
+  },
+  {
+    "id": "dotproperty-scraper",
+    "title": "Dot Property + Lamudi (Philippines)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "dotproperty.com.ph AND lamudi.com.ph \u2014 Philippines real-estate listings with exact map-pin coordinates, price, beds, baths, areas.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "GPS pin",
+      "area",
+      "agent",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-AnlDO6JIPlEYbjiMM-sryfVogH2L-dotproperty.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dotproperty-scraper",
+    "status": "public",
+    "createdAt": "2026-07-07T20:42:28.530Z",
+    "modifiedAt": "2026-07-08T11:54:52.575Z"
   },
   {
     "id": "drhorton-scraper",
@@ -395,6 +467,30 @@
     "status": "public",
     "createdAt": "2025-08-02T10:33:29.133Z",
     "modifiedAt": "2026-05-08T16:50:04.885Z"
+  },
+  {
+    "id": "fincaraiz-property-scraper",
+    "title": "FincaRa\u00edz Colombia Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "FincaRa\u00edz (Colombia) property listings by city, operation and type \u2014 price in COP + USD, area, rooms, GPS, images, agent.",
+    "outputs": [
+      "price COP/USD",
+      "area",
+      "rooms",
+      "GPS",
+      "agent",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-8Yf5lkmio0s4QR2df-AEyABAIZC4-finca_riz.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/fincaraiz-property-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:34:35.438Z",
+    "modifiedAt": "2026-07-08T11:57:34.680Z"
   },
   {
     "id": "forrent-com-scraper",
@@ -515,6 +611,30 @@
     "modifiedAt": "2026-05-08T15:41:05.252Z"
   },
   {
+    "id": "har-scraper",
+    "title": "HAR.com Texas Real Estate",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "HAR.com \u2014 the largest Texas MLS portal \u2014 homes for sale, rent, and sold across Houston, Dallas, Austin & San Antonio. Price, beds, baths, and more.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "status",
+      "address",
+      "agent",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-XfcIqYKqoOHh7SkW6-tPgxwGHnVa-har-com.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/har-scraper",
+    "status": "public",
+    "createdAt": "2026-07-03T17:00:51.643Z",
+    "modifiedAt": "2026-07-08T12:11:25.848Z"
+  },
+  {
     "id": "harcourts-scraper",
     "title": "Harcourts AU Property Listings",
     "category": "real-estate",
@@ -537,6 +657,30 @@
     "status": "public",
     "createdAt": "2026-06-02T12:44:18.591Z",
     "modifiedAt": "2026-06-06T21:09:53.398Z"
+  },
+  {
+    "id": "hemnet-property-scraper",
+    "title": "Hemnet Sweden Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Swedish property listings from Hemnet.se by location keyword or URL \u2014 asking price, monthly fee, rooms, area, type, GPS, images, agent.",
+    "outputs": [
+      "asking price",
+      "monthly fee",
+      "rooms",
+      "area",
+      "GPS",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-XMt6giV2elTPpnDoL-TB1X4ExFqx-Hemnet-Logo-on-Black.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/hemnet-property-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:34:35.793Z",
+    "modifiedAt": "2026-07-08T12:58:21.363Z"
   },
   {
     "id": "housesigma",
@@ -797,6 +941,30 @@
     "modifiedAt": "2026-05-08T16:55:35.353Z"
   },
   {
+    "id": "lamudi-scraper",
+    "title": "Lamudi Philippines Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "lamudi.com.ph \u2014 Philippines real-estate with exact map-pin coordinates, street-level address, price, beds, baths, floor area.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "GPS pin",
+      "address",
+      "area",
+      "agent"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/lamudi-scraper",
+    "status": "public",
+    "createdAt": "2026-07-08T05:28:08.757Z",
+    "modifiedAt": "2026-07-08T09:40:02.559Z"
+  },
+  {
     "id": "land-com",
     "title": "Land.com Property Listings",
     "category": "real-estate",
@@ -1053,6 +1221,30 @@
     "modifiedAt": "2026-05-28T05:37:43.895Z"
   },
   {
+    "id": "onthemarket-property-scraper",
+    "title": "OnTheMarket UK Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "OnTheMarket property listings \u2014 price, bedrooms, bathrooms, address, coordinates, features, images, agent. Search by UK location or URL.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "address",
+      "coordinates",
+      "features",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-FJcgKo8UvvZdJeVbv-vqlHl0fF6W-onthemarket.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/onthemarket-property-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T03:23:07.411Z",
+    "modifiedAt": "2026-07-08T12:58:26.126Z"
+  },
+  {
     "id": "otodom-scraper",
     "title": "Otodom Polish Property",
     "category": "real-estate",
@@ -1190,6 +1382,30 @@
     "status": "public",
     "createdAt": "2025-12-18T14:02:43.268Z",
     "modifiedAt": "2026-05-08T16:49:59.413Z"
+  },
+  {
+    "id": "realtor-canada-search-cheerio-ppe",
+    "title": "Realtor.ca + Agent Database (PPE)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Realtor.ca scraper with an instant agent database \u2014 pull 44,000+ Canadian agents by Province/City/Brokerage with phone, brokerage, website, plus listings.",
+    "outputs": [
+      "price",
+      "beds/baths",
+      "agent",
+      "phone",
+      "brokerage",
+      "GPS"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tsnhb5fCjd7mqNauI-dhfsM7wQyO-realtor_canada.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/realtor-canada-search-cheerio-ppe",
+    "status": "public",
+    "createdAt": "2026-07-02T14:22:20.771Z",
+    "modifiedAt": "2026-07-08T13:29:11.438Z"
   },
   {
     "id": "realtor-ca",
@@ -1942,6 +2158,54 @@
     "modifiedAt": "2026-05-08T17:06:37.418Z"
   },
   {
+    "id": "builtin-scraper",
+    "title": "BuiltIn US Tech & Startup Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "BuiltIn.com job listings \u2014 top US tech & startup jobs. Title, company, location, salary range, employment type, industry, full description.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "salary",
+      "industry",
+      "description"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-LCaO4OGxSoyTJyQC7-k2AdfNX2QR-BI_Greenhouse_HeaderImage.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/builtin-scraper",
+    "status": "public",
+    "createdAt": "2026-06-27T21:16:37.654Z",
+    "modifiedAt": "2026-07-08T11:54:25.515Z"
+  },
+  {
+    "id": "bumeran-job-scraper",
+    "title": "Bumeran Argentina Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bumeran Argentina job listings by keyword, province or area \u2014 or paste search/job URLs. One flat row per job: title, company, location, work mode.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "work mode",
+      "salary",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-d2cmioI7mA8DfVcoz-OPIsaWK5E7-bumeran.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bumeran-job-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:24:45.734Z",
+    "modifiedAt": "2026-07-08T12:05:22.658Z"
+  },
+  {
     "id": "careerbliss-scraper",
     "title": "Careerbliss.com \u00b7 \u00b7 Reviews & Jobs",
     "category": "jobs",
@@ -2034,6 +2298,30 @@
     "status": "public",
     "createdAt": "2026-05-19T23:10:51.805Z",
     "modifiedAt": "2026-06-13T18:33:40.166Z"
+  },
+  {
+    "id": "computrabajo-scraper",
+    "title": "Computrabajo LATAM Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Computrabajo job listings \u2014 search by keyword or paste search/job URLs. Title, company, location, salary, posted date and URL. LATAM-wide.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "salary",
+      "posted",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ti3EKtpPOY7Tp7Es5-YgGsOT7r4j-computrabajo.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/computrabajo-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T03:21:24.982Z",
+    "modifiedAt": "2026-07-08T11:57:01.827Z"
   },
   {
     "id": "creativescotland-scraper",
@@ -2294,6 +2582,30 @@
     "status": "public",
     "createdAt": "2026-06-26T07:40:57.962Z",
     "modifiedAt": "2026-06-27T21:05:44.844Z"
+  },
+  {
+    "id": "hellowork-scraper",
+    "title": "HelloWork France Jobs + Salary Benchmarks",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "hellowork.com in three modes \u2014 job listings, salary benchmarks by profession (median, junior-to-senior, by region), and company profiles.",
+    "outputs": [
+      "title",
+      "company",
+      "salary benchmark",
+      "region",
+      "location",
+      "description"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-bvgPtIf3sb8Ubc5Wp-Tr7tpGxgUo-hellowork.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/hellowork-scraper",
+    "status": "public",
+    "createdAt": "2026-07-08T09:15:30.436Z",
+    "modifiedAt": "2026-07-08T09:46:41.811Z"
   },
   {
     "id": "highlandjobs-scraper",
@@ -2581,6 +2893,54 @@
     "modifiedAt": "2026-06-21T09:36:56.799Z"
   },
   {
+    "id": "internshala-scraper",
+    "title": "Internshala Internships + Employer Emails",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Internshala \u2014 internships and jobs by keyword, category, city and filters (stipend, duration, WFH, part-time, PPO). Full detail with employer emails.",
+    "outputs": [
+      "title",
+      "company",
+      "stipend",
+      "duration",
+      "email",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2GprgZy5jGojR2zp4-LU7YMm7a6Q-intershala.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/internshala-scraper",
+    "status": "public",
+    "createdAt": "2026-07-03T19:24:34.753Z",
+    "modifiedAt": "2026-07-08T13:05:12.445Z"
+  },
+  {
+    "id": "jobindex-scraper",
+    "title": "Jobindex.dk Denmark Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Jobindex.dk job listings by keyword or URL \u2014 title, company, location + coordinates, publish & deadline dates, apply URL, teaser.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "coordinates",
+      "deadline",
+      "apply URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ApR9SXUs3HEn14qGd-sQJMIcer0H-jobindex.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/jobindex-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:24:38.383Z",
+    "modifiedAt": "2026-07-08T13:06:22.982Z"
+  },
+  {
     "id": "jobsite-scraper",
     "title": "Jobsite UK Jobs",
     "category": "jobs",
@@ -2652,6 +3012,30 @@
     "modifiedAt": "2026-05-08T16:17:09.526Z"
   },
   {
+    "id": "levels-fyi-salary-scraper",
+    "title": "levels.fyi Tech Compensation",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Individual salary & total-comp records from levels.fyi by company slug, company-salaries URL, or job-family URL. One flat row per submission.",
+    "outputs": [
+      "company",
+      "level",
+      "base",
+      "stock",
+      "bonus",
+      "total comp"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7pfMO3UkfpMK9AcMF-KuQk1pL0TP-level.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/levels-fyi-salary-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T03:20:38.178Z",
+    "modifiedAt": "2026-07-08T13:00:06.433Z"
+  },
+  {
     "id": "lever-scraper",
     "title": "Lever Jobs (any company)",
     "category": "jobs",
@@ -2696,6 +3080,30 @@
     "status": "public",
     "createdAt": "2024-03-26T16:24:34.823Z",
     "modifiedAt": "2026-04-28T21:39:04.270Z"
+  },
+  {
+    "id": "linkedin-jobs-scraper",
+    "title": "LinkedIn Jobs (no cookies)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "LinkedIn Jobs scraper \u2014 no login or cookies. Search by keyword, URL, or job IDs with expiry monitoring. 1K-cap bypass, from $0.25/1k.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "description",
+      "posted",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HmaXqAAARLMd99M5f-EV7wgb4osh-linkedin.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-07-05T11:03:50.707Z",
+    "modifiedAt": "2026-07-08T12:57:16.408Z"
   },
   {
     "id": "linkedin-search",
@@ -3029,6 +3437,30 @@
     "modifiedAt": "2026-05-08T16:43:50.455Z"
   },
   {
+    "id": "rozee-scraper",
+    "title": "Rozee.pk Pakistan Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Rozee.pk job listings \u2014 pure HTTP, no browser. Search by keyword + city or paste job URLs. Title, full description, company, city, salary, skills.",
+    "outputs": [
+      "title",
+      "company",
+      "city",
+      "salary",
+      "skills",
+      "description"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-jRSGlUA4pM3xTL21B-KbgpDhZfVZ-rozee.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/rozee-scraper",
+    "status": "public",
+    "createdAt": "2026-07-02T13:28:10.540Z",
+    "modifiedAt": "2026-07-08T03:35:31.304Z"
+  },
+  {
     "id": "s1jobs-scraper",
     "title": "s1jobs.com Scottish Jobs",
     "category": "jobs",
@@ -3194,6 +3626,30 @@
     "status": "public",
     "createdAt": "2026-05-15T07:33:29.469Z",
     "modifiedAt": "2026-05-25T06:27:20.356Z"
+  },
+  {
+    "id": "upwork-jobs-scraper-ppe",
+    "title": "Upwork Jobs (130K+ instant DB)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The only Upwork jobs scraper with its own 130,000+ job database \u2014 instant, uncapped, nothing to get blocked, refreshed every 6 hours. Budgets & filters.",
+    "outputs": [
+      "title",
+      "budget",
+      "skills",
+      "client",
+      "posted",
+      "proposals"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-LOPBwYklUQ6FgfjBH-2ovLICF0zF-upwork.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/upwork-jobs-scraper-ppe",
+    "status": "public",
+    "createdAt": "2026-07-04T21:26:35.796Z",
+    "modifiedAt": "2026-07-08T18:42:18.925Z"
   },
   {
     "id": "upwork-jobs-scraper",
@@ -3505,6 +3961,30 @@
     "status": "public",
     "createdAt": "2026-06-26T09:06:39.463Z",
     "modifiedAt": "2026-06-29T10:54:08.818Z"
+  },
+  {
+    "id": "douyin-scraper",
+    "title": "Douyin (China's TikTok)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Douyin (\u6296\u97f3, China's TikTok) \u2014 no login, no browser. Full video detail (likes, shares, collects, comments, audio), profiles and comments.",
+    "outputs": [
+      "video",
+      "likes",
+      "shares",
+      "comments",
+      "profile",
+      "audio"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-rhGzw0qPDrqrfEbqp-K3eVhIs4mi-Douyin-__-Logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/douyin-scraper",
+    "status": "public",
+    "createdAt": "2026-07-05T22:46:30.990Z",
+    "modifiedAt": "2026-07-06T05:36:31.137Z"
   },
   {
     "id": "facebook-comments-scraper",
@@ -4023,6 +4503,30 @@
     "modifiedAt": "2026-05-18T22:54:37.690Z"
   },
   {
+    "id": "socialblade-scraper",
+    "title": "SocialBlade Creator Stats",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Public SocialBlade creator stats for YouTube, TikTok, Instagram, Twitch and Facebook \u2014 subscribers/followers, views, grade, rank, 15-day growth.",
+    "outputs": [
+      "followers",
+      "views",
+      "grade",
+      "rank",
+      "growth",
+      "platform"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-PlV7JYfD2BEc90NW9-bLgGo7EzCg-socialblade.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/socialblade-scraper",
+    "status": "public",
+    "createdAt": "2026-07-02T13:35:25.372Z",
+    "modifiedAt": "2026-07-08T13:34:32.988Z"
+  },
+  {
     "id": "soundcloud-scraper",
     "title": "SoundCloud Tracks + Artists + Emails",
     "category": "social",
@@ -4327,6 +4831,30 @@
     "status": "public",
     "createdAt": "2026-06-27T13:22:35.352Z",
     "modifiedAt": "2026-07-01T09:09:15.900Z"
+  },
+  {
+    "id": "amazon-sellers-scraper",
+    "title": "Amazon Seller Contacts",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn any Amazon search, best-seller list or product URL into a lead list of the third-party sellers behind the products \u2014 legal name, email, phone, VAT, ratings.",
+    "outputs": [
+      "seller name",
+      "email",
+      "phone",
+      "VAT",
+      "ratings",
+      "products"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7NgWdBrk2Qz4jARTL-4SyLvKAdpa-amazon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/amazon-sellers-scraper",
+    "status": "public",
+    "createdAt": "2026-07-07T20:49:29.020Z",
+    "modifiedAt": "2026-07-08T14:02:24.084Z"
   },
   {
     "id": "autohero-cars-scraper",
@@ -4901,6 +5429,30 @@
     "modifiedAt": "2026-04-24T20:04:51.599Z"
   },
   {
+    "id": "lacentrale-scraper",
+    "title": "La Centrale (French used cars)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Used-car listings from lacentrale.fr \u2014 make, model, version, year, mileage, price, gearbox, fuel, colour, seller and decoded phone.",
+    "outputs": [
+      "make/model",
+      "price",
+      "mileage",
+      "fuel",
+      "seller",
+      "phone"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-g9KP58M7cJKAIerbF-TiLBjbMA8w-lacentrale.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/lacentrale-scraper",
+    "status": "public",
+    "createdAt": "2026-07-08T03:52:49.614Z",
+    "modifiedAt": "2026-07-08T13:09:33.896Z"
+  },
+  {
     "id": "leboncoin-scraper",
     "title": "Leboncoin.fr (any category)",
     "category": "ecommerce",
@@ -5114,6 +5666,30 @@
     "status": "public",
     "createdAt": "2026-07-01T09:13:12.892Z",
     "modifiedAt": "2026-07-01T09:38:26.938Z"
+  },
+  {
+    "id": "trendyol-scraper",
+    "title": "Trendyol (Turkey) Products + Reviews",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Trendyol at scale \u2014 product listings, full detail (price, discount, seller company, specs, images, stock, rating) and complete customer reviews with seller emails.",
+    "outputs": [
+      "product",
+      "price",
+      "discount",
+      "seller",
+      "reviews",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-FQgNYzP14lkv7qCeG-aMBsH1uNyE-trendyol-com-logo-square-transparent-png-5.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/trendyol-scraper",
+    "status": "public",
+    "createdAt": "2026-07-02T14:26:29.960Z",
+    "modifiedAt": "2026-07-08T16:27:55.132Z"
   },
   {
     "id": "zalando",
@@ -5421,6 +5997,30 @@
     "modifiedAt": "2026-05-11T05:40:45.569Z"
   },
   {
+    "id": "google-play-scraper",
+    "title": "Google Play (apps \u00b7 reviews \u00b7 dev emails)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google Play \u2014 app details, reviews, ranked search (ASO), similar apps and developer portfolios across multiple countries, with developer emails.",
+    "outputs": [
+      "app",
+      "rating",
+      "reviews",
+      "rank",
+      "developer",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-10m2dMe8cad9kdSDb-WnTLUTho8b-google-play-store-icon-logo-symbol-free-png.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-play-scraper",
+    "status": "public",
+    "createdAt": "2026-06-25T20:19:43.094Z",
+    "modifiedAt": "2026-07-08T11:59:14.471Z"
+  },
+  {
     "id": "hotels-scraper",
     "title": "Hotels.com ReviewsScraper-Guest Feedback & Sentiment",
     "category": "reviews",
@@ -5511,6 +6111,54 @@
     "status": "public",
     "createdAt": "2026-05-05T21:40:16.744Z",
     "modifiedAt": "2026-05-08T16:37:38.203Z"
+  },
+  {
+    "id": "thefork-restaurant-scraper",
+    "title": "TheFork Restaurants + Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Restaurants from TheFork \u2014 name, cuisine, price level, average price, rating & reviews, address, geo-coordinates, photos, MICHELIN distinction.",
+    "outputs": [
+      "name",
+      "cuisine",
+      "price",
+      "rating",
+      "reviews",
+      "MICHELIN"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Chik0LggNXpc7PLh2-IxG6zjO7W3-thefork.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/thefork-restaurant-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:24:19.133Z",
+    "modifiedAt": "2026-07-08T16:26:58.555Z"
+  },
+  {
+    "id": "tripcom-hotels-scraper",
+    "title": "Trip.com Hotels + Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Trip.com hotels AND their guest reviews \u2014 search a city by dates: name, star, guest score, price + total incl. taxes, coordinates.",
+    "outputs": [
+      "hotel",
+      "star",
+      "guest score",
+      "price",
+      "reviews",
+      "coordinates"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-i8ul4IieLJoXf4LXs-QD4aoNpA63-Trip.com_Icon_2022.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tripcom-hotels-scraper",
+    "status": "public",
+    "createdAt": "2026-07-02T13:29:01.043Z",
+    "modifiedAt": "2026-07-08T16:28:47.374Z"
   },
   {
     "id": "tripadvisor",
@@ -5629,6 +6277,30 @@
     "status": "public",
     "createdAt": "2026-03-26T14:48:35.349Z",
     "modifiedAt": "2026-05-08T15:57:10.552Z"
+  },
+  {
+    "id": "verified-reviews-scraper",
+    "title": "Verified Reviews / Avis V\u00e9rifi\u00e9s",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Verified Reviews / Avis V\u00e9rifi\u00e9s / Recensioni Verificate (Skeepers) \u2014 full review texts, ratings, dates, reviewer names, categories, business replies. IT/FR/EN.",
+    "outputs": [
+      "review text",
+      "rating",
+      "date",
+      "reviewer",
+      "category",
+      "reply"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-JfH6NUk4quhF3drnf-q5tVNmxy5X-COzJ5uTgzoUDEAE_.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/verified-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-07-08T11:02:26.109Z",
+    "modifiedAt": "2026-07-08T21:03:43.798Z"
   },
   {
     "id": "viewstats-scraper",
@@ -5797,6 +6469,30 @@
     "modifiedAt": "2026-05-11T06:19:02.216Z"
   },
   {
+    "id": "checkatrade-scraper",
+    "title": "Checkatrade UK Tradespeople",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Verified UK tradespeople from Checkatrade by trade + location or URL \u2014 name, phone, location, rating, review counts, services.",
+    "outputs": [
+      "name",
+      "phone",
+      "location",
+      "rating",
+      "reviews",
+      "services"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-s16bcZQQYKjqFujH9-FBXFlFqCx3-checkatrade-com-logo-png_seeklogo-215905.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/checkatrade-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:24:24.905Z",
+    "modifiedAt": "2026-07-08T11:53:42.027Z"
+  },
+  {
     "id": "clutch",
     "title": "Clutch.co Agencies & Reviews",
     "category": "business",
@@ -5865,6 +6561,30 @@
     "status": "public",
     "createdAt": "2026-06-02T15:54:30.514Z",
     "modifiedAt": "2026-06-08T17:42:47.125Z"
+  },
+  {
+    "id": "email-finder",
+    "title": "Email Finder & Verifier (bulk)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find AND verify business emails in bulk from company names or domains \u2014 discovers the website, scrapes emails, ranks role addresses, then validates each.",
+    "outputs": [
+      "email",
+      "status",
+      "role",
+      "domain",
+      "company",
+      "confidence"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-MSkWeQkEEwfEbafH7-qs48cTfd55-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/email-finder",
+    "status": "public",
+    "createdAt": "2026-07-08T09:20:35.806Z",
+    "modifiedAt": "2026-07-08T20:48:12.894Z"
   },
   {
     "id": "empireflippers-scraper",
@@ -6104,6 +6824,30 @@
     "modifiedAt": "2026-05-10T15:37:12.974Z"
   },
   {
+    "id": "healthgrades-doctor-scraper",
+    "title": "Healthgrades Doctor Directory",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Doctor & physician profiles from Healthgrades by specialty + US city, or paste /usearch and /physician URLs \u2014 name, specialty, NPI, and more.",
+    "outputs": [
+      "name",
+      "specialty",
+      "NPI",
+      "location",
+      "rating",
+      "affiliations"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-QltjsPadhzcj6gmtO-f8HDPFXlJR-healthgrades.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/healthgrades-doctor-scraper",
+    "status": "public",
+    "createdAt": "2026-07-06T04:24:30.092Z",
+    "modifiedAt": "2026-07-08T12:57:05.433Z"
+  },
+  {
     "id": "inhersight-cheerio-scraper",
     "title": "InHerSight.com Company Insights/Reviews and Stats",
     "category": "business",
@@ -6149,6 +6893,30 @@
     "status": "public",
     "createdAt": "2026-06-22T22:40:59.859Z",
     "modifiedAt": "2026-06-23T20:46:38.805Z"
+  },
+  {
+    "id": "justia-lawyer-directory-scraper",
+    "title": "Justia Lawyer Directory",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Lawyers from the Justia Lawyer Directory by location and practice area, or from listing/profile URLs \u2014 name, phone, firm, practice areas, and more.",
+    "outputs": [
+      "name",
+      "phone",
+      "firm",
+      "practice areas",
+      "location",
+      "website"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-jBZ1Ch1sM48p1iYgT-wF1hid8jbp-justia.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/justia-lawyer-directory-scraper",
+    "status": "public",
+    "createdAt": "2026-07-04T04:15:48.853Z",
+    "modifiedAt": "2026-07-08T13:00:43.768Z"
   },
   {
     "id": "linkedin-ads-scraper",
@@ -6456,6 +7224,30 @@
     "status": "public",
     "createdAt": "2026-06-12T12:29:40.388Z",
     "modifiedAt": "2026-06-17T20:00:43.298Z"
+  },
+  {
+    "id": "whatsapp-number-validator",
+    "title": "WhatsApp Number Validator",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bulk WhatsApp number validator & phone checker \u2014 100% offline. Per number: valid/invalid, E.164, country, region, carrier, line type, WhatsApp-ready flag.",
+    "outputs": [
+      "valid",
+      "E.164",
+      "country",
+      "carrier",
+      "line type",
+      "WhatsApp-ready"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-UPtJToZbqe1EUGif0-70YNBBFyCH-Green-whatsapp-icon-on-transparent-background-PNG.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/whatsapp-number-validator",
+    "status": "public",
+    "createdAt": "2026-07-08T03:54:47.660Z",
+    "modifiedAt": "2026-07-08T05:21:46.384Z"
   },
   {
     "id": "whop-leaderboards-scraper",
