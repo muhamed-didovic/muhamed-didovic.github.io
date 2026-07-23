@@ -1221,6 +1221,30 @@
     "modifiedAt": "2026-05-28T05:37:43.895Z"
   },
   {
+    "id": "nyc-acris-property-records",
+    "title": "NYC ACRIS Property Records",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "NYC property records (deeds, mortgages, parties, addresses) from ACRIS by borough, document type and date range.",
+    "outputs": [
+      "document",
+      "deed",
+      "mortgage",
+      "parties",
+      "address",
+      "borough"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-BrgvpOKeUjr0k17k0-13jSUIbmSd-nyc_opendata.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/nyc-acris-property-records",
+    "status": "public",
+    "createdAt": "2026-07-17T09:43:23.067Z",
+    "modifiedAt": "2026-07-18T19:02:30.575Z"
+  },
+  {
     "id": "onthemarket-property-scraper",
     "title": "OnTheMarket UK Property",
     "category": "real-estate",
@@ -1829,6 +1853,30 @@
     "modifiedAt": "2026-05-08T16:31:41.993Z"
   },
   {
+    "id": "uk-planning-applications-scraper",
+    "title": "UK Planning Applications (all councils)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every UK planning application in one run \u2014 all ~420 councils, no API key. Filter by council, type, status and date.",
+    "outputs": [
+      "reference",
+      "council",
+      "address",
+      "type",
+      "status",
+      "decision"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Syh7KlXhgFH1fbM8B-DRjK8Gfl5r-plan-it-logo.so9ako.view.yta.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/uk-planning-applications-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T04:13:27.521Z",
+    "modifiedAt": "2026-07-18T05:13:09.532Z"
+  },
+  {
     "id": "probate-foreclosure-leads-scraper",
     "title": "US Probate & Foreclosure Leads",
     "category": "real-estate",
@@ -2156,6 +2204,30 @@
     "status": "public",
     "createdAt": "2025-01-11T09:01:44.653Z",
     "modifiedAt": "2026-07-14T11:07:19.671Z"
+  },
+  {
+    "id": "arbeitsagentur-scraper",
+    "title": "Arbeitsagentur German Federal Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Jobs from arbeitsagentur.de \u2014 Germany's federal job board with 1M+ offers. Full description, employer and location.",
+    "outputs": [
+      "title",
+      "employer",
+      "location",
+      "description",
+      "posted",
+      "type"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HP1STty2uQgmj6CfV-ajhs8SsjcV-arbeitagentur.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/arbeitsagentur-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T11:42:04.111Z",
+    "modifiedAt": "2026-07-20T21:18:28.982Z"
   },
   {
     "id": "ashby-scraper",
@@ -4203,6 +4275,30 @@
     "modifiedAt": "2026-05-08T16:25:09.200Z"
   },
   {
+    "id": "ziprecruiter-scraper-ppe",
+    "title": "ZipRecruiter Jobs + Employer Emails",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "ZipRecruiter \u2014 search jobs by keywords, location or any search URL. Full postings with salary, employer and emails.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "email",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-78akVhKqjDtMKtIfv-vDi3d4efFs-ziprecruiter.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ziprecruiter-scraper-ppe",
+    "status": "public",
+    "createdAt": "2026-07-18T16:54:51.751Z",
+    "modifiedAt": "2026-07-20T04:13:39.782Z"
+  },
+  {
     "id": "biolink-scraper",
     "title": "Bio-Link Profiles (Linktree, Beacons, Komi \u2026)",
     "category": "social",
@@ -4483,6 +4579,54 @@
     "modifiedAt": "2026-04-05T19:50:39.260Z"
   },
   {
+    "id": "facebook-group-post-checker",
+    "title": "FB Group Post Checker",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Batch-check Facebook group post permalinks \u2014 get exists/deleted per post for monitoring and link hygiene.",
+    "outputs": [
+      "post URL",
+      "exists",
+      "deleted",
+      "group",
+      "checked at",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-f7kmMKV7BBHhyH9xs-F0Fb2TqV5X-facebook-logo-png_seeklogo-157841.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-group-post-checker",
+    "status": "public",
+    "createdAt": "2026-07-17T16:41:02.363Z",
+    "modifiedAt": "2026-07-23T10:13:53.218Z"
+  },
+  {
+    "id": "instagram-following-scraper",
+    "title": "Instagram Following (no login)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every account any public Instagram user follows \u2014 username, full name, verified & private flags, profile picture.",
+    "outputs": [
+      "username",
+      "full name",
+      "verified",
+      "private",
+      "profile pic",
+      "following"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7IjkV82Y1zByizrCa-rCFczziZve-instagram.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-following-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T22:59:36.705Z",
+    "modifiedAt": "2026-07-23T09:47:14.190Z"
+  },
+  {
     "id": "apify-instagram-comments-scraper",
     "title": "Instagram Post Comments & Replies",
     "category": "social",
@@ -4650,6 +4794,30 @@
     "modifiedAt": "2026-06-18T12:47:25.537Z"
   },
   {
+    "id": "naver-blog-scraper",
+    "title": "Naver Blog + Cafe (Korea)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Naver Blog \u2014 keyword blog search, full Korean post content from blog.naver.com URLs, plus Cafe content.",
+    "outputs": [
+      "title",
+      "content",
+      "author",
+      "date",
+      "blog",
+      "comments"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-d0syqxP46Yp2QO7iG-XxoTh7EIxu-naver.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/naver-blog-scraper",
+    "status": "public",
+    "createdAt": "2026-07-17T15:07:42.227Z",
+    "modifiedAt": "2026-07-18T11:32:14.719Z"
+  },
+  {
     "id": "pinterest",
     "title": "Pinterest Pins & Boards",
     "category": "social",
@@ -4719,6 +4887,30 @@
     "status": "public",
     "createdAt": "2026-04-15T10:55:39.177Z",
     "modifiedAt": "2026-05-08T16:47:57.460Z"
+  },
+  {
+    "id": "rumble-scraper",
+    "title": "Rumble Videos & Channels",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Rumble.com videos from any search, channel, user, category or video URL \u2014 title, description, views and channel.",
+    "outputs": [
+      "title",
+      "description",
+      "views",
+      "channel",
+      "duration",
+      "published"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aWkOEyZIgVXk9eYl4-06kDbE7mpK-rumble.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/rumble-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T20:43:15.780Z",
+    "modifiedAt": "2026-07-23T09:53:37.594Z"
   },
   {
     "id": "skool-members",
@@ -5003,6 +5195,78 @@
     "modifiedAt": "2026-05-08T16:40:42.395Z"
   },
   {
+    "id": "truthsocial-comment-scraper",
+    "title": "Truth Social Comments",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Full reply thread on any Truth Social post by URL or numeric ID \u2014 every descendant comment with author and engagement.",
+    "outputs": [
+      "comment",
+      "author",
+      "engagement",
+      "parent",
+      "depth",
+      "timestamp"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aeuKyJh2oSddeWxWZ-QDMmKQZd8V-truthsocial.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/truthsocial-comment-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T23:51:11.366Z",
+    "modifiedAt": "2026-07-19T10:35:59.907Z"
+  },
+  {
+    "id": "truthsocial-hashtag-scraper",
+    "title": "Truth Social Hashtags",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every Truth Social post under any hashtag \u2014 with author, engagement counts and media.",
+    "outputs": [
+      "post",
+      "author",
+      "hashtag",
+      "engagement",
+      "media",
+      "timestamp"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-qdrFa8g4zUFJqTBni-hGoSDSDF0u-truthsocial.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/truthsocial-hashtag-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T23:50:24.419Z",
+    "modifiedAt": "2026-07-19T10:35:33.995Z"
+  },
+  {
+    "id": "truthsocial-trends-scraper",
+    "title": "Truth Social Trends",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "What's trending on Truth Social right now \u2014 trending posts and trending hashtags with engagement.",
+    "outputs": [
+      "trending post",
+      "hashtag",
+      "author",
+      "engagement",
+      "rank",
+      "timestamp"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-8fb9hGcU1LzkjX05m-Odm5Wl3SkZ-truthsocial.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/truthsocial-trends-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T23:51:57.710Z",
+    "modifiedAt": "2026-07-19T10:36:26.771Z"
+  },
+  {
     "id": "truth-social-profile-scraper-with-posts",
     "title": "TruthSocial.com \u00b7 \u00b7 Profile(s) \u00b7 Posts",
     "category": "social",
@@ -5094,6 +5358,30 @@
     "status": "public",
     "createdAt": "2026-07-16T04:33:15.569Z",
     "modifiedAt": "2026-07-16T05:44:25.674Z"
+  },
+  {
+    "id": "xiaohongshu-rednote-scraper",
+    "title": "Xiaohongshu / RedNote (\u5c0f\u7ea2\u4e66)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Xiaohongshu / RedNote (XHS, Little Red Book) \u2014 note details, user profiles, category discovery and search.",
+    "outputs": [
+      "note",
+      "author",
+      "likes",
+      "collects",
+      "comments",
+      "images"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-kUYVfH9R5FwzQuCqz-EagMr0gIGw-rednote.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/xiaohongshu-rednote-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T23:41:29.430Z",
+    "modifiedAt": "2026-07-21T05:17:06.421Z"
   },
   {
     "id": "youtube-channel-videos",
@@ -5239,6 +5527,30 @@
     "status": "public",
     "createdAt": "2026-07-14T10:52:58.140Z",
     "modifiedAt": "2026-07-14T14:44:46.481Z"
+  },
+  {
+    "id": "aliexpress-scraper",
+    "title": "AliExpress Products & Prices",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The cheapest way to extract AliExpress products by keyword or URL \u2014 price, discount, ratings, orders and seller.",
+    "outputs": [
+      "title",
+      "price",
+      "discount",
+      "rating",
+      "orders",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-EmYtEMbEKSU05ktkF-ebaxtXXK7m-aliexpress.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/aliexpress-scraper",
+    "status": "public",
+    "createdAt": "2026-07-21T04:03:35.511Z",
+    "modifiedAt": "2026-07-22T04:02:57.372Z"
   },
   {
     "id": "allegro-scraper",
@@ -5599,6 +5911,30 @@
     "modifiedAt": "2026-05-08T16:22:59.515Z"
   },
   {
+    "id": "coupang-scraper",
+    "title": "Coupang (Korea) Products",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Coupang (\ucfe0\ud321) search results \u2014 product name, price (KRW), discount, rating, review count and image.",
+    "outputs": [
+      "name",
+      "price KRW",
+      "discount",
+      "rating",
+      "reviews",
+      "image"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zgB00zL1fK8KCHZyU-2uRq5tf9bQ-coupang-logo-brandlogos.net_.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/coupang-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T08:30:16.286Z",
+    "modifiedAt": "2026-07-22T14:13:45.108Z"
+  },
+  {
     "id": "debijenkorf",
     "title": "De Bijenkorf Catalog",
     "category": "ecommerce",
@@ -5743,6 +6079,30 @@
     "modifiedAt": "2026-06-22T21:44:16.380Z"
   },
   {
+    "id": "etsy-shop-scraper",
+    "title": "Etsy Shop Details + Emails",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Paste Etsy shop URLs, get one clean row per shop \u2014 lifetime sales, rating + reviews, total listings, Star-Seller status and email.",
+    "outputs": [
+      "shop",
+      "lifetime sales",
+      "rating",
+      "listings",
+      "star seller",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-iYkpwNfzeZuSY5vXu-h3X8b7hbYP-free-etsy-logo-round-orange-icon-24410-thumb.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/etsy-shop-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T20:59:15.931Z",
+    "modifiedAt": "2026-07-20T21:02:51.878Z"
+  },
+  {
     "id": "facebook-marketplace-scraper-ppe",
     "title": "Facebook Marketplace Get newest items ASAP",
     "category": "ecommerce",
@@ -5764,6 +6124,30 @@
     "status": "public",
     "createdAt": "2026-01-18T20:18:19.039Z",
     "modifiedAt": "2026-05-08T16:23:05.409Z"
+  },
+  {
+    "id": "facebook-marketplace-status-check",
+    "title": "FB Marketplace Status Check",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Batch-check Facebook Marketplace listing IDs \u2014 get ACTIVE / SOLD / PENDING / REMOVED per listing, plus price tracking.",
+    "outputs": [
+      "listing id",
+      "status",
+      "price",
+      "price change",
+      "checked at",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Ytd6Wqy5izkkGhuPc-KDNncglRg0-facebook-logo-png_seeklogo-157841.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-marketplace-status-check",
+    "status": "public",
+    "createdAt": "2026-07-17T16:12:44.119Z",
+    "modifiedAt": "2026-07-23T10:14:00.499Z"
   },
   {
     "id": "gumtree-cheerio",
@@ -6004,6 +6388,30 @@
     "modifiedAt": "2026-04-28T21:44:25.679Z"
   },
   {
+    "id": "offerup-marketplace-scraper",
+    "title": "OfferUp Listings + VINs",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "OfferUp listings by search keyword or item URL \u2014 title, price, condition, seller and vehicle VINs where present.",
+    "outputs": [
+      "title",
+      "price",
+      "condition",
+      "seller",
+      "VIN",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-3u41E80K9KuZn3qTO-Vk2qBSYLyg-ooferup.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/offerup-marketplace-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T16:50:29.038Z",
+    "modifiedAt": "2026-07-18T17:08:21.418Z"
+  },
+  {
     "id": "ozon-scraper",
     "title": "Ozon (Russia) Products",
     "category": "ecommerce",
@@ -6146,6 +6554,30 @@
     "status": "public",
     "createdAt": "2026-07-02T14:26:29.960Z",
     "modifiedAt": "2026-07-08T16:27:55.132Z"
+  },
+  {
+    "id": "apify-vinted-scraper",
+    "title": "Vinted Second-Hand Fashion",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Vinted listings via the catalog search API \u2014 title, brand, size, condition, price, buyer-protection fee and seller.",
+    "outputs": [
+      "title",
+      "brand",
+      "size",
+      "condition",
+      "price",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-qObxbEnKI5TVqSsBS-3PgXdJ1LUZ-vinted.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/apify-vinted-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T18:56:13.173Z",
+    "modifiedAt": "2026-07-20T09:14:43.746Z"
   },
   {
     "id": "wildberries-scraper",
@@ -6951,6 +7383,30 @@
     "modifiedAt": "2026-05-11T06:14:18.913Z"
   },
   {
+    "id": "a16z-speedrun-companies-scraper",
+    "title": "a16z Speedrun Portfolio",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "a16z Speedrun portfolio companies \u2014 name, cohort, industries, location, website, LinkedIn, X and GitHub.",
+    "outputs": [
+      "company",
+      "cohort",
+      "industry",
+      "website",
+      "LinkedIn",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-4hKdGOECMbFIaIkG2-EI7j6M14qv-speedrun.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/a16z-speedrun-companies-scraper",
+    "status": "public",
+    "createdAt": "2026-07-20T12:28:04.003Z",
+    "modifiedAt": "2026-07-21T10:54:25.752Z"
+  },
+  {
     "id": "acquire-scraper",
     "title": "Acquire.com \u2014 Full Financials",
     "category": "business",
@@ -7164,6 +7620,30 @@
     "modifiedAt": "2026-05-08T15:48:41.446Z"
   },
   {
+    "id": "companies-house-scraper",
+    "title": "Companies House UK + Officers",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Companies House into structured UK company data \u2014 no API key. Search 5M+ companies plus officers, filings and status.",
+    "outputs": [
+      "company",
+      "number",
+      "officers",
+      "status",
+      "address",
+      "SIC"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HonheWI2UVx5EdyYv-Nrr7fj55Kl-gov_uk.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/companies-house-scraper",
+    "status": "public",
+    "createdAt": "2026-07-17T15:26:27.497Z",
+    "modifiedAt": "2026-07-21T05:23:09.038Z"
+  },
+  {
     "id": "comparably-cheerio-scraper",
     "title": "Comparably.com Reviews and Stats",
     "category": "business",
@@ -7281,6 +7761,30 @@
     "status": "public",
     "createdAt": "2026-06-16T20:18:07.660Z",
     "modifiedAt": "2026-06-16T22:06:12.050Z"
+  },
+  {
+    "id": "europages-scraper",
+    "title": "Europages B2B + Emails & VAT",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Europages into B2B lead lists with real emails and VAT IDs \u2014 search 3M+ European suppliers by keyword or category.",
+    "outputs": [
+      "company",
+      "email",
+      "VAT",
+      "country",
+      "category",
+      "phone"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-eKTYiaUOmo1kdD47D-pzETCB5ZsZ-europages.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/europages-scraper",
+    "status": "public",
+    "createdAt": "2026-07-17T08:25:11.653Z",
+    "modifiedAt": "2026-07-21T05:23:08.327Z"
   },
   {
     "id": "europeancoffeetrip-leads-scraper",
@@ -7496,6 +8000,54 @@
     "modifiedAt": "2026-05-10T15:37:12.974Z"
   },
   {
+    "id": "gumroad-scraper",
+    "title": "Gumroad Products + Creator Emails",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Gumroad \u2014 products by keyword, tag, category, seller storefront or product URL. Price, ratings, seller and creator emails.",
+    "outputs": [
+      "product",
+      "price",
+      "rating",
+      "seller",
+      "email",
+      "category"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zc9iFinBeqCfUYSal-bAFjEpKHjP-gumroad.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/gumroad-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T11:09:45.471Z",
+    "modifiedAt": "2026-07-18T23:10:45.866Z"
+  },
+  {
+    "id": "handelsregister-scraper",
+    "title": "Handelsregister German Registry",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The official German company register (handelsregister.de) \u2014 register number, court, status, legal form and officers.",
+    "outputs": [
+      "register no",
+      "court",
+      "status",
+      "legal form",
+      "officers",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-oAvcOa3a0P3xqHwNd-lhggcwj20o-handlereg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/handelsregister-scraper",
+    "status": "public",
+    "createdAt": "2026-07-16T21:35:55.309Z",
+    "modifiedAt": "2026-07-21T05:23:07.516Z"
+  },
+  {
     "id": "healthgrades-doctor-scraper",
     "title": "Healthgrades Doctor Directory",
     "category": "business",
@@ -7663,6 +8215,30 @@
     "modifiedAt": "2026-07-08T13:00:43.768Z"
   },
   {
+    "id": "kickstarter-scraper",
+    "title": "Kickstarter Campaigns",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Kickstarter campaigns \u2014 funding, backers, deadlines, reward tiers, creator history, full story and risks.",
+    "outputs": [
+      "funding",
+      "backers",
+      "deadline",
+      "rewards",
+      "creator",
+      "category"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-qeMmQmQfkqyI43oRo-1YvuXh1nTh-kickstarter.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/kickstarter-scraper",
+    "status": "public",
+    "createdAt": "2026-07-10T22:42:43.997Z",
+    "modifiedAt": "2026-07-20T21:45:24.078Z"
+  },
+  {
     "id": "linkedin-ads-scraper",
     "title": "Linkedin Ads Search & Details",
     "category": "business",
@@ -7734,6 +8310,54 @@
     "modifiedAt": "2026-04-28T21:37:54.710Z"
   },
   {
+    "id": "linkedin-company-employees-scraper",
+    "title": "LinkedIn Company Employees + Emails",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find a company's employees on LinkedIn without login \u2014 pass company names or URLs, filter by title & seniority, get emails.",
+    "outputs": [
+      "name",
+      "title",
+      "seniority",
+      "company",
+      "email",
+      "profile"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-u1EmtfXEWdmHmn4yW-wsEVeyXIKT-ln.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-company-employees-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T10:39:15.279Z",
+    "modifiedAt": "2026-07-21T03:37:01.161Z"
+  },
+  {
+    "id": "linkedin-people-search",
+    "title": "LinkedIn People Search (no login)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search LinkedIn people by keyword, job title, company, school or location \u2014 no login. Name, headline, location, profile.",
+    "outputs": [
+      "name",
+      "headline",
+      "company",
+      "location",
+      "school",
+      "profile"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xfz4tG0OB6ClIGVGv-aEBMigHIKv-linkedin.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-people-search",
+    "status": "public",
+    "createdAt": "2026-07-17T03:28:12.421Z",
+    "modifiedAt": "2026-07-18T10:54:41.944Z"
+  },
+  {
     "id": "martindale-scraper",
     "title": "Martindale Lawyer Directory",
     "category": "business",
@@ -7780,6 +8404,30 @@
     "status": "public",
     "createdAt": "2026-07-13T15:38:50.236Z",
     "modifiedAt": "2026-07-13T19:11:46.294Z"
+  },
+  {
+    "id": "northdata-scraper",
+    "title": "North Data EU Company Data",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any company name into structured European registry data \u2014 register number, officers, financials and network.",
+    "outputs": [
+      "company",
+      "register no",
+      "officers",
+      "financials",
+      "country",
+      "network"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ESuE62tlj5bpDs79v-bdEt4lY3Ka-northdata.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/northdata-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T10:55:02.700Z",
+    "modifiedAt": "2026-07-20T21:55:53.220Z"
   },
   {
     "id": "pagesjaunes-scraper-cheerio",
@@ -7899,6 +8547,30 @@
     "status": "public",
     "createdAt": "2026-06-23T19:48:50.962Z",
     "modifiedAt": "2026-06-23T22:09:12.493Z"
+  },
+  {
+    "id": "substack-scraper",
+    "title": "Substack Posts + Emails",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Substack newsletters \u2014 full post content, threaded comments, tags, authors, podcast episodes and subscriber emails.",
+    "outputs": [
+      "post",
+      "content",
+      "comments",
+      "author",
+      "tags",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-SfDYzYjglA8dUbHOB-uiaE5CVU2S-substack.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/substack-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T21:08:47.926Z",
+    "modifiedAt": "2026-07-22T04:21:44.563Z"
   },
   {
     "id": "tendersontime-leads-scraper",
@@ -8066,6 +8738,30 @@
     "modifiedAt": "2026-05-10T19:36:39.916Z"
   },
   {
+    "id": "uspto-trademark-scraper",
+    "title": "USPTO Trademark Search",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US federal trademarks straight from USPTO \u2014 search by wordmark/brand, owner name or goods & services, with class and serial.",
+    "outputs": [
+      "wordmark",
+      "owner",
+      "class",
+      "serial",
+      "status",
+      "filing date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-I8OU0bg6CIVnxTz9G-2ZT0iLCwNw-uspto.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/uspto-trademark-scraper",
+    "status": "public",
+    "createdAt": "2026-07-20T10:15:15.698Z",
+    "modifiedAt": "2026-07-20T20:55:21.173Z"
+  },
+  {
     "id": "vitals-scraper",
     "title": "Vitals.com Doctor Directory",
     "category": "business",
@@ -8136,6 +8832,30 @@
     "status": "public",
     "createdAt": "2025-02-28T09:15:45.748Z",
     "modifiedAt": "2026-05-08T16:30:15.130Z"
+  },
+  {
+    "id": "x-ads-transparency-scraper",
+    "title": "X (Twitter) Ads Transparency",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "X (Twitter) public ad-transparency archives \u2014 commercial, US political & issue ads \u2014 into structured rows.",
+    "outputs": [
+      "advertiser",
+      "ad copy",
+      "creative",
+      "spend",
+      "type",
+      "dates"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ddZAd4ZpOUOTbsjA8-983eaBpUlX-x-logo-twitter-elon-musk_dezeen_2364_col_0.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/x-ads-transparency-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T04:34:56.701Z",
+    "modifiedAt": "2026-07-22T08:56:46.201Z"
   },
   {
     "id": "yc",
@@ -8261,6 +8981,30 @@
     "modifiedAt": "2026-07-14T20:40:51.256Z"
   },
   {
+    "id": "dexscreener-scraper",
+    "title": "Dexscreener (DEX tokens & pairs)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Dexscreener \u2014 search any keyword, token or pair, paste a URL, or pull live boosted/profile feeds with price and liquidity.",
+    "outputs": [
+      "token",
+      "pair",
+      "price",
+      "liquidity",
+      "volume",
+      "chain"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-CFYfqC2LEGghKiWfn-adeSYMd5gY-dexscenner.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dexscreener-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T23:09:27.084Z",
+    "modifiedAt": "2026-07-19T10:35:16.159Z"
+  },
+  {
     "id": "easyjet-scraper",
     "title": "EasyJet Flight Fares",
     "category": "other",
@@ -8333,6 +9077,30 @@
     "modifiedAt": "2026-07-02T12:43:12.610Z"
   },
   {
+    "id": "gasbuddy-fuel-prices-scraper",
+    "title": "GasBuddy US Fuel Prices",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Live US gas-station fuel prices from GasBuddy \u2014 batch many ZIPs or cities in one run and get every grade per station.",
+    "outputs": [
+      "station",
+      "address",
+      "regular",
+      "midgrade",
+      "premium",
+      "diesel"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-1cmKmzj6D3eNBb77b-ufhU5VrsEB-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/gasbuddy-fuel-prices-scraper",
+    "status": "public",
+    "createdAt": "2026-07-20T21:23:09.984Z",
+    "modifiedAt": "2026-07-21T06:22:16.792Z"
+  },
+  {
     "id": "google-flights-scraper",
     "title": "Google Flights \u2014 Fares & Multi-City",
     "category": "other",
@@ -8379,6 +9147,126 @@
     "status": "public",
     "createdAt": "2026-06-18T16:41:29.364Z",
     "modifiedAt": "2026-06-23T20:36:34.289Z"
+  },
+  {
+    "id": "google-search-scraper",
+    "title": "Google Search SERP + AI Overview",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google Search SERP \u2014 organic results, paid ads, related queries, People Also Ask, knowledge panels and AI Overview.",
+    "outputs": [
+      "organic",
+      "ads",
+      "PAA",
+      "related",
+      "knowledge panel",
+      "AI overview"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-5whUZMSnCaBMa6VpS-PsaLbuBSXc-9KjLxYgE4rKvKbr3M-Google_Search_Results_Scraper.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-search-scraper",
+    "status": "public",
+    "createdAt": "2026-06-23T23:21:04.742Z",
+    "modifiedAt": "2026-07-20T21:25:27.108Z"
+  },
+  {
+    "id": "google-trends-scraper",
+    "title": "Google Trends",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google Trends without a browser \u2014 interest over time, interest by region, related queries and Trending Now.",
+    "outputs": [
+      "timeline",
+      "region",
+      "related queries",
+      "trending",
+      "keyword",
+      "score"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-djrarEZnWIkZfaBur-e0LK0C9AJ4-google_trends.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-trends-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T19:07:25.555Z",
+    "modifiedAt": "2026-07-20T04:11:41.756Z"
+  },
+  {
+    "id": "internet-archive-scraper",
+    "title": "Internet Archive (Wayback + Search)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Internet Archive all-in-one \u2014 paste a URL or domain for Wayback snapshot history, or a keyword for library search and metadata.",
+    "outputs": [
+      "snapshot",
+      "timestamp",
+      "URL",
+      "metadata",
+      "collection",
+      "title"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-9J9RcEthCpKX3xDx3-5EP7WLyVTj-internet_archvie.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/internet-archive-scraper",
+    "status": "public",
+    "createdAt": "2026-07-17T08:29:12.774Z",
+    "modifiedAt": "2026-07-17T10:04:50.321Z"
+  },
+  {
+    "id": "pdf-text-extractor",
+    "title": "PDF Text Extractor (OCR + Markdown)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any PDF URL into clean data \u2014 full text, LLM-ready Markdown, per-page content and metadata. Reads scanned PDFs via OCR.",
+    "outputs": [
+      "text",
+      "markdown",
+      "pages",
+      "metadata",
+      "OCR",
+      "title"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Hma37xmYdCFGVTWTh-gau9OZXtEY-pdf-text-extractor-logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pdf-text-extractor",
+    "status": "public",
+    "createdAt": "2026-07-10T22:28:31.635Z",
+    "modifiedAt": "2026-07-20T09:46:17.378Z"
+  },
+  {
+    "id": "pexels-scraper",
+    "title": "Pexels Free Stock Photos & Videos",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Free stock photos & videos from Pexels \u2014 no API key or account. Direct download URLs at every resolution.",
+    "outputs": [
+      "photo",
+      "video",
+      "download URL",
+      "resolution",
+      "photographer",
+      "tags"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-kFf7zM2aYudPOH0SK-hItctUGmIo-pexels.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pexels-scraper",
+    "status": "public",
+    "createdAt": "2026-07-18T05:37:38.667Z",
+    "modifiedAt": "2026-07-18T11:13:45.263Z"
   },
   {
     "id": "polymarket-market-monitor",
@@ -8502,6 +9390,30 @@
     "modifiedAt": "2026-06-23T20:26:50.354Z"
   },
   {
+    "id": "seo-intelligence-suite",
+    "title": "SEO Suite (DR\u00b7Traffic\u00b7AI Visibility)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "One call per domain returns a unified intelligence report \u2014 Ahrefs DR & backlinks, organic traffic, AI visibility and Google data.",
+    "outputs": [
+      "DR",
+      "backlinks",
+      "traffic",
+      "keywords",
+      "AI visibility",
+      "rank"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-9h0GbeGQNy6gSfCHd-MHeKtDhiwl-logo-seo-suite_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/seo-intelligence-suite",
+    "status": "public",
+    "createdAt": "2026-07-15T10:46:48.850Z",
+    "modifiedAt": "2026-07-20T21:31:17.691Z"
+  },
+  {
     "id": "skyscanner-scraper",
     "title": "Skyscanner.com",
     "category": "other",
@@ -8569,6 +9481,54 @@
     "status": "public",
     "createdAt": "2026-07-13T19:30:34.918Z",
     "modifiedAt": "2026-07-15T00:18:30.227Z"
+  },
+  {
+    "id": "unsplash-image-scraper",
+    "title": "Unsplash Images",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Unsplash into structured photo data \u2014 no API key, no rate-limit application. Search keywords or paste collection URLs.",
+    "outputs": [
+      "photo",
+      "download URL",
+      "photographer",
+      "tags",
+      "likes",
+      "dimensions"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-nHXcowyJmHckA3coh-AixWOTSAT3-unsplash8609.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/unsplash-image-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T11:42:11.229Z",
+    "modifiedAt": "2026-07-19T16:48:17.712Z"
+  },
+  {
+    "id": "congress-financial-disclosures-scraper",
+    "title": "US Congress Stock Trades",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US Congress stock trades & financial disclosures from primary .gov sources \u2014 Senate eFD + House Clerk filings.",
+    "outputs": [
+      "member",
+      "ticker",
+      "transaction",
+      "amount",
+      "date",
+      "chamber"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pcjbYWR6TNkxf1Pug-EhIpOXNplm-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/congress-financial-disclosures-scraper",
+    "status": "public",
+    "createdAt": "2026-07-20T21:23:13.582Z",
+    "modifiedAt": "2026-07-21T06:22:50.341Z"
   },
   {
     "id": "transcripts-mcp-server",
@@ -8640,6 +9600,30 @@
     "status": "public",
     "createdAt": "2026-06-27T22:26:53.727Z",
     "modifiedAt": "2026-06-29T12:35:02.328Z"
+  },
+  {
+    "id": "yahoo-finance-scraper",
+    "title": "Yahoo Finance (quotes\u00b7fundamentals\u00b7options)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "All of Yahoo Finance in one actor \u2014 live quotes with 60+ fields, historical OHLCV candles, income/balance statements, options and news.",
+    "outputs": [
+      "quote",
+      "OHLCV",
+      "fundamentals",
+      "options",
+      "news",
+      "ticker"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-fDacJgPkfZVoNFLCq-36V2vCJYtm-yahoo_finance.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yahoo-finance-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T21:10:06.472Z",
+    "modifiedAt": "2026-07-20T20:50:28.882Z"
   },
   {
     "id": "yangming",
