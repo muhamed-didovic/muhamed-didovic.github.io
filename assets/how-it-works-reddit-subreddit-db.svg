@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <rect width="1200" height="96" fill="#FF4500"/>
+  <circle cx="56" cy="48" r="30" fill="#ffffff"/>
+  <circle cx="56" cy="48" r="20" fill="#FF4500"/>
+  <text x="104" y="42" font-size="30" font-weight="700" fill="#ffffff">Reddit Subreddit Database &amp; Audience Finder</text>
+  <text x="104" y="74" font-size="18" fill="#ffe3d6">Subscriber counts · categories · targeting data · zero auth</text>
+
+  <g>
+    <rect x="40" y="150" width="252" height="140" rx="16" fill="#fff5f0" stroke="#FF4500" stroke-width="2"/>
+    <text x="166" y="192" font-size="20" font-weight="700" fill="#1a1a1b" text-anchor="middle">1 · Keyword</text>
+    <text x="166" y="228" font-size="16" fill="#5b5b5b" text-anchor="middle">"crypto"</text>
+    <text x="166" y="256" font-size="14" fill="#878a8c" text-anchor="middle">or browse everything</text>
+    <text x="166" y="276" font-size="14" fill="#878a8c" text-anchor="middle">ranked by size</text>
+  </g>
+  <path d="M302 220 h56" stroke="#FF4500" stroke-width="3" marker-end="url(#a)"/>
+
+  <g>
+    <rect x="370" y="150" width="252" height="140" rx="16" fill="#fff5f0" stroke="#FF4500" stroke-width="2"/>
+    <text x="496" y="192" font-size="20" font-weight="700" fill="#1a1a1b" text-anchor="middle">2 · Auto-auth</text>
+    <text x="496" y="228" font-size="15" fill="#5b5b5b" text-anchor="middle">maintained session →</text>
+    <text x="496" y="250" font-size="15" fill="#5b5b5b" text-anchor="middle">fresh token</text>
+    <text x="496" y="276" font-size="14" fill="#2e9e57" text-anchor="middle" font-weight="700">no login needed</text>
+  </g>
+  <path d="M632 220 h56" stroke="#FF4500" stroke-width="3" marker-end="url(#a)"/>
+
+  <g>
+    <rect x="700" y="150" width="252" height="140" rx="16" fill="#fff5f0" stroke="#FF4500" stroke-width="2"/>
+    <text x="826" y="192" font-size="20" font-weight="700" fill="#1a1a1b" text-anchor="middle">3 · Catalogue</text>
+    <text x="826" y="228" font-size="14" fill="#5b5b5b" text-anchor="middle">targeting/communities</text>
+    <text x="826" y="250" font-size="14" fill="#5b5b5b" text-anchor="middle">100/page + cursor</text>
+    <text x="826" y="276" font-size="14" fill="#878a8c" text-anchor="middle">pure HTTP, no browser</text>
+  </g>
+  <path d="M962 220 h56" stroke="#FF4500" stroke-width="3" marker-end="url(#a)"/>
+
+  <g>
+    <rect x="1030" y="150" width="130" height="140" rx="16" fill="#FF4500"/>
+    <text x="1095" y="210" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">4 · Rows</text>
+    <text x="1095" y="238" font-size="15" fill="#ffffff" text-anchor="middle">JSON</text>
+    <text x="1095" y="262" font-size="13" fill="#ffe3d6" text-anchor="middle">/ CSV</text>
+  </g>
+
+  <text x="40" y="360" font-size="19" font-weight="700" fill="#1a1a1b">Sample output — search "crypto"</text>
+  <rect x="40" y="378" width="1120" height="150" rx="12" fill="#f7f7f8" stroke="#e2e2e4"/>
+  <g font-size="15" fill="#1a1a1b">
+    <text x="64" y="406" font-weight="700" fill="#878a8c">subreddit</text>
+    <text x="470" y="406" font-weight="700" fill="#878a8c">subscribers</text>
+    <text x="680" y="406" font-weight="700" fill="#878a8c">category</text>
+    <text x="900" y="406" font-weight="700" fill="#878a8c">description</text>
+
+    <text x="64" y="438">r/CryptoCurrency</text><text x="470" y="438">10,129,003</text><text x="680" y="438">Crypto</text><text x="900" y="438" fill="#5b5b5b">news, trends…</text>
+    <text x="64" y="466">r/CryptoMarkets</text><text x="470" y="466">1,976,026</text><text x="680" y="466">Crypto</text><text x="900" y="466" fill="#5b5b5b">trading, investing…</text>
+    <text x="64" y="494">r/crypto</text><text x="470" y="494">345,928</text><text x="680" y="494">Programming</text><text x="900" y="494" fill="#5b5b5b">cryptography…</text>
+    <text x="64" y="518" fill="#878a8c" font-size="13">…down to niche communities under 20k</text>
+  </g>
+
+  <text x="40" y="572" font-size="17" font-weight="700" fill="#1a1a1b">Also included — Reddit's full targeting reference data</text>
+  <g font-size="15" fill="#1a1a1b">
+    <rect x="40" y="588" width="250" height="40" rx="20" fill="#ffe3d6"/><text x="165" y="614" text-anchor="middle">1,232 geolocations</text>
+    <rect x="302" y="588" width="215" height="40" rx="20" fill="#ffe3d6"/><text x="409" y="614" text-anchor="middle">153 interests</text>
+    <rect x="529" y="588" width="215" height="40" rx="20" fill="#ffe3d6"/><text x="636" y="614" text-anchor="middle">1,174 devices</text>
+    <rect x="756" y="588" width="200" height="40" rx="20" fill="#ffe3d6"/><text x="856" y="614" text-anchor="middle">72 carriers</text>
+  </g>
+  <text x="40" y="672" font-size="16" fill="#5b5b5b">No login · No token · Pay per result — $2 / 1,000 rows</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#FF4500"/>
+    </marker>
+  </defs>
+</svg>
