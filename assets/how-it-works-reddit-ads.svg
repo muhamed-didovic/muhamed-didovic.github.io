@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <rect width="1200" height="96" fill="#FF4500"/>
+  <circle cx="56" cy="48" r="30" fill="#ffffff"/>
+  <circle cx="56" cy="48" r="20" fill="#FF4500"/>
+  <text x="104" y="42" font-size="30" font-weight="700" fill="#ffffff">Reddit Ad Library — Ad Inspiration Scraper</text>
+  <text x="104" y="74" font-size="18" fill="#ffe3d6">Spy on real Reddit ads · zero auth · official Inspiration Library</text>
+
+  <!-- Step 1 -->
+  <g>
+    <rect x="40" y="170" width="250" height="150" rx="16" fill="#fff5f0" stroke="#FF4500" stroke-width="2"/>
+    <text x="165" y="212" font-size="20" font-weight="700" fill="#1a1a1b" text-anchor="middle">1 · Your query</text>
+    <text x="165" y="248" font-size="16" fill="#5b5b5b" text-anchor="middle">keyword: "insurance"</text>
+    <text x="165" y="274" font-size="15" fill="#878a8c" text-anchor="middle">+ industry / budget /</text>
+    <text x="165" y="294" font-size="15" fill="#878a8c" text-anchor="middle">objective / placement</text>
+  </g>
+  <path d="M300 245 h60" stroke="#FF4500" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- Step 2 -->
+  <g>
+    <rect x="372" y="170" width="250" height="150" rx="16" fill="#fff5f0" stroke="#FF4500" stroke-width="2"/>
+    <text x="497" y="212" font-size="20" font-weight="700" fill="#1a1a1b" text-anchor="middle">2 · Auto-refresh</text>
+    <text x="497" y="248" font-size="15" fill="#5b5b5b" text-anchor="middle">warmed session →</text>
+    <text x="497" y="270" font-size="15" fill="#5b5b5b" text-anchor="middle">fresh 24h token</text>
+    <text x="497" y="296" font-size="14" fill="#2e9e57" text-anchor="middle" font-weight="700">no login needed</text>
+  </g>
+  <path d="M632 245 h60" stroke="#FF4500" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- Step 3 -->
+  <g>
+    <rect x="704" y="170" width="250" height="150" rx="16" fill="#fff5f0" stroke="#FF4500" stroke-width="2"/>
+    <text x="829" y="212" font-size="20" font-weight="700" fill="#1a1a1b" text-anchor="middle">3 · Inspiration API</text>
+    <text x="829" y="248" font-size="14" fill="#5b5b5b" text-anchor="middle">inspiration_creatives</text>
+    <text x="829" y="270" font-size="14" fill="#5b5b5b" text-anchor="middle">/search + cursor pages</text>
+    <text x="829" y="296" font-size="14" fill="#878a8c" text-anchor="middle">pure HTTP, no browser</text>
+  </g>
+  <path d="M964 245 h60" stroke="#FF4500" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- Step 4 -->
+  <g>
+    <rect x="1036" y="170" width="128" height="150" rx="16" fill="#FF4500"/>
+    <text x="1100" y="230" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">4 · Ads</text>
+    <text x="1100" y="258" font-size="15" fill="#ffffff" text-anchor="middle">JSON</text>
+    <text x="1100" y="282" font-size="13" fill="#ffe3d6" text-anchor="middle">/ CSV</text>
+  </g>
+
+  <!-- Output chips -->
+  <text x="40" y="400" font-size="19" font-weight="700" fill="#1a1a1b">17 fields per ad</text>
+  <g font-size="15" fill="#1a1a1b">
+    <rect x="40" y="420" width="150" height="38" rx="19" fill="#f2f2f2"/><text x="115" y="445" text-anchor="middle">headline</text>
+    <rect x="202" y="420" width="120" height="38" rx="19" fill="#f2f2f2"/><text x="262" y="445" text-anchor="middle">body</text>
+    <rect x="334" y="420" width="180" height="38" rx="19" fill="#f2f2f2"/><text x="424" y="445" text-anchor="middle">callToAction</text>
+    <rect x="526" y="420" width="210" height="38" rx="19" fill="#f2f2f2"/><text x="631" y="445" text-anchor="middle">destinationUrl</text>
+    <rect x="748" y="420" width="150" height="38" rx="19" fill="#f2f2f2"/><text x="823" y="445" text-anchor="middle">mediaUrl</text>
+    <rect x="910" y="420" width="180" height="38" rx="19" fill="#f2f2f2"/><text x="1000" y="445" text-anchor="middle">advertiser</text>
+
+    <rect x="40" y="470" width="160" height="38" rx="19" fill="#ffe3d6"/><text x="120" y="495" text-anchor="middle">industry</text>
+    <rect x="212" y="470" width="190" height="38" rx="19" fill="#ffe3d6"/><text x="307" y="495" text-anchor="middle">budgetCategory</text>
+    <rect x="414" y="470" width="160" height="38" rx="19" fill="#ffe3d6"/><text x="494" y="495" text-anchor="middle">objective</text>
+    <rect x="586" y="470" width="170" height="38" rx="19" fill="#ffe3d6"/><text x="671" y="495" text-anchor="middle">placements</text>
+    <rect x="768" y="470" width="150" height="38" rx="19" fill="#f2f2f2"/><text x="843" y="495" text-anchor="middle">postUrl</text>
+    <rect x="930" y="470" width="160" height="38" rx="19" fill="#f2f2f2"/><text x="1010" y="495" text-anchor="middle">createdAt</text>
+  </g>
+
+  <!-- footer strip -->
+  <rect x="40" y="560" width="1120" height="120" rx="16" fill="#0b1416"/>
+  <text x="600" y="608" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">No login · No token · No cookies — just run it</text>
+  <text x="600" y="646" font-size="16" fill="#9aa0a6" text-anchor="middle">Pay per result · $5 / 1,000 ads · keyword search + filters + full creative</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#FF4500"/>
+    </marker>
+  </defs>
+</svg>
