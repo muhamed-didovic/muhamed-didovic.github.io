@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <rect width="1200" height="96" fill="#1877F2"/>
+  <circle cx="56" cy="48" r="30" fill="#ffffff"/>
+  <text x="56" y="62" font-size="40" font-weight="700" fill="#1877F2" text-anchor="middle">f</text>
+  <text x="104" y="42" font-size="30" font-weight="700" fill="#ffffff">Facebook Events Scraper</text>
+  <text x="104" y="74" font-size="18" fill="#d8e6fb">Venue GPS · start &amp; end times · hosts · no login</text>
+
+  <g>
+    <rect x="40" y="146" width="250" height="146" rx="16" fill="#f0f5ff" stroke="#1877F2" stroke-width="2"/>
+    <text x="165" y="186" font-size="19" font-weight="700" fill="#1c1e21" text-anchor="middle">1 · Any URL</text>
+    <text x="165" y="218" font-size="14" fill="#5b5b5b" text-anchor="middle">/events/1023978…</text>
+    <text x="165" y="242" font-size="14" fill="#5b5b5b" text-anchor="middle">/newyorkerfest</text>
+    <text x="165" y="270" font-size="13" fill="#878a8c" text-anchor="middle">event · page · search URL</text>
+  </g>
+  <path d="M300 219 h58" stroke="#1877F2" stroke-width="3" marker-end="url(#a)"/>
+
+  <g>
+    <rect x="370" y="146" width="250" height="146" rx="16" fill="#f0f5ff" stroke="#1877F2" stroke-width="2"/>
+    <text x="495" y="186" font-size="19" font-weight="700" fill="#1c1e21" text-anchor="middle">2 · Fresh tokens</text>
+    <text x="495" y="220" font-size="14" fill="#5b5b5b" text-anchor="middle">minted every run</text>
+    <text x="495" y="244" font-size="14" fill="#5b5b5b" text-anchor="middle">nothing hardcoded</text>
+    <text x="495" y="272" font-size="13" fill="#2e9e57" text-anchor="middle" font-weight="700">no login · no cookies</text>
+  </g>
+  <path d="M630 219 h58" stroke="#1877F2" stroke-width="3" marker-end="url(#a)"/>
+
+  <g>
+    <rect x="700" y="146" width="250" height="146" rx="16" fill="#f0f5ff" stroke="#1877F2" stroke-width="2"/>
+    <text x="825" y="186" font-size="19" font-weight="700" fill="#1c1e21" text-anchor="middle">3 · Two sources</text>
+    <text x="825" y="218" font-size="14" fill="#5b5b5b" text-anchor="middle">page → name·date·GPS</text>
+    <text x="825" y="242" font-size="14" fill="#5b5b5b" text-anchor="middle">detail → desc·hosts</text>
+    <text x="825" y="270" font-size="13" fill="#878a8c" text-anchor="middle">merged into one row</text>
+  </g>
+  <path d="M960 219 h58" stroke="#1877F2" stroke-width="3" marker-end="url(#a)"/>
+
+  <g>
+    <rect x="1030" y="146" width="130" height="146" rx="16" fill="#1877F2"/>
+    <text x="1095" y="206" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">4 · Events</text>
+    <text x="1095" y="234" font-size="15" fill="#ffffff" text-anchor="middle">JSON</text>
+    <text x="1095" y="258" font-size="13" fill="#d8e6fb" text-anchor="middle">/ CSV</text>
+  </g>
+
+  <text x="40" y="352" font-size="19" font-weight="700" fill="#1c1e21">Real output — one row</text>
+  <rect x="40" y="370" width="1120" height="196" rx="12" fill="#f7f8fa" stroke="#dfe1e5"/>
+  <g font-size="15">
+    <text x="66" y="402" fill="#1c1e21" font-weight="700">Red Hot Chili Peppers with Post Malone | Sydney</text>
+    <text x="66" y="432" fill="#5b5b5b">Thursday, 2 February 2023 · 8:00 PM – 12:00 AM AEDT · 4 hr</text>
+    <text x="66" y="462" fill="#5b5b5b">venue</text><text x="176" y="462" fill="#1c1e21" font-weight="700">Accor Stadium</text>
+    <text x="360" y="462" fill="#5b5b5b">GPS</text><text x="430" y="462" fill="#1c1e21" font-weight="700">-33.84727, 151.06334</text>
+    <text x="740" y="462" fill="#5b5b5b">responded</text><text x="860" y="462" fill="#1c1e21" font-weight="700">17,528</text>
+    <text x="66" y="492" fill="#5b5b5b">hosts</text><text x="176" y="492" fill="#1c1e21">Live Nation Australia · Post Malone · Red Hot Chili Peppers</text>
+    <text x="66" y="522" fill="#5b5b5b">category</text><text x="176" y="522" fill="#1c1e21">Music</text>
+    <text x="360" y="522" fill="#5b5b5b">description</text><text x="490" y="522" fill="#1c1e21">716 chars</text>
+    <text x="66" y="548" font-size="13" fill="#878a8c">28 fields per event · start AND end timestamps · every host with profile URL</text>
+  </g>
+
+  <rect x="40" y="596" width="1120" height="84" rx="16" fill="#0b1416"/>
+  <text x="600" y="632" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">Venue + GPS where others return null</text>
+  <text x="600" y="662" font-size="15" fill="#9aa0a6" text-anchor="middle">No login · no cookies · no tokens — paste a URL and press Start</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1877F2"/>
+    </marker>
+  </defs>
+</svg>
