@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#322A52"/>
+      <stop offset="100%" stop-color="#16121F"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#A3E635"/>
+    </linearGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="11" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#A3E635"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g fill="#FFFFFF" opacity="0.04">
+    <circle cx="60" cy="60" r="5"/><circle cx="140" cy="60" r="5"/>
+    <circle cx="60" cy="660" r="5"/><circle cx="1140" cy="60" r="5"/><circle cx="1140" cy="660" r="5"/>
+  </g>
+
+  <g font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="70" y="86" font-size="38" font-weight="800" fill="#FFFFFF">How it works</text>
+    <text x="70" y="126" font-size="21" font-weight="500" fill="#A8A7B7">One batch per engine — 1 keyword and 1000 keywords cost the same.</text>
+
+    <!-- STEP 1 : input -->
+    <g filter="url(#ds)" transform="translate(70,180)">
+      <rect width="280" height="230" rx="24" fill="#251E3E" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">1</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">Your keywords</text>
+
+      <text x="28" y="100" font-size="17" font-weight="500" fill="#C9C7D6">Up to 1000 in metrics mode,</text>
+      <text x="28" y="128" font-size="17" font-weight="500" fill="#C9C7D6">or 20 seeds in ideas mode.</text>
+
+      <rect x="28" y="150" width="224" height="30" rx="8" fill="#1B152A"/>
+      <text x="40" y="171" font-size="15" font-family="ui-monospace, Menlo, monospace" fill="#A3E635">"running shoes"</text>
+      <rect x="28" y="188" width="224" height="30" rx="8" fill="#1B152A"/>
+      <text x="40" y="209" font-size="15" font-family="ui-monospace, Menlo, monospace" fill="#A3E635">"seo tools"</text>
+    </g>
+
+    <line x1="366" y1="295" x2="424" y2="295" stroke="#A3E635" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <!-- STEP 2 : the guards -->
+    <g filter="url(#ds)" transform="translate(440,180)">
+      <rect width="300" height="230" rx="24" fill="#251E3E" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">2</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">Checked first</text>
+
+      <text x="28" y="98"  font-size="16" font-weight="500" fill="#C9C7D6">✓ deduped &amp; normalised</text>
+      <text x="28" y="128" font-size="16" font-weight="500" fill="#C9C7D6">✓ 24h cache — free re-runs</text>
+      <text x="28" y="158" font-size="16" font-weight="500" fill="#C9C7D6">✓ engine coverage per market</text>
+      <text x="28" y="188" font-size="16" font-weight="500" fill="#C9C7D6">✓ your charge limit</text>
+      <text x="28" y="214" font-size="15" font-style="italic" fill="#8B89A0">nothing is billed before this</text>
+    </g>
+
+    <line x1="756" y1="295" x2="814" y2="295" stroke="#A3E635" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <!-- STEP 3 : engines -->
+    <g filter="url(#ds)" transform="translate(830,180)">
+      <rect width="300" height="230" rx="24" fill="#251E3E" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">3</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">One call each</text>
+
+      <rect x="28" y="82" width="244" height="56" rx="14" fill="#1B152A" stroke="#3D3460"/>
+      <circle cx="54" cy="110" r="11" fill="url(#green)"/>
+      <text x="78" y="106" font-size="17" font-weight="700" fill="#FFFFFF">Google Ads</text>
+      <text x="78" y="127" font-size="14" fill="#8B89A0">111 countries</text>
+
+      <rect x="28" y="150" width="244" height="56" rx="14" fill="#1B152A" stroke="#3D3460"/>
+      <circle cx="54" cy="178" r="11" fill="#A8A7B7"/>
+      <text x="78" y="174" font-size="17" font-weight="700" fill="#FFFFFF">Microsoft Ads</text>
+      <text x="78" y="195" font-size="14" fill="#8B89A0">6 countries · free elsewhere</text>
+    </g>
+
+    <!-- STEP 4 : output -->
+    <g filter="url(#ds)" transform="translate(70,464)">
+      <rect width="1060" height="196" rx="24" fill="#211B36" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">4</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">One row per keyword — including the ones neither engine knows</text>
+
+      <g font-size="15" font-weight="600">
+        <rect x="28"  y="80" width="170" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="46"  y="106" fill="#A3E635">search volume</text>
+        <rect x="212" y="80" width="96"  height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="230" y="106" fill="#A3E635">CPC</text>
+        <rect x="322" y="80" width="150" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="340" y="106" fill="#A3E635">competition</text>
+        <rect x="486" y="80" width="132" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="504" y="106" fill="#A3E635">bid range</text>
+        <rect x="632" y="80" width="150" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="650" y="106" fill="#A3E635">difficulty</text>
+        <rect x="796" y="80" width="120" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="814" y="106" fill="#A3E635">intent</text>
+
+        <rect x="28"  y="132" width="196" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="46"  y="158" fill="#A3E635">~93 months history</text>
+        <rect x="238" y="132" width="132" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="256" y="158" fill="#A3E635">trend flag</text>
+        <rect x="384" y="132" width="150" height="40" rx="20" fill="#251E3E" stroke="#3D3460"/>
+        <text x="402" y="158" fill="#A3E635">MoM change</text>
+      </g>
+
+      <text x="700" y="160" font-size="17" font-weight="500" fill="#8B89A0">Failed calls are never charged.</text>
+    </g>
+  </g>
+</svg>
