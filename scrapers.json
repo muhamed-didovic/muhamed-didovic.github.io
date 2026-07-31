@@ -214,6 +214,30 @@
     "modifiedAt": "2026-05-08T15:50:46.203Z"
   },
   {
+    "id": "cian-real-estate-scraper",
+    "title": "Cian.ru Russia Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "cian.ru Russian real estate \u2014 flats, rooms, houses, new buildings, for sale or rent, with price, area, agent.",
+    "outputs": [
+      "price",
+      "area",
+      "rooms",
+      "type",
+      "agent",
+      "GPS"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-NXrQ10VIcyB5UmkbW-FPdbY15coE-cian.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/cian-real-estate-scraper",
+    "status": "public",
+    "createdAt": "2026-07-23T20:03:53.796Z",
+    "modifiedAt": "2026-07-30T11:38:52.226Z"
+  },
+  {
     "id": "commercialrealestate-au-scraper",
     "title": "Commercialrealestate.com.au",
     "category": "real-estate",
@@ -1782,6 +1806,30 @@
     "modifiedAt": "2026-05-10T09:40:20.063Z"
   },
   {
+    "id": "subito-real-estate-scraper",
+    "title": "Subito.it Italy Real Estate",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Subito.it real estate (immobili) \u2014 apartments, houses, rooms and commercial property for sale or rent by region.",
+    "outputs": [
+      "price",
+      "area",
+      "rooms",
+      "type",
+      "location",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-cBCyuL4IUZp8mZTZT-pagL1Y7jwo-subito.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/subito-real-estate-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T08:32:32.579Z",
+    "modifiedAt": "2026-07-24T08:37:50.638Z"
+  },
+  {
     "id": "swiss-rentals-scraper",
     "title": "Swiss Rentals (Flatfox\u00b7Newhome\u00b7Homegate)",
     "category": "real-estate",
@@ -1851,6 +1899,30 @@
     "status": "public",
     "createdAt": "2026-01-29T23:12:13.153Z",
     "modifiedAt": "2026-05-08T16:31:41.993Z"
+  },
+  {
+    "id": "uk-property-deal-finder",
+    "title": "UK & DE Property Deal Finder (ROI)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Ranked UK & German property investment deals \u2014 every listing scored for ROI, monthly cashflow and payback.",
+    "outputs": [
+      "price",
+      "ROI",
+      "cashflow",
+      "payback",
+      "yield",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-CykzSG9tTNKhrxWVJ-TFzBdiLdvW-property.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/uk-property-deal-finder",
+    "status": "public",
+    "createdAt": "2026-07-28T16:37:38.701Z",
+    "modifiedAt": "2026-07-29T04:38:52.130Z"
   },
   {
     "id": "uk-planning-applications-scraper",
@@ -3964,6 +4036,30 @@
     "modifiedAt": "2026-05-08T16:42:49.985Z"
   },
   {
+    "id": "subito-jobs-scraper",
+    "title": "Subito.it Italy Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Subito.it job listings (lavoro) across every Italian region \u2014 one clean row per posting with title, company, location.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "type",
+      "region",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-cBCyuL4IUZp8mZTZT-pagL1Y7jwo-subito.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/subito-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T08:36:08.324Z",
+    "modifiedAt": "2026-07-24T08:38:20.668Z"
+  },
+  {
     "id": "totaljobs-scraper",
     "title": "TotalJobs UK + Salary + Geo",
     "category": "jobs",
@@ -4395,6 +4491,30 @@
     "modifiedAt": "2026-05-08T17:03:24.537Z"
   },
   {
+    "id": "facebook-events-scraper",
+    "title": "Facebook Events + Venue GPS",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook events by event URL or page/organizer \u2014 name, description, start and end times, venue GPS and hosts.",
+    "outputs": [
+      "name",
+      "description",
+      "start",
+      "end",
+      "venue GPS",
+      "host"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-events-scraper",
+    "status": "public",
+    "createdAt": "2026-07-28T11:23:38.836Z",
+    "modifiedAt": "2026-07-29T18:10:48.747Z"
+  },
+  {
     "id": "facebook-group-posts",
     "title": "Facebook Group Posts",
     "category": "social",
@@ -4627,6 +4747,30 @@
     "modifiedAt": "2026-07-23T09:47:14.190Z"
   },
   {
+    "id": "instagram-hashtag-scraper",
+    "title": "Instagram Hashtags (no login)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Top posts and reels for any Instagram hashtag with captions, like and comment counts, play counts.",
+    "outputs": [
+      "post",
+      "reel",
+      "caption",
+      "likes",
+      "comments",
+      "plays"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ffgNGbcKxKSVv5M9e-zuiqyD0zhc-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-hashtag-scraper",
+    "status": "public",
+    "createdAt": "2026-07-27T15:10:29.328Z",
+    "modifiedAt": "2026-07-28T11:08:31.001Z"
+  },
+  {
     "id": "apify-instagram-comments-scraper",
     "title": "Instagram Post Comments & Replies",
     "category": "social",
@@ -4649,6 +4793,30 @@
     "status": "public",
     "createdAt": "2025-10-23T10:09:30.315Z",
     "modifiedAt": "2026-05-08T16:17:18.121Z"
+  },
+  {
+    "id": "instagram-likers-scraper",
+    "title": "Instagram Post Likers (no login)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Likers of any public Instagram post or reel \u2014 username, full name, verified and private flags.",
+    "outputs": [
+      "username",
+      "full name",
+      "verified",
+      "private",
+      "profile pic",
+      "post"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-uStstncuFsmRzRF4f-kgn0sNmaYc-instagram.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-likers-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T08:25:33.574Z",
+    "modifiedAt": "2026-07-27T04:46:51.128Z"
   },
   {
     "id": "instagram-profile",
@@ -4697,6 +4865,150 @@
     "status": "public",
     "createdAt": "2026-06-20T21:42:46.133Z",
     "modifiedAt": "2026-06-22T23:15:11.740Z"
+  },
+  {
+    "id": "instagram-transcript-cheerio",
+    "title": "Instagram Reels / IGTV Transcripts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Cheerio"
+    ],
+    "summary": "Transcribe Instagram Reels, posts and IGTV to text, even videos with no captions. Flat $0.05 per video.",
+    "outputs": [
+      "transcript",
+      "caption",
+      "video URL",
+      "author",
+      "duration",
+      "language"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gBrhIXyfmlL3FiC9V-07p6ieboLs-instagram.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-transcript-cheerio",
+    "status": "public",
+    "createdAt": "2026-07-18T11:47:22.427Z",
+    "modifiedAt": "2026-07-27T05:04:11.117Z"
+  },
+  {
+    "id": "instagram-reels-search-scraper",
+    "title": "Instagram Reels Search + Viral Finder",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Trending Instagram Reels by keyword, not just by profile. Search any topic and get reels with play and engagement counts.",
+    "outputs": [
+      "reel",
+      "caption",
+      "plays",
+      "likes",
+      "author",
+      "audio"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-150lSsLR4VYGi50zB-kjlgCugtjf-instagram.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-reels-search-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T08:16:58.540Z",
+    "modifiedAt": "2026-07-27T04:46:55.121Z"
+  },
+  {
+    "id": "instagram-search-scraper",
+    "title": "Instagram Search (accounts\u00b7hashtags\u00b7audio)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search Instagram by keyword \u2014 public accounts with optional follower counts, bio and contact email, plus hashtags and audio.",
+    "outputs": [
+      "account",
+      "followers",
+      "bio",
+      "email",
+      "hashtag",
+      "audio"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-b4Qduj50HxLOXwhlH-2qEKQJ3kKf-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-search-scraper",
+    "status": "public",
+    "createdAt": "2026-07-28T20:57:40.030Z",
+    "modifiedAt": "2026-07-29T05:07:57.410Z"
+  },
+  {
+    "id": "instagram-similar-profiles-scraper",
+    "title": "Instagram Similar / Lookalike Finder",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Accounts similar to any public Instagram profile using Instagram's own Suggested-for-you graph plus lookalike expansion.",
+    "outputs": [
+      "username",
+      "full name",
+      "followers",
+      "category",
+      "similar to",
+      "verified"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-similar-profiles-scraper",
+    "status": "public",
+    "createdAt": "2026-07-27T15:12:11.757Z",
+    "modifiedAt": "2026-07-28T10:35:05.627Z"
+  },
+  {
+    "id": "instagram-stories-highlights-scraper",
+    "title": "Instagram Stories & Highlights",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Active stories and permanent highlights from any public Instagram profile, with download URLs.",
+    "outputs": [
+      "story",
+      "highlight",
+      "media",
+      "download URL",
+      "posted",
+      "type"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-wgSIieJhhQXCO5Xur-CgUzCc016m-instagram.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-stories-highlights-scraper",
+    "status": "public",
+    "createdAt": "2026-07-23T22:05:51.304Z",
+    "modifiedAt": "2026-07-28T16:52:54.893Z"
+  },
+  {
+    "id": "instagram-tagged-mentioned-posts-scraper",
+    "title": "Instagram Tagged / Mentioned Posts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every public Instagram post where an account is tagged \u2014 UGC, brand mentions and collabs in one feed.",
+    "outputs": [
+      "post",
+      "author",
+      "caption",
+      "likes",
+      "tagged",
+      "media"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-LryNSYnwBCoYdBgj6-pAaV9o8Dcf-instagram.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-tagged-mentioned-posts-scraper",
+    "status": "public",
+    "createdAt": "2026-07-25T21:16:18.720Z",
+    "modifiedAt": "2026-07-25T23:33:49.593Z"
   },
   {
     "id": "linkedin-search-groups-scraper",
@@ -4887,6 +5199,30 @@
     "status": "public",
     "createdAt": "2026-04-15T10:55:39.177Z",
     "modifiedAt": "2026-05-08T16:47:57.460Z"
+  },
+  {
+    "id": "reddit-subreddit-db-scraper",
+    "title": "Reddit Subreddit Database",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search or browse Reddit communities with subscriber counts, categories and descriptions for audience targeting.",
+    "outputs": [
+      "subreddit",
+      "subscribers",
+      "category",
+      "description",
+      "active",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-BaqXIaZJmLiNpqL1G-K0HyrUwGIG-reddit.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/reddit-subreddit-db-scraper",
+    "status": "public",
+    "createdAt": "2026-07-26T22:12:34.255Z",
+    "modifiedAt": "2026-07-27T21:20:55.501Z"
   },
   {
     "id": "rumble-scraper",
@@ -5126,6 +5462,54 @@
     "modifiedAt": "2026-05-10T21:28:04.154Z"
   },
   {
+    "id": "tiktok-followers-scraper",
+    "title": "TikTok Followers & Following (no login)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Followers, following, or suggested accounts of any public TikTok profile \u2014 no login, no cookies.",
+    "outputs": [
+      "username",
+      "nickname",
+      "followers",
+      "verified",
+      "bio",
+      "avatar"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-sQQjLddRyelrsZtQy-d3AEdior1r-transparent-tiktok-logo-black-and-white-logo-tiktok-app-minima-m",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-followers-scraper",
+    "status": "public",
+    "createdAt": "2026-07-28T18:18:37.573Z",
+    "modifiedAt": "2026-07-28T21:48:27.775Z"
+  },
+  {
+    "id": "tiktok-hashtag-scraper",
+    "title": "TikTok Hashtags (no login)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every video posted under any TikTok hashtag \u2014 video URL, description, engagement counts and creator.",
+    "outputs": [
+      "video URL",
+      "description",
+      "likes",
+      "comments",
+      "shares",
+      "creator"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-UEs1Cz8Ctj33wLu1w-fUrxLESmM8-transparent-tiktok-logo-black-and-white-logo-tiktok-app-minima-m",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-hashtag-scraper",
+    "status": "public",
+    "createdAt": "2026-07-28T18:19:44.633Z",
+    "modifiedAt": "2026-07-30T22:45:51.409Z"
+  },
+  {
     "id": "tiktok-suggestions-scraper",
     "title": "TikTok Keyword Suggestions",
     "category": "social",
@@ -5172,6 +5556,30 @@
     "status": "public",
     "createdAt": "2024-05-29T09:18:08.512Z",
     "modifiedAt": "2026-05-08T16:43:01.630Z"
+  },
+  {
+    "id": "tiktok-search-scraper",
+    "title": "TikTok Search by Keyword (no login)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search TikTok by any keyword and scrape every matching video \u2014 no login, no cookies. Video URL, stats, author.",
+    "outputs": [
+      "video URL",
+      "description",
+      "likes",
+      "views",
+      "author",
+      "audio"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-DLoekSbRLDB9EIYMn-KXFe9d3myo-transparent-tiktok-logo-black-and-white-logo-tiktok-app-minima-m",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-search-scraper",
+    "status": "public",
+    "createdAt": "2026-07-28T18:20:53.505Z",
+    "modifiedAt": "2026-07-30T22:46:29.777Z"
   },
   {
     "id": "tiktok-transcript",
@@ -5334,6 +5742,54 @@
     "status": "public",
     "createdAt": "2026-07-12T17:07:37.978Z",
     "modifiedAt": "2026-07-14T23:40:16.440Z"
+  },
+  {
+    "id": "username-social-finder",
+    "title": "Username Finder (50+ sites)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Check which of 50+ platforms a username exists on \u2014 Instagram, YouTube, X, GitHub, Reddit, Steam, Behance and more.",
+    "outputs": [
+      "username",
+      "platform",
+      "exists",
+      "profile URL",
+      "checked",
+      "count"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Eso854Fu2nSimqkLi-9rXEhf8QhH-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/username-social-finder",
+    "status": "public",
+    "createdAt": "2026-07-29T12:31:44.906Z",
+    "modifiedAt": "2026-07-29T21:21:27.660Z"
+  },
+  {
+    "id": "video-audio-transcriber",
+    "title": "Video & Audio Transcriber (Whisper)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Transcribe any video or audio URL to text with Whisper running inside the actor \u2014 no API key. TikTok, YouTube and direct files.",
+    "outputs": [
+      "transcript",
+      "language",
+      "timestamps",
+      "source",
+      "duration",
+      "confidence"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ePG5bBkORYrIFfqyT-qxOaGXcDFD-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/video-audio-transcriber",
+    "status": "public",
+    "createdAt": "2026-07-23T15:51:12.922Z",
+    "modifiedAt": "2026-07-30T22:57:59.312Z"
   },
   {
     "id": "whatsapp-channel-search",
@@ -6341,6 +6797,30 @@
     "modifiedAt": "2026-06-29T09:04:15.410Z"
   },
   {
+    "id": "milanuncios-scraper",
+    "title": "Milanuncios (Spain) Classifieds",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Milanuncios classifieds by keyword, category or ad URL \u2014 title, price, city/province, description, seller.",
+    "outputs": [
+      "title",
+      "price",
+      "city",
+      "description",
+      "seller",
+      "category"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-71HoeqhZNiIaKo0Se-VkPQkdCjmt-milanuncios.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/milanuncios-scraper",
+    "status": "public",
+    "createdAt": "2026-07-23T16:14:51.396Z",
+    "modifiedAt": "2026-07-30T11:54:41.880Z"
+  },
+  {
     "id": "mobile-de-scraper",
     "title": "Mobile.de Unlimited Search & Detail",
     "category": "ecommerce",
@@ -6410,6 +6890,30 @@
     "status": "public",
     "createdAt": "2026-07-18T16:50:29.038Z",
     "modifiedAt": "2026-07-18T17:08:21.418Z"
+  },
+  {
+    "id": "olx-marketplace-scraper",
+    "title": "OLX Marketplace (7 countries)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "OLX classifieds across 7 countries (PL, UA, RO, BG, KZ, UZ, PT) from one actor \u2014 title, price, location, seller.",
+    "outputs": [
+      "title",
+      "price",
+      "location",
+      "seller",
+      "category",
+      "country"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-BlYmXKJMuZ6vezwMb-2rGQawLTJK-OLX-Logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/olx-marketplace-scraper",
+    "status": "public",
+    "createdAt": "2026-07-23T15:45:14.673Z",
+    "modifiedAt": "2026-07-23T17:37:52.506Z"
   },
   {
     "id": "ozon-scraper",
@@ -6508,6 +7012,30 @@
     "modifiedAt": "2026-05-08T16:39:54.054Z"
   },
   {
+    "id": "subito-cars-scraper",
+    "title": "Subito.it Cars & Motors",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Subito.it cars, motorcycles, vans, campers and boats nationwide or by region \u2014 make, price, year, mileage, seller.",
+    "outputs": [
+      "make/model",
+      "price",
+      "year",
+      "mileage",
+      "seller",
+      "region"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-cBCyuL4IUZp8mZTZT-pagL1Y7jwo-subito.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/subito-cars-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T08:33:58.203Z",
+    "modifiedAt": "2026-07-24T08:38:08.737Z"
+  },
+  {
     "id": "subito-scraper",
     "title": "Subito.it Italian Classifieds",
     "category": "ecommerce",
@@ -6578,6 +7106,30 @@
     "status": "public",
     "createdAt": "2026-07-19T18:56:13.173Z",
     "modifiedAt": "2026-07-20T09:14:43.746Z"
+  },
+  {
+    "id": "wallapop-scraper",
+    "title": "Wallapop Second-Hand",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Wallapop second-hand listings by keyword around any location \u2014 title, price, condition, seller, distance.",
+    "outputs": [
+      "title",
+      "price",
+      "condition",
+      "seller",
+      "distance",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-u9T4S9ZRjvvAXuWPI-uaFWsa3n9n-wallapop.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/wallapop-scraper",
+    "status": "public",
+    "createdAt": "2026-07-23T16:02:09.764Z",
+    "modifiedAt": "2026-07-23T17:59:11.755Z"
   },
   {
     "id": "wildberries-scraper",
@@ -7095,6 +7647,30 @@
     "status": "public",
     "createdAt": "2025-03-03T14:12:29.422Z",
     "modifiedAt": "2026-05-08T16:43:18.527Z"
+  },
+  {
+    "id": "resy-restaurant-scraper",
+    "title": "Resy Restaurants",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Resy restaurant data from any of 2,129 cities \u2014 name, cuisine, price band, rating with count, location.",
+    "outputs": [
+      "name",
+      "cuisine",
+      "price band",
+      "rating",
+      "reviews",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zefUalE7Wotr3Se41-JgY9SOk2ff-resy.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/resy-restaurant-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T07:46:08.385Z",
+    "modifiedAt": "2026-07-29T04:38:03.734Z"
   },
   {
     "id": "review-discovery-scraper",
@@ -8000,6 +8576,30 @@
     "modifiedAt": "2026-05-10T15:37:12.974Z"
   },
   {
+    "id": "google-suggest-scraper",
+    "title": "Google Autocomplete Suggest",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google Autocomplete suggestions at scale \u2014 seed keywords expand via A-Z, 0-9 and question prefixes.",
+    "outputs": [
+      "keyword",
+      "suggestion",
+      "seed",
+      "prefix",
+      "position",
+      "language"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-DoMYgCcJmkk0wodk5-QxsU7TE8ac-google.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-suggest-scraper",
+    "status": "public",
+    "createdAt": "2026-07-29T12:05:52.890Z",
+    "modifiedAt": "2026-07-29T21:21:00.287Z"
+  },
+  {
     "id": "gumroad-scraper",
     "title": "Gumroad Products + Creator Emails",
     "category": "business",
@@ -8215,6 +8815,30 @@
     "modifiedAt": "2026-07-08T13:00:43.768Z"
   },
   {
+    "id": "keyword-metrics",
+    "title": "Keyword Metrics (Google + Bing)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bulk keyword research \u2014 Google + Bing search volume, CPC, competition, top-of-page bids and keyword difficulty.",
+    "outputs": [
+      "keyword",
+      "volume",
+      "CPC",
+      "competition",
+      "top bid",
+      "difficulty"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HCtUG8wyEgBLXl409-DTlwigztj8-keyword-logo-simple-black-line-illustration-for-presenting-inter",
+    "thumb": null,
+    "link": "https://apify.com/memo23/keyword-metrics",
+    "status": "public",
+    "createdAt": "2026-07-28T16:22:38.260Z",
+    "modifiedAt": "2026-07-30T22:48:09.971Z"
+  },
+  {
     "id": "kickstarter-scraper",
     "title": "Kickstarter Campaigns",
     "category": "business",
@@ -8358,6 +8982,30 @@
     "modifiedAt": "2026-07-18T10:54:41.944Z"
   },
   {
+    "id": "louisiana-contractor-leads-scraper",
+    "title": "Louisiana Contractor Leads (LSLBC)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "License-verified contractor leads from Louisiana's LSLBC registry \u2014 company, license number, classification, contact and emails.",
+    "outputs": [
+      "company",
+      "license no",
+      "classification",
+      "phone",
+      "email",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-6ZoJABsTpj0fBWCE1-7kj6PNGw9K-louisana.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/louisiana-contractor-leads-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T07:55:23.901Z",
+    "modifiedAt": "2026-07-25T19:52:34.044Z"
+  },
+  {
     "id": "martindale-scraper",
     "title": "Martindale Lawyer Directory",
     "category": "business",
@@ -8404,6 +9052,54 @@
     "status": "public",
     "createdAt": "2026-07-13T15:38:50.236Z",
     "modifiedAt": "2026-07-13T19:11:46.294Z"
+  },
+  {
+    "id": "north-carolina-electrical-contractor-leads-scraper",
+    "title": "NC Electrician Leads (NCBEEC)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "License-verified electrician leads from North Carolina's state board (NCBEEC) \u2014 business name, license, contact.",
+    "outputs": [
+      "business",
+      "license no",
+      "classification",
+      "phone",
+      "email",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-0trrm83jRPOowKrbc-Lfy0U9hJVS-ncei.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/north-carolina-electrical-contractor-leads-scraper",
+    "status": "public",
+    "createdAt": "2026-07-23T16:13:01.779Z",
+    "modifiedAt": "2026-07-24T06:11:29.979Z"
+  },
+  {
+    "id": "north-carolina-plumbing-hvac-contractor-leads-scraper",
+    "title": "NC Plumbing & HVAC Leads",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "License-verified plumbing, HVAC and fire-sprinkler contractor leads from North Carolina's state board.",
+    "outputs": [
+      "business",
+      "license no",
+      "trade",
+      "phone",
+      "email",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zKusb7M4a17NLhgm5-gjSxkUHgTJ-north_carlina_pluming.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/north-carolina-plumbing-hvac-contractor-leads-scraper",
+    "status": "public",
+    "createdAt": "2026-07-24T06:06:03.925Z",
+    "modifiedAt": "2026-07-24T06:32:10.194Z"
   },
   {
     "id": "northdata-scraper",
@@ -8453,6 +9149,30 @@
     "modifiedAt": "2026-05-08T16:50:14.010Z"
   },
   {
+    "id": "phone-enrichment",
+    "title": "Phone Enrichment & Validator",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bulk phone validator plus US reverse lookup \u2014 valid/invalid, E.164, country, carrier, line type and owner data.",
+    "outputs": [
+      "valid",
+      "E.164",
+      "country",
+      "carrier",
+      "line type",
+      "owner"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-EFbXr2V6eVE1AhFSc-awYRvCrZk3-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/phone-enrichment",
+    "status": "public",
+    "createdAt": "2026-07-23T18:20:03.370Z",
+    "modifiedAt": "2026-07-27T21:18:38.937Z"
+  },
+  {
     "id": "producthunt-scraper",
     "title": "Product Hunt Launches + Emails",
     "category": "business",
@@ -8475,6 +9195,30 @@
     "status": "public",
     "createdAt": "2026-05-24T23:08:07.426Z",
     "modifiedAt": "2026-05-25T06:54:35.447Z"
+  },
+  {
+    "id": "reddit-ad-inspiration-scraper",
+    "title": "Reddit Ad Library",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Real ads from Reddit's official Ad Inspiration Library \u2014 headline, body, advertiser, format and creative.",
+    "outputs": [
+      "headline",
+      "body",
+      "advertiser",
+      "format",
+      "creative",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-wbTRsjr2QXo8lBhyt-9JyJRqbmS3-reddit.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/reddit-ad-inspiration-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T10:26:02.670Z",
+    "modifiedAt": "2026-07-27T21:20:11.549Z"
   },
   {
     "id": "semrush-scraper",
@@ -8620,6 +9364,30 @@
     "modifiedAt": "2026-05-08T16:13:45.898Z"
   },
   {
+    "id": "tiktok-kwai-ads-checker",
+    "title": "TikTok/Kwai/Meta Ads Checker",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn a company list into an advertiser list \u2014 detects TikTok, Kwai, Meta and Google ad pixels on each site.",
+    "outputs": [
+      "domain",
+      "TikTok",
+      "Kwai",
+      "Meta",
+      "Google",
+      "advertiser"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-77bq0xy5eYP07oMyi-R1laGstqRC-logo-ads-checker.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-kwai-ads-checker",
+    "status": "public",
+    "createdAt": "2026-07-28T13:46:08.466Z",
+    "modifiedAt": "2026-07-28T14:52:21.052Z"
+  },
+  {
     "id": "trustmrr-scraper",
     "title": "TrustMRR Startup Revenue",
     "category": "business",
@@ -8713,6 +9481,54 @@
     "status": "public",
     "createdAt": "2026-07-08T18:53:51.264Z",
     "modifiedAt": "2026-07-13T15:25:15.806Z"
+  },
+  {
+    "id": "us-contractor-license-leads-scraper",
+    "title": "US Contractor Leads (multi-state)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "License-verified contractor leads across every US state board on the ARLS platform in one run.",
+    "outputs": [
+      "business",
+      "license no",
+      "state",
+      "trade",
+      "phone",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-AHM0bS4899jHa4eP2-wir1Qg9ygU-Seal_of_Louisiana.svg.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/us-contractor-license-leads-scraper",
+    "status": "public",
+    "createdAt": "2026-07-25T20:24:31.844Z",
+    "modifiedAt": "2026-07-25T20:46:25.964Z"
+  },
+  {
+    "id": "us-home-services-contractor-leads",
+    "title": "US Home-Services Leads (elec/plumb/HVAC)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "License-verified electrician, plumber and HVAC contractor leads from official US state licensing boards.",
+    "outputs": [
+      "business",
+      "license no",
+      "trade",
+      "phone",
+      "email",
+      "state"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-b9BrXoDgE4o1YWRpC-UbJhkIT6HQ-dbpr.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/us-home-services-contractor-leads",
+    "status": "public",
+    "createdAt": "2026-07-24T06:43:37.250Z",
+    "modifiedAt": "2026-07-29T18:09:33.604Z"
   },
   {
     "id": "us-state-bar-scraper",
@@ -9051,6 +9867,30 @@
     "status": "public",
     "createdAt": "2026-07-13T15:52:35.723Z",
     "modifiedAt": "2026-07-13T19:21:43.290Z"
+  },
+  {
+    "id": "ted-tenders-scraper",
+    "title": "EU Tenders (TED) Procurement",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "EU public procurement tenders from TED (Tenders Electronic Daily) \u2014 filter by CPV code, country, value and deadline.",
+    "outputs": [
+      "tender",
+      "CPV",
+      "country",
+      "value",
+      "buyer",
+      "deadline"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/ted-tenders-scraper",
+    "status": "public",
+    "createdAt": "2026-07-30T14:23:34.241Z",
+    "modifiedAt": "2026-07-30T14:25:50.948Z"
   },
   {
     "id": "flights-aggregator-scraper",
