@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="How the TikTok Trending Hashtags Scraper works">
+  <rect width="1200" height="720" fill="#F6F9FC"/>
+
+  <text x="600" y="70" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#0B1F33">How it works</text>
+  <text x="600" y="108" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" fill="#5A7186">TikTok's own trending ranking — no login, no cookies, no token</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+      <path d="M0 0 L11 5.5 L0 11 z" fill="#FE2C55"/>
+    </marker>
+  </defs>
+
+  <!-- ============ Input ============ -->
+  <text x="72" y="186" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FE2C55">YOU PICK</text>
+
+  <rect x="72" y="206" width="264" height="96" rx="14" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="204" y="246" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">Country</text>
+  <text x="204" y="276" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">one market, or all 27</text>
+
+  <rect x="72" y="330" width="264" height="96" rx="14" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="204" y="370" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">Time window</text>
+  <text x="204" y="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">7, 30 or 120 days</text>
+
+  <rect x="72" y="454" width="264" height="80" rx="14" fill="#FFECF0" stroke="#F7B9C6" stroke-width="2"/>
+  <text x="204" y="488" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#0B1F33">that's the whole input —</text>
+  <text x="204" y="512" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#0B1F33">nothing to configure</text>
+
+  <!-- arrows into the engine -->
+  <g stroke="#FE2C55" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M336 254 L432 254 L432 344 L492 344"/>
+    <path d="M336 378 L492 378"/>
+    <path d="M336 494 L432 494 L432 412 L492 412"/>
+  </g>
+
+  <!-- engine -->
+  <rect x="500" y="286" width="266" height="184" rx="16" fill="#FE2C55"/>
+  <text x="633" y="330" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Creative Center</text>
+  <text x="633" y="362" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#FFD7DF">one JSON request per market</text>
+  <text x="633" y="388" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#FFD7DF">straight from TikTok's own</text>
+  <text x="633" y="414" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#FFD7DF">advertiser trend ranking</text>
+  <text x="633" y="446" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#FFD7DF">no browser · no token</text>
+
+  <path d="M766 378 L840 378" stroke="#FE2C55" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- output -->
+  <rect x="848" y="252" width="280" height="252" rx="16" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="988" y="292" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">Dataset rows</text>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#40566B">
+    <text x="874" y="330">• hashtag + rank</text>
+    <text x="874" y="360">• views &amp; post count</text>
+    <text x="874" y="390">• 7-point popularity curve</text>
+    <text x="874" y="420">• top creators driving it</text>
+    <text x="874" y="450">• industry tags</text>
+    <text x="874" y="480">• country &amp; window</text>
+  </g>
+
+  <!-- honest-cap strip -->
+  <rect x="72" y="576" width="1056" height="88" rx="16" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="600" y="612" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F33">27 countries × 3 hashtags = up to 81 rows per window</text>
+  <text x="600" y="642" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">That is TikTok's real public cap, not ours — and an empty run fails instead of billing you</text>
+</svg>
