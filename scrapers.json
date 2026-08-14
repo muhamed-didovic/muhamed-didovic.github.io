@@ -3704,7 +3704,7 @@
     "modifiedAt": "2026-05-08T16:54:24.899Z"
   },
   {
-    "id": "ats-jobs-scraper",
+    "id": "career-site-ats-jobs-api",
     "title": "Multi-ATS Jobs + Company Emails",
     "category": "jobs",
     "tech": [
@@ -3722,7 +3722,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aypv72AiEsNAm9xjN-7eiNIfTPmh-ATS-Global-Logo-1.webp",
     "thumb": null,
-    "link": "https://apify.com/memo23/ats-jobs-scraper",
+    "link": "https://apify.com/memo23/career-site-ats-jobs-api",
     "status": "public",
     "createdAt": "2026-06-21T15:14:06.616Z",
     "modifiedAt": "2026-06-23T21:12:01.259Z"
@@ -4467,7 +4467,7 @@
     "modifiedAt": "2026-05-25T13:18:35.620Z"
   },
   {
-    "id": "workday-jobs-scraper",
+    "id": "workday-jobs-api",
     "title": "Workday Jobs (any company)",
     "category": "jobs",
     "tech": [
@@ -4485,7 +4485,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-uAhzsEvoCV2TeUmIn-TP8fLiz8od-workday.png",
     "thumb": null,
-    "link": "https://apify.com/memo23/workday-jobs-scraper",
+    "link": "https://apify.com/memo23/workday-jobs-api",
     "status": "public",
     "createdAt": "2026-05-22T19:39:59.780Z",
     "modifiedAt": "2026-05-28T12:21:56.265Z"
