@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="How the LinkedIn Profile Scraper works">
+  <rect width="1200" height="720" fill="#F6F9FC"/>
+
+  <text x="600" y="70" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#0B1F33">How it works</text>
+  <text x="600" y="108" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" fill="#5A7186">Two ways in — both end in the same enriched profile rows</text>
+
+  <!-- ============ Path A ============ -->
+  <text x="96" y="180" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0A66C2">PATH A — you supply the URLs</text>
+
+  <rect x="96" y="200" width="270" height="92" rx="14" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="231" y="238" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">Start URLs</text>
+  <text x="231" y="266" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">paste profile links</text>
+
+  <!-- ============ Path B ============ -->
+  <text x="96" y="356" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0A66C2">PATH B — one toggle</text>
+
+  <rect x="96" y="376" width="270" height="92" rx="14" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="231" y="414" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">scrapeMyConnections</text>
+  <text x="231" y="442" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">reads your My Network list</text>
+
+  <rect x="96" y="500" width="270" height="76" rx="14" fill="#EAF3FC" stroke="#A9CDEC" stroke-width="2"/>
+  <text x="231" y="532" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#0B1F33">every connection →</text>
+  <text x="231" y="556" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#0B1F33">profile URL, no 1,000 cap</text>
+
+  <!-- arrows into the engine -->
+  <g stroke="#0A66C2" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M366 246 L470 246 L470 350 L520 350"/>
+    <path d="M366 538 L470 538 L470 380 L520 380"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+      <path d="M0 0 L11 5.5 L0 11 z" fill="#0A66C2"/>
+    </marker>
+  </defs>
+
+  <!-- engine -->
+  <rect x="528" y="286" width="264" height="158" rx="16" fill="#0A66C2"/>
+  <text x="660" y="332" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Profile scraper</text>
+  <text x="660" y="364" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#CFE5FA">resolves each profile URN</text>
+  <text x="660" y="390" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#CFE5FA">then pulls the full record</text>
+  <text x="660" y="418" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#CFE5FA">via residential proxy</text>
+
+  <path d="M792 365 L866 365" stroke="#0A66C2" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- output -->
+  <rect x="874" y="256" width="230" height="218" rx="16" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="989" y="294" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">Dataset rows</text>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#40566B">
+    <text x="898" y="330">• name, headline</text>
+    <text x="898" y="358">• experience history</text>
+    <text x="898" y="386">• education</text>
+    <text x="898" y="414">• skills, languages</text>
+    <text x="898" y="442">• JSON · CSV · Excel</text>
+  </g>
+
+  <text x="600" y="640" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">Both paths need one thing: your exported LinkedIn cookie (li_at + JSESSIONID).</text>
+  <text x="600" y="668" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">Bad cookie? The run stops in seconds and tells you exactly what to fix.</text>
+</svg>
