@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#15151D"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Quantity-break pricing in one shape: bars grow WIDER to the right (more units)
+       while growing SHORTER (lower unit price), brightening as the deal improves.
+       Three heavy blocks stay legible down to 48px on a Store card. -->
+  <g>
+    <rect x="92"  y="132" width="72"  height="260" rx="16" fill="#B24A00"/>
+    <rect x="180" y="202" width="96"  height="190" rx="16" fill="#E86A00"/>
+    <rect x="292" y="272" width="128" height="120" rx="16" fill="#FF8A1F"/>
+  </g>
+</svg>
