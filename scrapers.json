@@ -1,5 +1,29 @@
 [
   {
+    "id": "99acres-property-scraper",
+    "title": "99acres India Property",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "99acres.com property listings \u2014 rent, buy, PG and commercial. 50+ fields per result: price, BHK, area, locality, builder, agent.",
+    "outputs": [
+      "price",
+      "BHK",
+      "area",
+      "locality",
+      "builder",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-lPr0cS2VLzbsxNC0C-KDSWRZkqIu-99acres.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/99acres-property-scraper",
+    "status": "public",
+    "createdAt": "2026-08-17T09:21:57.223Z",
+    "modifiedAt": "2026-08-18T14:15:41.441Z"
+  },
+  {
     "id": "airbnb-scraper",
     "title": "Airbnb Search \u00b7 with prices \u00b7 Reviews included",
     "category": "real-estate",
@@ -515,6 +539,30 @@
     "status": "public",
     "createdAt": "2026-07-06T04:34:35.438Z",
     "modifiedAt": "2026-07-08T11:57:34.680Z"
+  },
+  {
+    "id": "finn-no-scraper",
+    "title": "FINN.no Norway Marketplace",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "FINN.no, Norway's largest marketplace \u2014 property (sale, rent, plots), job ads, cars and Torget goods, one row per listing.",
+    "outputs": [
+      "price",
+      "type",
+      "location",
+      "area",
+      "seller",
+      "category"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tHyZM7Fhyip6U43Vn-9AYfs5RN4n-fin.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/finn-no-scraper",
+    "status": "public",
+    "createdAt": "2026-08-17T13:08:57.911Z",
+    "modifiedAt": "2026-08-18T12:32:15.150Z"
   },
   {
     "id": "forrent-com-scraper",
@@ -1243,6 +1291,30 @@
     "status": "public",
     "createdAt": "2026-05-17T20:22:42.952Z",
     "modifiedAt": "2026-05-28T05:37:43.895Z"
+  },
+  {
+    "id": "nobroker-property-scraper",
+    "title": "NoBroker India (owner listings)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "NoBroker.in owner property listings \u2014 rent, buy, PG and commercial. 40+ fields per property with owner contact, no brokerage.",
+    "outputs": [
+      "price",
+      "BHK",
+      "area",
+      "locality",
+      "owner",
+      "GPS"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-C8JvzmiRzma89C96y-AamwHfXCsd-nobroker-1588085233497.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/nobroker-property-scraper",
+    "status": "public",
+    "createdAt": "2026-08-17T09:47:37.269Z",
+    "modifiedAt": "2026-08-18T14:15:43.243Z"
   },
   {
     "id": "nyc-acris-property-records",
@@ -2470,6 +2542,30 @@
     "modifiedAt": "2026-06-13T18:30:41.609Z"
   },
   {
+    "id": "bayt-scraper",
+    "title": "Bayt MENA Jobs + Emails",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bayt.com, the Middle East's largest job board, across UAE, Saudi Arabia, Qatar, Egypt and more \u2014 salaries, emails and 49 filters.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "salary",
+      "email",
+      "filters"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zcFsadJ1IiDgNwUj1-iqgx7K9lW3-bayt.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bayt-scraper",
+    "status": "public",
+    "createdAt": "2025-11-25T21:29:40.603Z",
+    "modifiedAt": "2026-08-19T19:53:44.346Z"
+  },
+  {
     "id": "bayt-search-cheerio-ppr",
     "title": "Bayt.com \u00b7 \u00b7 Search by URL or Keywords",
     "category": "jobs",
@@ -2780,6 +2876,30 @@
     "modifiedAt": "2026-05-24T22:31:11.735Z"
   },
   {
+    "id": "drushim-scraper",
+    "title": "Drushim.co.il Israel Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Drushim.co.il, Israel's leading job board, by keyword (Hebrew or English), category or URL. Title, company, location.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "category",
+      "posted",
+      "apply link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-W4hykLKQR1ZfwxqZB-dsW3XrugJ6-drushim.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/drushim-scraper",
+    "status": "public",
+    "createdAt": "2026-08-17T09:49:27.882Z",
+    "modifiedAt": "2026-08-18T14:15:45.391Z"
+  },
+  {
     "id": "edjoin-scraper",
     "title": "Edjoin",
     "category": "jobs",
@@ -2874,6 +2994,30 @@
     "modifiedAt": "2026-04-28T21:05:04.846Z"
   },
   {
+    "id": "foundit-jobs-scraper",
+    "title": "Foundit (Monster) APAC Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "foundit (Monster India) jobs across India, Singapore, Malaysia and Indonesia \u2014 title, company, salary, location, skills.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "skills",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2lSUDdrBDEtJkRoRT-ufKoWWhpSC-foundit-logo-png_seeklogo-471367.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/foundit-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-08-14T20:02:05.598Z",
+    "modifiedAt": "2026-08-18T12:32:17.610Z"
+  },
+  {
     "id": "glassdoor-scraper-ppr",
     "title": "GLASSDOOR PPE Reviews&Jobs&Interviews&Locations&Salary&Overview",
     "category": "jobs",
@@ -2943,6 +3087,30 @@
     "status": "public",
     "createdAt": "2026-05-08T21:24:52.685Z",
     "modifiedAt": "2026-05-10T12:10:12.578Z"
+  },
+  {
+    "id": "google-jobs-scraper",
+    "title": "Google Jobs (aggregated feed)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google's jobs vertical (udm=8) \u2014 the feed Google aggregates from LinkedIn, Indeed, Glassdoor and more, with apply links, salary and emails.",
+    "outputs": [
+      "title",
+      "company",
+      "location",
+      "salary",
+      "apply link",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-6gspOE5Hh41XOzzHW-P8YTawTx5o-google_jobs.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-07-28T20:27:05.144Z",
+    "modifiedAt": "2026-08-18T12:32:04.802Z"
   },
   {
     "id": "gowork-scraper",
@@ -3749,6 +3917,30 @@
     "status": "public",
     "createdAt": "2025-10-06T07:10:50.170Z",
     "modifiedAt": "2026-05-08T16:15:29.356Z"
+  },
+  {
+    "id": "naukrigulf-jobs-scraper",
+    "title": "Naukrigulf Gulf Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Naukrigulf.com (UAE / Saudi / Qatar / wider GCC) \u2014 paste any URL or build a search. Title, company, salary, location.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "location",
+      "experience",
+      "posted"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/naukrigulf-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-05-26T04:50:05.274Z",
+    "modifiedAt": "2026-08-18T14:14:31.856Z"
   },
   {
     "id": "nhs-scraper",
@@ -4563,7 +4755,7 @@
     "modifiedAt": "2026-05-08T16:25:09.200Z"
   },
   {
-    "id": "ziprecruiter-scraper-ppe",
+    "id": "ziprecruiter-scraper",
     "title": "ZipRecruiter Jobs + Employer Emails",
     "category": "jobs",
     "tech": [
@@ -4581,7 +4773,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-78akVhKqjDtMKtIfv-vDi3d4efFs-ziprecruiter.png",
     "thumb": null,
-    "link": "https://apify.com/memo23/ziprecruiter-scraper-ppe",
+    "link": "https://apify.com/memo23/ziprecruiter-scraper",
     "status": "public",
     "createdAt": "2026-07-18T16:54:51.751Z",
     "modifiedAt": "2026-07-20T04:13:39.782Z"
@@ -4963,6 +5155,30 @@
     "modifiedAt": "2026-07-28T11:08:31.001Z"
   },
   {
+    "id": "instagram-post-scraper",
+    "title": "Instagram Post / Reel / Carousel",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any Instagram post, reel, IGTV or carousel by URL or shortcode \u2014 caption, likes, comments, media and author.",
+    "outputs": [
+      "caption",
+      "likes",
+      "comments",
+      "media",
+      "author",
+      "type"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-RUhEI0b2cLPl7qPPH-QPgSwLXcew-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-post-scraper",
+    "status": "public",
+    "createdAt": "2026-08-19T22:25:32.218Z",
+    "modifiedAt": "2026-08-19T23:42:25.060Z"
+  },
+  {
     "id": "apify-instagram-comments-scraper",
     "title": "Instagram Post Comments & Replies",
     "category": "social",
@@ -5059,7 +5275,7 @@
     "modifiedAt": "2026-06-22T23:15:11.740Z"
   },
   {
-    "id": "instagram-transcript-cheerio",
+    "id": "instagram-transcript-scraper",
     "title": "Instagram Reels / IGTV Transcripts",
     "category": "social",
     "tech": [
@@ -5077,7 +5293,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gBrhIXyfmlL3FiC9V-07p6ieboLs-instagram.jpg",
     "thumb": null,
-    "link": "https://apify.com/memo23/instagram-transcript-cheerio",
+    "link": "https://apify.com/memo23/instagram-transcript-scraper",
     "status": "public",
     "createdAt": "2026-07-18T11:47:22.427Z",
     "modifiedAt": "2026-07-27T05:04:11.117Z"
@@ -5203,6 +5419,30 @@
     "modifiedAt": "2026-07-25T23:33:49.593Z"
   },
   {
+    "id": "instagram-video-downloader",
+    "title": "Instagram Video Downloader",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Download Instagram reels, videos, carousels and photos in bulk \u2014 re-hosted MP4, cover, audio, no expiry.",
+    "outputs": [
+      "MP4",
+      "cover",
+      "audio",
+      "caption",
+      "author",
+      "type"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-piwPghZZql1jcdYcH-soGpJNOvtB-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-video-downloader",
+    "status": "public",
+    "createdAt": "2026-08-19T22:28:02.186Z",
+    "modifiedAt": "2026-08-20T06:53:39.394Z"
+  },
+  {
     "id": "linkedin-search-groups-scraper",
     "title": "Linkedin Groups Search",
     "category": "social",
@@ -5249,6 +5489,30 @@
     "status": "public",
     "createdAt": "2026-06-09T16:52:32.693Z",
     "modifiedAt": "2026-06-12T11:36:15.320Z"
+  },
+  {
+    "id": "linkedin-profile-scraper",
+    "title": "LinkedIn Profiles + Connections",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "LinkedIn profiles for name, headline, full work history, education and skills. Paste profile URLs or pull your own connections.",
+    "outputs": [
+      "name",
+      "headline",
+      "work history",
+      "education",
+      "skills",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-o6kG0foqWs6cu5Orb-ykAcQDQX1F-linkedin.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-profile-scraper",
+    "status": "public",
+    "createdAt": "2025-02-17T09:53:46.456Z",
+    "modifiedAt": "2026-08-20T04:52:16.109Z"
   },
   {
     "id": "loom-scraper",
@@ -5583,6 +5847,30 @@
     "modifiedAt": "2026-05-26T18:01:20.774Z"
   },
   {
+    "id": "telegram-channel-info-scraper",
+    "title": "Telegram Channel Info",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any list of t.me links into structured channel intelligence \u2014 names, bios, avatars, live member counts and invite links.",
+    "outputs": [
+      "name",
+      "bio",
+      "avatar",
+      "members",
+      "invite link",
+      "verified"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xdrjAZ4QoKQIpDgzG-g2rlhNg1FU-telegram.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/telegram-channel-info-scraper",
+    "status": "public",
+    "createdAt": "2026-07-16T03:48:59.389Z",
+    "modifiedAt": "2026-08-19T21:44:32.737Z"
+  },
+  {
     "id": "telegram-channel-scraper",
     "title": "Telegram Channel Intelligence",
     "category": "social",
@@ -5774,6 +6062,102 @@
     "modifiedAt": "2026-06-25T13:25:52.131Z"
   },
   {
+    "id": "tiktok-mention-scraper",
+    "title": "TikTok Mentions (verified @tags)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every TikTok video that tags an account, each mention confirmed against that account's real ID.",
+    "outputs": [
+      "video",
+      "author",
+      "mention",
+      "verified",
+      "engagement",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gQeQBj6XvELg0UGSh-WRU56x7R7k-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-mention-scraper",
+    "status": "public",
+    "createdAt": "2026-08-18T11:01:45.838Z",
+    "modifiedAt": "2026-08-19T21:47:02.473Z"
+  },
+  {
+    "id": "tiktok-music-scraper",
+    "title": "TikTok Music & Sounds",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search TikTok sounds by keyword \u2014 title, artist, album, duration, cover image and a direct audio link.",
+    "outputs": [
+      "title",
+      "artist",
+      "album",
+      "duration",
+      "cover",
+      "audio"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZSSwyJEL0AXUH0gGI-NAWUxTyQKv-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-music-scraper",
+    "status": "public",
+    "createdAt": "2026-08-19T04:29:09.439Z",
+    "modifiedAt": "2026-08-19T04:52:27.087Z"
+  },
+  {
+    "id": "tiktok-playlist-scraper",
+    "title": "TikTok Playlists",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every public playlist on any TikTok account \u2014 playlist name, ID, video count and cover image.",
+    "outputs": [
+      "playlist",
+      "id",
+      "video count",
+      "cover",
+      "account",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-IcJnNZL9U9ELuFgzO-o9Bs3t7Irr-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-playlist-scraper",
+    "status": "public",
+    "createdAt": "2026-08-18T18:44:39.032Z",
+    "modifiedAt": "2026-08-18T22:16:19.335Z"
+  },
+  {
+    "id": "tiktok-post-scraper",
+    "title": "TikTok Post (by URL/ID)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any TikTok post by URL or ID \u2014 caption, play/like/comment/share/save/repost counts, author and audio.",
+    "outputs": [
+      "caption",
+      "plays",
+      "likes",
+      "comments",
+      "shares",
+      "author"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-a3fs95CeL3MQXW1uC-Jt4j28uqjb-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-post-scraper",
+    "status": "public",
+    "createdAt": "2026-08-16T18:33:18.252Z",
+    "modifiedAt": "2026-08-19T04:06:05.034Z"
+  },
+  {
     "id": "tiktok-profile-scraper",
     "title": "TikTok Profile (no login)",
     "category": "social",
@@ -5796,6 +6180,30 @@
     "status": "public",
     "createdAt": "2026-07-31T22:04:18.016Z",
     "modifiedAt": "2026-08-11T04:14:40.090Z"
+  },
+  {
+    "id": "tiktok-profile-mention-scraper",
+    "title": "TikTok Profile Mentions",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Track who is tagging a creator or brand profile on TikTok, each mention confirmed against the real profile.",
+    "outputs": [
+      "video",
+      "tagger",
+      "mention",
+      "verified",
+      "engagement",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-t2T8ZvpqOSjyQUJTH-rqEkFSh1Hu-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-profile-mention-scraper",
+    "status": "public",
+    "createdAt": "2026-08-19T04:18:20.358Z",
+    "modifiedAt": "2026-08-19T12:26:01.385Z"
   },
   {
     "id": "tiktok-profile-videos",
@@ -5867,6 +6275,30 @@
     "modifiedAt": "2026-05-08T16:40:42.395Z"
   },
   {
+    "id": "tiktok-transcript-scraper",
+    "title": "TikTok Transcripts (every language)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Full transcripts and subtitles from TikTok videos in every available language, auto-generated included.",
+    "outputs": [
+      "transcript",
+      "language",
+      "subtitles",
+      "video URL",
+      "author",
+      "duration"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-PPLMthmrIBHT5C5Il-bDyfDPke4D-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-transcript-scraper",
+    "status": "public",
+    "createdAt": "2026-08-16T17:04:58.594Z",
+    "modifiedAt": "2026-08-19T04:06:13.294Z"
+  },
+  {
     "id": "tiktok-trending-hashtags-scraper",
     "title": "TikTok Trending Hashtags",
     "category": "social",
@@ -5889,6 +6321,54 @@
     "status": "public",
     "createdAt": "2026-08-11T08:52:08.341Z",
     "modifiedAt": "2026-08-11T10:02:04.568Z"
+  },
+  {
+    "id": "tiktok-user-search-scraper",
+    "title": "TikTok User Search",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search TikTok for accounts rather than videos \u2014 username, bio, follower and following counts, verified flag.",
+    "outputs": [
+      "username",
+      "bio",
+      "followers",
+      "following",
+      "verified",
+      "avatar"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-3aTsIGA4ChyTgtoMP-B2gu27jnWy-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-user-search-scraper",
+    "status": "public",
+    "createdAt": "2026-08-19T11:03:49.668Z",
+    "modifiedAt": "2026-08-19T11:09:50.304Z"
+  },
+  {
+    "id": "tiktok-video-downloader",
+    "title": "TikTok Video Downloader (no watermark)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Download TikTok videos without the watermark, in bulk \u2014 stable Apify-hosted MP4, cover image and audio.",
+    "outputs": [
+      "MP4",
+      "cover",
+      "audio",
+      "caption",
+      "author",
+      "no watermark"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pQGdDfhFC35QToTxZ-mzyh9fm8pF-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-video-downloader",
+    "status": "public",
+    "createdAt": "2026-08-18T09:10:38.982Z",
+    "modifiedAt": "2026-08-19T21:47:00.401Z"
   },
   {
     "id": "truthsocial-comment-scraper",
@@ -6580,6 +7060,30 @@
     "status": "public",
     "createdAt": "2026-06-24T12:15:13.050Z",
     "modifiedAt": "2026-06-25T12:56:27.155Z"
+  },
+  {
+    "id": "carandclassic-scraper",
+    "title": "Car & Classic Catalogue",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The full Car & Classic catalogue of classic cars, bikes and commercials, past the 10k cap.",
+    "outputs": [
+      "make/model",
+      "price",
+      "year",
+      "mileage",
+      "seller",
+      "location"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/carandclassic-scraper",
+    "status": "public",
+    "createdAt": "2026-08-18T15:29:41.913Z",
+    "modifiedAt": "2026-08-18T15:51:22.657Z"
   },
   {
     "id": "cars-scraper",
@@ -7348,6 +7852,30 @@
     "modifiedAt": "2026-07-10T18:35:55.392Z"
   },
   {
+    "id": "pistonheads-scraper",
+    "title": "PistonHeads Full Catalogue (208k)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The full PistonHeads catalogue with real pagination where rival scrapers loop on page one \u2014 make, price, year, spec.",
+    "outputs": [
+      "make/model",
+      "price",
+      "year",
+      "mileage",
+      "spec",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xJWJevwb9uPkd7pSO-8tVsLgXE3f-pistonheads.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pistonheads-scraper",
+    "status": "public",
+    "createdAt": "2026-08-17T15:56:55.026Z",
+    "modifiedAt": "2026-08-18T11:44:53.558Z"
+  },
+  {
     "id": "apify-ricardo-ch-scraper",
     "title": "Ricardo.ch",
     "category": "ecommerce",
@@ -8035,6 +8563,30 @@
     "modifiedAt": "2026-05-08T16:19:15.009Z"
   },
   {
+    "id": "hrs-hotels-scraper",
+    "title": "HRS Hotels + Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "HRS.com hotels with every guest review \u2014 liked and disliked comments split apart, per-category scores.",
+    "outputs": [
+      "hotel",
+      "price",
+      "review",
+      "liked",
+      "disliked",
+      "score"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-dafZITlipyHjueDzX-VsNacinG9U-hrs.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/hrs-hotels-scraper",
+    "status": "public",
+    "createdAt": "2026-08-14T18:39:42.698Z",
+    "modifiedAt": "2026-08-18T14:15:42.830Z"
+  },
+  {
     "id": "judge-me-reviews-scraper",
     "title": "Judge.me Shopify Reviews",
     "category": "reviews",
@@ -8107,7 +8659,7 @@
     "modifiedAt": "2026-05-08T16:14:42.603Z"
   },
   {
-    "id": "quora-scraper-ppe",
+    "id": "quora-scraper",
     "title": "Quora Q&A (PPE)",
     "category": "reviews",
     "tech": [
@@ -8125,7 +8677,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Sll6pBcBHlFnhoPRh-v4tztlj126-Quora-Logo-Red-Icon-Social-Media-Platform-768x768.webp",
     "thumb": null,
-    "link": "https://apify.com/memo23/quora-scraper-ppe",
+    "link": "https://apify.com/memo23/quora-scraper",
     "status": "public",
     "createdAt": "2026-08-04T14:01:41.383Z",
     "modifiedAt": "2026-08-13T08:27:21.102Z"
@@ -8461,6 +9013,30 @@
     "status": "public",
     "createdAt": "2024-11-18T15:29:48.839Z",
     "modifiedAt": "2026-03-24T20:52:17.634Z"
+  },
+  {
+    "id": "yelp-reviews-scraper",
+    "title": "Yelp Reviews (unlimited + AI)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Unlimited Yelp reviews past the 3-review page cap \u2014 reviewer name, rating, date, full text, with AI analysis.",
+    "outputs": [
+      "reviewer",
+      "rating",
+      "date",
+      "review text",
+      "AI analysis",
+      "business"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-icaDPkAwgcfV0G1AX-JiGvoTH2ha-yelp-logo-yelp-icon-transparent-free-png.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yelp-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-08-19T19:34:06.991Z",
+    "modifiedAt": "2026-08-19T21:18:32.089Z"
   },
   {
     "id": "yelp-scraper",
@@ -10757,6 +11333,30 @@
     "modifiedAt": "2026-07-20T04:11:41.756Z"
   },
   {
+    "id": "http-request",
+    "title": "HTTP Request (bulk + proxied)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Send HTTP requests (GET, POST, PUT, PATCH, DELETE) to any API with custom headers, params and body, in bulk through proxies.",
+    "outputs": [
+      "method",
+      "status",
+      "headers",
+      "body",
+      "response",
+      "proxy"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-XpR464ffSNM8nkJF8-uvRbGsw7Nf-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/http-request",
+    "status": "public",
+    "createdAt": "2026-08-14T17:37:16.971Z",
+    "modifiedAt": "2026-08-18T12:32:06.440Z"
+  },
+  {
     "id": "internet-archive-scraper",
     "title": "Internet Archive (Wayback + Search)",
     "category": "other",
@@ -11019,6 +11619,30 @@
     "modifiedAt": "2026-05-07T14:56:43.140Z"
   },
   {
+    "id": "flashscore-sofascore-tennis-scraper",
+    "title": "Tennis (Flashscore\u00b7SofaScore\u00b7TennisExplorer)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Tennis from Flashscore, SofaScore and TennisExplorer in one actor \u2014 fixtures, live and finished results, odds and stats.",
+    "outputs": [
+      "match",
+      "result",
+      "odds",
+      "player",
+      "stats",
+      "tournament"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-QLJdwezra7lvlmWAT-A02pQd0BjW-tennisexplorer.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/flashscore-sofascore-tennis-scraper",
+    "status": "public",
+    "createdAt": "2026-08-13T05:16:12.533Z",
+    "modifiedAt": "2026-08-18T12:32:17.568Z"
+  },
+  {
     "id": "tennisexplorer-scraper",
     "title": "TennisExplorer (odds & H2H)",
     "category": "other",
@@ -11255,6 +11879,30 @@
     "status": "public",
     "createdAt": "2025-01-20T18:38:49.296Z",
     "modifiedAt": "2026-05-08T16:30:06.582Z"
+  },
+  {
+    "id": "youtube-transcript-scraper",
+    "title": "YouTube Transcripts (SRT/VTT/Whisper)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "YouTube transcripts as SRT, VTT, JSON segments or plain text from any video or Short, in bulk, with Whisper AI fallback.",
+    "outputs": [
+      "transcript",
+      "SRT",
+      "VTT",
+      "segments",
+      "language",
+      "video"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-0DZQSYBoLgufCC5Hg-sqplTjNts9-yt.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/youtube-transcript-scraper",
+    "status": "public",
+    "createdAt": "2026-08-14T19:16:54.503Z",
+    "modifiedAt": "2026-08-19T23:33:53.462Z"
   },
   {
     "id": "amazon",
