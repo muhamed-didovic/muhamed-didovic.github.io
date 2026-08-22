@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12395E"/>
+      <stop offset="100%" stop-color="#0A2340"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFC24B"/>
+      <stop offset="100%" stop-color="#F59A1E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+
+  <!-- auction gavel, angled -->
+  <g transform="translate(256 246) rotate(-32)">
+    <rect x="-104" y="-15" width="150" height="30" rx="15" fill="#E8EEF5"/>
+    <rect x="34" y="-42" width="74" height="84" rx="20" fill="url(#amber)"/>
+    <rect x="-116" y="-26" width="26" height="52" rx="12" fill="#9FB4CA"/>
+  </g>
+  <!-- strike block -->
+  <rect x="150" y="330" width="212" height="26" rx="13" fill="#E8EEF5" opacity="0.95"/>
+
+  <!-- VIN plate: the masked-VIN differentiator -->
+  <g transform="translate(256 405)">
+    <rect x="-116" y="-25" width="232" height="50" rx="12" fill="#0A2340" stroke="#3D648F" stroke-width="3"/>
+    <text x="0" y="9" text-anchor="middle" font-size="27" font-weight="700" fill="#FFC24B" letter-spacing="2.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1FTFW1EV</text>
+  </g>
+</svg>

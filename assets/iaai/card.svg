@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12395E"/>
+      <stop offset="100%" stop-color="#081B32"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFC24B"/>
+      <stop offset="100%" stop-color="#F59A1E"/>
+    </linearGradient>
+    <filter id="sh" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1075" cy="95" r="230" fill="#1D4E7D" opacity="0.30"/>
+  <circle cx="120" cy="580" r="170" fill="#1D4E7D" opacity="0.22"/>
+
+  <text x="80" y="150" font-size="66" font-weight="800" fill="#FFFFFF">IAAI Scraper</text>
+  <rect x="82" y="176" width="132" height="6" rx="3" fill="url(#amber)"/>
+  <text x="80" y="238" font-size="31" font-weight="600" fill="#AFC6DE">Salvage auction lots, structured</text>
+
+  <g font-size="25" fill="#D7E4F1">
+    <text x="80" y="306">200+ fields per lot</text>
+    <text x="80" y="352">Damage codes, loss type, odometer, title state</text>
+    <text x="80" y="398">Branch address, phone and GPS coordinates</text>
+    <text x="80" y="444">VIN decoding that works on masked VINs</text>
+    <text x="80" y="490">No login. JSON, CSV, Excel or XML.</text>
+  </g>
+  <g fill="url(#amber)" font-size="25" font-weight="700">
+    <text x="52" y="306">›</text><text x="52" y="352">›</text><text x="52" y="398">›</text>
+    <text x="52" y="444">›</text><text x="52" y="490">›</text>
+  </g>
+
+  <!-- gavel mark -->
+  <g transform="translate(940 330)" filter="url(#sh)">
+    <g transform="rotate(-32)">
+      <rect x="-112" y="-16" width="162" height="32" rx="16" fill="#E8EEF5"/>
+      <rect x="38" y="-45" width="80" height="90" rx="22" fill="url(#amber)"/>
+      <rect x="-126" y="-28" width="28" height="56" rx="13" fill="#9FB4CA"/>
+    </g>
+    <rect x="-116" y="112" width="232" height="27" rx="13" fill="#E8EEF5" opacity="0.95"/>
+  </g>
+
+  <!-- VIN plate -->
+  <g transform="translate(940 520)">
+    <rect x="-152" y="-31" width="304" height="62" rx="14" fill="#0A2340" stroke="#3D648F" stroke-width="3"/>
+    <text x="0" y="11" text-anchor="middle" font-size="31" font-weight="700" fill="#FFC24B" letter-spacing="3" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1FTFW1EV3AK</text>
+  </g>
+</svg>
