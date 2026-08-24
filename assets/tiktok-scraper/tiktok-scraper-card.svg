@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16161F"/>
+      <stop offset="60%" stop-color="#0D0D13"/>
+      <stop offset="100%" stop-color="#08080C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#25F4EE"/>
+      <stop offset="100%" stop-color="#FE2C55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1060" cy="120" r="220" fill="#25F4EE" opacity="0.08"/>
+  <circle cx="980" cy="560" r="200" fill="#FE2C55" opacity="0.08"/>
+
+  <!-- Left: copy -->
+  <g transform="translate(80,140)">
+    <text x="0" y="0" fill="#25F4EE" font-size="24" font-weight="700" letter-spacing="3">TIKTOK · APIFY ACTOR</text>
+    <text x="0" y="78" fill="#FFFFFF" font-size="64" font-weight="800">One Actor,</text>
+    <text x="0" y="150" fill="#FFFFFF" font-size="64" font-weight="800">Seven Modes</text>
+    <text x="0" y="204" fill="#B9B9C6" font-size="27" font-weight="500">Profiles · videos · hashtags · search</text>
+    <text x="0" y="238" fill="#B9B9C6" font-size="27" font-weight="500">comments · users · single posts</text>
+    <g transform="translate(0,278)" font-size="22" font-weight="600">
+      <rect x="0" y="0" width="248" height="48" rx="24" fill="#1C1C26" stroke="#25F4EE" stroke-opacity="0.4"/>
+      <text x="24" y="31" fill="#E9E9F1">7 modes, 1 schema</text>
+      <rect x="266" y="0" width="176" height="48" rx="24" fill="#1C1C26" stroke="#FE2C55" stroke-opacity="0.4"/>
+      <text x="290" y="31" fill="#E9E9F1">$2 / 1,000 rows</text>
+    </g>
+  </g>
+
+  <!-- Right: mode switch panel -->
+  <g transform="translate(810,120)">
+    <rect x="0" y="0" width="310" height="360" rx="30" fill="#0E0E15" stroke="#2A2A38" stroke-width="2"/>
+    <text x="26" y="42" fill="#7E7E8E" font-size="18" font-weight="600" letter-spacing="1">MODE</text>
+    <g font-size="21" font-weight="600">
+      <rect x="22" y="56" width="266" height="38" rx="10" fill="#181822"/>
+      <text x="38" y="81" fill="#25F4EE">● profile</text>
+      <text x="38" y="119" fill="#C7C7D2">○ videos</text>
+      <text x="38" y="157" fill="#C7C7D2">○ post</text>
+      <text x="38" y="195" fill="#C7C7D2">○ hashtag</text>
+      <text x="38" y="233" fill="#C7C7D2">○ search</text>
+      <text x="38" y="271" fill="#C7C7D2">○ comments</text>
+      <text x="38" y="309" fill="#C7C7D2">○ users</text>
+    </g>
+    <rect x="22" y="326" width="266" height="16" rx="8" fill="url(#accent)" opacity="0.85"/>
+  </g>
+
+  <rect x="80" y="560" width="1040" height="6" rx="3" fill="url(#accent)" opacity="0.85"/>
+</svg>
