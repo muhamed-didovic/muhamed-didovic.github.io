@@ -683,6 +683,30 @@
     "modifiedAt": "2026-05-08T15:41:05.252Z"
   },
   {
+    "id": "google-maps-list-scraper",
+    "title": "Google Maps Shared Lists",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Export places from public Google Maps shared lists \u2014 name, creator note, address, coordinates and category.",
+    "outputs": [
+      "name",
+      "note",
+      "address",
+      "coordinates",
+      "category",
+      "list"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-maps-list-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T21:22:16.247Z",
+    "modifiedAt": "2026-08-26T12:50:02.942Z"
+  },
+  {
     "id": "har-scraper",
     "title": "HAR.com Texas Real Estate",
     "category": "real-estate",
@@ -777,6 +801,30 @@
     "status": "public",
     "createdAt": "2025-02-02T15:43:37.365Z",
     "modifiedAt": "2026-05-08T17:03:44.937Z"
+  },
+  {
+    "id": "iaai-scraper",
+    "title": "IAAI Salvage Auction Lots",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "IAAI salvage auction lots into 200+ flat fields per vehicle \u2014 reads each lot's own structured data, with VIN decoding.",
+    "outputs": [
+      "lot",
+      "VIN",
+      "make/model",
+      "damage",
+      "bid",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-9DeFfYDfAnWlm3nnh-0jugFtxafv-iaai.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/iaai-scraper",
+    "status": "public",
+    "createdAt": "2026-08-22T10:57:47.460Z",
+    "modifiedAt": "2026-08-24T05:19:30.170Z"
   },
   {
     "id": "idealista-scraper-rental",
@@ -3184,6 +3232,30 @@
     "modifiedAt": "2026-06-27T21:05:44.844Z"
   },
   {
+    "id": "handshake-jobs-scraper",
+    "title": "Handshake Jobs & Internships",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Public Handshake jobs and internships \u2014 employer, salary range, location, dates and role taxonomy.",
+    "outputs": [
+      "title",
+      "employer",
+      "salary",
+      "location",
+      "dates",
+      "type"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-GyFNaQ8ZYtmBg1g7u-PxfrJfD0yU-handshake.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/handshake-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-08-25T10:15:12.263Z",
+    "modifiedAt": "2026-08-25T17:09:17.457Z"
+  },
+  {
     "id": "hellowork-scraper",
     "title": "HelloWork France Jobs + Salary Benchmarks",
     "category": "jobs",
@@ -3352,6 +3424,30 @@
     "modifiedAt": "2026-05-09T13:19:04.914Z"
   },
   {
+    "id": "iimjobs-scraper",
+    "title": "iimjobs India Management Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "iimjobs.com, India's management and executive jobs board, by keyword and city \u2014 title, company, salary, recruiter.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "city",
+      "recruiter",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-nuamxGc1PN1sgLbKs-CMA1e2rE7J-iimjobs.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/iimjobs-scraper",
+    "status": "public",
+    "createdAt": "2026-08-27T15:44:08.420Z",
+    "modifiedAt": "2026-08-27T18:03:17.610Z"
+  },
+  {
     "id": "indeed-browser",
     "title": "Indeed (Browser Automation)",
     "category": "jobs",
@@ -3515,6 +3611,30 @@
     "status": "public",
     "createdAt": "2026-06-20T17:36:47.125Z",
     "modifiedAt": "2026-06-21T09:36:56.799Z"
+  },
+  {
+    "id": "instahyre-jobs-scraper",
+    "title": "Instahyre India Tech Jobs",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "India tech jobs on Instahyre with hiring monitoring \u2014 title, skills, city, apply URL and the full hiring pipeline.",
+    "outputs": [
+      "title",
+      "skills",
+      "city",
+      "apply URL",
+      "company",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-x4L8aure7aGcZKuiv-0UZQENZTKL-instahyre-social-preview.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instahyre-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-08-22T12:11:00.037Z",
+    "modifiedAt": "2026-08-27T10:48:37.327Z"
   },
   {
     "id": "internshala-scraper",
@@ -5083,6 +5203,30 @@
     "modifiedAt": "2026-04-05T19:50:39.260Z"
   },
   {
+    "id": "facebook-video-downloader",
+    "title": "Facebook Video & Reels Downloader",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Download Facebook videos and Reels as MP4 in HD or SD from share, reel and watch links.",
+    "outputs": [
+      "MP4",
+      "quality",
+      "title",
+      "author",
+      "duration",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-SeeTKRMLgpRBJtGuK-8ObtyTSdyi-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-video-downloader",
+    "status": "public",
+    "createdAt": "2026-07-14T20:30:08.335Z",
+    "modifiedAt": "2026-08-27T14:27:27.319Z"
+  },
+  {
     "id": "facebook-group-post-checker",
     "title": "FB Group Post Checker",
     "category": "social",
@@ -5105,6 +5249,54 @@
     "status": "public",
     "createdAt": "2026-07-17T16:41:02.363Z",
     "modifiedAt": "2026-07-23T10:13:53.218Z"
+  },
+  {
+    "id": "influencer-scraper",
+    "title": "Influencer Finder (IG\u00b7TikTok\u00b7YouTube)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find influencers across Instagram, TikTok and YouTube from one search \u2014 keyword or @handle in, creator profiles out.",
+    "outputs": [
+      "creator",
+      "platform",
+      "followers",
+      "engagement",
+      "handle",
+      "email"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/influencer-scraper",
+    "status": "public",
+    "createdAt": "2026-08-24T06:10:57.353Z",
+    "modifiedAt": "2026-08-26T12:50:40.467Z"
+  },
+  {
+    "id": "instagram-fake-followers-checker",
+    "title": "Instagram Fake Followers Checker",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Audit any public Instagram account's audience \u2014 samples followers and scores each on post count, ratios and activity.",
+    "outputs": [
+      "account",
+      "real %",
+      "fake %",
+      "sampled",
+      "score",
+      "signals"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-fTZcoVqijnhMLdjJD-RhYeKPz4oL-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-fake-followers-checker",
+    "status": "public",
+    "createdAt": "2026-08-25T19:12:11.402Z",
+    "modifiedAt": "2026-08-26T12:34:15.905Z"
   },
   {
     "id": "instagram-following-scraper",
@@ -5153,6 +5345,30 @@
     "status": "public",
     "createdAt": "2026-07-27T15:10:29.328Z",
     "modifiedAt": "2026-07-28T11:08:31.001Z"
+  },
+  {
+    "id": "instagram-location-scraper",
+    "title": "Instagram Location + Tagged Posts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any Instagram location by place name, ID or URL \u2014 the place card (phone, website, category) plus tagged posts.",
+    "outputs": [
+      "place",
+      "phone",
+      "website",
+      "category",
+      "tagged posts",
+      "GPS"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-D6Wihh3xh9Kkq9xyd-Dg0rR59qH5-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-location-scraper",
+    "status": "public",
+    "createdAt": "2026-08-25T19:11:04.558Z",
+    "modifiedAt": "2026-08-26T12:30:30.468Z"
   },
   {
     "id": "instagram-post-scraper",
@@ -5299,6 +5515,30 @@
     "modifiedAt": "2026-07-27T05:04:11.117Z"
   },
   {
+    "id": "instagram-reel-scraper",
+    "title": "Instagram Reels by Profile",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every reel on any public Instagram profile, newest first, with play counts that are actually accurate.",
+    "outputs": [
+      "reel",
+      "caption",
+      "plays",
+      "likes",
+      "comments",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tL35IfgKwosv1SWTv-JIP9mvE2jl-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-reel-scraper",
+    "status": "public",
+    "createdAt": "2026-08-26T13:25:53.591Z",
+    "modifiedAt": "2026-08-27T04:46:47.637Z"
+  },
+  {
     "id": "instagram-reels-search-scraper",
     "title": "Instagram Reels Search + Viral Finder",
     "category": "social",
@@ -5441,6 +5681,30 @@
     "status": "public",
     "createdAt": "2026-08-19T22:28:02.186Z",
     "modifiedAt": "2026-08-20T06:53:39.394Z"
+  },
+  {
+    "id": "linkedin-events-scraper",
+    "title": "LinkedIn Events (no account)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "LinkedIn events without a LinkedIn account \u2014 search any topic for conferences, summits and webinars, with details.",
+    "outputs": [
+      "event",
+      "date",
+      "organizer",
+      "type",
+      "attendees",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ofiXoDylzC336IUJ8-GJoz6yHrcT-linkedin_%281%29.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-events-scraper",
+    "status": "public",
+    "createdAt": "2026-07-13T15:33:59.546Z",
+    "modifiedAt": "2026-08-25T10:55:08.295Z"
   },
   {
     "id": "linkedin-search-groups-scraper",
@@ -5679,6 +5943,150 @@
     "status": "public",
     "createdAt": "2026-07-26T22:12:34.255Z",
     "modifiedAt": "2026-07-27T21:20:55.501Z"
+  },
+  {
+    "id": "rednote-comments-scraper",
+    "title": "RedNote Comments",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every comment on a RedNote / Xiaohongshu note \u2014 text, author, likes, IP location and timestamp.",
+    "outputs": [
+      "comment",
+      "author",
+      "likes",
+      "IP location",
+      "timestamp",
+      "note"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/rednote-comments-scraper",
+    "status": "public",
+    "createdAt": "2026-08-23T11:56:53.416Z",
+    "modifiedAt": "2026-08-24T07:42:42.756Z"
+  },
+  {
+    "id": "rednote-note-detail-scraper",
+    "title": "RedNote Note Detail (no login)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "A RedNote / Xiaohongshu (\u5c0f\u7ea2\u4e66) note's full data with no login \u2014 description, full image gallery, engagement and author.",
+    "outputs": [
+      "description",
+      "images",
+      "likes",
+      "collects",
+      "comments",
+      "author"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/rednote-note-detail-scraper",
+    "status": "public",
+    "createdAt": "2026-08-23T11:56:55.924Z",
+    "modifiedAt": "2026-08-24T16:28:55.517Z"
+  },
+  {
+    "id": "rednote-search-scraper",
+    "title": "RedNote Search",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search RedNote / Xiaohongshu notes by keyword \u2014 relevance, hottest or newest. Note, author, engagement per row.",
+    "outputs": [
+      "note",
+      "author",
+      "likes",
+      "keyword",
+      "sort",
+      "URL"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/rednote-search-scraper",
+    "status": "public",
+    "createdAt": "2026-08-23T11:54:54.752Z",
+    "modifiedAt": "2026-08-24T07:42:53.975Z"
+  },
+  {
+    "id": "rednote-trending-scraper",
+    "title": "RedNote Trending Feed",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Trending RedNote / Xiaohongshu notes with no login across 12 categories (fashion, food and more).",
+    "outputs": [
+      "note",
+      "category",
+      "author",
+      "likes",
+      "rank",
+      "URL"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/rednote-trending-scraper",
+    "status": "public",
+    "createdAt": "2026-08-27T19:58:05.230Z",
+    "modifiedAt": "2026-08-27T19:59:57.102Z"
+  },
+  {
+    "id": "rednote-user-posts-scraper",
+    "title": "RedNote User Posts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "A RedNote / Xiaohongshu creator's note catalog \u2014 every post with title, like counts and media.",
+    "outputs": [
+      "post",
+      "title",
+      "likes",
+      "collects",
+      "media",
+      "date"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/rednote-user-posts-scraper",
+    "status": "public",
+    "createdAt": "2026-08-27T19:54:23.149Z",
+    "modifiedAt": "2026-08-27T20:04:59.772Z"
+  },
+  {
+    "id": "rednote-user-profile-scraper",
+    "title": "RedNote User Profile",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "A RedNote / Xiaohongshu user's profile with no login \u2014 nickname, red ID, bio, gender, IP location and stats.",
+    "outputs": [
+      "nickname",
+      "red ID",
+      "bio",
+      "followers",
+      "IP location",
+      "stats"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/rednote-user-profile-scraper",
+    "status": "public",
+    "createdAt": "2026-08-27T19:52:39.336Z",
+    "modifiedAt": "2026-08-27T19:57:08.505Z"
   },
   {
     "id": "rumble-scraper",
@@ -5964,6 +6372,30 @@
     "status": "public",
     "createdAt": "2025-03-17T18:01:40.826Z",
     "modifiedAt": "2026-05-10T21:28:04.154Z"
+  },
+  {
+    "id": "tiktok-scraper",
+    "title": "TikTok All-in-One (7 modes)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "One actor for TikTok instead of seven \u2014 pick a mode and pass a list: accounts and posts, hashtags, search, comments and more.",
+    "outputs": [
+      "mode",
+      "video",
+      "author",
+      "hashtag",
+      "comments",
+      "stats"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-YK9EsWtqBMkqDk6qP-LkbZhbQUrG-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-scraper",
+    "status": "public",
+    "createdAt": "2026-08-22T21:21:21.113Z",
+    "modifiedAt": "2026-08-25T11:01:56.377Z"
   },
   {
     "id": "tiktok-comments-scraper",
@@ -6751,6 +7183,54 @@
     "status": "public",
     "createdAt": "2026-07-14T10:52:58.140Z",
     "modifiedAt": "2026-07-14T14:44:46.481Z"
+  },
+  {
+    "id": "1688-wholesale-scraper",
+    "title": "1688 Wholesale (tier pricing)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "1688.com wholesale offers by keyword or URL \u2014 quantity-break tier pricing, MOQ, supplier data and images.",
+    "outputs": [
+      "title",
+      "tier price",
+      "MOQ",
+      "supplier",
+      "images",
+      "link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gSZPh8CbkhlR1dB13-V0zKgJcxni-1688.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/1688-wholesale-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T20:22:54.916Z",
+    "modifiedAt": "2026-08-28T08:21:33.729Z"
+  },
+  {
+    "id": "alibaba-scraper",
+    "title": "Alibaba Products & Suppliers",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search Alibaba.com products by keyword, pure HTTP, no browser \u2014 title, price range, MOQ, supplier and ratings.",
+    "outputs": [
+      "title",
+      "price range",
+      "MOQ",
+      "supplier",
+      "rating",
+      "link"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7Rn373Iimdl3A6goA-3faxqPd4wR-alibaba.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/alibaba-scraper",
+    "status": "public",
+    "createdAt": "2026-08-23T12:08:11.725Z",
+    "modifiedAt": "2026-08-24T16:28:33.089Z"
   },
   {
     "id": "aliexpress-scraper",
@@ -7876,6 +8356,30 @@
     "modifiedAt": "2026-08-18T11:44:53.558Z"
   },
   {
+    "id": "rednote-product-scraper",
+    "title": "RedNote Mall Products",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "RedNote / Xiaohongshu mall products with no login \u2014 a seed product's shop plus related items, prices and sellers.",
+    "outputs": [
+      "product",
+      "price",
+      "shop",
+      "seller",
+      "related",
+      "stock"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/rednote-product-scraper",
+    "status": "public",
+    "createdAt": "2026-08-27T19:52:43.140Z",
+    "modifiedAt": "2026-08-27T19:57:33.005Z"
+  },
+  {
     "id": "apify-ricardo-ch-scraper",
     "title": "Ricardo.ch",
     "category": "ecommerce",
@@ -8018,6 +8522,30 @@
     "status": "public",
     "createdAt": "2026-07-01T09:13:12.892Z",
     "modifiedAt": "2026-07-01T09:38:26.938Z"
+  },
+  {
+    "id": "tiktok-shop-sales-scraper",
+    "title": "TikTok Shop Sales (units + revenue)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Most TikTok Shop scrapers return a catalogue. This returns sales \u2014 lifetime units sold and estimated revenue per product.",
+    "outputs": [
+      "product",
+      "units sold",
+      "revenue",
+      "price",
+      "shop",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-nzk1Lc9NodYK6gsdc-rObfIwvrhs-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-shop-sales-scraper",
+    "status": "public",
+    "createdAt": "2026-08-21T21:50:28.837Z",
+    "modifiedAt": "2026-08-25T18:29:36.405Z"
   },
   {
     "id": "trendyol-scraper",
@@ -8777,6 +9305,54 @@
     "modifiedAt": "2026-07-13T15:53:57.481Z"
   },
   {
+    "id": "swiggy-scraper",
+    "title": "Swiggy India Restaurants",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Swiggy restaurants across 20+ Indian cities \u2014 name, Swiggy rating and rating count, cuisine, offers.",
+    "outputs": [
+      "name",
+      "rating",
+      "rating count",
+      "cuisine",
+      "offers",
+      "city"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Q4AmvIrswAFCZunR1-igeDghsLEE-Swiggy_logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/swiggy-scraper",
+    "status": "public",
+    "createdAt": "2026-08-21T16:28:41.812Z",
+    "modifiedAt": "2026-08-27T15:13:21.535Z"
+  },
+  {
+    "id": "talabat-scraper",
+    "title": "Talabat MENA Restaurants",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Talabat restaurants across 9 MENA countries (UAE, Saudi, Kuwait, Qatar and more) \u2014 menus, prices, ratings.",
+    "outputs": [
+      "name",
+      "menu",
+      "price",
+      "rating",
+      "cuisine",
+      "country"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-rLSlRVKrnnaQqSQyC-ipbHQmponc-talabat.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/talabat-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T21:48:36.329Z",
+    "modifiedAt": "2026-08-26T12:53:42.292Z"
+  },
+  {
     "id": "teamblind",
     "title": "TeamBlind Reviews",
     "category": "reviews",
@@ -9061,6 +9637,30 @@
     "status": "public",
     "createdAt": "2026-02-16T20:49:38.513Z",
     "modifiedAt": "2026-05-11T06:14:18.913Z"
+  },
+  {
+    "id": "zomato-scraper",
+    "title": "Zomato Restaurants + Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Zomato restaurants and reviews across India and Dubai \u2014 names, ratings, votes, cuisine and review text.",
+    "outputs": [
+      "name",
+      "rating",
+      "votes",
+      "cuisine",
+      "review text",
+      "city"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZqEfH6T70llCWvFyf-yzSmcaMwaZ-zomato.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/zomato-scraper",
+    "status": "public",
+    "createdAt": "2026-08-21T15:27:18.542Z",
+    "modifiedAt": "2026-08-25T17:07:42.027Z"
   },
   {
     "id": "a16z-speedrun-companies-scraper",
@@ -10230,6 +10830,30 @@
     "modifiedAt": "2026-07-25T19:52:34.044Z"
   },
   {
+    "id": "mapyourshow-exhibitor-scraper",
+    "title": "Map Your Show Exhibitor Leads",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any Map Your Show trade-show exhibitor directory \u2014 company name, booth, hall, description and contacts.",
+    "outputs": [
+      "company",
+      "booth",
+      "hall",
+      "description",
+      "contact",
+      "category"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-RxaheqE0nRUAp4V8p-YdAzadjdQD-mapyourshow.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/mapyourshow-exhibitor-scraper",
+    "status": "public",
+    "createdAt": "2026-08-18T14:21:09.773Z",
+    "modifiedAt": "2026-08-26T12:51:04.840Z"
+  },
+  {
     "id": "martindale-scraper",
     "title": "Martindale Lawyer Directory",
     "category": "business",
@@ -10372,6 +10996,54 @@
     "status": "public",
     "createdAt": "2026-07-19T10:55:02.700Z",
     "modifiedAt": "2026-07-20T21:55:53.220Z"
+  },
+  {
+    "id": "outbid-scraper",
+    "title": "outbid.lol Pay-to-Rank Board",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "The full outbid.lol pay-to-rank board \u2014 what every listing pays and what it gets, with click and change monitoring.",
+    "outputs": [
+      "listing",
+      "bid",
+      "clicks",
+      "change",
+      "rank",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aB3n7IYpWhnpksfRS-lckFZn7svf-outbid.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/outbid-scraper",
+    "status": "public",
+    "createdAt": "2026-08-22T11:20:47.241Z",
+    "modifiedAt": "2026-08-25T16:21:54.854Z"
+  },
+  {
+    "id": "outseo-scraper",
+    "title": "outseo.lol Organic Traffic Board",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "outseo.lol organic-traffic leaderboard as sortable rows \u2014 real Search Console click volume per site, monitored over time.",
+    "outputs": [
+      "site",
+      "clicks",
+      "rank",
+      "change",
+      "period",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hiWyv2Hq4IINywpTG-hIgSiLirb2-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/outseo-scraper",
+    "status": "public",
+    "createdAt": "2026-08-24T21:27:38.182Z",
+    "modifiedAt": "2026-08-25T16:22:24.282Z"
   },
   {
     "id": "pagesjaunes-scraper-cheerio",
@@ -10563,6 +11235,30 @@
     "status": "public",
     "createdAt": "2026-06-23T19:48:50.962Z",
     "modifiedAt": "2026-06-23T22:09:12.493Z"
+  },
+  {
+    "id": "startup-launch-scraper",
+    "title": "Startup Launches (7 directories)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "New startup launches from TinyLaunch, MicroLaunch, LaunchingNext, BetaList, Uneed, Product Hunt and more, with websites and emails.",
+    "outputs": [
+      "name",
+      "tagline",
+      "website",
+      "email",
+      "directory",
+      "launch date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ArRGbVI54c3Uvxbfo-av1vQW9Ub8-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/startup-launch-scraper",
+    "status": "public",
+    "createdAt": "2026-08-24T07:06:46.514Z",
+    "modifiedAt": "2026-08-25T18:28:54.364Z"
   },
   {
     "id": "substack-scraper",
@@ -11381,6 +12077,30 @@
     "modifiedAt": "2026-07-17T10:04:50.321Z"
   },
   {
+    "id": "kalshi-markets-api",
+    "title": "Kalshi Prediction Markets",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Kalshi prediction markets by keyword, event ticker or watchlist \u2014 yes/no quotes, spread, implied odds, volume and open interest.",
+    "outputs": [
+      "market",
+      "yes/no",
+      "spread",
+      "odds",
+      "volume",
+      "open interest"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-j1ldXNcLURa4Y3De4-idr6I5v8SE-kalshi.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/kalshi-markets-api",
+    "status": "public",
+    "createdAt": "2026-08-27T21:57:55.839Z",
+    "modifiedAt": "2026-08-28T08:40:54.598Z"
+  },
+  {
     "id": "mlb-stats-scraper",
     "title": "MLB Stats (official API)",
     "category": "other",
@@ -11689,6 +12409,30 @@
     "status": "public",
     "createdAt": "2026-06-23T21:57:13.028Z",
     "modifiedAt": "2026-06-27T03:33:12.936Z"
+  },
+  {
+    "id": "ufc-mma-stats-scraper",
+    "title": "UFC & MMA Stats",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "MMA data for betting models and fight databases \u2014 bout results with metrics, fighters, events and rankings.",
+    "outputs": [
+      "fighter",
+      "bout",
+      "result",
+      "metrics",
+      "event",
+      "ranking"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aO8qndDfpNuLdgCzk-l3J0UPbaZo-ufc.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ufc-mma-stats-scraper",
+    "status": "public",
+    "createdAt": "2026-08-28T04:02:37.082Z",
+    "modifiedAt": "2026-08-28T08:36:35.386Z"
   },
   {
     "id": "uk-property-deals-mcp",
