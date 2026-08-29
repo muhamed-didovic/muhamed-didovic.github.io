@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#15151D"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </linearGradient>
+    <linearGradient id="ig" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FDCB5C"/>
+      <stop offset="45%" stop-color="#F5533D"/>
+      <stop offset="100%" stop-color="#B429A0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Mentions arriving, not posts going out. Three chevrons at 120 degrees all point
+       inward at the account ring; that inbound direction is the whole difference from
+       a normal profile scraper. Chevrons rather than arrows so it survives 48px. -->
+  <g stroke="url(#ig)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <polyline points="196,96 256,152 316,96"/>
+    <polyline points="112,330 148,398 84,424" transform="rotate(-8 116 377)"/>
+    <polyline points="400,330 364,398 428,424" transform="rotate(8 396 377)"/>
+  </g>
+
+  <circle cx="256" cy="256" r="66" fill="none" stroke="url(#ig)" stroke-width="26"/>
+  <circle cx="256" cy="256" r="22" fill="url(#ig)"/>
+</svg>
