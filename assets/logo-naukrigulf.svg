@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#15151D"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Job listings pinned to a place: a stack of rows with a location marker over it.
+       The actor's pitch is Gulf-scoped job rows, so both halves have to read at once. -->
+  <g fill="#1FA97A">
+    <rect x="92" y="196" width="236" height="34" rx="17"/>
+    <rect x="92" y="264" width="236" height="34" rx="17"/>
+    <rect x="92" y="332" width="164" height="34" rx="17"/>
+  </g>
+  <rect x="92" y="128" width="188" height="34" rx="17" fill="#3BE0A6"/>
+
+  <!-- marker -->
+  <path d="M356 108 a82 82 0 0 1 82 82 c0 58 -82 148 -82 148 s-82 -90 -82 -148 a82 82 0 0 1 82 -82 Z" fill="#0A0A0F"/>
+  <path d="M356 128 a62 62 0 0 1 62 62 c0 44 -62 112 -62 112 s-62 -68 -62 -112 a62 62 0 0 1 62 -62 Z" fill="#3BE0A6"/>
+  <circle cx="356" cy="190" r="24" fill="#0A0A0F"/>
+</svg>
