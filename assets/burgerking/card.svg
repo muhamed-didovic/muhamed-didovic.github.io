@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Burger King Menu Scraper store card">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#502314"/>
+      <stop offset="1" stop-color="#3E2021"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1105" cy="70" r="230" fill="#D72300" opacity="0.10"/>
+  <circle cx="90" cy="590" r="180" fill="#F4EBDC" opacity="0.06"/>
+
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <!-- left column -->
+    <text x="72" y="132" font-size="27" font-weight="700" fill="#F0B25B" letter-spacing="3.4">STORE-LEVEL MENU DATA</text>
+
+    <text x="72" y="216" font-size="66" font-weight="700" fill="#FFFFFF">Burger King</text>
+    <text x="72" y="288" font-size="66" font-weight="700" fill="#FFFFFF">Menu Scraper</text>
+
+    <rect x="72" y="322" width="104" height="6" rx="3" fill="#D72300"/>
+
+    <text x="72" y="386" font-size="27" fill="#F4EBDC" opacity="0.92">Paste an address. Get that restaurant's</text>
+    <text x="72" y="426" font-size="27" fill="#F4EBDC" opacity="0.92">real menu, prices and nutrition.</text>
+
+    <g font-size="23" fill="#F4EBDC">
+      <circle cx="84" cy="490" r="6" fill="#D72300"/>
+      <text x="106" y="498">Per-store prices, not national averages</text>
+      <circle cx="84" cy="536" r="6" fill="#D72300"/>
+      <text x="106" y="544">Calories, macros and allergens on 98% of rows</text>
+      <circle cx="84" cy="582" r="6" fill="#D72300"/>
+      <text x="106" y="590">Pure HTTP. No browser, no proxy needed.</text>
+    </g>
+
+    <!-- right column: a real scraped row -->
+    <g filter="url(#soft)">
+      <rect x="760" y="150" width="380" height="352" rx="22" fill="#FDF8F0"/>
+    </g>
+    <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+      <text x="792" y="196" font-size="16" font-weight="700" fill="#9A8271" letter-spacing="1.8">801 3RD AVE W · BIRMINGHAM AL</text>
+
+      <text x="792" y="248" font-size="34" font-weight="700" fill="#502314">Whopper</text>
+      <text x="792" y="282" font-size="19" fill="#8A7261">Flame Grilled Burgers</text>
+
+      <text x="792" y="350" font-size="52" font-weight="700" fill="#D72300">$5.89</text>
+      <text x="792" y="378" font-size="18" fill="#9A8271" letter-spacing="1.2">PICKUP</text>
+
+      <text x="964" y="350" font-size="36" font-weight="700" fill="#8A7261">$7.09</text>
+      <text x="964" y="378" font-size="18" fill="#9A8271" letter-spacing="1.2">DELIVERY</text>
+
+      <line x1="792" y1="406" x2="1108" y2="406" stroke="#E6D9C6" stroke-width="2"/>
+
+      <g font-size="20" fill="#5F4436">
+        <text x="792" y="442">710 cal · 34 g protein · 57 g carbs</text>
+        <text x="792" y="476">4 sizes · 18 customisation groups</text>
+      </g>
+    </g>
+
+    <text x="760" y="548" font-size="19" fill="#BBA391">177 products per restaurant · JSON or CSV</text>
+  </g>
+</svg>
