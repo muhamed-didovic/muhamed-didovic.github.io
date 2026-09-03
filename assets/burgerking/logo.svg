@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Burger King menu scraper logo">
+  <defs>
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7D08A"/>
+      <stop offset="1" stop-color="#E09A47"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#502314"/>
+  <circle cx="256" cy="256" r="176" fill="#F4EBDC"/>
+
+  <!-- top bun -->
+  <path d="M108 232c0-60 66-104 148-104s148 44 148 104z" fill="#F0B25B"/>
+  <circle cx="196" cy="176" r="7" fill="#FDF3E2"/>
+  <circle cx="256" cy="160" r="7" fill="#FDF3E2"/>
+  <circle cx="316" cy="176" r="7" fill="#FDF3E2"/>
+  <circle cx="230" cy="204" r="7" fill="#FDF3E2"/>
+  <circle cx="288" cy="204" r="7" fill="#FDF3E2"/>
+
+  <!-- lettuce -->
+  <path d="M104 244h304c0 18-14 24-30 20s-26 12-42 12-24-14-40-10-24 14-40 10-26-14-42-10-30 8-44 2-26-12-26-24z" fill="#6FA53E"/>
+  <!-- patty -->
+  <rect x="106" y="272" width="300" height="46" rx="23" fill="#7A4322"/>
+  <!-- cheese -->
+  <path d="M112 268h288l-24 26h-56l-20-22-22 22h-60l-22-22-20 22h-52z" fill="#F2A93B"/>
+  <!-- bottom bun -->
+  <path d="M108 330h296c0 34-30 54-148 54s-148-20-148-54z" fill="#E09A47"/>
+
+  <!-- price tag: the actual product is store-level pricing -->
+  <g transform="translate(300 300)">
+    <circle cx="66" cy="66" r="76" fill="#502314"/>
+    <circle cx="66" cy="66" r="64" fill="#D72300"/>
+    <text x="66" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="middle">$</text>
+  </g>
+</svg>
