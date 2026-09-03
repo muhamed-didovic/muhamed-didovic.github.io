@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Wendy's menu scraper logo">
+  <rect width="512" height="512" rx="112" fill="#B0161F"/>
+  <circle cx="256" cy="256" r="176" fill="#FBF3E9"/>
+  <!-- burger -->
+  <path d="M120 232c0-58 62-100 136-100s136 42 136 100z" fill="#E7A44E"/>
+  <circle cx="205" cy="180" r="6" fill="#FFF3E0"/><circle cx="256" cy="166" r="6" fill="#FFF3E0"/>
+  <circle cx="307" cy="180" r="6" fill="#FFF3E0"/><circle cx="240" cy="205" r="6" fill="#FFF3E0"/>
+  <circle cx="272" cy="205" r="6" fill="#FFF3E0"/>
+  <path d="M116 244h280c0 17-13 23-28 19s-25 11-40 11-23-13-38-9-23 13-38 9-25-13-40-9-28 7-42 2-26-11-26-23z" fill="#5F9E3F"/>
+  <rect x="118" y="270" width="276" height="44" rx="22" fill="#7A4322"/>
+  <path d="M124 266h264l-22 24h-52l-19-20-20 20h-56l-20-20-19 20h-48z" fill="#F2B33B"/>
+  <path d="M120 326h272c0 32-28 50-136 50s-136-18-136-50z" fill="#D99542"/>
+  <!-- price tag -->
+  <g transform="translate(300 300)">
+    <circle cx="66" cy="66" r="76" fill="#B0161F"/>
+    <circle cx="66" cy="66" r="64" fill="#0077A3"/>
+    <text x="66" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="middle">$</text>
+  </g>
+</svg>
