@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Chick-fil-A Menu Scraper store card">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E51636"/><stop offset="1" stop-color="#B10E28"/></linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.28"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1105" cy="70" r="230" fill="#004F71" opacity="0.14"/>
+  <circle cx="90" cy="590" r="180" fill="#FBEFEA" opacity="0.07"/>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="72" y="132" font-size="27" font-weight="700" fill="#F6C9A8" letter-spacing="3.4">STORE-LEVEL MENU DATA</text>
+    <text x="72" y="216" font-size="66" font-weight="700" fill="#FFFFFF">Chick-fil-A</text>
+    <text x="72" y="288" font-size="66" font-weight="700" fill="#FFFFFF">Menu Scraper</text>
+    <rect x="72" y="322" width="104" height="6" rx="3" fill="#004F71"/>
+    <text x="72" y="386" font-size="27" fill="#FBEFEA" opacity="0.92">Paste an address. Get that restaurant's</text>
+    <text x="72" y="426" font-size="27" fill="#FBEFEA" opacity="0.92">real menu and prices.</text>
+    <g font-size="23" fill="#FBEFEA">
+      <circle cx="84" cy="490" r="6" fill="#004F71"/><text x="106" y="498">Per-store prices, every category</text>
+      <circle cx="84" cy="536" r="6" fill="#004F71"/><text x="106" y="544">Full store details: hours, phone, operator</text>
+      <circle cx="84" cy="582" r="6" fill="#004F71"/><text x="106" y="590">Address in, ~70 priced products out</text>
+    </g>
+    <g filter="url(#soft)"><rect x="760" y="150" width="380" height="330" rx="22" fill="#FDF7F3"/></g>
+    <text x="792" y="196" font-size="16" font-weight="700" fill="#9A8271" letter-spacing="1.4">4620 US 280 · BIRMINGHAM AL</text>
+    <text x="792" y="246" font-size="30" font-weight="700" fill="#E51636">Chicken Biscuit Meal</text>
+    <text x="792" y="280" font-size="19" fill="#8A7261">Breakfast</text>
+    <text x="792" y="350" font-size="52" font-weight="700" fill="#E51636">$6.89</text>
+    <text x="792" y="378" font-size="18" fill="#9A8271" letter-spacing="1.2">THIS LOCATION</text>
+    <line x1="792" y1="404" x2="1108" y2="404" stroke="#E6D9C6" stroke-width="2"/>
+    <g font-size="20" fill="#5F4436">
+      <text x="792" y="440">Egg White Grill Meal · $8.35</text>
+      <text x="792" y="470">Spicy Chicken Biscuit Meal · $7.19</text>
+    </g>
+    <text x="760" y="526" font-size="19" fill="#F3C8A8">Inverness · operated by Mark Meadows</text>
+  </g>
+</svg>

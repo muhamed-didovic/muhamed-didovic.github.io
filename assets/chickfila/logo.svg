@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Chick-fil-A menu scraper logo">
+  <rect width="512" height="512" rx="112" fill="#E51636"/>
+  <circle cx="256" cy="256" r="176" fill="#FBEFEA"/>
+  <!-- chicken sandwich -->
+  <path d="M124 236c0-56 60-96 132-96s132 40 132 96z" fill="#EBB36A"/>
+  <circle cx="205" cy="186" r="6" fill="#FFF3E0"/><circle cx="256" cy="172" r="6" fill="#FFF3E0"/>
+  <circle cx="307" cy="186" r="6" fill="#FFF3E0"/>
+  <path d="M120 248h272c0 16-13 22-27 18s-24 11-38 11-22-13-37-9-22 13-37 9-24-13-38-9-27 7-40 2-24-11-24-22z" fill="#6BA539"/>
+  <rect x="120" y="272" width="272" height="42" rx="21" fill="#C0632C"/>
+  <path d="M124 330h264c0 30-28 48-132 48s-132-18-132-48z" fill="#D98F43"/>
+  <!-- price tag -->
+  <g transform="translate(300 302)">
+    <circle cx="66" cy="66" r="76" fill="#E51636"/>
+    <circle cx="66" cy="66" r="64" fill="#004F71"/>
+    <text x="66" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="middle">$</text>
+  </g>
+</svg>
