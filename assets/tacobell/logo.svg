@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Taco Bell menu scraper logo">
+  <rect width="512" height="512" rx="112" fill="#702082"/>
+  <circle cx="256" cy="256" r="176" fill="#F3ECF6"/>
+  <!-- taco shell -->
+  <path d="M118 320a138 138 0 0 1 276 0z" fill="#F2C14E"/>
+  <path d="M118 320a138 138 0 0 1 276 0z" fill="none" stroke="#E0A72E" stroke-width="4"/>
+  <!-- lettuce -->
+  <path d="M140 300c14-10 26 6 40-2s24-14 40-6 24 12 40 4 26-12 40-4 24 14 32 8c-6 20-40 22-92 22s-86-2-92-22z" fill="#6BB54A"/>
+  <!-- meat + tomato -->
+  <path d="M150 316c18-6 30 4 48-2s30-8 50-2 36 2 52-2c-8 16-56 22-100 22s-92-4-100-14z" fill="#8A4B2E"/>
+  <circle cx="200" cy="312" r="9" fill="#E1443B"/><circle cx="256" cy="316" r="9" fill="#E1443B"/><circle cx="312" cy="312" r="9" fill="#E1443B"/>
+  <!-- price tag -->
+  <g transform="translate(300 300)">
+    <circle cx="66" cy="66" r="76" fill="#702082"/>
+    <circle cx="66" cy="66" r="64" fill="#E4258F"/>
+    <text x="66" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="middle">$</text>
+  </g>
+</svg>
