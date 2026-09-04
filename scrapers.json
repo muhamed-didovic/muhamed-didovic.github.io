@@ -2614,30 +2614,6 @@
     "modifiedAt": "2026-08-19T19:53:44.346Z"
   },
   {
-    "id": "bayt-search-cheerio-ppr",
-    "title": "Bayt.com \u00b7 \u00b7 Search by URL or Keywords",
-    "category": "jobs",
-    "icon": "https://images.apifyusercontent.com/dd65AI36v3xMRTaZ3rnoKidXW3CC3RmrjNAaM22NhAg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItemNGc2FkSjFJaURnTndVajEtaXFneDdLOWxXMy1iYXl0LnBuZw.webp",
-    "thumb": null,
-    "tech": [
-      "Apify",
-      "Cheerio"
-    ],
-    "summary": "Scrape job listings from Bayt.com, the leading Middle East job portal. Extract job titles, company names, locations, descriptions, requirements, salaries, and more.",
-    "outputs": [
-      "job titles",
-      "company names",
-      "location",
-      "description",
-      "requirements",
-      "price"
-    ],
-    "link": "https://apify.com/memo23/bayt-search-cheerio-ppr",
-    "status": "public",
-    "createdAt": "2025-11-25T21:29:40.603Z",
-    "modifiedAt": "2026-05-08T17:06:37.418Z"
-  },
-  {
     "id": "builtin-scraper",
     "title": "BuiltIn US Tech & Startup Jobs",
     "category": "jobs",
@@ -3945,29 +3921,6 @@
     "modifiedAt": "2026-04-24T15:16:59.367Z"
   },
   {
-    "id": "linkedin-profiles-cheerio",
-    "title": "Linkedin.com \u00b7 \u00b7 People/Users Profile",
-    "category": "jobs",
-    "icon": "https://images.apifyusercontent.com/Kal8iTZr8XbKyiH4zSfUWRdQpYLZ6AS-HXyGOEQ4P28/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vbmduOHZSRVNUa3NleVdFNnAtYWN0b3ItbzZrRzBmb3FXczZjdTVPcmIteWtBY1FEUVgxRi1saW5rZWRpbi5wbmc.webp",
-    "thumb": null,
-    "tech": [
-      "Apify",
-      "Cheerio"
-    ],
-    "summary": "Stealthily unlock LinkedIn's professional goldmine\u2014extract verified profiles, employment histories, and skills with cookie-authenticated scraping.",
-    "outputs": [
-      "title",
-      "company",
-      "salary",
-      "location",
-      "description"
-    ],
-    "link": "https://apify.com/memo23/linkedin-profiles-cheerio",
-    "status": "public",
-    "createdAt": "2025-02-17T09:53:46.456Z",
-    "modifiedAt": "2026-05-08T16:52:43.781Z"
-  },
-  {
     "id": "monster-scraper",
     "title": "Monster \u00b7 \u00b7 Search \u00b7 Details \u00b7 Scraper \u00b7 Richest Output",
     "category": "jobs",
@@ -5134,6 +5087,30 @@
     "modifiedAt": "2026-05-08T16:22:46.162Z"
   },
   {
+    "id": "facebook-reels-scraper",
+    "title": "Facebook Reels",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook Reels by page or profile \u2014 reactions, comment counts, view counts and the direct video URL.",
+    "outputs": [
+      "reel",
+      "reactions",
+      "comments",
+      "views",
+      "video URL",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-btd6CWWaT08QxwbM4-1rGU5zXVBM-facebook.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-reels-scraper",
+    "status": "public",
+    "createdAt": "2026-08-29T13:54:58.419Z",
+    "modifiedAt": "2026-09-03T13:14:31.837Z"
+  },
+  {
     "id": "facebook-search-scraper",
     "title": "Facebook Search (all types)",
     "category": "social",
@@ -5201,6 +5178,30 @@
     "status": "public",
     "createdAt": "2024-02-24T12:49:02.987Z",
     "modifiedAt": "2026-04-05T19:50:39.260Z"
+  },
+  {
+    "id": "facebook-url-to-id",
+    "title": "Facebook URL to ID",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn any public Facebook URL into its numeric ID \u2014 pages, profiles, groups and posts, from a plain link.",
+    "outputs": [
+      "url",
+      "numeric ID",
+      "type",
+      "name",
+      "resolved",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ujthfnPXHbglZCCvB-F6DbVvhpvX-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-url-to-id",
+    "status": "public",
+    "createdAt": "2026-08-28T19:43:09.792Z",
+    "modifiedAt": "2026-09-03T13:13:06.360Z"
   },
   {
     "id": "facebook-video-downloader",
@@ -5275,6 +5276,54 @@
     "modifiedAt": "2026-08-26T12:50:40.467Z"
   },
   {
+    "id": "instagram-account-age-checker",
+    "title": "Instagram Account Age Checker",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "When any Instagram account was created, where it was registered, and how often its handle has changed.",
+    "outputs": [
+      "handle",
+      "created date",
+      "country",
+      "handle changes",
+      "user ID",
+      "verified"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-RKEBjxNVrCRbgYgIU-O8egBbmpQI-instagram.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-account-age-checker",
+    "status": "public",
+    "createdAt": "2026-09-03T21:04:05.259Z",
+    "modifiedAt": "2026-09-04T05:53:06.183Z"
+  },
+  {
+    "id": "instagram-audio-scraper",
+    "title": "Instagram Audio & Sounds",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search Instagram's sound catalogue, or point at a reel and get the exact sound behind it plus reels using it.",
+    "outputs": [
+      "sound",
+      "artist",
+      "reel count",
+      "trending",
+      "reels",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-a7hQJJpo1MrquHy6k-DDAUnTkqm5-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-audio-scraper",
+    "status": "public",
+    "createdAt": "2026-09-03T21:13:18.933Z",
+    "modifiedAt": "2026-09-04T05:51:47.825Z"
+  },
+  {
     "id": "instagram-fake-followers-checker",
     "title": "Instagram Fake Followers Checker",
     "category": "social",
@@ -5299,6 +5348,30 @@
     "modifiedAt": "2026-08-26T12:34:15.905Z"
   },
   {
+    "id": "instagram-followers-count-scraper",
+    "title": "Instagram Follower Counts (bulk)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Follower and following counts for any list of Instagram handles, no login \u2014 one row per profile.",
+    "outputs": [
+      "handle",
+      "followers",
+      "following",
+      "posts",
+      "verified",
+      "private"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-fG6Dp4qotiwMZ7qWz-ygrNgzr4Q7-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-followers-count-scraper",
+    "status": "public",
+    "createdAt": "2026-08-28T15:58:53.471Z",
+    "modifiedAt": "2026-09-03T15:08:40.444Z"
+  },
+  {
     "id": "instagram-following-scraper",
     "title": "Instagram Following (no login)",
     "category": "social",
@@ -5321,6 +5394,30 @@
     "status": "public",
     "createdAt": "2026-07-22T22:59:36.705Z",
     "modifiedAt": "2026-07-23T09:47:14.190Z"
+  },
+  {
+    "id": "instagram-hashtag-analytics",
+    "title": "Instagram Hashtag Analytics",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Any Instagram hashtag as one flat row \u2014 total post count, related tags ranked, plus engagement and reach signals.",
+    "outputs": [
+      "hashtag",
+      "post count",
+      "related tags",
+      "engagement",
+      "reach",
+      "top posts"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-GLOjWglQIHDjJR1Qz-CtAJsfleO0-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-hashtag-analytics",
+    "status": "public",
+    "createdAt": "2026-08-28T20:33:57.688Z",
+    "modifiedAt": "2026-09-03T15:09:58.793Z"
   },
   {
     "id": "instagram-hashtag-scraper",
@@ -5561,6 +5658,30 @@
     "status": "public",
     "createdAt": "2026-07-24T08:16:58.540Z",
     "modifiedAt": "2026-07-27T04:46:55.121Z"
+  },
+  {
+    "id": "instagram-reposts-scraper",
+    "title": "Instagram Reposts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every post an Instagram account has reshared to its profile, with the original author attached to each.",
+    "outputs": [
+      "repost",
+      "original author",
+      "caption",
+      "likes",
+      "date",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HGJBFtgCiXlS1b0H0-hAfv7YzqKR-instagram.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-reposts-scraper",
+    "status": "public",
+    "createdAt": "2026-09-03T21:08:16.136Z",
+    "modifiedAt": "2026-09-04T05:54:17.277Z"
   },
   {
     "id": "instagram-search-scraper",
@@ -6303,30 +6424,6 @@
     "modifiedAt": "2026-07-16T05:27:03.551Z"
   },
   {
-    "id": "telegram-channel-messages-scraper",
-    "title": "Telegram Channel Messages",
-    "category": "social",
-    "tech": [
-      "Apify",
-      "Crawlee"
-    ],
-    "summary": "Public Telegram channel messages from t.me links \u2014 text, dates, view counts, photos, videos and links.",
-    "outputs": [
-      "message",
-      "date",
-      "views",
-      "media",
-      "links",
-      "channel"
-    ],
-    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-sHSryxJJTgf3031zP-Ta5JCapZCr-telegram.png",
-    "thumb": null,
-    "link": "https://apify.com/memo23/telegram-channel-messages-scraper",
-    "status": "public",
-    "createdAt": "2026-07-22T20:15:38.010Z",
-    "modifiedAt": "2026-08-11T12:17:48.805Z"
-  },
-  {
     "id": "threads-scraper",
     "title": "Threads Posts & Profiles (no login)",
     "category": "social",
@@ -6755,6 +6852,30 @@
     "modifiedAt": "2026-08-11T10:02:04.568Z"
   },
   {
+    "id": "tiktok-trends-scraper",
+    "title": "TikTok Trends (Creative Center)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Ranked TikTok Creative Center trends across 27 markets \u2014 hashtags, videos, creators and sounds with view and post counts.",
+    "outputs": [
+      "hashtag",
+      "rank",
+      "views",
+      "market",
+      "video",
+      "creator"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Nb3ir2fJjBgS4DTqD-V0iBDDtYAu-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-trends-scraper",
+    "status": "public",
+    "createdAt": "2026-08-01T04:22:30.791Z",
+    "modifiedAt": "2026-09-01T20:06:35.695Z"
+  },
+  {
     "id": "tiktok-user-search-scraper",
     "title": "TikTok User Search",
     "category": "social",
@@ -6990,6 +7111,30 @@
     "status": "public",
     "createdAt": "2026-07-23T15:51:12.922Z",
     "modifiedAt": "2026-07-30T22:57:59.312Z"
+  },
+  {
+    "id": "vk-posts-comments-scraper",
+    "title": "VK Posts & Comments",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Public VK posts and their comment threads with no login \u2014 author, text, likes, shares, views and media.",
+    "outputs": [
+      "post",
+      "author",
+      "text",
+      "likes",
+      "shares",
+      "comments"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-uBRxjdbVw9KQplazI-rZAtpupzel-vk.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/vk-posts-comments-scraper",
+    "status": "public",
+    "createdAt": "2026-07-19T17:01:51.632Z",
+    "modifiedAt": "2026-09-01T20:31:59.502Z"
   },
   {
     "id": "whatsapp-channel-search",
@@ -7542,6 +7687,54 @@
     "modifiedAt": "2026-06-25T12:56:27.155Z"
   },
   {
+    "id": "blocket-scraper",
+    "title": "Blocket.se Cars (all listings)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every car on Blocket.se, Sweden's biggest marketplace \u2014 price with and without VAT, mileage in km, VIN and registration.",
+    "outputs": [
+      "price",
+      "VAT",
+      "mileage",
+      "VIN",
+      "registration",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-dXBErtsICFDxDg5Ww-Labb758sei-images_%282%29.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/blocket-scraper",
+    "status": "public",
+    "createdAt": "2026-09-02T20:32:17.679Z",
+    "modifiedAt": "2026-09-03T10:05:07.642Z"
+  },
+  {
+    "id": "burger-king-menu-scraper",
+    "title": "Burger King Menu (store-level)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Burger King menu at store level \u2014 pass an address, ZIP or store number and get items, prices, calories and nutrition.",
+    "outputs": [
+      "item",
+      "price",
+      "calories",
+      "nutrition",
+      "store",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hRv3mlIgXkgrcXtDM-YTGnk9Ie65-burger-king-logo-png_seeklogo-206929.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/burger-king-menu-scraper",
+    "status": "public",
+    "createdAt": "2026-09-03T14:45:39.591Z",
+    "modifiedAt": "2026-09-04T05:28:22.754Z"
+  },
+  {
     "id": "carandclassic-scraper",
     "title": "Car & Classic Catalogue",
     "category": "ecommerce",
@@ -7612,6 +7805,30 @@
     "status": "public",
     "createdAt": "2025-05-05T22:58:51.989Z",
     "modifiedAt": "2026-05-10T15:20:07.039Z"
+  },
+  {
+    "id": "chick-fil-a-menu-scraper",
+    "title": "Chick-fil-A Menu (store-level)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Chick-fil-A menu at store level \u2014 pass an address, ZIP or location number and get every item with its local price.",
+    "outputs": [
+      "item",
+      "price",
+      "category",
+      "store",
+      "address",
+      "availability"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Ra1i0vciTqM61agry-gCLz54RQzE-chick.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/chick-fil-a-menu-scraper",
+    "status": "public",
+    "createdAt": "2026-09-04T04:56:18.909Z",
+    "modifiedAt": "2026-09-04T05:30:31.530Z"
   },
   {
     "id": "chronext",
@@ -8524,6 +8741,30 @@
     "modifiedAt": "2026-07-01T09:38:26.938Z"
   },
   {
+    "id": "taco-bell-menu-scraper",
+    "title": "Taco Bell Menu (store-level)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Taco Bell menu at store level \u2014 pass an address, ZIP or store number and get items with local prices and calories.",
+    "outputs": [
+      "item",
+      "price",
+      "calories",
+      "category",
+      "store",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-93QeygVsXgBlnYui9-vYkIrwRIlf-taco_bell.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/taco-bell-menu-scraper",
+    "status": "public",
+    "createdAt": "2026-09-04T05:52:53.315Z",
+    "modifiedAt": "2026-09-04T08:11:38.368Z"
+  },
+  {
     "id": "tiktok-shop-sales-scraper",
     "title": "TikTok Shop Sales (units + revenue)",
     "category": "ecommerce",
@@ -8618,6 +8859,30 @@
     "status": "public",
     "createdAt": "2026-07-23T16:02:09.764Z",
     "modifiedAt": "2026-07-23T17:59:11.755Z"
+  },
+  {
+    "id": "wendys-menu-scraper",
+    "title": "Wendy's Menu (store-level)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Wendy's menu at store level \u2014 pass an address, ZIP or restaurant number and get items, prices and calories.",
+    "outputs": [
+      "item",
+      "price",
+      "calories",
+      "category",
+      "store",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZtPoEbuEWg9XhTiCD-MWD28aOXW0-wendys.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/wendys-menu-scraper",
+    "status": "public",
+    "createdAt": "2026-09-03T20:37:03.392Z",
+    "modifiedAt": "2026-09-04T05:26:00.979Z"
   },
   {
     "id": "wildberries-scraper",
@@ -8929,6 +9194,30 @@
     "status": "public",
     "createdAt": "2026-07-16T04:41:24.686Z",
     "modifiedAt": "2026-07-16T06:17:49.764Z"
+  },
+  {
+    "id": "dach-reputation-scraper",
+    "title": "DACH Reputation (Trusted Shops + ProvenExpert)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "German-market company reputation across Trusted Shops and ProvenExpert from one input \u2014 scores, review counts and profiles.",
+    "outputs": [
+      "company",
+      "score",
+      "review count",
+      "source",
+      "profile",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-UyfXJYrhUD5E8zxms-guJlhf3bf6-provenexpert.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dach-reputation-scraper",
+    "status": "public",
+    "createdAt": "2026-08-28T20:58:22.783Z",
+    "modifiedAt": "2026-08-29T20:07:03.750Z"
   },
   {
     "id": "doordash-reviews-cheerio",
@@ -9448,6 +9737,30 @@
     "status": "public",
     "createdAt": "2026-04-19T08:06:59.724Z",
     "modifiedAt": "2026-05-08T17:54:36.653Z"
+  },
+  {
+    "id": "trusted-shops-reviews-scraper",
+    "title": "Trusted Shops Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Trusted Shops reviews and shop ratings \u2014 review text, stars, review and order dates, and the shop's aggregate score.",
+    "outputs": [
+      "review",
+      "stars",
+      "date",
+      "order date",
+      "shop score",
+      "reviewer"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zihefoCIgS4J0DIJb-nVZyCMXolt-trusted-shops-logo-png_seeklogo-620345.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/trusted-shops-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-07-09T10:29:20.249Z",
+    "modifiedAt": "2026-08-28T14:01:02.543Z"
   },
   {
     "id": "trustmate-reviews-scraper",
@@ -10019,6 +10332,30 @@
     "modifiedAt": "2026-06-08T17:42:47.125Z"
   },
   {
+    "id": "decision-maker-finder",
+    "title": "Decision Maker Finder (+ emails)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn a list of companies into their decision makers \u2014 founders, C-suite, VPs and directors, with emails where found.",
+    "outputs": [
+      "company",
+      "name",
+      "title",
+      "email",
+      "LinkedIn",
+      "seniority"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/decision-maker-finder",
+    "status": "public",
+    "createdAt": "2026-08-30T21:29:12.669Z",
+    "modifiedAt": "2026-09-02T06:26:22.404Z"
+  },
+  {
     "id": "dnb-scraper",
     "title": "Dun & Bradstreet Companies",
     "category": "business",
@@ -10184,6 +10521,30 @@
     "status": "public",
     "createdAt": "2026-06-14T13:17:15.866Z",
     "modifiedAt": "2026-06-15T04:32:38.074Z"
+  },
+  {
+    "id": "fastpeoplesearch-scraper",
+    "title": "FastPeopleSearch (people lookup)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search FastPeopleSearch by name, reverse phone or reverse address \u2014 full US person records with phones, emails, addresses.",
+    "outputs": [
+      "name",
+      "phones",
+      "emails",
+      "addresses",
+      "relatives",
+      "age"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/fastpeoplesearch-scraper",
+    "status": "public",
+    "createdAt": "2026-09-02T20:47:20.560Z",
+    "modifiedAt": "2026-09-02T20:53:13.008Z"
   },
   {
     "id": "findlaw-scraper",
@@ -12361,30 +12722,6 @@
     "status": "public",
     "createdAt": "2026-08-13T05:16:12.533Z",
     "modifiedAt": "2026-08-18T12:32:17.568Z"
-  },
-  {
-    "id": "tennisexplorer-scraper",
-    "title": "TennisExplorer (odds & H2H)",
-    "category": "other",
-    "tech": [
-      "Apify",
-      "Crawlee"
-    ],
-    "summary": "tennisexplorer.com \u2014 fixtures and results with odds, per-bookmaker odds history, line movement, players and head-to-head.",
-    "outputs": [
-      "match",
-      "odds",
-      "line movement",
-      "player",
-      "H2H",
-      "result"
-    ],
-    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-QLJdwezra7lvlmWAT-A02pQd0BjW-tennisexplorer.jpeg",
-    "thumb": null,
-    "link": "https://apify.com/memo23/tennisexplorer-scraper",
-    "status": "public",
-    "createdAt": "2026-08-13T05:16:12.533Z",
-    "modifiedAt": "2026-08-13T08:24:31.868Z"
   },
   {
     "id": "tours-activities-scraper",
