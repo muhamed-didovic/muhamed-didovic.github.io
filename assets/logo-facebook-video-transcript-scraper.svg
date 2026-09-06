@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B74E4"/><stop offset="1" stop-color="#0A3D91"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <!-- play head: the video going in -->
+  <path d="M196 150 L196 290 L306 220 Z" fill="#FFFFFF" opacity="0.95"/>
+  <!-- transcript lines: the words coming out -->
+  <g fill="#FFFFFF" opacity="0.92">
+    <rect x="150" y="330" width="212" height="20" rx="10"/>
+    <rect x="150" y="368" width="164" height="20" rx="10"/>
+    <rect x="150" y="406" width="120" height="20" rx="10"/>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1E3A"/><stop offset="1" stop-color="#0E2A50"/>
+    </linearGradient>
+    <marker id="arw" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#5AA9FF"/>
+    </marker>
+    <style>
+      .h { font-family: Helvetica,Arial,sans-serif; font-size: 27px; font-weight: 700; fill: #FFFFFF; }
+      .b { font-family: Helvetica,Arial,sans-serif; font-size: 19px; fill: #B9CEE8; }
+      .n { font-family: Helvetica,Arial,sans-serif; font-size: 21px; font-weight: 700; fill: #0B1E3A; }
+      .t { font-family: Helvetica,Arial,sans-serif; font-size: 17px; fill: #7FA8D8; }
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <text x="60" y="76" class="h" font-size="34">How it works</text>
+  <text x="60" y="112" class="t">facebook.com / fb.watch link  →  transcript, subtitles and metadata</text>
+
+  <g transform="translate(60,160)">
+    <rect width="1080" height="112" rx="16" fill="#14315C" stroke="#1B74E4" stroke-width="1.5"/>
+    <circle cx="46" cy="56" r="22" fill="#5AA9FF"/><text x="40" y="64" class="n">1</text>
+    <text x="86" y="46" class="h">Read the post</text>
+    <text x="86" y="80" class="b">Confirm it is a Facebook URL, then collect title, author, date, views, thumbnail and renditions.</text>
+  </g>
+  <line x1="600" y1="278" x2="600" y2="308" stroke="#5AA9FF" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <g transform="translate(60,312)">
+    <rect width="1080" height="112" rx="16" fill="#14315C" stroke="#1B74E4" stroke-width="1.5"/>
+    <circle cx="46" cy="56" r="22" fill="#5AA9FF"/><text x="40" y="64" class="n">2</text>
+    <text x="86" y="46" class="h">Pull the audio only</text>
+    <text x="86" y="80" class="b">Direct first, then the Actor's own residential pool. The video itself is never stored. No proxy of yours.</text>
+  </g>
+  <line x1="600" y1="430" x2="600" y2="460" stroke="#5AA9FF" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <g transform="translate(60,464)">
+    <rect width="1080" height="112" rx="16" fill="#14315C" stroke="#1B74E4" stroke-width="1.5"/>
+    <circle cx="46" cy="56" r="22" fill="#5AA9FF"/><text x="40" y="64" class="n">3</text>
+    <text x="86" y="46" class="h">Transcribe with Whisper, in the Actor</text>
+    <text x="86" y="80" class="b">Language auto-detected, VAD-filtered, optional per-word timings. No API key, no external service.</text>
+  </g>
+  <line x1="600" y1="582" x2="600" y2="612" stroke="#5AA9FF" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <g transform="translate(60,616)">
+    <rect width="1080" height="80" rx="16" fill="#1B74E4"/>
+    <circle cx="46" cy="40" r="22" fill="#FFFFFF"/><text x="40" y="48" class="n">4</text>
+    <text x="86" y="34" class="h">One row out</text>
+    <text x="86" y="62" class="b" fill="#DCEAFB">text · segments · words · SRT + VTT files · HD video URL · thumbnail · metadata</text>
+  </g>
+</svg>
