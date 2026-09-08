@@ -24,6 +24,30 @@
     "modifiedAt": "2026-08-18T14:15:41.441Z"
   },
   {
+    "id": "airbnb-rooms-urls-scraper",
+    "title": "Airbnb Listing Details (by URL)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Paste Airbnb listing URLs or IDs and get one flat, analysis-ready row per listing \u2014 price, host, capacity, amenities and rating.",
+    "outputs": [
+      "price",
+      "host",
+      "guests",
+      "bedrooms",
+      "amenities",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hfHKQYJyjDZgkDkle-tsjoMSOedQ-airbnb.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/airbnb-rooms-urls-scraper",
+    "status": "public",
+    "createdAt": "2026-09-06T13:56:44.435Z",
+    "modifiedAt": "2026-09-08T10:02:41.016Z"
+  },
+  {
     "id": "airbnb-scraper",
     "title": "Airbnb Search \u00b7 with prices \u00b7 Reviews included",
     "category": "real-estate",
@@ -2662,6 +2686,30 @@
     "modifiedAt": "2026-07-08T12:05:22.658Z"
   },
   {
+    "id": "jobbank-scraper",
+    "title": "Canada Job Bank",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Jobs from Canada's federal Job Bank (jobbank.gc.ca) \u2014 title, employer, salary, location and posting details.",
+    "outputs": [
+      "title",
+      "employer",
+      "salary",
+      "location",
+      "posted",
+      "apply URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-nXjRcqacjewOST8E7-DGIt077Ll4-jobbank.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/jobbank-scraper",
+    "status": "public",
+    "createdAt": "2026-07-10T10:14:07.441Z",
+    "modifiedAt": "2026-09-07T21:16:35.940Z"
+  },
+  {
     "id": "careerbliss-scraper",
     "title": "Careerbliss.com \u00b7 \u00b7 Reviews & Jobs",
     "category": "jobs",
@@ -4350,6 +4398,30 @@
     "modifiedAt": "2026-06-08T06:27:39.280Z"
   },
   {
+    "id": "shine-jobs-scraper",
+    "title": "Shine.com India Jobs (+recruiter)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Shine.com jobs across India with the hiring recruiter's real email and phone \u2014 title, company, skills and location.",
+    "outputs": [
+      "title",
+      "company",
+      "recruiter email",
+      "phone",
+      "skills",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-4OAi6cIS6xxKGy1uw-emlsImgYHw-shine.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/shine-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-09-04T22:28:02.897Z",
+    "modifiedAt": "2026-09-08T09:22:22.754Z"
+  },
+  {
     "id": "simplyhired-jobs-scraper",
     "title": "SimplyHired Jobs",
     "category": "jobs",
@@ -4876,6 +4948,30 @@
     "modifiedAt": "2026-07-02T12:31:00.445Z"
   },
   {
+    "id": "bluesky-scraper",
+    "title": "Bluesky (AT Protocol)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bluesky with no login \u2014 search posts by keyword, or pull profiles and followers over the AT Protocol.",
+    "outputs": [
+      "post",
+      "author",
+      "likes",
+      "reposts",
+      "profile",
+      "followers"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-naKOqTBbGEO6w97Cy-92a79lIYaA-bluesky-logo-icon-bluesky-app-editable-transparent-background-pr",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bluesky-scraper",
+    "status": "public",
+    "createdAt": "2026-08-19T22:24:58.678Z",
+    "modifiedAt": "2026-09-08T09:27:23.142Z"
+  },
+  {
     "id": "tiktok-profile-videos-cheerio",
     "title": "Bulk TikTok Transcripts (no browser)",
     "category": "social",
@@ -5015,6 +5111,30 @@
     "status": "public",
     "createdAt": "2024-02-29T09:47:06.272Z",
     "modifiedAt": "2026-03-30T11:51:10.015Z"
+  },
+  {
+    "id": "facebook-page-posts-scraper",
+    "title": "Facebook Page Posts (exact limits)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Posts from any public Facebook Page with no login \u2014 text, date, permalink, photos and reaction counts, capped at an exact limit.",
+    "outputs": [
+      "text",
+      "date",
+      "permalink",
+      "photos",
+      "reactions",
+      "comments"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xbKvkK6O7LcHz1a5F-OPZYNYvQuZ-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-page-posts-scraper",
+    "status": "public",
+    "createdAt": "2026-09-07T06:27:05.308Z",
+    "modifiedAt": "2026-09-07T10:36:02.632Z"
   },
   {
     "id": "apify-facebook-post-search-scraper",
@@ -5202,6 +5322,30 @@
     "status": "public",
     "createdAt": "2026-08-28T19:43:09.792Z",
     "modifiedAt": "2026-09-03T13:13:06.360Z"
+  },
+  {
+    "id": "facebook-video-transcript-scraper",
+    "title": "Facebook Video & Reel Transcript",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook video and Reel transcripts from any facebook.com or fb.watch link \u2014 plain text, SRT and VTT.",
+    "outputs": [
+      "transcript",
+      "SRT",
+      "VTT",
+      "language",
+      "duration",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-w0EDCQvS3edo1dz4H-wGhqnumSeg-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-video-transcript-scraper",
+    "status": "public",
+    "createdAt": "2026-09-06T11:56:34.167Z",
+    "modifiedAt": "2026-09-06T13:03:00.553Z"
   },
   {
     "id": "facebook-video-downloader",
@@ -9358,6 +9502,30 @@
     "modifiedAt": "2026-07-08T11:59:14.471Z"
   },
   {
+    "id": "homedepot-reviews-scraper",
+    "title": "Home Depot Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Home Depot product reviews by product URL or ID \u2014 star rating, title, full text, photos and review date.",
+    "outputs": [
+      "rating",
+      "title",
+      "text",
+      "photos",
+      "date",
+      "reviewer"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aZuFWrvFAJ7TXFhEm-IGHwwTpAPl-TheHomeDepot.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/homedepot-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-09-07T07:08:58.024Z",
+    "modifiedAt": "2026-09-07T09:28:43.674Z"
+  },
+  {
     "id": "hotels-scraper",
     "title": "Hotels.com ReviewsScraper-Guest Feedback & Sentiment",
     "category": "reviews",
@@ -9592,6 +9760,30 @@
     "status": "public",
     "createdAt": "2026-07-10T22:27:12.631Z",
     "modifiedAt": "2026-07-13T15:53:57.481Z"
+  },
+  {
+    "id": "steam-reviews-scraper",
+    "title": "Steam Reviews (date windows)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Reviews for any Steam game by app ID, no key \u2014 filter by language and positive/negative, and pull exact date windows.",
+    "outputs": [
+      "review",
+      "rating",
+      "language",
+      "playtime",
+      "date",
+      "helpful"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HH6ffdZQzIaFk4Jt1-ZlZTVjcZYs-steam.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/steam-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-09-07T10:56:03.317Z",
+    "modifiedAt": "2026-09-07T12:05:37.752Z"
   },
   {
     "id": "swiggy-scraper",
