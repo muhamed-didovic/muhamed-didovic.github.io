@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="TruePeopleSearch scraper store card">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2e20"/>
+      <stop offset="55%" stop-color="#145536"/>
+      <stop offset="100%" stop-color="#2e8b57"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#cbg)"/>
+  <g opacity="0.16">
+    <circle cx="980" cy="188" r="54" fill="#c7ead6"/>
+    <path d="M890 318c0-48 40-82 90-82s90 34 90 82v16H890z" fill="#c7ead6"/>
+    <g fill="none" stroke="#c7ead6" stroke-width="14" stroke-linecap="round">
+      <circle cx="1070" cy="430" r="42"/>
+      <line x1="1100" y1="460" x2="1140" y2="500"/>
+    </g>
+  </g>
+  <text x="84" y="196" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#FFFFFF">TruePeopleSearch Scraper</text>
+  <text x="84" y="262" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="29" fill="#c7ead6">Name, reverse-phone or reverse-address  one row per person</text>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" fill="#E7F6EE">
+    <text x="84" y="342">- Full phones, emails, address history + geo</text>
+    <text x="84" y="392">- Relatives, associates and aliases</text>
+    <text x="84" y="442">- Property details when the source publishes them</text>
+  </g>
+  <rect x="84" y="496" width="248" height="60" rx="30" fill="#2e8b57"/>
+  <text x="208" y="535" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">$0.003 / person</text>
+  <text x="356" y="535" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" fill="#a9dcc0">JSON · CSV · Dataset</text>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="TruePeopleSearch scraper logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2e8b57"/>
+      <stop offset="100%" stop-color="#123d29"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="188" r="54" fill="#FFFFFF"/>
+  <path d="M164 318c0-50 41-86 92-86s92 36 92 86v18H164z" fill="#FFFFFF"/>
+  <g fill="none" stroke="#c7ead6" stroke-width="18" stroke-linecap="round">
+    <circle cx="356" cy="372" r="52"/>
+    <line x1="394" y1="410" x2="436" y2="452"/>
+  </g>
+</svg>
