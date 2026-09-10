@@ -2494,7 +2494,7 @@
     "modifiedAt": "2026-07-20T21:18:28.982Z"
   },
   {
-    "id": "ashby-scraper",
+    "id": "ashby-jobs-scraper",
     "title": "Ashby Jobs (any company)",
     "category": "jobs",
     "tech": [
@@ -2512,7 +2512,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-TvhArelecxDxrXLgO-KsCNpeVniF-Ashby.jpeg",
     "thumb": null,
-    "link": "https://apify.com/memo23/ashby-scraper",
+    "link": "https://apify.com/memo23/ashby-jobs-scraper",
     "status": "public",
     "createdAt": "2026-06-14T05:36:24.724Z",
     "modifiedAt": "2026-06-15T11:58:11.672Z"
@@ -3876,7 +3876,7 @@
     "modifiedAt": "2026-07-08T13:00:06.433Z"
   },
   {
-    "id": "lever-scraper",
+    "id": "lever-jobs-scraper",
     "title": "Lever Jobs (any company)",
     "category": "jobs",
     "tech": [
@@ -3894,7 +3894,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-MODSbHcBjmLJFtjFv-oVjSPHfdZh-lever.png",
     "thumb": null,
-    "link": "https://apify.com/memo23/lever-scraper",
+    "link": "https://apify.com/memo23/lever-jobs-scraper",
     "status": "public",
     "createdAt": "2026-06-14T22:19:36.346Z",
     "modifiedAt": "2026-06-23T19:27:25.230Z"
