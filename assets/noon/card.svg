@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE14D"/>
+      <stop offset="55%" stop-color="#F5C400"/>
+      <stop offset="100%" stop-color="#E0B000"/>
+    </linearGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <filter id="dsLite" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.12">
+    <circle cx="1020" cy="140" r="120" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="4 8"/>
+    <circle cx="1100" cy="520" r="160" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="4 8"/>
+    <circle cx="80" cy="560" r="130" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="4 8"/>
+  </g>
+  <g transform="translate(60, 72)">
+    <rect width="220" height="28" rx="14" fill="#111111"/>
+    <text x="110" y="19" text-anchor="middle"
+          font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="700" font-size="12" fill="#FFE14D" letter-spacing="2">MENA MARKETPLACE</text>
+    <text y="100" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="900" font-size="58" fill="#111111">Noon Product</text>
+    <text y="164" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="900" font-size="58" fill="#111111">Scraper</text>
+    <text y="206" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="700" font-size="18" fill="#111111">Products / Sellers / Reviews / Food</text>
+    <text y="232" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="500" font-size="14" fill="#3a3200">UAE / KSA / Egypt / GCC    English or Arabic    $1/1k</text>
+    <g transform="translate(0, 268)" filter="url(#dsLite)">
+      <rect width="168" height="34" rx="17" fill="#ffffff"/>
+      <circle cx="18" cy="17" r="5" fill="#111111"/>
+      <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#222">Buy-box rank</text>
+    </g>
+    <g transform="translate(180, 268)" filter="url(#dsLite)">
+      <rect width="150" height="34" rx="17" fill="#ffffff"/>
+      <circle cx="18" cy="17" r="5" fill="#111111"/>
+      <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#222">JSON-LD reviews</text>
+    </g>
+    <g transform="translate(0, 314)" filter="url(#dsLite)">
+      <rect width="188" height="34" rx="17" fill="#ffffff"/>
+      <circle cx="18" cy="17" r="5" fill="#111111"/>
+      <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#222">Keywords + SKUs</text>
+    </g>
+    <g transform="translate(200, 314)" filter="url(#dsLite)">
+      <rect width="150" height="34" rx="17" fill="#ffffff"/>
+      <circle cx="18" cy="17" r="5" fill="#111111"/>
+      <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#222">JSON + CSV</text>
+    </g>
+    <g transform="translate(0, 378)" filter="url(#dsLite)">
+      <rect width="520" height="58" rx="12" fill="#111111"/>
+      <text x="22" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#7ec699">&gt; </text>
+      <text x="46" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#FFE14D">noon.com/uae-en/search?q=iphone</text>
+    </g>
+  </g>
+  <g transform="translate(760, 90)" filter="url(#ds)">
+    <rect width="380" height="450" rx="24" fill="#111111"/>
+    <text x="32" y="48" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#FFE14D">rowType    product</text>
+    <text x="32" y="84" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#F4F4F4">sku        N70211466V</text>
+    <text x="32" y="120" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#F4F4F4">brand      Apple</text>
+    <text x="32" y="156" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#F4F4F4">salePrice  4649 AED</text>
+    <text x="32" y="192" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#F4F4F4">store      callmate</text>
+    <text x="32" y="228" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#F4F4F4">rating     4.5</text>
+    <text x="32" y="264" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#F4F4F4">offers     8 sellers</text>
+    <text x="32" y="300" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#F4F4F4">language   en | ar</text>
+    <rect x="32" y="340" width="316" height="72" rx="12" fill="#FFE14D"/>
+    <text x="190" y="372" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="800" font-size="16" fill="#111111">Pure HTTP / Firefox TLS</text>
+    <text x="190" y="396" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="600" font-size="13" fill="#111111">No headless browser</text>
+  </g>
+</svg>
