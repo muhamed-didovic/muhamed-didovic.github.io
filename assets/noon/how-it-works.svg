@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8D6"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#111111" flood-opacity="0.12"/>
+    </filter>
+    <style><![CDATA[
+      .title { font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-weight: 800; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-weight: 400; }
+      .card-title { font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-weight: 800; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-weight: 500; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-weight: 400; }
+    ]]></style>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bgGrad)"/>
+  <text x="600" y="58" text-anchor="middle" class="title" font-size="30" fill="#111111">How the Noon Product Scraper works</text>
+  <text x="600" y="90" text-anchor="middle" class="subtitle" font-size="15" fill="#4A4A4A">Keyword, URL or SKU to catalog API to product, seller, review or food rows</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="40" y="130" width="340" height="500" rx="16" fill="#ffffff" stroke="#F5C400"/>
+    <text x="210" y="176" text-anchor="middle" class="card-title" font-size="22" fill="#111111">1. Input</text>
+    <rect x="64" y="200" width="292" height="40" rx="8" fill="#FFF8D6"/>
+    <text x="80" y="226" class="label" font-size="14" fill="#111111">keyword: iphone</text>
+    <rect x="64" y="252" width="292" height="40" rx="8" fill="#FFF8D6"/>
+    <text x="80" y="278" class="label" font-size="14" fill="#111111">category path / URL</text>
+    <rect x="64" y="304" width="292" height="40" rx="8" fill="#FFF8D6"/>
+    <text x="80" y="330" class="label" font-size="14" fill="#111111">SKU / asins / product URL</text>
+    <rect x="64" y="356" width="292" height="40" rx="8" fill="#FFF8D6"/>
+    <text x="80" y="382" class="label" font-size="14" fill="#111111">food.noon.com query</text>
+    <text x="80" y="450" class="label" font-size="14" fill="#333333">UAE / KSA / Egypt / GCC</text>
+    <text x="80" y="478" class="label" font-size="14" fill="#333333">en or ar    AED / SAR / EGP</text>
+    <text x="80" y="580" class="subtitle" font-size="13" fill="#6B7280">Mix keywords and URLs in one run</text>
+  </g>
+
+  <polygon points="400,380 428,364 428,396" fill="#111111"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="130" width="340" height="500" rx="16" fill="#ffffff" stroke="#F5C400"/>
+    <text x="610" y="176" text-anchor="middle" class="card-title" font-size="22" fill="#111111">2. Fetch</text>
+    <text x="464" y="230" class="label" font-size="15" fill="#111111">a. Classify each task</text>
+    <text x="464" y="270" class="label" font-size="15" fill="#111111">b. GET catalog + x-locale</text>
+    <text x="464" y="310" class="label" font-size="15" fill="#111111">c. Paginate (~50 / page)</text>
+    <text x="464" y="350" class="label" font-size="15" fill="#111111">d. Optional detail / offers</text>
+    <text x="464" y="390" class="label" font-size="15" fill="#111111">e. JSON-LD reviews</text>
+    <text x="464" y="430" class="label" font-size="15" fill="#111111">f. Filter before write</text>
+    <text x="464" y="580" class="subtitle" font-size="13" fill="#6B7280">Firefox fingerprint, no browser</text>
+  </g>
+
+  <polygon points="800,380 828,364 828,396" fill="#111111"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="840" y="130" width="320" height="500" rx="16" fill="#111111"/>
+    <text x="1000" y="176" text-anchor="middle" class="card-title" font-size="22" fill="#FFE14D">3. Output</text>
+    <text x="868" y="230" class="mono" font-size="14" fill="#FFE14D">rowType   product</text>
+    <text x="868" y="262" class="mono" font-size="14" fill="#F4F4F4">sku       N70211466V</text>
+    <text x="868" y="294" class="mono" font-size="14" fill="#F4F4F4">salePrice 4649 AED</text>
+    <text x="868" y="326" class="mono" font-size="14" fill="#F4F4F4">store     callmate</text>
+    <text x="868" y="358" class="mono" font-size="14" fill="#F4F4F4">rating    4.5</text>
+    <text x="868" y="406" class="mono" font-size="14" fill="#FFE14D">or seller / review / food</text>
+    <text x="868" y="454" class="label" font-size="14" fill="#FFFFFF">JSON / CSV / Dataset</text>
+    <text x="868" y="580" class="subtitle" font-size="13" fill="#C8C8C8">Pay per dataset row</text>
+  </g>
+
+  <rect x="0" y="656" width="1200" height="64" fill="#111111"/>
+  <text x="600" y="696" text-anchor="middle" class="label" font-size="15" fill="#FFE14D">Keywords + URLs    UAE / KSA / Egypt    Buy-box + reviews    $1 / 1k rows</text>
+</svg>
