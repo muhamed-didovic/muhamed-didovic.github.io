@@ -7618,8 +7618,8 @@
     "modifiedAt": "2026-08-07T16:29:02.170Z"
   },
   {
-    "id": "amazon-product-scraper",
-    "title": "Amazon Products (18 marketplaces)",
+    "id": "amazon-search",
+    "title": "Amazon Search (18 marketplaces)",
     "category": "ecommerce",
     "tech": [
       "Apify",
@@ -7636,7 +7636,7 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7gA1xBQyhaBJ3sjbA-SDhNrEYLfc-amazon.webp",
     "thumb": null,
-    "link": "https://apify.com/memo23/amazon-product-scraper",
+    "link": "https://apify.com/memo23/amazon-search",
     "status": "public",
     "createdAt": "2026-07-22T22:35:53.091Z",
     "modifiedAt": "2026-08-11T04:14:22.746Z"
