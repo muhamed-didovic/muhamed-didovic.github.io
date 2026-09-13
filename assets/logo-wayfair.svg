@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#4A1A6B"/>
+  <rect x="36" y="36" width="440" height="440" rx="72" fill="#5C2482"/>
+  <!-- sofa -->
+  <rect x="96" y="248" width="320" height="88" rx="22" fill="#F4E9D8"/>
+  <rect x="118" y="214" width="116" height="70" rx="18" fill="#E8D4B8"/>
+  <rect x="278" y="214" width="116" height="70" rx="18" fill="#E8D4B8"/>
+  <rect x="118" y="318" width="28" height="36" rx="6" fill="#C9A86A"/>
+  <rect x="366" y="318" width="28" height="36" rx="6" fill="#C9A86A"/>
+  <!-- price tag -->
+  <g transform="translate(332, 86)">
+    <path d="M0 28 L28 0 H92 A16 16 0 0 1 108 16 V60 A16 16 0 0 1 92 76 H28 Z" fill="#E8A317"/>
+    <circle cx="22" cy="38" r="7" fill="#4A1A6B"/>
+    <text x="58" y="50" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="28" fill="#4A1A6B">%</text>
+  </g>
+</svg>

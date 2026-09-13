@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <rect width="1200" height="720" fill="#3A1458"/>
+  <text x="600" y="58" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">How Wayfair Scraper works</text>
+  <text x="600" y="92" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#E8D4B8">Keyword or URL to listing cards to optional product page to one dataset row</text>
+
+  <g transform="translate(36, 140)">
+    <rect width="258" height="500" rx="18" fill="#F7F1E8"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#3A1458">1. Start</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">Paste what you have</text>
+    <rect x="16" y="92" width="226" height="36" rx="8" fill="#EFE4F5" stroke="#7B3FA0" stroke-width="1"/>
+    <text x="28" y="115" font-family="Menlo, Consolas, monospace" font-size="11" fill="#3A1458">keyword.php?keyword=sofa</text>
+    <rect x="16" y="138" width="226" height="36" rx="8" fill="#EFE4F5" stroke="#7B3FA0" stroke-width="1"/>
+    <text x="28" y="161" font-family="Menlo, Consolas, monospace" font-size="11" fill="#3A1458">/furniture/sb0/sofas-...</text>
+    <rect x="16" y="184" width="226" height="36" rx="8" fill="#EFE4F5" stroke="#7B3FA0" stroke-width="1"/>
+    <text x="28" y="207" font-family="Menlo, Consolas, monospace" font-size="11" fill="#3A1458">SKU W100694092</text>
+    <text x="20" y="260" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="14" fill="#3A1458">Or build from filters</text>
+    <rect x="16" y="278" width="100" height="28" rx="14" fill="#4A1A6B"/>
+    <text x="66" y="297" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">US / CA / UK / IE</text>
+    <rect x="126" y="278" width="116" height="28" rx="14" fill="#4A1A6B"/>
+    <text x="184" y="297" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">Furniture, Rugs</text>
+    <text x="20" y="350" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">startUrls wins over</text>
+    <text x="20" y="370" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">keyword / category / SKU</text>
+  </g>
+
+  <g transform="translate(326, 140)">
+    <rect width="258" height="500" rx="18" fill="#F7F1E8"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#3A1458">2. Listing</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">About 48 ListingCard nodes / page</text>
+    <rect x="16" y="92" width="226" height="70" rx="10" fill="#FFFFFF" stroke="#C9A86A" stroke-width="1"/>
+    <text x="28" y="118" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="13" fill="#3A1458">$334.99  was $749.99</text>
+    <text x="28" y="142" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#6B4A7A">55% off, 3 Colors</text>
+    <rect x="16" y="176" width="226" height="70" rx="10" fill="#FFFFFF" stroke="#C9A86A" stroke-width="1"/>
+    <text x="28" y="202" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="13" fill="#3A1458">IN_STOCK</text>
+    <text x="28" y="226" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#6B4A7A">curpage=N pagination</text>
+    <text x="20" y="290" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">Chrome 131 impersonation</text>
+    <text x="20" y="312" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">Residential proxy recommended</text>
+  </g>
+
+  <g transform="translate(616, 140)">
+    <rect width="258" height="500" rx="18" fill="#F7F1E8"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#3A1458">3. Optional PDP</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">fetchDetails (off by default)</text>
+    <rect x="16" y="92" width="226" height="36" rx="8" fill="#EFE4F5"/>
+    <text x="28" y="115" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#3A1458">Overall 33.85 in H x 76 in W</text>
+    <rect x="16" y="138" width="226" height="36" rx="8" fill="#EFE4F5"/>
+    <text x="28" y="161" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#3A1458">Chenille, Solid Wood, Foam</text>
+    <rect x="16" y="184" width="226" height="36" rx="8" fill="#EFE4F5"/>
+    <text x="28" y="207" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#3A1458">25 Left in Stock</text>
+    <text x="20" y="260" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">One extra HTTP per product</text>
+    <text x="20" y="284" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">additional-data billed on a hit</text>
+  </g>
+
+  <g transform="translate(906, 140)">
+    <rect width="258" height="500" rx="18" fill="#F7F1E8"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#3A1458">4. Dataset</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">One row per product</text>
+    <rect x="16" y="92" width="226" height="200" rx="10" fill="#3A1458"/>
+    <text x="28" y="120" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E8D4B8">sku: W117455547</text>
+    <text x="28" y="142" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E8D4B8">price: 334.99</text>
+    <text x="28" y="164" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E8D4B8">discountPercent: 55</text>
+    <text x="28" y="186" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E8D4B8">stockStatus: IN_STOCK</text>
+    <text x="28" y="208" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E8D4B8">variantCount: 3</text>
+    <text x="28" y="230" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E8D4B8">materials: Chenille</text>
+    <text x="20" y="330" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">JSON / CSV, flatten on</text>
+    <text x="20" y="352" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#6B4A7A">$0.002 per row</text>
+  </g>
+</svg>
