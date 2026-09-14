@@ -13,7 +13,7 @@
   <text x="84" y="378" fill="#888888" font-family="Menlo, monospace" font-size="12">postal code M9N 3L3</text>
   <text x="84" y="420" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">or a canada411.ca URL</text>
 
-  <polygon points="400,390 440,370 440,410" fill="#E63946"/>
+  <polygon points="400,370 440,390 400,410" fill="#E63946"/>
 
   <rect x="460" y="150" width="280" height="480" rx="8" fill="#2a2a2a"/>
   <text x="484" y="194" fill="#E63946" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">2. Extract</text>
@@ -24,7 +24,7 @@
   <text x="484" y="352" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">De-duplicated by listing id</text>
   <text x="484" y="400" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">HTTP only, no proxy</text>
 
-  <polygon points="760,390 800,370 800,410" fill="#E63946"/>
+  <polygon points="760,370 800,390 760,410" fill="#E63946"/>
 
   <rect x="820" y="150" width="320" height="480" rx="8" fill="#2a2a2a"/>
   <text x="844" y="194" fill="#E63946" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">3. Output</text>
