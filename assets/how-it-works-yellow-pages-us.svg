@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#1a1a1a"/>
+  <text x="60" y="64" fill="#F5C518" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Yellow Pages US Scraper</text>
+  <text x="60" y="98" fill="#bbbbbb" font-family="Helvetica, Arial, sans-serif" font-size="16">Keyword + city in. Structured listing out. No browser.</text>
+
+  <rect x="60" y="150" width="320" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="84" y="194" fill="#F5C518" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">1. Input</text>
+  <text x="84" y="240" fill="#eeeeee" font-family="Menlo, monospace" font-size="14">what: pizza</text>
+  <text x="84" y="268" fill="#eeeeee" font-family="Menlo, monospace" font-size="14">where: Los Angeles, CA</text>
+  <text x="84" y="310" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">or a yellowpages.com URL</text>
+  <text x="84" y="334" fill="#888888" font-family="Menlo, monospace" font-size="12">/los-angeles-ca/pizza</text>
+  <text x="84" y="356" fill="#888888" font-family="Menlo, monospace" font-size="12">/.../mip/...-22248710</text>
+
+  <polygon points="400,390 440,370 440,410" fill="#F5C518"/>
+
+  <rect x="460" y="150" width="280" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="484" y="194" fill="#F5C518" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">2. Extract</text>
+  <text x="484" y="240" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Geocode the city</text>
+  <text x="484" y="268" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Search nearby pins</text>
+  <text x="484" y="296" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Load listing detail</text>
+  <text x="484" y="324" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Optional site email</text>
+  <text x="484" y="380" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">HTTP JSON only</text>
+
+  <polygon points="760,390 800,370 800,410" fill="#F5C518"/>
+
+  <rect x="820" y="150" width="320" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="844" y="194" fill="#F5C518" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">3. Output</text>
+  <text x="844" y="240" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">name  Pitfire Artisan Pizza</text>
+  <text x="844" y="264" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">phone 2138081200</text>
+  <text x="844" y="288" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">city  Los Angeles, CA</text>
+  <text x="844" y="312" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">email when listed</text>
+  <text x="844" y="336" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">hours  Mon-Sun</text>
+  <text x="844" y="380" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">One row per business</text>
+</svg>
