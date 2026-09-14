@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#1a1a1a"/>
+  <text x="60" y="64" fill="#E63946" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Canada411 Scraper</text>
+  <text x="60" y="98" fill="#bbbbbb" font-family="Helvetica, Arial, sans-serif" font-size="16">Name + city in. Structured listing out. No browser.</text>
+
+  <rect x="60" y="150" width="320" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="84" y="194" fill="#E63946" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">1. Input</text>
+  <text x="84" y="240" fill="#eeeeee" font-family="Menlo, monospace" font-size="14">names: Smith</text>
+  <text x="84" y="268" fill="#eeeeee" font-family="Menlo, monospace" font-size="14">locations: Toronto, ON</text>
+  <text x="84" y="310" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">or a reverse lookup</text>
+  <text x="84" y="334" fill="#888888" font-family="Menlo, monospace" font-size="12">phone 416-243-0072</text>
+  <text x="84" y="356" fill="#888888" font-family="Menlo, monospace" font-size="12">address 48 Howbert, ON</text>
+  <text x="84" y="378" fill="#888888" font-family="Menlo, monospace" font-size="12">postal code M9N 3L3</text>
+  <text x="84" y="420" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">or a canada411.ca URL</text>
+
+  <polygon points="400,390 440,370 440,410" fill="#E63946"/>
+
+  <rect x="460" y="150" width="280" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="484" y="194" fill="#E63946" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">2. Extract</text>
+  <text x="484" y="240" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">100 rows per page</text>
+  <text x="484" y="268" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Pages fetched in parallel</text>
+  <text x="484" y="296" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Coordinates from map data</text>
+  <text x="484" y="324" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Address split into parts</text>
+  <text x="484" y="352" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">De-duplicated by listing id</text>
+  <text x="484" y="400" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">HTTP only, no proxy</text>
+
+  <polygon points="760,390 800,370 800,410" fill="#E63946"/>
+
+  <rect x="820" y="150" width="320" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="844" y="194" fill="#E63946" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">3. Output</text>
+  <text x="844" y="240" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">name        Mark Smith</text>
+  <text x="844" y="264" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">phone       4169670873</text>
+  <text x="844" y="288" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">street      94 Crescent</text>
+  <text x="844" y="312" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">city        Toronto, ON</text>
+  <text x="844" y="336" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">postalCode  M4W 1T5</text>
+  <text x="844" y="360" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">lat/lon     43.678, -79.383</text>
+  <text x="844" y="404" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">One row per listing</text>
+</svg>
