@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#1a1a1a"/>
+  <text x="60" y="64" fill="#FEC600" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">PaginasAmarillas.es Scraper</text>
+  <text x="60" y="98" fill="#bbbbbb" font-family="Helvetica, Arial, sans-serif" font-size="16">Keyword + city in. Structured Spanish business out. No browser.</text>
+
+  <rect x="60" y="150" width="320" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="84" y="194" fill="#FEC600" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">1. Input</text>
+  <text x="84" y="240" fill="#eeeeee" font-family="Menlo, monospace" font-size="14">searchTerms: restaurantes</text>
+  <text x="84" y="268" fill="#eeeeee" font-family="Menlo, monospace" font-size="14">locations: Madrid</text>
+  <text x="84" y="310" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">or a paginasamarillas.es URL</text>
+  <text x="84" y="354" fill="#888888" font-family="Menlo, monospace" font-size="12">/search/{what}/all-ma/{city}/...</text>
+  <text x="84" y="376" fill="#888888" font-family="Menlo, monospace" font-size="12">/f/{city}/{slug}_{id}_*.html</text>
+
+  <polygon points="400,370 440,390 400,410" fill="#FEC600"/>
+
+  <rect x="460" y="150" width="280" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="484" y="194" fill="#FEC600" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">2. Extract</text>
+  <text x="484" y="240" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">~30 rows per HTML page</text>
+  <text x="484" y="268" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Phone on the search card</text>
+  <text x="484" y="296" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">Rating + hours on profile</text>
+  <text x="484" y="324" fill="#eeeeee" font-family="Helvetica, Arial, sans-serif" font-size="15">De-duplicated by listing id</text>
+  <text x="484" y="400" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">HTTP only. Residential (Incapsula).</text>
+
+  <polygon points="760,370 800,390 760,410" fill="#FEC600"/>
+
+  <rect x="820" y="150" width="320" height="480" rx="8" fill="#2a2a2a"/>
+  <text x="844" y="194" fill="#FEC600" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">3. Output</text>
+  <text x="844" y="240" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">name     La Daniela</text>
+  <text x="844" y="264" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">phone    913662018</text>
+  <text x="844" y="288" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">email    (when listed)</text>
+  <text x="844" y="312" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">city     Madrid 28005</text>
+  <text x="844" y="336" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">rating   4.0</text>
+  <text x="844" y="360" fill="#eeeeee" font-family="Menlo, monospace" font-size="13">web      tabernadeladaniela.com</text>
+  <text x="844" y="404" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="14">One row per business</text>
+</svg>
