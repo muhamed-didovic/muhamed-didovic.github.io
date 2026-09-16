@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#F6F3EA"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#1B4F8A">How it works</text>
+  <rect x="60" y="140" width="240" height="160" rx="16" fill="#1B4F8A"/>
+  <text x="180" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#FFFFFF">Keyword + city</text>
+  <text x="180" y="250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#F4C430">restauracja · Warszawa</text>
+  <rect x="340" y="140" width="240" height="160" rx="16" fill="#1B4F8A"/>
+  <text x="460" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#FFFFFF">Search pages</text>
+  <text x="460" y="250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#F4C430">/szukaj?page=N</text>
+  <rect x="620" y="140" width="240" height="160" rx="16" fill="#1B4F8A"/>
+  <text x="740" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#FFFFFF">JSON-LD cards</text>
+  <text x="740" y="250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#F4C430">phone · email</text>
+  <rect x="900" y="140" width="240" height="160" rx="16" fill="#F4C430"/>
+  <text x="1020" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1B4F8A">One row</text>
+  <text x="1020" y="250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#1B4F8A">+ NIP on profile</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#333333">De-duplicate by profile slug. Charge listing, then phone / email only when present.</text>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1B4F8A">panoramafirm.pl · HTTP · no browser</text>
+</svg>

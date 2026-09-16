@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#1B4F8A"/>
+  <circle cx="256" cy="220" r="88" fill="#F4C430"/>
+  <path d="M256 140c-44 0-80 36-80 80 0 58 80 132 80 132s80-74 80-132c0-44-36-80-80-80zm0 108a28 28 0 1 1 0-56 28 28 0 0 1 0 56z" fill="#1B4F8A"/>
+  <text x="256" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF">PF</text>
+</svg>
