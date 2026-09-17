@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="How the Social Profile Finder works">
+  <rect width="1200" height="720" fill="#F6F9FC"/>
+
+  <text x="600" y="70" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#0B1F33">How it works</text>
+  <text x="600" y="108" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" fill="#5A7186">One handle in — every account the creator has, scored and evidenced</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+      <path d="M0 0 L11 5.5 L0 11 z" fill="#5B3DF5"/>
+    </marker>
+  </defs>
+
+  <!-- ============ Input ============ -->
+  <text x="72" y="186" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#5B3DF5">YOU GIVE</text>
+
+  <rect x="72" y="206" width="264" height="96" rx="14" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="204" y="246" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">A profile URL</text>
+  <text x="204" y="276" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">instagram.com/mkbhd</text>
+
+  <rect x="72" y="330" width="264" height="96" rx="14" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="204" y="370" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">or a handle</text>
+  <text x="204" y="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">mkbhd + platform: tiktok</text>
+
+  <rect x="72" y="454" width="264" height="80" rx="14" fill="#EEEAFE" stroke="#C4B8FA" stroke-width="2"/>
+  <text x="204" y="488" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#0B1F33">Instagram · TikTok · YouTube</text>
+  <text x="204" y="512" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#0B1F33">X · Threads as a start</text>
+
+  <!-- arrows into the engine -->
+  <g stroke="#5B3DF5" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M336 254 L432 254 L432 344 L492 344"/>
+    <path d="M336 378 L492 378"/>
+    <path d="M336 494 L432 494 L432 412 L492 412"/>
+  </g>
+
+  <!-- engine -->
+  <rect x="500" y="272" width="266" height="212" rx="16" fill="#5B3DF5"/>
+  <text x="633" y="314" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Follow the evidence</text>
+  <text x="633" y="346" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#DDD6FE">read the bio links</text>
+  <text x="633" y="372" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#DDD6FE">expand Linktree &amp; website</text>
+  <text x="633" y="398" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#DDD6FE">probe the same handle</text>
+  <text x="633" y="424" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#DDD6FE">confirm it links back</text>
+  <text x="633" y="458" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#DDD6FE">no login · no browser</text>
+
+  <path d="M766 378 L840 378" stroke="#5B3DF5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- output -->
+  <rect x="848" y="238" width="280" height="280" rx="16" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="988" y="278" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0B1F33">You get back</text>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#40566B">
+    <text x="874" y="316">• x.com/mkbhd</text>
+    <text x="1104" y="316" text-anchor="end" font-weight="700" fill="#16A34A">1.00</text>
+    <text x="874" y="346">• youtube — main channel</text>
+    <text x="1104" y="346" text-anchor="end" font-weight="700" fill="#16A34A">1.00</text>
+    <text x="874" y="376">• youtube — 2nd channel</text>
+    <text x="1104" y="376" text-anchor="end" font-weight="700" fill="#16A34A">0.90</text>
+    <text x="874" y="406">• threads.com/@mkbhd</text>
+    <text x="1104" y="406" text-anchor="end" font-weight="700" fill="#CA8A04">0.80</text>
+    <text x="874" y="436">• tiktok.com/@mkbhd</text>
+    <text x="1104" y="436" text-anchor="end" font-weight="700" fill="#CA8A04">0.80</text>
+    <text x="874" y="466">• discord.gg/MKBHD</text>
+    <text x="1104" y="466" text-anchor="end" font-weight="700" fill="#CA8A04">0.75</text>
+    <text x="874" y="500" font-size="14" fill="#5A7186">each with the evidence behind it</text>
+  </g>
+
+  <!-- honesty strip -->
+  <rect x="72" y="576" width="1056" height="88" rx="16" fill="#FFFFFF" stroke="#C9DAEA" stroke-width="2"/>
+  <text x="600" y="612" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F33">Confidence 0–1 on every match · several per network allowed</text>
+  <text x="600" y="642" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#5A7186">A link the creator placed scores 0.85; a link back confirms it at 1.0; a bare same-handle hit stays at 0.35 until something corroborates it</text>
+</svg>
