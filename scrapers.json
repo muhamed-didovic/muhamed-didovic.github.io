@@ -71,6 +71,30 @@
     "modifiedAt": "2026-05-08T17:11:35.392Z"
   },
   {
+    "id": "airdna-scraper",
+    "title": "AirDNA (STR market data)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "AirDNA short-term-rental market data and Airbnb deal signals \u2014 occupancy, ADR, revenue and market scores.",
+    "outputs": [
+      "market",
+      "occupancy",
+      "ADR",
+      "revenue",
+      "score",
+      "listings"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-dtKPigz2Udeq4dtSf-AguPRnAPzs-airdna.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/airdna-scraper",
+    "status": "public",
+    "createdAt": "2026-09-08T19:40:16.738Z",
+    "modifiedAt": "2026-09-15T09:21:38.964Z"
+  },
+  {
     "id": "apartmentfinder-com-scraper",
     "title": "Apartmentfinder.com",
     "category": "real-estate",
@@ -142,6 +166,30 @@
     "status": "public",
     "createdAt": "2026-06-29T19:54:06.979Z",
     "modifiedAt": "2026-06-29T22:26:57.560Z"
+  },
+  {
+    "id": "appfolio-scraper",
+    "title": "AppFolio Rentals (+PM phone)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US rentals from any AppFolio property-management site \u2014 units, rent, beds/baths, plus the office phone.",
+    "outputs": [
+      "unit",
+      "rent",
+      "beds",
+      "baths",
+      "address",
+      "office phone"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tm7Ld4W4mnuoGBIb0-LQ75bxi1Ny-appfolio.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/appfolio-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T19:19:50.468Z",
+    "modifiedAt": "2026-09-18T17:55:10.724Z"
   },
   {
     "id": "agarmap-cheerio",
@@ -260,6 +308,30 @@
     "status": "public",
     "createdAt": "2025-06-26T21:34:46.490Z",
     "modifiedAt": "2026-05-08T15:50:46.203Z"
+  },
+  {
+    "id": "buildium-scraper",
+    "title": "Buildium Rentals (+email/phone)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US rentals from any Buildium property-management site \u2014 listings with rent, specs, plus office email and phone.",
+    "outputs": [
+      "unit",
+      "rent",
+      "beds",
+      "baths",
+      "email",
+      "phone"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-twCCfesyjm15VuHnh-rczJaqfXq2-buildium.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/buildium-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T19:20:40.384Z",
+    "modifiedAt": "2026-09-18T17:55:34.681Z"
   },
   {
     "id": "cian-real-estate-scraper",
@@ -637,6 +709,30 @@
     "modifiedAt": "2026-05-08T17:02:04.584Z"
   },
   {
+    "id": "forsalebyowner-scraper",
+    "title": "ForSaleByOwner.com",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "FSBO listings from ForSaleByOwner.com \u2014 price, beds/baths, area, address and owner contact where shown.",
+    "outputs": [
+      "price",
+      "beds",
+      "baths",
+      "area",
+      "address",
+      "contact"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-YhBzi0Buc2MdlT0Tp-vqRSRM2Tox-for-sale-by-owner-logo-png_seeklogo-612199.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/forsalebyowner-scraper",
+    "status": "public",
+    "createdAt": "2026-09-11T15:28:09.673Z",
+    "modifiedAt": "2026-09-11T20:00:05.781Z"
+  },
+  {
     "id": "fotocasa-scraper",
     "title": "Fotocasa Spain Property",
     "category": "real-estate",
@@ -659,6 +755,30 @@
     "status": "public",
     "createdAt": "2026-06-20T21:12:26.552Z",
     "modifiedAt": "2026-06-21T10:43:19.173Z"
+  },
+  {
+    "id": "fsbo-scraper",
+    "title": "FSBO.com",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "For-sale-by-owner listings from FSBO.com \u2014 price, specs, location and the owner's contact details.",
+    "outputs": [
+      "price",
+      "beds",
+      "baths",
+      "location",
+      "owner",
+      "contact"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-mVjYf1uNzCG5Td86p-C0769heliJ-fsbo.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/fsbo-scraper",
+    "status": "public",
+    "createdAt": "2026-09-11T15:26:27.760Z",
+    "modifiedAt": "2026-09-11T20:08:18.001Z"
   },
   {
     "id": "funda",
@@ -2424,26 +2544,28 @@
     "modifiedAt": "2026-05-08T16:24:34.609Z"
   },
   {
-    "id": "zoopla-cheerio-scraper",
-    "title": "ZOOPLA \u00b7 Buy \u00b7 Rent \u00b7 Sell \u00b7 House Price \u00b7 Agent \u00b7 UPRN",
+    "id": "zoopla-scraper",
+    "title": "Zoopla (buy \u00b7 rent \u00b7 sold \u00b7 agents)",
     "category": "real-estate",
-    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-b7zVcmrwdrWRBIUsu-NbhNcfv57h-zoopla.jpg",
-    "thumb": null,
     "tech": [
       "Apify",
-      "Cheerio"
+      "Crawlee"
     ],
-    "summary": "Your key to mastering UK real estate data. Get instant access to Zoopla's extensive property listings, complete with pricing, features, and agent details.",
+    "summary": "UK property from Zoopla \u2014 for-sale and to-rent listings, sold prices, and estate-agent pages with price, features and agent details.",
     "outputs": [
-      "for-sale search results",
-      "to-rent search results",
-      "estate agent directory pages",
-      "house-prices/sold-price pages"
+      "price",
+      "beds/baths",
+      "features",
+      "agent",
+      "sold price",
+      "UPRN"
     ],
-    "link": "https://apify.com/memo23/zoopla-cheerio-scraper",
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-b7zVcmrwdrWRBIUsu-NbhNcfv57h-zoopla.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/zoopla-scraper",
     "status": "public",
     "createdAt": "2025-02-21T09:17:21.244Z",
-    "modifiedAt": "2026-04-28T22:03:05.743Z"
+    "modifiedAt": "2026-09-15T21:19:43.508Z"
   },
   {
     "id": "zumper-cheerio",
@@ -2468,6 +2590,30 @@
     "status": "public",
     "createdAt": "2025-01-11T09:01:44.653Z",
     "modifiedAt": "2026-07-14T11:07:19.671Z"
+  },
+  {
+    "id": "apna-jobs-scraper",
+    "title": "Apna Jobs (India)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Apna jobs across India \u2014 title, company, salary, shift and the employer's contact details.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "shift",
+      "contact",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-GOZdce0w5Yl7ge8sV-csO7WqHUnj-apna-logo-1024x1024.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/apna-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-09-14T09:42:40.696Z",
+    "modifiedAt": "2026-09-16T11:34:15.261Z"
   },
   {
     "id": "arbeitsagentur-scraper",
@@ -5137,6 +5283,30 @@
     "modifiedAt": "2026-09-07T10:36:02.632Z"
   },
   {
+    "id": "facebook-photos-scraper",
+    "title": "Facebook Photos",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Photos from any public Facebook Page with no login \u2014 direct photo URLs, captions and dates.",
+    "outputs": [
+      "photo URL",
+      "caption",
+      "date",
+      "album",
+      "page",
+      "width"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-r6XTcE8W71l3CixpG-0YB6cabbdo-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-photos-scraper",
+    "status": "public",
+    "createdAt": "2026-09-15T11:50:13.715Z",
+    "modifiedAt": "2026-09-15T11:55:28.360Z"
+  },
+  {
     "id": "apify-facebook-post-search-scraper",
     "title": "Facebook Post Search",
     "category": "social",
@@ -5730,6 +5900,30 @@
     "status": "public",
     "createdAt": "2026-06-20T21:42:46.133Z",
     "modifiedAt": "2026-06-22T23:15:11.740Z"
+  },
+  {
+    "id": "instagram-reel-transcript-scraper",
+    "title": "Instagram Reel Transcript",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Instagram reel transcripts from any reel link \u2014 plain text, SRT and VTT in the reel's language.",
+    "outputs": [
+      "transcript",
+      "SRT",
+      "VTT",
+      "language",
+      "duration",
+      "URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-GQdlpZeOSl3K6xLXk-rA7ahbpj3f-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-reel-transcript-scraper",
+    "status": "public",
+    "createdAt": "2026-08-24T20:32:49.978Z",
+    "modifiedAt": "2026-09-16T21:45:42.504Z"
   },
   {
     "id": "instagram-transcript-scraper",
@@ -7281,6 +7475,30 @@
     "modifiedAt": "2026-09-01T20:31:59.502Z"
   },
   {
+    "id": "wechat-official-account-scraper",
+    "title": "WeChat Official Account",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "WeChat Official Account articles and search \u2014 title, author, publish date, content and article URL.",
+    "outputs": [
+      "title",
+      "author",
+      "date",
+      "content",
+      "account",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-md9KpVd0PpHzcQ6sb-Q1InaUpFxa-wechat.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/wechat-official-account-scraper",
+    "status": "public",
+    "createdAt": "2026-09-14T16:11:55.218Z",
+    "modifiedAt": "2026-09-16T20:49:39.971Z"
+  },
+  {
     "id": "whatsapp-channel-search",
     "title": "WhatsApp Channel Search",
     "category": "social",
@@ -7327,6 +7545,30 @@
     "status": "public",
     "createdAt": "2026-07-18T23:41:29.430Z",
     "modifiedAt": "2026-07-21T05:17:06.421Z"
+  },
+  {
+    "id": "youtube-channel-search-scraper",
+    "title": "YouTube Channel Search",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Search YouTube channels by keyword \u2014 channel name, handle, subscriber count, video count and links.",
+    "outputs": [
+      "channel",
+      "handle",
+      "subscribers",
+      "videos",
+      "description",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aiHBNIoQwxpxTEtzP-2Bz7dE5EFS-youtube2.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/youtube-channel-search-scraper",
+    "status": "public",
+    "createdAt": "2026-09-06T21:19:51.074Z",
+    "modifiedAt": "2026-09-17T21:42:21.606Z"
   },
   {
     "id": "youtube-channel-videos",
@@ -7570,6 +7812,30 @@
     "modifiedAt": "2026-07-01T09:09:15.900Z"
   },
   {
+    "id": "amazon-autocomplete-scraper",
+    "title": "Amazon Autocomplete (+volume)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Amazon search autocomplete suggestions for any seed, with an estimated search-volume signal per term.",
+    "outputs": [
+      "seed",
+      "suggestion",
+      "volume",
+      "rank",
+      "marketplace",
+      "depth"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-DoXesFQA1mb8oW9bb-muDhCKLNii-amazon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/amazon-autocomplete-scraper",
+    "status": "public",
+    "createdAt": "2026-09-11T20:23:16.154Z",
+    "modifiedAt": "2026-09-11T20:32:16.134Z"
+  },
+  {
     "id": "amazon-bestsellers-scraper",
     "title": "Amazon Best Sellers (ranked charts)",
     "category": "ecommerce",
@@ -7594,6 +7860,30 @@
     "modifiedAt": "2026-08-11T04:14:44.340Z"
   },
   {
+    "id": "amazon-keyword-research",
+    "title": "Amazon Keyword Research",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Amazon keyword research \u2014 related terms, result counts and reverse-ASIN keywords for any product or seed.",
+    "outputs": [
+      "keyword",
+      "related",
+      "result count",
+      "reverse ASIN",
+      "rank",
+      "volume"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-DoXesFQA1mb8oW9bb-muDhCKLNii-amazon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/amazon-keyword-research",
+    "status": "public",
+    "createdAt": "2026-09-11T20:29:46.743Z",
+    "modifiedAt": "2026-09-11T20:32:15.395Z"
+  },
+  {
     "id": "amazon-keywords-scraper",
     "title": "Amazon Keyword Suggestions",
     "category": "ecommerce",
@@ -7616,6 +7906,30 @@
     "status": "public",
     "createdAt": "2026-07-22T20:13:33.987Z",
     "modifiedAt": "2026-08-07T16:29:02.170Z"
+  },
+  {
+    "id": "free-amazon-product-scraper",
+    "title": "Amazon Products (free)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Amazon prices and search results at no per-result cost \u2014 title, price, rating, reviews and ASIN.",
+    "outputs": [
+      "title",
+      "price",
+      "rating",
+      "reviews",
+      "ASIN",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-DLE7K9TgcKn6zNXYa-rCTc3rlgHo-amazon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/free-amazon-product-scraper",
+    "status": "public",
+    "createdAt": "2026-09-10T11:18:19.102Z",
+    "modifiedAt": "2026-09-13T12:16:53.868Z"
   },
   {
     "id": "amazon-search",
@@ -7782,6 +8096,30 @@
     "status": "public",
     "createdAt": "2025-08-16T23:06:31.449Z",
     "modifiedAt": "2026-05-08T15:54:39.775Z"
+  },
+  {
+    "id": "autotrader-com-scraper",
+    "title": "AutoTrader.com (USA)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "AutoTrader.com US listings \u2014 VIN, price, mileage, EV battery details and the selling dealer.",
+    "outputs": [
+      "VIN",
+      "price",
+      "mileage",
+      "EV battery",
+      "dealer",
+      "location"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/autotrader-com-scraper",
+    "status": "public",
+    "createdAt": "2026-09-09T12:01:00.380Z",
+    "modifiedAt": "2026-09-14T21:18:57.019Z"
   },
   {
     "id": "autotrader-australia-cheerio",
@@ -8621,6 +8959,30 @@
     "modifiedAt": "2026-04-28T21:44:25.679Z"
   },
   {
+    "id": "noon-scraper",
+    "title": "Noon (UAE, KSA, Egypt, GCC)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Noon products across UAE, KSA, Egypt and the GCC \u2014 title, price, brand, rating and seller.",
+    "outputs": [
+      "title",
+      "price",
+      "brand",
+      "rating",
+      "seller",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hqVJqZGCaauVJcamD-KzZJUv84V1-noon-com-logo-png_seeklogo-467329.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/noon-scraper",
+    "status": "public",
+    "createdAt": "2026-09-12T13:14:36.138Z",
+    "modifiedAt": "2026-09-13T12:30:16.504Z"
+  },
+  {
     "id": "offerup-marketplace-scraper",
     "title": "OfferUp Listings + VINs",
     "category": "ecommerce",
@@ -8837,6 +9199,30 @@
     "modifiedAt": "2026-05-08T16:39:54.054Z"
   },
   {
+    "id": "stockx-search-scraper",
+    "title": "StockX (search + market data)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "StockX search with market data \u2014 lowest ask, highest bid, last sale and price history per product.",
+    "outputs": [
+      "product",
+      "lowest ask",
+      "highest bid",
+      "last sale",
+      "history",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-O9qUzgT1U0lcreKL4-QdZdcvGqPq-stockx-logo-png_seeklogo-436829.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/stockx-search-scraper",
+    "status": "public",
+    "createdAt": "2026-09-10T11:07:43.944Z",
+    "modifiedAt": "2026-09-14T10:17:12.540Z"
+  },
+  {
     "id": "subito-cars-scraper",
     "title": "Subito.it Cars & Motors",
     "category": "ecommerce",
@@ -8907,6 +9293,30 @@
     "status": "public",
     "createdAt": "2026-09-04T05:52:53.315Z",
     "modifiedAt": "2026-09-04T08:11:38.368Z"
+  },
+  {
+    "id": "temu-scraper",
+    "title": "Temu Products",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Temu products by search or category \u2014 title, price, sales, rating and images.",
+    "outputs": [
+      "title",
+      "price",
+      "sales",
+      "rating",
+      "images",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gKrTQrqbOdoCoCRj5-YflfMNa1md-temu.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/temu-scraper",
+    "status": "public",
+    "createdAt": "2026-07-25T00:20:45.469Z",
+    "modifiedAt": "2026-09-16T21:57:51.359Z"
   },
   {
     "id": "tiktok-shop-sales-scraper",
@@ -9003,6 +9413,30 @@
     "status": "public",
     "createdAt": "2026-07-23T16:02:09.764Z",
     "modifiedAt": "2026-07-23T17:59:11.755Z"
+  },
+  {
+    "id": "wayfair-scraper",
+    "title": "Wayfair Products",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Wayfair products \u2014 title, price, stock status, rating and variants by search or URL.",
+    "outputs": [
+      "title",
+      "price",
+      "stock",
+      "rating",
+      "variants",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-I6KpCNqjigUp8CmRe-haONJpbaAv-wayfair.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/wayfair-scraper",
+    "status": "public",
+    "createdAt": "2026-09-12T11:41:19.635Z",
+    "modifiedAt": "2026-09-18T09:29:23.596Z"
   },
   {
     "id": "wendys-menu-scraper",
@@ -9364,6 +9798,30 @@
     "modifiedAt": "2026-08-29T20:07:03.750Z"
   },
   {
+    "id": "deliveroo-scraper",
+    "title": "Deliveroo (menus + ratings)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Deliveroo restaurants \u2014 menus, item prices, ratings and address by area or URL.",
+    "outputs": [
+      "name",
+      "menu",
+      "price",
+      "rating",
+      "address",
+      "cuisine"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ynrpPQe2AeqHhfnKm-8ktSA7X6q3-deliveroo.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/deliveroo-scraper",
+    "status": "public",
+    "createdAt": "2026-09-13T21:52:15.015Z",
+    "modifiedAt": "2026-09-16T20:24:31.456Z"
+  },
+  {
     "id": "doordash-reviews-cheerio",
     "title": "DoorDash \u00b7 Meta \u00b7 Menu \u00b7 Reviews \u00b7 Business \u00b7 Search...",
     "category": "reviews",
@@ -9570,6 +10028,30 @@
     "status": "public",
     "createdAt": "2026-08-14T18:39:42.698Z",
     "modifiedAt": "2026-08-18T14:15:42.830Z"
+  },
+  {
+    "id": "ifood-scraper",
+    "title": "iFood (Brazil, menus + reviews)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "iFood restaurants across Brazil \u2014 menus, prices, reviews, CNPJ and address.",
+    "outputs": [
+      "name",
+      "menu",
+      "price",
+      "reviews",
+      "CNPJ",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-4Ei2ruT5W2KBlaXF6-z1Q679hOUH-ifood.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ifood-scraper",
+    "status": "public",
+    "createdAt": "2026-09-13T20:42:05.887Z",
+    "modifiedAt": "2026-09-17T11:10:01.816Z"
   },
   {
     "id": "judge-me-reviews-scraper",
@@ -10168,6 +10650,54 @@
     "modifiedAt": "2026-08-25T17:07:42.027Z"
   },
   {
+    "id": "1188-lv-scraper",
+    "title": "1188.lv (Latvia)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from 1188.lv, Latvia's directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hMr1EPH9pHpjxTW5Y-ygGeU4Z088-1188.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/1188-lv-scraper",
+    "status": "public",
+    "createdAt": "2026-09-18T15:03:19.689Z",
+    "modifiedAt": "2026-09-18T17:18:42.130Z"
+  },
+  {
+    "id": "2gis-scraper",
+    "title": "2GIS (places, reviews, realty)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "2GIS places across CIS markets \u2014 name, address, phone, hours and rating, plus reviews, jobs and realty where present.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "hours",
+      "rating",
+      "reviews"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2GprgZy5jGojR2zp4-LU7YMm7a6Q-intershala.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/2gis-scraper",
+    "status": "public",
+    "createdAt": "2026-09-12T12:36:23.478Z",
+    "modifiedAt": "2026-09-12T21:51:59.696Z"
+  },
+  {
     "id": "a16z-speedrun-companies-scraper",
     "title": "a16z Speedrun Portfolio",
     "category": "business",
@@ -10312,6 +10842,30 @@
     "modifiedAt": "2026-05-08T15:49:41.513Z"
   },
   {
+    "id": "bizi-scraper",
+    "title": "Bizi.si (Slovenia)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Bizi.si, Slovenia's business registry \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/bizi-scraper",
+    "status": "public",
+    "createdAt": "2026-09-18T17:47:37.822Z",
+    "modifiedAt": "2026-09-18T17:49:08.712Z"
+  },
+  {
     "id": "bizquest-scraper",
     "title": "Bizquest",
     "category": "business",
@@ -10333,30 +10887,6 @@
     "status": "public",
     "createdAt": "2026-03-28T11:13:13.824Z",
     "modifiedAt": "2026-05-09T11:39:13.515Z"
-  },
-  {
-    "id": "brazil-cnpj-receita-federal-scraper",
-    "title": "Brazil CNPJ (Receita Federal)",
-    "category": "business",
-    "tech": [
-      "Apify",
-      "Crawlee"
-    ],
-    "summary": "Receita Federal's registry into lead lists \u2014 every Brazilian company by state, CNAE industry, city, with CNPJ and contact.",
-    "outputs": [
-      "company",
-      "CNPJ",
-      "CNAE",
-      "city",
-      "state",
-      "contact"
-    ],
-    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-3QaMNALtXfM7Odnzg-SGWBLJOBca-minhareceita.webp",
-    "thumb": null,
-    "link": "https://apify.com/memo23/brazil-cnpj-receita-federal-scraper",
-    "status": "public",
-    "createdAt": "2026-07-22T21:07:41.748Z",
-    "modifiedAt": "2026-08-12T10:46:25.842Z"
   },
   {
     "id": "bundesanzeiger-scraper",
@@ -10404,6 +10934,30 @@
     "status": "public",
     "createdAt": "2025-07-24T14:04:54.479Z",
     "modifiedAt": "2026-05-11T06:19:02.216Z"
+  },
+  {
+    "id": "canada411-scraper",
+    "title": "Canada411",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Canada411, the Canadian phone and business directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/canada411-scraper",
+    "status": "public",
+    "createdAt": "2026-09-14T21:13:18.732Z",
+    "modifiedAt": "2026-09-15T14:51:22.737Z"
   },
   {
     "id": "checkatrade-scraper",
@@ -10498,6 +11052,30 @@
     "status": "public",
     "createdAt": "2025-04-11T09:13:49.407Z",
     "modifiedAt": "2026-04-06T21:03:06.116Z"
+  },
+  {
+    "id": "cnpj-scraper",
+    "title": "Consulta CNPJ (Brazil, Receita Federal)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Brazilian company data from Receita Federal by CNPJ \u2014 legal name, status, address, activity codes and partners.",
+    "outputs": [
+      "CNPJ",
+      "legal name",
+      "status",
+      "address",
+      "activity",
+      "partners"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-3QaMNALtXfM7Odnzg-SGWBLJOBca-minhareceita.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/cnpj-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T21:07:41.748Z",
+    "modifiedAt": "2026-09-13T04:57:01.383Z"
   },
   {
     "id": "crunchbase-scraper",
@@ -10618,6 +11196,30 @@
     "status": "public",
     "createdAt": "2026-06-16T20:18:07.660Z",
     "modifiedAt": "2026-06-16T22:06:12.050Z"
+  },
+  {
+    "id": "eniro-scraper",
+    "title": "Eniro.se (Sweden)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Eniro.se, Sweden's business directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-KpqSpEU8nQ5lhOpl0-CFmHePgFgs-eniro.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/eniro-scraper",
+    "status": "public",
+    "createdAt": "2026-09-16T20:34:34.570Z",
+    "modifiedAt": "2026-09-18T17:19:47.230Z"
   },
   {
     "id": "europages-scraper",
@@ -10809,6 +11411,30 @@
     "modifiedAt": "2026-05-08T15:53:48.855Z"
   },
   {
+    "id": "fonecta-scraper",
+    "title": "Fonecta.fi (Finland)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Fonecta.fi, Finland's directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-61Y2p23WmIWKkDdYk-LFOAImnaTZ-fonecta.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/fonecta-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T09:53:52.664Z",
+    "modifiedAt": "2026-09-18T17:20:41.308Z"
+  },
+  {
     "id": "fundainbusiness-scraper",
     "title": "Fundainbusiness.nl \u00b7 Search \u00b7 Details",
     "category": "business",
@@ -10855,6 +11481,30 @@
     "status": "public",
     "createdAt": "2026-01-24T17:37:58.478Z",
     "modifiedAt": "2026-05-08T16:23:29.960Z"
+  },
+  {
+    "id": "gelbeseiten-scraper",
+    "title": "Gelbe Seiten (Germany)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Gelbe Seiten, Germany's yellow pages \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/gelbeseiten-scraper",
+    "status": "public",
+    "createdAt": "2026-09-15T09:40:50.996Z",
+    "modifiedAt": "2026-09-15T14:51:36.883Z"
   },
   {
     "id": "google-ads-transparency-scraper-ppe",
@@ -10953,6 +11603,30 @@
     "modifiedAt": "2026-08-11T04:14:43.210Z"
   },
   {
+    "id": "goudengids-nl-scraper",
+    "title": "Gouden Gids (Netherlands)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Gouden Gids, the Dutch yellow pages \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-LiqToKe7ZtvZoMQO2-xy7QcV8wkl-goudengids.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/goudengids-nl-scraper",
+    "status": "public",
+    "createdAt": "2026-09-16T21:14:58.926Z",
+    "modifiedAt": "2026-09-18T17:20:07.983Z"
+  },
+  {
     "id": "gumroad-scraper",
     "title": "Gumroad Products + Creator Emails",
     "category": "business",
@@ -11023,6 +11697,30 @@
     "status": "public",
     "createdAt": "2026-07-06T04:24:30.092Z",
     "modifiedAt": "2026-07-08T12:57:05.433Z"
+  },
+  {
+    "id": "herold-at-scraper",
+    "title": "Herold.at (Austria)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Herold.at, Austria's business directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/herold-at-scraper",
+    "status": "public",
+    "createdAt": "2026-09-16T06:58:12.382Z",
+    "modifiedAt": "2026-09-16T07:01:07.077Z"
   },
   {
     "id": "houzz-professionals-scraper",
@@ -11359,6 +12057,30 @@
     "modifiedAt": "2026-07-18T10:54:41.944Z"
   },
   {
+    "id": "local-ch-scraper",
+    "title": "local.ch (Switzerland)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from local.ch, the Swiss directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/local-ch-scraper",
+    "status": "public",
+    "createdAt": "2026-09-15T11:53:09.062Z",
+    "modifiedAt": "2026-09-18T17:19:09.372Z"
+  },
+  {
     "id": "louisiana-contractor-leads-scraper",
     "title": "Louisiana Contractor Leads (LSLBC)",
     "category": "business",
@@ -11599,6 +12321,30 @@
     "modifiedAt": "2026-08-25T16:22:24.282Z"
   },
   {
+    "id": "pagesdor-scraper",
+    "title": "Pages d'Or (Belgium)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Pages d'Or / Gouden Gids, Belgium's directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-MTthtCa15OI0Cd2Jn-XyG91D2vvL-pages-be.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pagesdor-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T09:29:48.554Z",
+    "modifiedAt": "2026-09-18T17:20:23.525Z"
+  },
+  {
     "id": "pagesjaunes-scraper-cheerio",
     "title": "PagesJaunes.fr Leads with Emails & Phones Included",
     "category": "business",
@@ -11620,6 +12366,78 @@
     "status": "public",
     "createdAt": "2025-12-01T23:07:27.499Z",
     "modifiedAt": "2026-05-08T16:50:14.010Z"
+  },
+  {
+    "id": "paginegialle-scraper",
+    "title": "PagineGialle (Italy)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from PagineGialle, Italy's yellow pages \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/paginegialle-scraper",
+    "status": "public",
+    "createdAt": "2026-09-15T15:29:37.902Z",
+    "modifiedAt": "2026-09-15T15:34:56.646Z"
+  },
+  {
+    "id": "paginiaurii-scraper",
+    "title": "Pagini Aurii (Romania)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Pagini Aurii, Romania's yellow pages \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tcIj46T4HpC6safNM-ubwdVuqSmE-yellow_pages_1974-1997-logo_brandlogos.net_bywbx.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/paginiaurii-scraper",
+    "status": "public",
+    "createdAt": "2026-09-18T09:41:03.982Z",
+    "modifiedAt": "2026-09-18T17:22:56.235Z"
+  },
+  {
+    "id": "panoramafirm-scraper",
+    "title": "PanoramaFirm (Poland)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from PanoramaFirm.pl, Poland's business directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/panoramafirm-scraper",
+    "status": "public",
+    "createdAt": "2026-09-16T11:34:58.223Z",
+    "modifiedAt": "2026-09-16T11:36:52.381Z"
   },
   {
     "id": "phone-enrichment",
@@ -11694,6 +12512,78 @@
     "modifiedAt": "2026-05-25T06:54:35.447Z"
   },
   {
+    "id": "property-skip-tracing",
+    "title": "Property Skip Tracing",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn a property address into the owner's contact details \u2014 names, phones and emails behind any US address.",
+    "outputs": [
+      "address",
+      "owner",
+      "phone",
+      "email",
+      "mailing address",
+      "type"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-h0M4hKUDhvKMiqb5O-rJEXykHUEi-Thatsthem_f86b521712.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/property-skip-tracing",
+    "status": "public",
+    "createdAt": "2026-07-22T21:11:09.419Z",
+    "modifiedAt": "2026-09-14T22:06:03.690Z"
+  },
+  {
+    "id": "paginasamarelas-scraper",
+    "title": "P\u00e1ginas Amarelas (Portugal)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from P\u00e1ginas Amarelas / pai.pt, Portugal's directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7WAYPDwjLilRzevT0-FYYzjcxVap-paginas-amarelas-logo-png_seeklogo-105358.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/paginasamarelas-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T12:30:52.899Z",
+    "modifiedAt": "2026-09-18T17:17:57.101Z"
+  },
+  {
+    "id": "paginasamarillas-es-scraper",
+    "title": "P\u00e1ginas Amarillas (Spain)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from PaginasAmarillas.es, Spain's yellow pages \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/paginasamarillas-es-scraper",
+    "status": "public",
+    "createdAt": "2026-09-16T07:12:58.449Z",
+    "modifiedAt": "2026-09-16T07:23:48.891Z"
+  },
+  {
     "id": "reddit-ad-inspiration-scraper",
     "title": "Reddit Ad Library",
     "category": "business",
@@ -11742,6 +12632,30 @@
     "modifiedAt": "2026-07-13T00:27:08.570Z"
   },
   {
+    "id": "sherlock",
+    "title": "Sherlock Username Search",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find a username across platforms and pull the email and phone exposed on the matched profiles.",
+    "outputs": [
+      "username",
+      "platform",
+      "profile URL",
+      "email",
+      "phone",
+      "found"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-z5mddFTxiV0jcV2rz-O3NQTjwOOW-sherlock.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/sherlock",
+    "status": "public",
+    "createdAt": "2026-09-12T21:40:57.283Z",
+    "modifiedAt": "2026-09-13T11:19:11.168Z"
+  },
+  {
     "id": "similarweb-scraper",
     "title": "Similarweb Traffic + Rank",
     "category": "business",
@@ -11764,6 +12678,54 @@
     "status": "public",
     "createdAt": "2026-06-10T16:10:44.756Z",
     "modifiedAt": "2026-06-12T11:42:53.241Z"
+  },
+  {
+    "id": "skip-trace-people-finder",
+    "title": "Skip Trace People Finder",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Skip-trace a person to current phone, email and address from a name and location \u2014 built for collections and outreach.",
+    "outputs": [
+      "name",
+      "phone",
+      "email",
+      "address",
+      "age",
+      "relatives"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-v3ly939v1yKrfZ7ul-Nxs0HBl4xv-Thatsthem_f86b521712_%281%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/skip-trace-people-finder",
+    "status": "public",
+    "createdAt": "2026-07-27T04:18:38.395Z",
+    "modifiedAt": "2026-09-14T22:20:03.215Z"
+  },
+  {
+    "id": "social-profile-finder",
+    "title": "Social Profile Finder",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find a creator's accounts across platforms from one seed handle or name, with follower counts and links.",
+    "outputs": [
+      "handle",
+      "platform",
+      "profile URL",
+      "followers",
+      "name",
+      "match"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-jAnIfqUp04MgdqeEg-oxezFhm6yl-social-profile-finder-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/social-profile-finder",
+    "status": "public",
+    "createdAt": "2026-09-17T07:13:33.508Z",
+    "modifiedAt": "2026-09-17T11:10:41.513Z"
   },
   {
     "id": "startupfast-scraper",
@@ -11907,6 +12869,30 @@
     "status": "public",
     "createdAt": "2026-07-28T13:46:08.466Z",
     "modifiedAt": "2026-07-28T14:52:21.052Z"
+  },
+  {
+    "id": "truepeoplesearch-people-search-scraper",
+    "title": "TruePeopleSearch (people)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "TruePeopleSearch by name or location \u2014 full US person records with phones, emails, addresses and relatives.",
+    "outputs": [
+      "name",
+      "phones",
+      "emails",
+      "addresses",
+      "relatives",
+      "age"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-VmfhYQ9tW4ijMWpuN-YcCz3oZcK4-truepeoplesearch.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/truepeoplesearch-people-search-scraper",
+    "status": "public",
+    "createdAt": "2026-07-22T21:21:59.668Z",
+    "modifiedAt": "2026-09-18T16:25:14.563Z"
   },
   {
     "id": "trustmrr-scraper",
@@ -12243,6 +13229,102 @@
     "status": "public",
     "createdAt": "2026-05-01T12:08:05.446Z",
     "modifiedAt": "2026-05-09T11:36:47.254Z"
+  },
+  {
+    "id": "yell-scraper",
+    "title": "Yell.com (UK)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Yell.com, the UK business directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yell-scraper",
+    "status": "public",
+    "createdAt": "2026-09-16T11:58:40.180Z",
+    "modifiedAt": "2026-09-18T17:19:25.156Z"
+  },
+  {
+    "id": "yellowpages-ca-scraper",
+    "title": "Yellow Pages (Canada)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Yellow Pages Canada \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pkEQfZPbaiBSLjuCZ-dV9P6iVAc6-yellowpages_canada.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yellowpages-ca-scraper",
+    "status": "public",
+    "createdAt": "2026-09-14T22:11:56.505Z",
+    "modifiedAt": "2026-09-15T14:51:29.863Z"
+  },
+  {
+    "id": "yellow-pages-us-scraper",
+    "title": "Yellow Pages (US)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Yellow Pages US \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hE1hlaoo5c9JbaJIz-POz4LkxGkn-Yp_lgt_s_rgb_pos.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yellow-pages-us-scraper",
+    "status": "public",
+    "createdAt": "2026-09-14T19:49:19.039Z",
+    "modifiedAt": "2026-09-15T14:51:43.374Z"
+  },
+  {
+    "id": "zlatestranky-sk-scraper",
+    "title": "Zlat\u00e9 str\u00e1nky (Slovakia)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Zlat\u00e9 str\u00e1nky, Slovakia's directory \u2014 company name, address, phone, category and website, ready for lead lists.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-bu1zqBJ0MLgaYqerv-iI45OWv0eg-zlatestranky.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/zlatestranky-sk-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T19:47:20.492Z",
+    "modifiedAt": "2026-09-18T17:17:37.888Z"
   },
   {
     "id": "ai-visibility-tracker",
@@ -12869,6 +13951,30 @@
     "status": "public",
     "createdAt": "2026-07-15T10:46:48.850Z",
     "modifiedAt": "2026-07-20T21:31:17.691Z"
+  },
+  {
+    "id": "skiplagged-scraper",
+    "title": "Skiplagged (flights + hotels)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Skiplagged flights and hotels \u2014 hidden-city fares, price, route, dates and hotel rates.",
+    "outputs": [
+      "route",
+      "price",
+      "dates",
+      "airline",
+      "hotel",
+      "rate"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-LL3cenmaTXUft2DjG-k9qQDRzlw9-skiplagged.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/skiplagged-scraper",
+    "status": "public",
+    "createdAt": "2026-09-12T12:19:20.902Z",
+    "modifiedAt": "2026-09-13T12:01:46.282Z"
   },
   {
     "id": "skyscanner-scraper",
