@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#1557b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#tile)"/>
+  <rect x="122" y="96" width="268" height="328" rx="22" fill="#ffffff"/>
+  <rect x="122" y="96" width="268" height="58" rx="22" fill="#e8f0fe"/>
+  <rect x="122" y="132" width="268" height="22" fill="#e8f0fe"/>
+  <circle cx="156" cy="125" r="8" fill="#1a73e8"/>
+  <circle cx="180" cy="125" r="8" fill="#8ab4f8"/>
+  <circle cx="204" cy="125" r="8" fill="#c5d7f7"/>
+  <rect x="156" y="186" width="200" height="16" rx="8" fill="#1a73e8"/>
+  <rect x="156" y="218" width="168" height="12" rx="6" fill="#5f7aa3"/>
+  <rect x="156" y="248" width="200" height="10" rx="5" fill="#c5d0e0"/>
+  <rect x="156" y="270" width="186" height="10" rx="5" fill="#c5d0e0"/>
+  <rect x="156" y="292" width="154" height="10" rx="5" fill="#c5d0e0"/>
+  <rect x="156" y="338" width="72" height="28" rx="8" fill="#e8f0fe"/>
+  <rect x="240" y="338" width="88" height="28" rx="8" fill="#1a73e8"/>
+</svg>
