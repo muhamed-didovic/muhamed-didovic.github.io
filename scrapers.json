@@ -11962,7 +11962,7 @@
     "modifiedAt": "2026-05-08T15:41:45.021Z"
   },
   {
-    "id": "linkedin-audience-builder",
+    "id": "linkedin-company-url-finder",
     "title": "LinkedIn Audience Builder (ABM)",
     "category": "business",
     "tech": [
@@ -11980,14 +11980,14 @@
     ],
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-w36OYQdErS08KjbKz-8Og6FRGaEL-linkedin_%281%29.jpg",
     "thumb": null,
-    "link": "https://apify.com/memo23/linkedin-audience-builder",
+    "link": "https://apify.com/memo23/linkedin-company-url-finder",
     "status": "public",
     "createdAt": "2026-07-15T09:37:13.179Z",
     "modifiedAt": "2026-07-16T03:23:21.945Z"
   },
   {
-    "id": "linkedin-company-about-scraper",
-    "title": "Linkedin Company About Page",
+    "id": "linkedin-company-profile-scraper",
+    "title": "LinkedIn Company Profile",
     "category": "business",
     "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZtdXyb9PAdYL5SbDq-nfdf9mwo3Y-linkedin.png",
     "thumb": null,
@@ -12003,7 +12003,7 @@
       "contact",
       "location"
     ],
-    "link": "https://apify.com/memo23/linkedin-company-about-scraper",
+    "link": "https://apify.com/memo23/linkedin-company-profile-scraper",
     "status": "public",
     "createdAt": "2025-09-25T18:35:51.867Z",
     "modifiedAt": "2026-04-28T21:37:54.710Z"
