@@ -310,6 +310,30 @@
     "modifiedAt": "2026-05-08T15:50:46.203Z"
   },
   {
+    "id": "boligsiden-scraper",
+    "title": "Boligsiden.dk (Denmark)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Homes and property from Boligsiden.dk, Denmark's portal \u2014 price, rooms, area, type, address and agent.",
+    "outputs": [
+      "price",
+      "rooms",
+      "area",
+      "type",
+      "address",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-iaw820LTEcfObXoTp-1JtruLea1L-boligsaden.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/boligsiden-scraper",
+    "status": "public",
+    "createdAt": "2026-10-01T11:22:31.257Z",
+    "modifiedAt": "2026-10-03T11:36:41.463Z"
+  },
+  {
     "id": "buildium-scraper",
     "title": "Buildium Rentals (+email/phone)",
     "category": "real-estate",
@@ -332,6 +356,30 @@
     "status": "public",
     "createdAt": "2026-09-17T19:20:40.384Z",
     "modifiedAt": "2026-09-18T17:55:34.681Z"
+  },
+  {
+    "id": "centris-scraper",
+    "title": "Centris (Quebec, Canada)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Listings from Centris, Quebec's real-estate portal \u2014 price, beds/baths, area, type, address and broker.",
+    "outputs": [
+      "price",
+      "beds",
+      "baths",
+      "area",
+      "address",
+      "broker"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-6O0Bd0hPU9btcTCMF-zFTBhsoPO7-ventris.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/centris-scraper",
+    "status": "public",
+    "createdAt": "2026-09-28T10:45:34.547Z",
+    "modifiedAt": "2026-10-06T18:27:35.433Z"
   },
   {
     "id": "cian-real-estate-scraper",
@@ -921,6 +969,30 @@
     "status": "public",
     "createdAt": "2026-07-06T04:34:35.793Z",
     "modifiedAt": "2026-07-08T12:58:21.363Z"
+  },
+  {
+    "id": "homes-com-scraper",
+    "title": "Homes.com (no proxy needed)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US listings from Homes.com with no proxy needed \u2014 price, beds/baths, area, address and agent.",
+    "outputs": [
+      "price",
+      "beds",
+      "baths",
+      "area",
+      "address",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-zRUMAF2baeiKxhzIA-ZXBYGgfpnR-442839_logo_homes-com.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/homes-com-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T11:54:04.107Z",
+    "modifiedAt": "2026-10-06T21:14:52.560Z"
   },
   {
     "id": "housesigma",
@@ -1933,6 +2005,30 @@
     "modifiedAt": "2026-05-08T16:33:33.115Z"
   },
   {
+    "id": "rentcafe-scraper",
+    "title": "RentCafe Rentals",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US rentals from RentCafe \u2014 unit, rent, beds/baths, amenities, address and property contact.",
+    "outputs": [
+      "unit",
+      "rent",
+      "beds",
+      "baths",
+      "amenities",
+      "contact"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ah4ZyiqvFnka9kwoF-Q5YWCwQXQ3-rentcafe-logo-png_seeklogo-426283.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/rentcafe-scraper",
+    "status": "public",
+    "createdAt": "2026-09-27T21:14:08.749Z",
+    "modifiedAt": "2026-10-07T18:11:37.763Z"
+  },
+  {
     "id": "rently-scraper",
     "title": "Rently Rentals (+phone)",
     "category": "real-estate",
@@ -2093,6 +2189,30 @@
     "status": "public",
     "createdAt": "2025-07-12T21:38:29.158Z",
     "modifiedAt": "2026-05-08T16:39:49.176Z"
+  },
+  {
+    "id": "spitogatos-scraper",
+    "title": "Spitogatos.gr (Greece)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Property from Spitogatos.gr, Greece's portal \u2014 price, area, rooms, type, location and agent.",
+    "outputs": [
+      "price",
+      "area",
+      "rooms",
+      "type",
+      "location",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-iKhtdqUhpgFErJoNV-VnqkX0OBLu-sptogatos.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/spitogatos-scraper",
+    "status": "public",
+    "createdAt": "2026-10-01T11:36:47.984Z",
+    "modifiedAt": "2026-10-06T08:43:50.470Z"
   },
   {
     "id": "sreality-scraper",
@@ -3714,6 +3834,30 @@
     "modifiedAt": "2026-05-09T13:19:04.914Z"
   },
   {
+    "id": "hirist-jobs-scraper",
+    "title": "Hirist (India tech jobs)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "India tech jobs from Hirist \u2014 title, company, skills, salary, recruiter and location.",
+    "outputs": [
+      "title",
+      "company",
+      "skills",
+      "salary",
+      "recruiter",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Ovt9rigu38Fdp6Aqt-buroFH2nhh-hirist.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/hirist-jobs-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T11:22:52.300Z",
+    "modifiedAt": "2026-10-06T19:05:55.088Z"
+  },
+  {
     "id": "iimjobs-scraper",
     "title": "iimjobs India Management Jobs",
     "category": "jobs",
@@ -4927,6 +5071,30 @@
     "modifiedAt": "2026-05-25T06:27:20.356Z"
   },
   {
+    "id": "unstop-jobs-internships-scraper",
+    "title": "Unstop Jobs & Internships",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Jobs and internships from Unstop \u2014 title, company, stipend, eligibility, deadline and apply link.",
+    "outputs": [
+      "title",
+      "company",
+      "stipend",
+      "eligibility",
+      "deadline",
+      "apply URL"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xW9MhXKF15Wgtq03F-ih4PjcjeBp-unstop.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/unstop-jobs-internships-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T05:45:15.581Z",
+    "modifiedAt": "2026-10-04T09:13:16.669Z"
+  },
+  {
     "id": "upwork-jobs-scraper-ppe",
     "title": "Upwork Jobs (130K+ instant DB)",
     "category": "jobs",
@@ -5332,6 +5500,30 @@
     "status": "public",
     "createdAt": "2026-07-05T22:46:30.990Z",
     "modifiedAt": "2026-07-06T05:36:31.137Z"
+  },
+  {
+    "id": "facebook-ads-library-scraper-cheerio",
+    "title": "Facebook Ads Library (+reach)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook Ad Library ads with the richest output, reach included \u2014 advertiser, creative, dates and spend signals.",
+    "outputs": [
+      "advertiser",
+      "creative",
+      "reach",
+      "dates",
+      "platform",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-3853UUZQG6pjjdw11-9XalbCKdzy-facebook.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-ads-library-scraper-cheerio",
+    "status": "public",
+    "createdAt": "2025-03-17T10:03:11.818Z",
+    "modifiedAt": "2026-10-06T17:14:35.697Z"
   },
   {
     "id": "facebook-comments-scraper",
@@ -6525,6 +6717,30 @@
     "modifiedAt": "2026-05-08T16:53:06.904Z"
   },
   {
+    "id": "medium-article-scraper",
+    "title": "Medium Articles",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Medium articles by publication, tag or author \u2014 title, author, claps, responses, content and date.",
+    "outputs": [
+      "title",
+      "author",
+      "claps",
+      "responses",
+      "content",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-bMMISwBjdJnYp6MYF-SeIVsGrP7L-medium.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/medium-article-scraper",
+    "status": "public",
+    "createdAt": "2026-10-01T12:52:59.352Z",
+    "modifiedAt": "2026-10-07T18:11:39.419Z"
+  },
+  {
     "id": "meetup-scraper",
     "title": "Meetup Events + Groups + Members",
     "category": "social",
@@ -6930,6 +7146,30 @@
     "modifiedAt": "2026-05-18T22:54:37.690Z"
   },
   {
+    "id": "social-metrics-mcp-server",
+    "title": "Social Metrics MCP Server",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "A hosted MCP server that hands AI agents Instagram, X and YouTube metrics for any account from one interface.",
+    "outputs": [
+      "account",
+      "platform",
+      "followers",
+      "engagement",
+      "views",
+      "source"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/social-metrics-mcp-server",
+    "status": "public",
+    "createdAt": "2026-07-15T09:25:24.215Z",
+    "modifiedAt": "2026-10-01T06:24:16.100Z"
+  },
+  {
     "id": "socialblade-scraper",
     "title": "SocialBlade Creator Stats",
     "category": "social",
@@ -7121,6 +7361,30 @@
     "modifiedAt": "2026-08-11T08:32:38.370Z"
   },
   {
+    "id": "tiktok-fake-followers-checker",
+    "title": "TikTok Fake Followers Checker",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Audit any TikTok account for fake followers \u2014 engagement and view ratios scored into a real-vs-fake estimate.",
+    "outputs": [
+      "handle",
+      "real %",
+      "fake %",
+      "engagement",
+      "views",
+      "score"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-sQQjLddRyelrsZtQy-d3AEdior1r-transparent-tiktok-logo-black-and-white-logo-tiktok-app-minima-m",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-fake-followers-checker",
+    "status": "public",
+    "createdAt": "2026-09-29T19:38:57.288Z",
+    "modifiedAt": "2026-10-06T18:00:42.781Z"
+  },
+  {
     "id": "tiktok-followers-scraper",
     "title": "TikTok Followers & Following (no login)",
     "category": "social",
@@ -7191,6 +7455,30 @@
     "status": "public",
     "createdAt": "2026-06-25T08:54:10.134Z",
     "modifiedAt": "2026-06-25T13:25:52.131Z"
+  },
+  {
+    "id": "tiktok-lookalike-finder",
+    "title": "TikTok Lookalike Finder",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find TikTok creators similar to any seed account, no login \u2014 handle, followers, niche and similarity.",
+    "outputs": [
+      "handle",
+      "followers",
+      "niche",
+      "similarity",
+      "region",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-IWxHgJEbfXNU65RgC-XOTCgK8RrH-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-lookalike-finder",
+    "status": "public",
+    "createdAt": "2026-10-01T21:37:22.398Z",
+    "modifiedAt": "2026-10-07T18:11:10.420Z"
   },
   {
     "id": "tiktok-mention-scraper",
@@ -8601,6 +8889,30 @@
     "modifiedAt": "2026-08-18T15:51:22.657Z"
   },
   {
+    "id": "carmarket-scraper",
+    "title": "carmarket.ch (Swiss cars)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Swiss cars from carmarket.ch \u2014 price, mileage, year, EV battery details and the selling dealer.",
+    "outputs": [
+      "price",
+      "mileage",
+      "year",
+      "EV battery",
+      "dealer",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-KUkI8oesCxvXgEZBN-Y8clJBwQig-1777028312439carmarket_logo_M.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/carmarket-scraper",
+    "status": "public",
+    "createdAt": "2026-10-07T06:27:53.942Z",
+    "modifiedAt": "2026-10-07T10:16:48.651Z"
+  },
+  {
     "id": "cars-scraper",
     "title": "Cars.com (VIN \u00b7 Price History \u00b7 Specs)",
     "category": "ecommerce",
@@ -9034,6 +9346,30 @@
     "modifiedAt": "2026-07-20T21:02:51.878Z"
   },
   {
+    "id": "facebook-marketplace-cheerio",
+    "title": "Facebook Marketplace",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook Marketplace search and detail pages \u2014 title, price, location, seller and images.",
+    "outputs": [
+      "title",
+      "price",
+      "location",
+      "seller",
+      "images",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/3pS4Ux0mBVXsgDUUE/DcKDYc4oEx8DxsFzE-facebook.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-marketplace-cheerio",
+    "status": "public",
+    "createdAt": "2024-10-24T12:29:57.403Z",
+    "modifiedAt": "2026-10-07T18:22:00.630Z"
+  },
+  {
     "id": "facebook-marketplace-scraper-ppe",
     "title": "Facebook Marketplace Get newest items ASAP",
     "category": "ecommerce",
@@ -9129,6 +9465,30 @@
     "modifiedAt": "2026-05-08T15:46:10.446Z"
   },
   {
+    "id": "idealo-scraper",
+    "title": "idealo (price comparison, 6 countries)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "idealo price comparison across 6 countries \u2014 product, best price, shop offers and specs.",
+    "outputs": [
+      "product",
+      "best price",
+      "offers",
+      "shop",
+      "specs",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-I1smhbsg11NMm7QxP-djQDIymBcm-idealo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/idealo-scraper",
+    "status": "public",
+    "createdAt": "2026-10-01T07:21:41.578Z",
+    "modifiedAt": "2026-10-06T19:09:25.459Z"
+  },
+  {
     "id": "indiamart-scraper",
     "title": "IndiaMART Suppliers",
     "category": "ecommerce",
@@ -9151,6 +9511,30 @@
     "status": "public",
     "createdAt": "2026-07-22T22:54:20.077Z",
     "modifiedAt": "2026-08-11T10:57:22.630Z"
+  },
+  {
+    "id": "instagram-shop-products-scraper",
+    "title": "Instagram Shop Products (+emails)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Instagram Shop products with no login \u2014 title, price, product details and the shop's contact email.",
+    "outputs": [
+      "title",
+      "price",
+      "details",
+      "shop",
+      "email",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-mwNLarTB2HlZaR3ln-6epbLgeerT-instagram.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-shop-products-scraper",
+    "status": "public",
+    "createdAt": "2026-09-28T07:35:50.903Z",
+    "modifiedAt": "2026-10-07T18:11:15.189Z"
   },
   {
     "id": "kijiji-scraper",
@@ -9272,6 +9656,30 @@
     "modifiedAt": "2026-06-11T04:06:39.006Z"
   },
   {
+    "id": "lowes-scraper",
+    "title": "Lowe's (products + store stock)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Lowe's products \u2014 price, store-level stock, specs and ratings by search, URL or store.",
+    "outputs": [
+      "product",
+      "price",
+      "stock",
+      "specs",
+      "rating",
+      "store"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-UdXFyo069qoIj64Xf-TJGofhwcX2-lowes.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/lowes-scraper",
+    "status": "public",
+    "createdAt": "2026-10-03T12:59:57.812Z",
+    "modifiedAt": "2026-10-07T10:56:02.102Z"
+  },
+  {
     "id": "marktplaats-nl-scraper",
     "title": "Marktplaats.nl Classifieds",
     "category": "ecommerce",
@@ -9366,6 +9774,30 @@
     "status": "public",
     "createdAt": "2024-07-04T17:23:48.683Z",
     "modifiedAt": "2026-05-08T16:15:06.894Z"
+  },
+  {
+    "id": "nettiauto-scraper",
+    "title": "Nettiauto (Finland cars)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Finnish cars from Nettiauto \u2014 price, mileage, year, EV battery details and the dealer.",
+    "outputs": [
+      "price",
+      "mileage",
+      "year",
+      "EV battery",
+      "dealer",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZQSBKoXn4SrEdXdQW-Ga0OYKVclS-nettiauto.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/nettiauto-scraper",
+    "status": "public",
+    "createdAt": "2026-10-02T19:46:54.130Z",
+    "modifiedAt": "2026-10-07T18:11:35.697Z"
   },
   {
     "id": "njuskalo-scraper",
@@ -10370,6 +10802,30 @@
     "modifiedAt": "2026-05-10T19:29:19.835Z"
   },
   {
+    "id": "facebook-reviews-scraper",
+    "title": "Facebook Reviews (no login)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Every review on a public Facebook Page with no login \u2014 reviewer, recommendation verdict, text and date.",
+    "outputs": [
+      "reviewer",
+      "verdict",
+      "text",
+      "date",
+      "page",
+      "likes"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-mhHQeq6EcbmdFcM1G-7g2bpdEoak-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T12:49:11.521Z",
+    "modifiedAt": "2026-10-06T21:01:45.538Z"
+  },
+  {
     "id": "feedaty-reviews-scraper",
     "title": "Feedaty Merchant Reviews (Italy)",
     "category": "reviews",
@@ -10746,6 +11202,30 @@
     "status": "public",
     "createdAt": "2026-07-10T22:27:12.631Z",
     "modifiedAt": "2026-07-13T15:53:57.481Z"
+  },
+  {
+    "id": "shopee-reviews-scraper",
+    "title": "Shopee Reviews (8 markets)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Shopee shop and product reviews across 8 markets \u2014 rating, text, variant, author and date.",
+    "outputs": [
+      "rating",
+      "text",
+      "variant",
+      "author",
+      "date",
+      "product"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-cUCFeQBSNd5kQQBza-CecRYxZ9xs-shopee.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/shopee-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-10-07T10:55:02.192Z",
+    "modifiedAt": "2026-10-07T15:16:27.753Z"
   },
   {
     "id": "steam-reviews-scraper",
@@ -11750,6 +12230,30 @@
     "modifiedAt": "2026-07-08T20:48:12.894Z"
   },
   {
+    "id": "email-verifier",
+    "title": "Email Verifier (bulk SMTP)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bulk email verification with an SMTP and catch-all check \u2014 per-address status, deliverability and MX details.",
+    "outputs": [
+      "email",
+      "status",
+      "deliverable",
+      "catch-all",
+      "MX",
+      "score"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/email-verifier",
+    "status": "public",
+    "createdAt": "2026-09-19T11:16:00.327Z",
+    "modifiedAt": "2026-10-06T18:51:08.903Z"
+  },
+  {
     "id": "empireflippers-scraper",
     "title": "Empire Flippers Businesses For Sale",
     "category": "business",
@@ -12105,6 +12609,30 @@
     "status": "public",
     "createdAt": "2026-09-20T22:04:32.269Z",
     "modifiedAt": "2026-09-21T09:26:27.230Z"
+  },
+  {
+    "id": "goodfirms-scraper",
+    "title": "GoodFirms (B2B agencies)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "B2B agencies from GoodFirms \u2014 company, services, rating, reviews, location and website.",
+    "outputs": [
+      "company",
+      "services",
+      "rating",
+      "reviews",
+      "location",
+      "website"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-GWkohdtpnMNev2rEe-LGg36sqy4d-goofirms.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/goodfirms-scraper",
+    "status": "public",
+    "createdAt": "2026-09-25T20:20:05.665Z",
+    "modifiedAt": "2026-10-06T18:26:55.694Z"
   },
   {
     "id": "google-ads-transparency-scraper-ppe",
@@ -12655,6 +13183,30 @@
     "status": "public",
     "createdAt": "2025-09-25T18:35:51.867Z",
     "modifiedAt": "2026-04-28T21:37:54.710Z"
+  },
+  {
+    "id": "linkedin-email-finder",
+    "title": "LinkedIn Email Finder (verified)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Verified work emails from a LinkedIn profile URL \u2014 name, title, company, email and verification status.",
+    "outputs": [
+      "name",
+      "title",
+      "company",
+      "email",
+      "verified",
+      "profile"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-laZkQaqlIxHlvVd7P-hWhDM8FDb3-linkedin.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-email-finder",
+    "status": "public",
+    "createdAt": "2026-10-01T21:15:32.497Z",
+    "modifiedAt": "2026-10-07T18:11:34.433Z"
   },
   {
     "id": "linkedin-people-search",
@@ -13280,6 +13832,30 @@
     "modifiedAt": "2026-09-13T11:19:11.168Z"
   },
   {
+    "id": "signingagent-scraper",
+    "title": "SigningAgent (notary directory)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Notary signing agents from SigningAgent.com \u2014 name, location, certifications and contact details.",
+    "outputs": [
+      "name",
+      "location",
+      "certifications",
+      "phone",
+      "email",
+      "profile"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-mKUlJnSC1Mmqsb8Kb-bTMWq7ryeA-signingagent.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/signingagent-scraper",
+    "status": "public",
+    "createdAt": "2026-10-06T09:22:11.623Z",
+    "modifiedAt": "2026-10-07T18:11:39.960Z"
+  },
+  {
     "id": "similarweb-scraper",
     "title": "Similarweb Traffic + Rank",
     "category": "business",
@@ -13446,6 +14022,30 @@
     "status": "public",
     "createdAt": "2026-07-19T21:08:47.926Z",
     "modifiedAt": "2026-07-22T04:21:44.563Z"
+  },
+  {
+    "id": "superprof-scraper",
+    "title": "Superprof (tutors)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Tutors from Superprof \u2014 name, subject, price per hour, location, rating and profile.",
+    "outputs": [
+      "name",
+      "subject",
+      "price",
+      "location",
+      "rating",
+      "profile"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-jh5c22QcRmnv0TQjI-K0dkAcP2cd-superprof.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/superprof-scraper",
+    "status": "public",
+    "createdAt": "2026-09-28T09:44:52.694Z",
+    "modifiedAt": "2026-10-07T18:11:37.880Z"
   },
   {
     "id": "telelistas-scraper",
@@ -13662,6 +14262,30 @@
     "modifiedAt": "2026-07-13T15:25:15.806Z"
   },
   {
+    "id": "us-business-entity-search",
+    "title": "US Business Entity Search (SoS)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US company records from Secretary of State registries \u2014 entity name, status, ID, filing date, agent and address.",
+    "outputs": [
+      "entity",
+      "status",
+      "ID",
+      "filing date",
+      "agent",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-NlOA7qw4D3XqCPbv5-vXI0drRRcf-e-secretary-of-state.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/us-business-entity-search",
+    "status": "public",
+    "createdAt": "2026-10-02T06:10:28.015Z",
+    "modifiedAt": "2026-10-07T18:11:40.474Z"
+  },
+  {
     "id": "us-contractor-license-leads-scraper",
     "title": "US Contractor Leads (multi-state)",
     "category": "business",
@@ -13827,6 +14451,30 @@
     "status": "public",
     "createdAt": "2026-07-08T03:54:47.660Z",
     "modifiedAt": "2026-07-08T05:21:46.384Z"
+  },
+  {
+    "id": "whop-content-rewards-scraper",
+    "title": "Whop Content Rewards",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Whop content-reward campaigns \u2014 campaign, payout, platform, requirements and the posting creators.",
+    "outputs": [
+      "campaign",
+      "payout",
+      "platform",
+      "requirements",
+      "creators",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Kjfhf9Rzekw9tC3O0-gJPkMdAzcr-whop.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/whop-content-rewards-scraper",
+    "status": "public",
+    "createdAt": "2026-09-26T05:47:29.114Z",
+    "modifiedAt": "2026-10-02T16:23:18.909Z"
   },
   {
     "id": "whop-leaderboards-scraper",
@@ -14144,6 +14792,30 @@
     "modifiedAt": "2026-06-29T03:57:05.171Z"
   },
   {
+    "id": "bing-search-scraper",
+    "title": "Bing Search",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bing search results for any query \u2014 title, URL, snippet and rank per page.",
+    "outputs": [
+      "title",
+      "URL",
+      "snippet",
+      "rank",
+      "query",
+      "page"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-OmMgiLyh67WC3LK8L-dhTZfUTO9E-bing-logo-png_seeklogo-470816.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bing-search-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T05:19:57.474Z",
+    "modifiedAt": "2026-10-04T11:38:41.976Z"
+  },
+  {
     "id": "company-intelligence-mcp",
     "title": "Company Intelligence MCP (for AI agents)",
     "category": "other",
@@ -14166,6 +14838,30 @@
     "status": "public",
     "createdAt": "2026-07-10T21:39:26.479Z",
     "modifiedAt": "2026-07-14T20:40:51.256Z"
+  },
+  {
+    "id": "dataroma-scraper",
+    "title": "Dataroma Superinvestor Holdings",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Dataroma superinvestor portfolios \u2014 investor, holding, ticker, portfolio weight and recent activity.",
+    "outputs": [
+      "investor",
+      "holding",
+      "ticker",
+      "weight",
+      "change",
+      "period"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-c4ohWg8RJKBUaueJ3-h8KTVHfAoC-datorama.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dataroma-scraper",
+    "status": "public",
+    "createdAt": "2026-09-20T10:26:37.396Z",
+    "modifiedAt": "2026-09-28T06:17:33.030Z"
   },
   {
     "id": "dexscreener-scraper",
@@ -14334,6 +15030,30 @@
     "status": "public",
     "createdAt": "2026-06-05T21:19:48.638Z",
     "modifiedAt": "2026-06-08T19:58:28.017Z"
+  },
+  {
+    "id": "google-hotels-scraper",
+    "title": "Google Hotels (prices + rates)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google Hotels by query and dates \u2014 hotel, nightly price, rating and per-booking-site rate comparison.",
+    "outputs": [
+      "hotel",
+      "price",
+      "rating",
+      "site rates",
+      "dates",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aWrlY8VO6ry6TfQSQ-uSMi5VKWRW-google_hotels.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-hotels-scraper",
+    "status": "public",
+    "createdAt": "2026-10-07T13:15:24.530Z",
+    "modifiedAt": "2026-10-07T18:02:25.550Z"
   },
   {
     "id": "google-news-scraper",
@@ -14526,6 +15246,30 @@
     "status": "public",
     "createdAt": "2026-08-04T13:43:57.139Z",
     "modifiedAt": "2026-08-10T09:59:16.333Z"
+  },
+  {
+    "id": "ouest-france-scraper",
+    "title": "Ouest-France",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Articles from Ouest-France \u2014 title, author, section, publish date and full text.",
+    "outputs": [
+      "title",
+      "author",
+      "section",
+      "date",
+      "text",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-vai0Y0OftfezYHfb8-dwibJT4bCB-ouest-france-logo-png_seeklogo-104658.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ouest-france-scraper",
+    "status": "public",
+    "createdAt": "2026-10-03T18:40:31.554Z",
+    "modifiedAt": "2026-10-07T18:11:38.886Z"
   },
   {
     "id": "pdf-text-extractor",
