@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#041E42"/>
+  <rect x="36" y="36" width="440" height="440" rx="72" fill="#0B3B7A"/>
+  <!-- cart -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 150 H146 L186 318 H368 L404 196 H172"/>
+  </g>
+  <rect x="196" y="214" width="186" height="80" rx="14" fill="#1D6FD6"/>
+  <circle cx="206" cy="372" r="26" fill="#FFFFFF"/>
+  <circle cx="346" cy="372" r="26" fill="#FFFFFF"/>
+  <!-- price tag -->
+  <g transform="translate(300, 78)">
+    <path d="M0 30 L30 0 H100 A16 16 0 0 1 116 16 V64 A16 16 0 0 1 100 80 H30 Z" fill="#FFC220"/>
+    <circle cx="24" cy="40" r="8" fill="#041E42"/>
+    <text x="68" y="54" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="800" font-size="30" fill="#041E42">$</text>
+  </g>
+</svg>
