@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8f3"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="card" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#b7b0b0" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+
+  <text x="600" y="72" text-anchor="middle" font-size="38" font-weight="700" fill="#2b1608">How the Homes.com Scraper Works</text>
+  <text x="600" y="108" text-anchor="middle" font-size="18" fill="#6b4a33">From a city, ZIP or any homes.com URL to clean listing, agent and owner data</text>
+  <rect x="480" y="128" width="240" height="2" fill="#ffcaa1"/>
+
+  <!-- connectors -->
+  <rect x="400" y="390" width="30" height="3" fill="#ff850f"/>
+  <rect x="770" y="390" width="30" height="3" fill="#ff850f"/>
+
+  <!-- 1 Input -->
+  <g transform="translate(60,170)">
+    <rect width="340" height="440" rx="16" fill="#ffffff" stroke="#ffdbc2" filter="url(#card)"/>
+    <circle cx="32" cy="38" r="17" fill="#ff850f"/>
+    <text x="32" y="44" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">1</text>
+    <text x="62" y="46" font-size="24" font-weight="700" fill="#2b1608">Input</text>
+
+    <g font-size="15" fill="#2b1608">
+      <rect x="22" y="76" width="296" height="44" rx="10" fill="#fff4ea" stroke="#ffdbc2"/>
+      <text x="38" y="96" font-weight="700">Locations</text>
+      <text x="38" y="113" font-size="12.5" fill="#7a5a43">Austin, TX · Hudson County, NJ · 10001</text>
+
+      <rect x="22" y="130" width="296" height="44" rx="10" fill="#fff4ea" stroke="#ffdbc2"/>
+      <text x="38" y="150" font-weight="700">homes.com search URLs</text>
+      <text x="38" y="167" font-size="12.5" fill="#7a5a43">/austin-tx/homes-for-rent/?bed-min=2</text>
+
+      <rect x="22" y="184" width="296" height="44" rx="10" fill="#fff4ea" stroke="#ffdbc2"/>
+      <text x="38" y="204" font-weight="700">Property URLs</text>
+      <text x="38" y="221" font-size="12.5" fill="#7a5a43">/property/&lt;address&gt;/&lt;id&gt;/</text>
+    </g>
+
+    <text x="22" y="262" font-size="12" font-weight="700" fill="#a0643a" letter-spacing="1">FILTERS AND MODES</text>
+    <g font-size="12.5" fill="#8a3d00">
+      <rect x="22" y="274" width="92" height="28" rx="14" fill="#ffe7d4"/><text x="68" y="292" text-anchor="middle">For sale</text>
+      <rect x="122" y="274" width="92" height="28" rx="14" fill="#ffe7d4"/><text x="168" y="292" text-anchor="middle">For rent</text>
+      <rect x="222" y="274" width="96" height="28" rx="14" fill="#ffe7d4"/><text x="270" y="292" text-anchor="middle">Sold</text>
+      <rect x="22" y="310" width="140" height="28" rx="14" fill="#ffe7d4"/><text x="92" y="328" text-anchor="middle">Price · beds · baths</text>
+      <rect x="170" y="310" width="148" height="28" rx="14" fill="#ffe7d4"/><text x="244" y="328" text-anchor="middle">Foreclosures · pending</text>
+      <rect x="22" y="346" width="140" height="28" rx="14" fill="#ffe7d4"/><text x="92" y="364" text-anchor="middle">11 sort orders</text>
+      <rect x="170" y="346" width="148" height="28" rx="14" fill="#ffe7d4"/><text x="244" y="364" text-anchor="middle">Agents mode</text>
+    </g>
+    <rect x="22" y="396" width="296" height="1" fill="#f3e3d6"/>
+    <text x="170" y="422" text-anchor="middle" font-size="13" fill="#7a5a43">Mix locations and URLs in one run</text>
+  </g>
+
+  <!-- 2 Processing -->
+  <g transform="translate(430,170)">
+    <rect width="340" height="440" rx="16" fill="#ffffff" stroke="#ffdbc2" filter="url(#card)"/>
+    <circle cx="32" cy="38" r="17" fill="#ff850f"/>
+    <text x="32" y="44" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">2</text>
+    <text x="62" y="46" font-size="24" font-weight="700" fill="#2b1608">Processing</text>
+
+    <rect x="36" y="92" width="2" height="206" fill="#ffcaa1"/>
+    <g font-size="15" fill="#2b1608">
+      <circle cx="37" cy="92" r="11" fill="#ff850f"/><text x="37" y="97" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">a</text>
+      <text x="60" y="97">Match the real city or ZIP boundary</text>
+      <circle cx="37" cy="144" r="11" fill="#ff850f"/><text x="37" y="149" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">b</text>
+      <text x="60" y="149">Search homes.com with your filters</text>
+      <circle cx="37" cy="196" r="11" fill="#ff850f"/><text x="37" y="201" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">c</text>
+      <text x="60" y="201">Split big areas until complete</text>
+      <circle cx="37" cy="248" r="11" fill="#ff850f"/><text x="37" y="253" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">d</text>
+      <text x="60" y="253">Read each listing (+ full page)</text>
+      <circle cx="37" cy="298" r="11" fill="#ff850f"/><text x="37" y="303" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">e</text>
+      <text x="60" y="303">Drop duplicates and non-matches</text>
+    </g>
+
+    <text x="22" y="346" font-size="12" font-weight="700" fill="#a0643a" letter-spacing="1">OPTIONAL</text>
+    <g font-size="12.5">
+      <rect x="22" y="358" width="140" height="28" rx="14" fill="#e6f4ea"/><text x="92" y="376" text-anchor="middle" fill="#1d6b36">Full details</text>
+      <rect x="170" y="358" width="148" height="28" rx="14" fill="#e6f4ea"/><text x="244" y="376" text-anchor="middle" fill="#1d6b36">Owner records</text>
+    </g>
+    <rect x="22" y="398" width="296" height="1" fill="#f3e3d6"/>
+    <text x="170" y="424" text-anchor="middle" font-size="13" fill="#7a5a43">Only new listings on repeat runs</text>
+  </g>
+
+  <!-- 3 Output -->
+  <g transform="translate(800,170)">
+    <rect width="340" height="440" rx="16" fill="#ffffff" stroke="#ffdbc2" filter="url(#card)"/>
+    <circle cx="32" cy="38" r="17" fill="#ff850f"/>
+    <text x="32" y="44" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">3</text>
+    <text x="62" y="46" font-size="24" font-weight="700" fill="#2b1608">Output</text>
+
+    <rect x="22" y="72" width="296" height="268" rx="10" fill="#24160c"/>
+    <g font-family="Menlo, Monaco, Courier New, monospace" font-size="12.5">
+      <text x="38" y="100" fill="#ffb981">address: <tspan fill="#f5efe9">9437 Caves Valley Dr...</tspan></text>
+      <text x="38" y="124" fill="#ffb981">listingType: <tspan fill="#f5efe9">forSale</tspan></text>
+      <text x="38" y="148" fill="#ffb981">price: <tspan fill="#f5efe9">524900</tspan></text>
+      <text x="38" y="172" fill="#ffb981">beds: <tspan fill="#f5efe9">4</tspan>  baths: <tspan fill="#f5efe9">2</tspan>  sqft: <tspan fill="#f5efe9">2281</tspan></text>
+      <text x="38" y="196" fill="#ffb981">yearBuilt: <tspan fill="#f5efe9">2004</tspan></text>
+      <text x="38" y="220" fill="#ffb981">agentName: <tspan fill="#f5efe9">Jane Doe</tspan></text>
+      <text x="38" y="244" fill="#ffb981">agentEmail: <tspan fill="#f5efe9">jane@example.com</tspan></text>
+      <text x="38" y="268" fill="#ffb981">brokerage: <tspan fill="#f5efe9">Example Realty</tspan></text>
+      <text x="38" y="292" fill="#ffb981">photos: <tspan fill="#f5efe9">[39 URLs]</tspan></text>
+      <text x="38" y="316" fill="#8f7a6a">// one clean row per property</text>
+    </g>
+
+    <g font-size="13" font-weight="700" fill="#ffffff">
+      <rect x="22" y="356" width="70" height="30" rx="15" fill="#ff850f"/><text x="57" y="376" text-anchor="middle">JSON</text>
+      <rect x="100" y="356" width="64" height="30" rx="15" fill="#ff850f"/><text x="132" y="376" text-anchor="middle">CSV</text>
+      <rect x="172" y="356" width="70" height="30" rx="15" fill="#ff850f"/><text x="207" y="376" text-anchor="middle">Excel</text>
+    </g>
+    <rect x="22" y="398" width="296" height="1" fill="#f3e3d6"/>
+    <text x="170" y="424" text-anchor="middle" font-size="13" fill="#7a5a43">One row per property, or per agent</text>
+  </g>
+
+  <!-- bottom strip -->
+  <rect x="60" y="638" width="1080" height="46" rx="10" fill="#ff850f"/>
+  <text x="600" y="667" text-anchor="middle" font-size="17" font-weight="600" fill="#ffffff">For sale · For rent · Sold · Agent contacts · Owner records · Price and tax history · Schools</text>
+</svg>
