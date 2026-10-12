@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <rect width="1200" height="720" fill="#041E42"/>
+  <text x="600" y="58" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">How Walmart Scraper works</text>
+  <text x="600" y="92" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#FFC220">URL, keyword or item id to listing pages to one row per product, review, seller offer or seller</text>
+
+  <!-- 1. Start -->
+  <g transform="translate(36, 140)">
+    <rect width="258" height="500" rx="18" fill="#F2F6FC"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#041E42">1. Start</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">Paste any Walmart URL</text>
+    <rect x="16" y="88" width="226" height="34" rx="8" fill="#E1ECFA" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="110" font-family="Menlo, Consolas, monospace" font-size="11" fill="#041E42">/search?q=coffee+maker</text>
+    <rect x="16" y="130" width="226" height="34" rx="8" fill="#E1ECFA" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="152" font-family="Menlo, Consolas, monospace" font-size="11" fill="#041E42">/cp/coffee-makers/5438660</text>
+    <rect x="16" y="172" width="226" height="34" rx="8" fill="#E1ECFA" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="194" font-family="Menlo, Consolas, monospace" font-size="11" fill="#041E42">/ip/5162907971</text>
+    <rect x="16" y="214" width="226" height="34" rx="8" fill="#E1ECFA" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="236" font-family="Menlo, Consolas, monospace" font-size="11" fill="#041E42">/global/seller/101063684</text>
+    <text x="20" y="282" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="14" fill="#041E42">Or type it in</text>
+    <text x="20" y="304" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">keywords · category ids · item ids</text>
+    <rect x="16" y="326" width="108" height="28" rx="14" fill="#0B3B7A"/>
+    <text x="70" y="345" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">walmart.com</text>
+    <rect x="134" y="326" width="108" height="28" rx="14" fill="#0B3B7A"/>
+    <text x="188" y="345" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">walmart.ca</text>
+    <text x="20" y="396" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">Every request leaves from a</text>
+    <text x="20" y="416" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">new residential address in the</text>
+    <text x="20" y="436" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">marketplace's country.</text>
+  </g>
+
+  <!-- 2. Listing -->
+  <g transform="translate(326, 140)">
+    <rect width="258" height="500" rx="18" fill="#F2F6FC"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#041E42">2. Listing</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">About 40 products a page, 25 max</text>
+    <rect x="16" y="88" width="226" height="118" rx="10" fill="#FFFFFF" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="112" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="13" fill="#041E42">Ninja 12-Cup Coffee Maker</text>
+    <text x="28" y="136" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="15" fill="#0B3B7A">$64.97</text>
+    <text x="92" y="136" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#6B7C93">was $74.00 · 12% off</text>
+    <text x="28" y="160" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">4.6 stars · 8,985 ratings</text>
+    <text x="28" y="182" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#2E7D32">Free shipping, arrives today</text>
+    <rect x="16" y="222" width="100" height="26" rx="13" fill="#FFC220"/>
+    <text x="66" y="240" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#041E42">Best seller</text>
+    <rect x="126" y="222" width="88" height="26" rx="13" fill="#FFC220"/>
+    <text x="170" y="240" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#041E42">Sponsored</text>
+    <text x="20" y="286" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="14" fill="#041E42">Every tile keeps</text>
+    <text x="20" y="310" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">price and was-price</text>
+    <text x="20" y="330" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">all deal badges</text>
+    <text x="20" y="350" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">seller, stock, shipping, pickup</text>
+    <text x="20" y="370" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">rank and sponsored flag</text>
+    <text x="20" y="414" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">Sort and price range filters</text>
+    <text x="20" y="434" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">apply to every search.</text>
+  </g>
+
+  <!-- 3. Per product -->
+  <g transform="translate(616, 140)">
+    <rect width="258" height="500" rx="18" fill="#F2F6FC"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#041E42">3. Each product</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">Pick the result type</text>
+    <rect x="16" y="88" width="226" height="112" rx="10" fill="#FFFFFF" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="112" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="13" fill="#0B3B7A">Full product record</text>
+    <text x="28" y="134" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">UPC, specs, variants, images</text>
+    <text x="28" y="154" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">star breakdown, returns</text>
+    <text x="28" y="174" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">priced for ZIP 07003, NJ</text>
+    <rect x="16" y="210" width="226" height="112" rx="10" fill="#FFFFFF" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="234" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="13" fill="#0B3B7A">Customer reviews</text>
+    <text x="28" y="256" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">newest, oldest, helpful</text>
+    <text x="28" y="276" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">1 and 2 stars, verified only</text>
+    <text x="28" y="296" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">since 2026-09-01</text>
+    <rect x="16" y="332" width="226" height="112" rx="10" fill="#FFFFFF" stroke="#1D6FD6" stroke-width="1"/>
+    <text x="28" y="356" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="13" fill="#0B3B7A">Seller offers</text>
+    <text x="28" y="378" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">every seller: price, condition</text>
+    <text x="28" y="398" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">shipping, WFS, rating</text>
+    <text x="28" y="418" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#041E42">+ seller email and phone</text>
+  </g>
+
+  <!-- 4. Output -->
+  <g transform="translate(906, 140)">
+    <rect width="258" height="500" rx="18" fill="#F2F6FC"/>
+    <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" font-size="20" fill="#041E42">4. Dataset</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">One row per result</text>
+    <rect x="16" y="88" width="226" height="236" rx="10" fill="#0B1F3A"/>
+    <text x="28" y="112" font-family="Menlo, Consolas, monospace" font-size="11" fill="#FFC220">{</text>
+    <text x="36" y="132" font-family="Menlo, Consolas, monospace" font-size="11" fill="#9FC4F5">"recordType": "offer",</text>
+    <text x="36" y="152" font-family="Menlo, Consolas, monospace" font-size="11" fill="#9FC4F5">"position": 2,</text>
+    <text x="36" y="172" font-family="Menlo, Consolas, monospace" font-size="11" fill="#9FC4F5">"sellerDisplayName":</text>
+    <text x="44" y="192" font-family="Menlo, Consolas, monospace" font-size="11" fill="#FFFFFF">"GFAP LLC",</text>
+    <text x="36" y="212" font-family="Menlo, Consolas, monospace" font-size="11" fill="#9FC4F5">"price": 93.98,</text>
+    <text x="36" y="232" font-family="Menlo, Consolas, monospace" font-size="11" fill="#9FC4F5">"sellerRating": 3.83,</text>
+    <text x="36" y="252" font-family="Menlo, Consolas, monospace" font-size="11" fill="#9FC4F5">"freeShipping": true,</text>
+    <text x="36" y="272" font-family="Menlo, Consolas, monospace" font-size="11" fill="#9FC4F5">"sellerState": "FL"</text>
+    <text x="28" y="296" font-family="Menlo, Consolas, monospace" font-size="11" fill="#FFC220">}</text>
+    <text x="20" y="362" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="14" fill="#041E42">recordType tells you</text>
+    <text x="20" y="384" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">product · review · offer · seller</text>
+    <rect x="16" y="410" width="226" height="32" rx="16" fill="#1D6FD6"/>
+    <text x="129" y="431" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">JSON · CSV · Excel · API</text>
+  </g>
+
+  <!-- arrows -->
+  <g fill="#FFC220">
+    <path d="M300 382 L318 390 L300 398 Z"/>
+    <path d="M590 382 L608 390 L590 398 Z"/>
+    <path d="M880 382 L898 390 L880 398 Z"/>
+  </g>
+</svg>
