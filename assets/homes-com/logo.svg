@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9a33"/>
+      <stop offset="100%" stop-color="#e66100"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#5a2400" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="72" fill="url(#bg)"/>
+
+  <!-- House -->
+  <g filter="url(#shadow)">
+    <path d="M256 92 L420 222 L384 222 L384 394 L128 394 L128 222 L92 222 Z" fill="#ffffff"/>
+    <!-- data rows inside the house -->
+    <rect x="164" y="248" width="184" height="22" rx="11" fill="#ffdbc2"/>
+    <rect x="164" y="290" width="140" height="22" rx="11" fill="#ffcaa1"/>
+    <rect x="164" y="332" width="104" height="22" rx="11" fill="#ffb981"/>
+  </g>
+
+  <!-- Magnifier -->
+  <g filter="url(#shadow)">
+    <circle cx="360" cy="372" r="58" fill="#1f2328"/>
+    <circle cx="360" cy="372" r="34" fill="none" stroke="#ff850f" stroke-width="12"/>
+    <line x1="385" y1="397" x2="412" y2="424" stroke="#ff850f" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>
