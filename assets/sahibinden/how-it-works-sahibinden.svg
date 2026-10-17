@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2C2C2C"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFE000"/>
+      <stop offset="100%" stop-color="#FFC700"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="600" y="70" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">How the Sahibinden scraper works</text>
+
+  <!-- Column 1: Input -->
+  <g transform="translate(60, 130)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="320" height="460" rx="20" fill="#2C2C2C" stroke="#FFE000" stroke-width="2"/>
+    <rect x="0" y="0" width="320" height="60" rx="20" fill="#FFE000"/>
+    <rect x="0" y="40" width="320" height="20" fill="#FFE000"/>
+    <text x="160" y="40" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a" text-anchor="middle">1. Input</text>
+    <g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF">
+      <text x="30" y="110">Listing type</text>
+      <text x="30" y="140" fill="#888" font-size="14">Sale / Rent / Daily</text>
+      <text x="30" y="180">City + district</text>
+      <text x="30" y="210" fill="#888" font-size="14">81 Turkish provinces</text>
+      <text x="30" y="250">Filters</text>
+      <text x="30" y="280" fill="#888" font-size="14">Price, rooms, sort</text>
+      <text x="30" y="320">Max results</text>
+      <text x="30" y="350" fill="#888" font-size="14">Cap pagination</text>
+      <text x="30" y="390">Phone extraction</text>
+      <text x="30" y="420" fill="#888" font-size="14">opt-in add-on</text>
+    </g>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g transform="translate(400, 340)">
+    <path d="M 0 0 L 40 0 M 30 -10 L 40 0 L 30 10" stroke="#FFE000" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Column 2: Fetch + Parse -->
+  <g transform="translate(460, 130)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="320" height="460" rx="20" fill="#2C2C2C" stroke="#FFE000" stroke-width="2"/>
+    <rect x="0" y="0" width="320" height="60" rx="20" fill="#FFE000"/>
+    <rect x="0" y="40" width="320" height="20" fill="#FFE000"/>
+    <text x="160" y="40" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a" text-anchor="middle">2. Fetch + Parse</text>
+    <g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF">
+      <text x="30" y="110">Apify Unblocker</text>
+      <text x="30" y="140" fill="#888" font-size="14">clears Cloudflare</text>
+      <text x="30" y="180">Search page HTML</text>
+      <text x="30" y="210" fill="#888" font-size="14">20 listings per page</text>
+      <text x="30" y="250">cheerio parser</text>
+      <text x="30" y="280" fill="#888" font-size="14">title, price, rooms, area</text>
+      <text x="30" y="320">Detail page fetch</text>
+      <text x="30" y="350" fill="#888" font-size="14">25 attributes + GPS</text>
+      <text x="30" y="390">Phone deobfuscation</text>
+      <text x="30" y="420" fill="#888" font-size="14">CSS-hidden numbers</text>
+    </g>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g transform="translate(800, 340)">
+    <path d="M 0 0 L 40 0 M 30 -10 L 40 0 L 30 10" stroke="#FFE000" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Column 3: Emit -->
+  <g transform="translate(860, 130)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="280" height="460" rx="20" fill="#2C2C2C" stroke="#FFE000" stroke-width="2"/>
+    <rect x="0" y="0" width="280" height="60" rx="20" fill="#FFE000"/>
+    <rect x="0" y="40" width="280" height="20" fill="#FFE000"/>
+    <text x="140" y="40" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a" text-anchor="middle">3. Emit</text>
+    <g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF">
+      <text x="30" y="110">Dataset rows</text>
+      <text x="30" y="140" fill="#888" font-size="14">one per listing</text>
+      <text x="30" y="180">25+ fields</text>
+      <text x="30" y="210" fill="#888" font-size="14">structured JSON</text>
+      <text x="30" y="250">Phone numbers</text>
+      <text x="30" y="280" fill="#888" font-size="14">owner listings only</text>
+      <text x="30" y="320">Export</text>
+      <text x="30" y="350" fill="#888" font-size="14">JSON or CSV</text>
+      <text x="30" y="390">PPE billing</text>
+      <text x="30" y="420" fill="#888" font-size="14">$0.00699/listing</text>
+    </g>
+  </g>
+
+  <!-- Bottom note -->
+  <text x="600" y="660" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="16" fill="#888" text-anchor="middle">No login required. Unblocker handles Cloudflare. Cookies optional for authenticated features.</text>
+</svg>
