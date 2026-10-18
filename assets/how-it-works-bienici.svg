@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFB90C"/>
+      <stop offset="100%" stop-color="#e0a000"/>
+    </linearGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="9" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1600" height="14" fill="#FFB90C"/>
+
+  <text x="800" y="100" text-anchor="middle" fill="#ffffff" font-size="52" font-weight="800">How the Bien'ici Scraper works</text>
+  <text x="800" y="148" text-anchor="middle" fill="#FFB90C" font-size="26">Pure JSON API · no browser · no anti-bot · no proxy</text>
+
+  <!-- 1. Input -->
+  <g transform="translate(80,210)">
+    <rect width="440" height="600" rx="20" fill="#222" filter="url(#ds)"/>
+    <circle cx="220" cy="80" r="44" fill="url(#yellow)"/>
+    <text x="220" y="96" text-anchor="middle" font-weight="800" font-size="40" fill="#1a1a1a">1</text>
+    <text x="220" y="170" text-anchor="middle" font-weight="800" font-size="30" fill="#ffffff">Input</text>
+    <g font-size="20" fill="#FFB90C">
+      <text x="40" y="230">• Search URL</text>
+      <text x="40" y="270">• Listing URL</text>
+      <text x="40" y="310">• City slugs</text>
+      <text x="40" y="350">• buy / rent</text>
+      <text x="40" y="390">• property types</text>
+      <text x="40" y="430">• price / surface / rooms</text>
+      <text x="40" y="470">• new builds only</text>
+      <text x="40" y="510">• maxItems</text>
+    </g>
+  </g>
+
+  <!-- 2. Scrape -->
+  <g transform="translate(580,210)">
+    <rect width="440" height="600" rx="20" fill="#222" filter="url(#ds)"/>
+    <circle cx="220" cy="80" r="44" fill="url(#yellow)"/>
+    <text x="220" y="96" text-anchor="middle" font-weight="800" font-size="40" fill="#1a1a1a">2</text>
+    <text x="220" y="170" text-anchor="middle" font-weight="800" font-size="30" fill="#ffffff">Scrape</text>
+    <g font-size="20" fill="#FFB90C">
+      <text x="40" y="230">/realEstateAds.json</text>
+      <text x="40" y="266" font-size="16" fill="#999">filters JSON payload</text>
+      <text x="40" y="320">paginate from/size</text>
+      <text x="40" y="356" font-size="16" fill="#999">up to 500 per page</text>
+      <text x="40" y="410">/realEstateAd.json</text>
+      <text x="40" y="446" font-size="16" fill="#999">full detail per id</text>
+      <text x="40" y="500">dedup by listing id</text>
+    </g>
+  </g>
+
+  <!-- 3. Output -->
+  <g transform="translate(1080,210)">
+    <rect width="440" height="600" rx="20" fill="#222" filter="url(#ds)"/>
+    <circle cx="220" cy="80" r="44" fill="url(#yellow)"/>
+    <text x="220" y="96" text-anchor="middle" font-weight="800" font-size="40" fill="#1a1a1a">3</text>
+    <text x="220" y="170" text-anchor="middle" font-weight="800" font-size="30" fill="#ffffff">Output</text>
+    <g font-size="20" fill="#FFB90C">
+      <text x="40" y="230">• price · €/m²</text>
+      <text x="40" y="270">• surface · rooms</text>
+      <text x="40" y="310">• DPE / GHG rating</text>
+      <text x="40" y="350">• photos gallery</text>
+      <text x="40" y="390">• GPS coordinates</text>
+      <text x="40" y="430">• agency name · phone</text>
+      <text x="40" y="470">• description</text>
+      <text x="40" y="510">• JSON · CSV · Excel</text>
+    </g>
+  </g>
+
+  <text x="800" y="860" text-anchor="middle" fill="#999" font-size="22">memo23/bienici-scraper · pay-per-event · free tier 5 items</text>
+</svg>
