@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f3d"/>
+      <stop offset="100%" stop-color="#061425"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f3f8fc"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1ec690"/>
+      <stop offset="100%" stop-color="#0a9e6a"/>
+    </linearGradient>
+    <filter id="ds" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1ec690"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- decorative arcs -->
+  <g opacity="0.07">
+    <circle cx="1480" cy="70" r="240" fill="none" stroke="#1ec690" stroke-width="2.5" stroke-dasharray="7 10"/>
+    <circle cx="120"  cy="830" r="240" fill="none" stroke="#1ec690" stroke-width="2.5" stroke-dasharray="7 10"/>
+  </g>
+
+  <!-- Title -->
+  <text x="800" y="78" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+        font-weight="800" font-size="46" fill="#ffffff">How the CarGurus Scraper works</text>
+  <text x="800" y="120" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+        font-weight="500" font-size="22" fill="#1ec690">ZIP codes → mobile-gateway JSON (no DataDome, no browser) → full vehicle-listing rows</text>
+
+  <!-- STEP 1 — Input -->
+  <g transform="translate(60, 190)" filter="url(#ds)">
+    <rect width="430" height="560" rx="22" fill="url(#card)" stroke="#0a9e6a" stroke-width="2.5"/>
+    <text x="26" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="800" font-size="26" fill="#061425">1 · Input</text>
+    <text x="26" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="500" font-size="17" fill="#4a6b78">US ZIP codes + search radius</text>
+
+    <g transform="translate(26, 104)">
+      <rect width="378" height="46" rx="10" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.2"/>
+      <text x="18" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="14" fill="#061425">zips: ["02116", "90210", "60601"]</text>
+    </g>
+    <g transform="translate(26, 160)">
+      <rect width="378" height="46" rx="10" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.2"/>
+      <text x="18" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="14" fill="#061425">distance: 50 miles (1–500)</text>
+    </g>
+
+    <text x="26" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="700" font-size="18" fill="#061425">Sort order</text>
+    <g transform="translate(26, 264)">
+      <rect width="180" height="38" rx="19" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.2"/>
+      <text x="90" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#0a9e6a">Best match</text>
+    </g>
+    <g transform="translate(216, 264)">
+      <rect width="188" height="38" rx="19" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.2"/>
+      <text x="94" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#0a9e6a">Price / Mileage</text>
+    </g>
+    <g transform="translate(26, 312)">
+      <rect width="180" height="38" rx="19" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.2"/>
+      <text x="90" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#0a9e6a">Year newest</text>
+    </g>
+    <g transform="translate(216, 312)">
+      <rect width="188" height="38" rx="19" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.2"/>
+      <text x="94" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#0a9e6a">Days on market</text>
+    </g>
+
+    <text x="26" y="396" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="700" font-size="18" fill="#061425">Run limits</text>
+    <g transform="translate(26, 412)">
+      <rect width="378" height="46" rx="10" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.2"/>
+      <text x="18" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="14" fill="#061425">maxItems: 1000 · concurrency: 5</text>
+    </g>
+
+    <text x="26" y="500" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-size="16" fill="#4a6b78">Multiple ZIPs run in parallel;</text>
+    <text x="26" y="522" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-size="16" fill="#4a6b78">results deduped by listing id.</text>
+  </g>
+
+  <!-- ARROW 1 → 2 -->
+  <line x1="500" y1="470" x2="570" y2="470" stroke="#1ec690" stroke-width="4" marker-end="url(#arr)"/>
+
+  <!-- STEP 2 — Fetch -->
+  <g transform="translate(585, 190)" filter="url(#ds)">
+    <rect width="430" height="560" rx="22" fill="url(#card)" stroke="#0a9e6a" stroke-width="2.5"/>
+    <text x="26" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="800" font-size="26" fill="#061425">2 · Fetch</text>
+    <text x="26" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="500" font-size="17" fill="#4a6b78">Mobile-gateway JSON · impit + residential</text>
+
+    <g transform="translate(26, 104)">
+      <rect width="378" height="56" rx="12" fill="#061425"/>
+      <text x="18" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="800" font-size="16" fill="#ffffff">/v1/search/preflight</text>
+      <text x="18" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="500" font-size="13" fill="#a5d8e6">first page + totalListings count</text>
+    </g>
+    <g transform="translate(26, 172)">
+      <rect width="378" height="56" rx="12" fill="#061425"/>
+      <text x="18" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="800" font-size="16" fill="#ffffff">/v1/search/page?offset=N</text>
+      <text x="18" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="500" font-size="13" fill="#a5d8e6">auto-pagination until maxItems</text>
+    </g>
+
+    <!-- No DataDome highlight -->
+    <g transform="translate(26, 244)">
+      <rect width="378" height="64" rx="12" fill="#e8f7f0" stroke="#0a9e6a" stroke-width="1.8"/>
+      <circle cx="26" cy="32" r="12" fill="#0a9e6a"/>
+      <text x="26" y="37" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="900" font-size="14" fill="#ffffff">✓</text>
+      <text x="48" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="800" font-size="15" fill="#0a5a3e">No DataDome on this path</text>
+      <text x="48" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-size="13" fill="#0a5a3e">HTML/search pages are walled; the</text>
+      <text x="48" y="63" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-size="13" fill="#0a5a3e">mobile gateway API is open.</text>
+    </g>
+
+    <text x="26" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="700" font-size="18" fill="#061425">Stack</text>
+    <g transform="translate(26, 362)">
+      <rect width="378" height="42" rx="10" fill="#e8f7f0"/>
+      <circle cx="22" cy="21" r="6" fill="url(#greenGrad)"/>
+      <text x="40" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#061425">impit (Chrome fingerprint) — no browser</text>
+    </g>
+    <g transform="translate(26, 412)">
+      <rect width="378" height="42" rx="10" fill="#e8f7f0"/>
+      <circle cx="22" cy="21" r="6" fill="url(#greenGrad)"/>
+      <text x="40" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#061425">Evomi residential + auto fallback</text>
+    </g>
+
+    <text x="26" y="500" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-size="16" fill="#4a6b78">Tile data already carries every</text>
+    <text x="26" y="522" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-size="16" fill="#4a6b78">buyer-facing field — no detail call.</text>
+  </g>
+
+  <!-- ARROW 2 → 3 -->
+  <line x1="1025" y1="470" x2="1095" y2="470" stroke="#1ec690" stroke-width="4" marker-end="url(#arr)"/>
+
+  <!-- STEP 3 — Emit -->
+  <g transform="translate(1110, 190)" filter="url(#ds)">
+    <rect width="430" height="560" rx="22" fill="url(#card)" stroke="#0a9e6a" stroke-width="2.5"/>
+    <text x="26" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="800" font-size="26" fill="#061425">3 · Emit rows</text>
+    <text x="26" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="500" font-size="17" fill="#4a6b78">One dataset row per vehicle listing</text>
+
+    <g transform="translate(26, 104)">
+      <rect width="378" height="190" rx="12" fill="#061425"/>
+      <text x="16" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="13" fill="#7ec699">{ "title": "2017 Kia Optima",</text>
+      <text x="16" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="13" fill="#e0e0e0">  "price": 11991, "mileage": 83175,</text>
+      <text x="16" y="74" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="13" fill="#e0e0e0">  "dealRating": "FAIR_PRICE",</text>
+      <text x="16" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="13" fill="#e0e0e0">  "vin": "KL4CJFSB7EB535747",</text>
+      <text x="16" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="13" fill="#e0e0e0">  "dealerName": "Somerville Motors",</text>
+      <text x="16" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="13" fill="#e0e0e0">  "dealerPhone": "(617) 539-7628",</text>
+      <text x="16" y="162" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="13" fill="#1ec690">  "photos": [39 URLs], … }</text>
+    </g>
+
+    <text x="26" y="332" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="700" font-size="18" fill="#061425">Every row includes:</text>
+    <g transform="translate(26, 348)">
+      <rect width="378" height="42" rx="10" fill="#e8f7f0"/>
+      <circle cx="22" cy="21" r="6" fill="url(#greenGrad)"/>
+      <text x="40" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#061425">Make · model · trim · year · engine</text>
+    </g>
+    <g transform="translate(26, 398)">
+      <rect width="378" height="42" rx="10" fill="#e8f7f0"/>
+      <circle cx="22" cy="21" r="6" fill="url(#greenGrad)"/>
+      <text x="40" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#061425">Price · expected · deal score + rating</text>
+    </g>
+    <g transform="translate(26, 448)">
+      <rect width="378" height="42" rx="10" fill="#e8f7f0"/>
+      <circle cx="22" cy="21" r="6" fill="url(#greenGrad)"/>
+      <text x="40" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#061425">VIN · stock # · days on market</text>
+    </g>
+    <g transform="translate(26, 498)">
+      <rect width="378" height="42" rx="10" fill="#e8f7f0"/>
+      <circle cx="22" cy="21" r="6" fill="url(#greenGrad)"/>
+      <text x="40" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+            font-weight="700" font-size="14" fill="#061425">Dealer name · city · phone · photos</text>
+    </g>
+  </g>
+
+  <!-- Footer summary -->
+  <g transform="translate(80, 806)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="700" font-size="18" fill="#ffffff">What makes this one different:</text>
+    <text y="26" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-size="16" fill="#a5d8e6">bypasses the DataDome wall via the mobile app's own gateway API · pure JSON, no headless browser · VIN, deal rating and dealer contact on every row.</text>
+  </g>
+
+  <text x="1520" y="880" text-anchor="end"
+        font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+        font-weight="700" font-size="15" fill="#a5d8e6" opacity="0.6" letter-spacing="3">APIFY ACTOR · MEMO23</text>
+</svg>
