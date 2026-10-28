@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#322A52"/>
+      <stop offset="100%" stop-color="#16121F"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#A3E635"/>
+    </linearGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="11" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#A3E635"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g fill="#FFFFFF" opacity="0.04">
+    <circle cx="60" cy="60" r="5"/><circle cx="140" cy="60" r="5"/>
+    <circle cx="60" cy="660" r="5"/><circle cx="1140" cy="60" r="5"/><circle cx="1140" cy="660" r="5"/>
+  </g>
+
+  <g font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="70" y="86" font-size="38" font-weight="800" fill="#FFFFFF">How it works</text>
+    <text x="70" y="126" font-size="21" font-weight="500" fill="#A8A7B7">Every competitor's position on one row per keyword, best opportunities first.</text>
+
+    <!-- STEP 1 : input -->
+    <g filter="url(#ds)" transform="translate(70,180)">
+      <rect width="280" height="230" rx="24" fill="#251E3E" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">1</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">Your site + rivals</text>
+
+      <rect x="28" y="80" width="224" height="30" rx="8" fill="#1B152A"/>
+      <text x="40" y="101" font-size="15" font-family="ui-monospace, Menlo, monospace" fill="#FFFFFF">moz.com</text>
+      <rect x="28" y="118" width="224" height="30" rx="8" fill="#1B152A"/>
+      <text x="40" y="139" font-size="15" font-family="ui-monospace, Menlo, monospace" fill="#A3E635">semrush.com</text>
+      <rect x="28" y="156" width="224" height="30" rx="8" fill="#1B152A"/>
+      <text x="40" y="177" font-size="15" font-family="ui-monospace, Menlo, monospace" fill="#A3E635">ahrefs.com</text>
+      <text x="28" y="212" font-size="15" font-style="italic" fill="#8B89A0">leave rivals empty: top 3 picked</text>
+    </g>
+
+    <line x1="366" y1="295" x2="424" y2="295" stroke="#A3E635" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <!-- STEP 2 : checks -->
+    <g filter="url(#ds)" transform="translate(440,180)">
+      <rect width="300" height="230" rx="24" fill="#251E3E" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">2</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">Checked first</text>
+
+      <text x="28" y="98"  font-size="16" font-weight="500" fill="#C9C7D6">✓ URLs trimmed to domains</text>
+      <text x="28" y="128" font-size="16" font-weight="500" fill="#C9C7D6">✓ volume and position filters</text>
+      <text x="28" y="158" font-size="16" font-weight="500" fill="#C9C7D6">✓ 88 countries, 46 languages</text>
+      <text x="28" y="188" font-size="16" font-weight="500" fill="#C9C7D6">✓ rows fit your spending limit</text>
+      <text x="28" y="214" font-size="15" font-style="italic" fill="#8B89A0">filtered rows are never fetched</text>
+    </g>
+
+    <line x1="756" y1="295" x2="814" y2="295" stroke="#A3E635" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <!-- STEP 3 : two pulls per competitor -->
+    <g filter="url(#ds)" transform="translate(830,180)">
+      <rect width="300" height="230" rx="24" fill="#251E3E" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">3</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">Two pulls per rival</text>
+
+      <rect x="28" y="82" width="244" height="56" rx="14" fill="#1B152A" stroke="#3D3460"/>
+      <circle cx="54" cy="110" r="11" fill="url(#green)"/>
+      <text x="78" y="106" font-size="17" font-weight="700" fill="#FFFFFF">They rank, you don't</text>
+      <text x="78" y="127" font-size="14" fill="#8B89A0">gapType: missing</text>
+
+      <rect x="28" y="150" width="244" height="56" rx="14" fill="#1B152A" stroke="#3D3460"/>
+      <circle cx="54" cy="178" r="11" fill="#A8A7B7"/>
+      <text x="78" y="174" font-size="17" font-weight="700" fill="#FFFFFF">Both rank, they lead</text>
+      <text x="78" y="195" font-size="14" fill="#8B89A0">gapType: behind</text>
+    </g>
+
+    <!-- STEP 4 : output -->
+    <g filter="url(#ds)" transform="translate(70,464)">
+      <rect width="1060" height="196" rx="24" fill="#211B36" stroke="#3D3460" stroke-width="2"/>
+      <circle cx="42" cy="46" r="20" fill="#A3E635" opacity="0.18"/>
+      <text x="42" y="53" font-size="20" font-weight="800" fill="#A3E635" text-anchor="middle">4</text>
+      <text x="76" y="53" font-size="22" font-weight="700" fill="#FFFFFF">One row per keyword, brand terms dropped, scored 0-100</text>
+
+      <!-- a real row from the 2026-10-28 moz.com run -->
+      <rect x="28" y="80" width="1004" height="52" rx="14" fill="#1B152A" stroke="#3D3460"/>
+      <g font-size="16" font-weight="600">
+        <text x="48"  y="112" fill="#FFFFFF">check backlinks</text>
+        <text x="218" y="112" fill="#8B89A0">90,500/mo</text>
+        <text x="338" y="112" fill="#A8A7B7">moz.com #14</text>
+        <text x="476" y="112" fill="#A3E635">ahrefs.com #1</text>
+        <text x="620" y="112" fill="#A3E635">semrush.com #2</text>
+      </g>
+      <rect x="788" y="92" width="96" height="28" rx="14" fill="url(#green)"/>
+      <text x="836" y="112" font-size="15" font-weight="800" fill="#16121F" text-anchor="middle">score 73</text>
+      <rect x="896" y="92" width="118" height="28" rx="14" fill="none" stroke="#A3E635" stroke-width="2"/>
+      <text x="955" y="112" font-size="15" font-weight="700" fill="#A3E635" text-anchor="middle">quick win</text>
+
+      <g font-size="15" font-weight="600">
+        <rect x="28"  y="146" width="150" height="34" rx="17" fill="#251E3E" stroke="#3D3460"/>
+        <text x="103" y="168" fill="#A3E635" text-anchor="middle">search volume</text>
+        <rect x="190" y="146" width="80"  height="34" rx="17" fill="#251E3E" stroke="#3D3460"/>
+        <text x="230" y="168" fill="#A3E635" text-anchor="middle">CPC</text>
+        <rect x="282" y="146" width="112" height="34" rx="17" fill="#251E3E" stroke="#3D3460"/>
+        <text x="338" y="168" fill="#A3E635" text-anchor="middle">difficulty</text>
+        <rect x="406" y="146" width="88"  height="34" rx="17" fill="#251E3E" stroke="#3D3460"/>
+        <text x="450" y="168" fill="#A3E635" text-anchor="middle">intent</text>
+        <rect x="506" y="146" width="140" height="34" rx="17" fill="#251E3E" stroke="#3D3460"/>
+        <text x="576" y="168" fill="#A3E635" text-anchor="middle">ranking URLs</text>
+      </g>
+      <text x="1032" y="169" font-size="16" font-weight="500" fill="#8B89A0" text-anchor="end">Also: rankings for 25 sites, top 100 competitors</text>
+    </g>
+  </g>
+</svg>
