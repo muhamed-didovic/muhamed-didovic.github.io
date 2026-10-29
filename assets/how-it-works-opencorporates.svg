@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 1800" width="3200" height="1800" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <rect width="3200" height="1800" fill="#0f172a"/>
+  <!-- Title -->
+  <text x="1600" y="120" text-anchor="middle" fill="#f8fafc" font-size="64" font-weight="700">OpenCorporates Scraper</text>
+  <text x="1600" y="180" text-anchor="middle" fill="#94a3b8" font-size="32">Jurisdiction to structured company records</text>
+
+  <!-- Three columns: Input, Processing, Output -->
+  <!-- Input column -->
+  <rect x="120" y="320" width="800" height="1200" rx="24" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="520" y="400" text-anchor="middle" fill="#38bdf8" font-size="40" font-weight="600">Input</text>
+  <rect x="200" y="460" width="640" height="120" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="240" y="510" fill="#e2e8f0" font-size="28">jurisdictions: ["gb", "es", "us_ca"]</text>
+  <text x="240" y="550" fill="#94a3b8" font-size="24">or direct company URLs</text>
+  <rect x="200" y="620" width="640" height="120" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="240" y="670" fill="#e2e8f0" font-size="28">credentials (optional)</text>
+  <text x="240" y="710" fill="#94a3b8" font-size="24">unlock officers/directors</text>
+  <rect x="200" y="780" width="640" height="120" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="240" y="830" fill="#e2e8f0" font-size="28">maxItems, maxConcurrency</text>
+  <text x="240" y="870" fill="#94a3b8" font-size="24">run limits</text>
+
+  <!-- Arrow 1 -->
+  <polygon points="960,920 1040,880 1040,960" fill="#38bdf8"/>
+
+  <!-- Processing column -->
+  <rect x="1080" y="320" width="1040" height="1200" rx="24" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="1600" y="400" text-anchor="middle" fill="#a78bfa" font-size="40" font-weight="600">Processing</text>
+  <rect x="1160" y="460" width="880" height="100" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="1200" y="520" fill="#e2e8f0" font-size="28">1. Resolve sitemap for jurisdictions</text>
+  <rect x="1160" y="590" width="880" height="100" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="1200" y="650" fill="#e2e8f0" font-size="28">2. Collect company detail URLs</text>
+  <rect x="1160" y="720" width="880" height="100" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="1200" y="780" fill="#e2e8f0" font-size="28">3. Fetch each company detail page</text>
+  <rect x="1160" y="850" width="880" height="100" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="1200" y="910" fill="#e2e8f0" font-size="28">4. Parse structured record</text>
+  <rect x="1160" y="980" width="880" height="100" rx="16" fill="#0f172a" stroke="#475569"/>
+  <text x="1200" y="1040" fill="#e2e8f0" font-size="28">5. Optional: enrich with officers</text>
+
+  <!-- Arrow 2 -->
+  <polygon points="2160,920 2240,880 2240,960" fill="#a78bfa"/>
+
+  <!-- Output column -->
+  <rect x="2280" y="320" width="800" height="1200" rx="24" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="2680" y="400" text-anchor="middle" fill="#34d399" font-size="40" font-weight="600">Output</text>
+  <rect x="2360" y="460" width="640" height="80" rx="12" fill="#0f172a" stroke="#475569"/>
+  <text x="2400" y="510" fill="#e2e8f0" font-size="26">name, companyNumber</text>
+  <rect x="2360" y="560" width="640" height="80" rx="12" fill="#0f172a" stroke="#475569"/>
+  <text x="2400" y="610" fill="#e2e8f0" font-size="26">status, incorporationDate</text>
+  <rect x="2360" y="660" width="640" height="80" rx="12" fill="#0f172a" stroke="#475569"/>
+  <text x="2400" y="710" fill="#e2e8f0" font-size="26">companyType, jurisdiction</text>
+  <rect x="2360" y="760" width="640" height="80" rx="12" fill="#0f172a" stroke="#475569"/>
+  <text x="2400" y="810" fill="#e2e8f0" font-size="26">registeredAddress</text>
+  <rect x="2360" y="860" width="640" height="80" rx="12" fill="#0f172a" stroke="#475569"/>
+  <text x="2400" y="910" fill="#e2e8f0" font-size="26">agentName, agentAddress</text>
+  <rect x="2360" y="960" width="640" height="80" rx="12" fill="#0f172a" stroke="#475569"/>
+  <text x="2400" y="1010" fill="#e2e8f0" font-size="26">directorsOfficers[]</text>
+  <rect x="2360" y="1060" width="640" height="80" rx="12" fill="#0f172a" stroke="#475569"/>
+  <text x="2400" y="1110" fill="#e2e8f0" font-size="26">registryPage, url, scrapedAt</text>
+</svg>
