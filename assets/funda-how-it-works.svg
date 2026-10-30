@@ -17,7 +17,7 @@
   <rect width="1200" height="720" fill="url(#bg)"/>
 
   <text x="600" y="86" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="46" fill="#1c1c1c">How the Funda.nl Scraper works</text>
-  <text x="600" y="128" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="24" fill="#5a4636">Pure HTTP · no browser · no CAPTCHA service</text>
+  <text x="600" y="128" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="24" fill="#5a4636">A search or listing link in · one flat row per home out</text>
 
   <!-- Column template -->
   <!-- 1. Input -->
@@ -42,7 +42,7 @@
     <text x="150" y="150" text-anchor="middle" font-family="-apple-system,Arial,sans-serif" font-weight="800" font-size="28" fill="#1c1c1c">Fetch &amp; enrich</text>
     <g font-family="-apple-system,Arial,sans-serif" font-weight="600" font-size="19" fill="#5a4636">
       <text x="34" y="204">• Paginate search</text>
-      <text x="34" y="244">• Full detail payload</text>
+      <text x="34" y="244">• Full listing details</text>
       <text x="34" y="284">• Neighborhood data</text>
       <text x="34" y="324">• Agent emails</text>
     </g>
@@ -57,7 +57,7 @@
     <g font-family="-apple-system,Arial,sans-serif" font-weight="600" font-size="19" fill="#5a4636">
       <text x="34" y="204">• 1 flat row / home</text>
       <text x="34" y="244">• JSON · CSV · Excel</text>
-      <text x="34" y="284">• Dedup by store</text>
+      <text x="34" y="284">• No repeats across runs</text>
       <text x="34" y="324">• $0.75 / 1,000</text>
     </g>
   </g>
@@ -68,5 +68,5 @@
     <path d="M 758 390 l 56 0 l 0 -14 l 28 21 l -28 21 l 0 -14 l -56 0 Z"/>
   </g>
 
-  <text x="600" y="660" text-anchor="middle" font-family="-apple-system,Arial,sans-serif" font-weight="700" font-size="22" fill="#c23f00">Returns Funda's own detail payload verbatim — no field lost to mapping</text>
+  <text x="600" y="660" text-anchor="middle" font-family="-apple-system,Arial,sans-serif" font-weight="700" font-size="22" fill="#c23f00">Every field shown on the listing, nothing lost in mapping</text>
 </svg>
