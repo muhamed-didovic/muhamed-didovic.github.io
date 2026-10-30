@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#effcfb"/><stop offset="100%" stop-color="#d4f5f1"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00ccbc"/><stop offset="100%" stop-color="#00897b"/></linearGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="9" flood-color="#00897b" flood-opacity="0.20"/></filter>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <text x="600" y="86" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="44" fill="#10302d">How the Deliveroo Scraper works</text>
+  <text x="600" y="128" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="23" fill="#0f5c55">A restaurant URL or a postcode in · menus, prices and ratings out</text>
+  <g transform="translate(70,200)">
+    <rect width="300" height="380" rx="20" fill="#ffffff" filter="url(#ds)"/>
+    <circle cx="150" cy="70" r="40" fill="url(#brand)"/>
+    <text x="150" y="84" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="38" fill="#ffffff">1</text>
+    <text x="150" y="150" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="28" fill="#10302d">Input</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="18" fill="#0f5c55">
+      <text x="30" y="204">• Restaurant URL</text>
+      <text x="30" y="244">• Search query</text>
+      <text x="30" y="284">• Postcode</text>
+      <text x="30" y="324">• Country domain</text>
+    </g>
+  </g>
+  <g transform="translate(450,200)">
+    <rect width="300" height="380" rx="20" fill="#ffffff" filter="url(#ds)"/>
+    <circle cx="150" cy="70" r="40" fill="url(#brand)"/>
+    <text x="150" y="84" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="38" fill="#ffffff">2</text>
+    <text x="150" y="150" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="28" fill="#10302d">Collect</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="18" fill="#0f5c55">
+      <text x="30" y="204">• Restaurant list</text>
+      <text x="30" y="244">• Full menu</text>
+      <text x="30" y="284">• Prices &amp; options</text>
+      <text x="30" y="324">• Reviews</text>
+    </g>
+  </g>
+  <g transform="translate(830,200)">
+    <rect width="300" height="380" rx="20" fill="#ffffff" filter="url(#ds)"/>
+    <circle cx="150" cy="70" r="40" fill="url(#brand)"/>
+    <text x="150" y="84" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="38" fill="#ffffff">3</text>
+    <text x="150" y="150" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="28" fill="#10302d">Emit</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="18" fill="#0f5c55">
+      <text x="30" y="204">• name · rating · address</text>
+      <text x="30" y="244">• menuItemCount</text>
+      <text x="30" y="284">• deliveryTime · distance</text>
+      <text x="30" y="324">• JSON · CSV · Excel</text>
+    </g>
+  </g>
+  <path d="M386 390 l44 0 m-12 -11 l12 11 l-12 11" stroke="#00897b" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <path d="M766 390 l44 0 m-12 -11 l12 11 l-12 11" stroke="#00897b" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <text x="600" y="662" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="19" fill="#0f5c55">One flat row per record · ready for your sheet, database or agent</text>
+</svg>
