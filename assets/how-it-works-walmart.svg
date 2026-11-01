@@ -23,9 +23,9 @@
     <text x="70" y="345" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">walmart.com</text>
     <rect x="134" y="326" width="108" height="28" rx="14" fill="#0B3B7A"/>
     <text x="188" y="345" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">walmart.ca</text>
-    <text x="20" y="396" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">Every request leaves from a</text>
-    <text x="20" y="416" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">new residential address in the</text>
-    <text x="20" y="436" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">marketplace's country.</text>
+    <text x="20" y="396" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">Pick a store or state and</text>
+    <text x="20" y="416" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">every row is priced for it;</text>
+    <text x="20" y="436" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13" fill="#3D5A80">failed pages are retried.</text>
   </g>
 
   <!-- 2. Listing -->
