@@ -215,6 +215,30 @@
     "modifiedAt": "2026-05-08T17:10:02.672Z"
   },
   {
+    "id": "argenprop-scraper",
+    "title": "Argenprop (Argentina/Uruguay)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Property across Argentina and Uruguay from Argenprop, with WhatsApp contact where shown.",
+    "outputs": [
+      "price",
+      "type",
+      "area",
+      "rooms",
+      "location",
+      "contact"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Lh1FbBXccuXSPDvxL-eHDxfxlK0I-argenprop.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/argenprop-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T05:16:32.512Z",
+    "modifiedAt": "2026-11-03T13:25:33.168Z"
+  },
+  {
     "id": "au-property-multi-portal-scraper",
     "title": "AU Property \u2014 All Major Portals",
     "category": "real-estate",
@@ -310,6 +334,30 @@
     "modifiedAt": "2026-05-08T15:50:46.203Z"
   },
   {
+    "id": "bienici-scraper",
+    "title": "Bien'ici (France)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "French real estate and rentals from Bien'ici \u2014 price, surface, rooms, type and agency.",
+    "outputs": [
+      "price",
+      "surface",
+      "rooms",
+      "type",
+      "location",
+      "agency"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-8P3tJxJc85dlBoP4R-tI43iZby3Y-bienci.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bienici-scraper",
+    "status": "public",
+    "createdAt": "2026-10-18T10:22:08.045Z",
+    "modifiedAt": "2026-11-03T20:28:53.701Z"
+  },
+  {
     "id": "boligsiden-scraper",
     "title": "Boligsiden.dk (Denmark)",
     "category": "real-estate",
@@ -380,6 +428,30 @@
     "status": "public",
     "createdAt": "2026-09-28T10:45:34.547Z",
     "modifiedAt": "2026-10-06T18:27:35.433Z"
+  },
+  {
+    "id": "chaves-na-mao-scraper",
+    "title": "Chaves na M\u00e3o (Brazil)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Brazil property from Chaves na M\u00e3o with phone \u2014 price, type, area, rooms and location.",
+    "outputs": [
+      "price",
+      "type",
+      "area",
+      "rooms",
+      "location",
+      "phone"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gFQiaRugVSaYmJSgi-deFaIUIdnH-chaves.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/chaves-na-mao-scraper",
+    "status": "public",
+    "createdAt": "2026-10-31T12:08:41.117Z",
+    "modifiedAt": "2026-10-31T19:04:34.098Z"
   },
   {
     "id": "cian-real-estate-scraper",
@@ -640,6 +712,30 @@
     "modifiedAt": "2026-05-08T17:03:34.294Z"
   },
   {
+    "id": "duproprio",
+    "title": "DuProprio (Quebec)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "For-sale-by-owner listings from DuProprio, Quebec \u2014 price, rooms, area, type and owner contact.",
+    "outputs": [
+      "price",
+      "rooms",
+      "area",
+      "type",
+      "address",
+      "contact"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-JVuoWPbtsDakiVV8P-hvegneMsLQ-duproprio.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/duproprio",
+    "status": "public",
+    "createdAt": "2026-10-04T05:57:27.410Z",
+    "modifiedAt": "2026-10-31T12:33:30.487Z"
+  },
+  {
     "id": "property24-scraper",
     "title": "Fast Property24 \u00b7 Search \u00b7 Property \u00b7 Scraper (Richest output)",
     "category": "real-estate",
@@ -707,6 +803,30 @@
     "status": "public",
     "createdAt": "2026-08-17T13:08:57.911Z",
     "modifiedAt": "2026-08-18T12:32:15.150Z"
+  },
+  {
+    "id": "flatmates-scraper",
+    "title": "Flatmates.com.au",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Flatshare listings from Flatmates.com.au \u2014 rent, room type, suburb, availability and lister.",
+    "outputs": [
+      "rent",
+      "room type",
+      "suburb",
+      "available",
+      "lister",
+      "details"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-UPhHisWu17MEG2v2t-es4ODSOsqU-flatmates.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/flatmates-scraper",
+    "status": "public",
+    "createdAt": "2026-10-18T10:30:16.988Z",
+    "modifiedAt": "2026-11-01T21:35:35.679Z"
   },
   {
     "id": "forrent-com-scraper",
@@ -1840,6 +1960,30 @@
     "modifiedAt": "2026-05-08T16:49:59.413Z"
   },
   {
+    "id": "quintoandar-scraper",
+    "title": "QuintoAndar (Brazil)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Brazil rentals and sales from QuintoAndar \u2014 price, area, rooms, condo fee and location.",
+    "outputs": [
+      "price",
+      "area",
+      "rooms",
+      "condo fee",
+      "type",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Vw8FXOA6J4mA4EByB-hc7oSa7qki-quintoAndar.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/quintoandar-scraper",
+    "status": "public",
+    "createdAt": "2026-10-18T21:13:09.767Z",
+    "modifiedAt": "2026-11-08T09:30:37.166Z"
+  },
+  {
     "id": "realtor-canada-search-cheerio-ppe",
     "title": "Realtor.ca + Agent Database (PPE)",
     "category": "real-estate",
@@ -2099,6 +2243,30 @@
     "modifiedAt": "2026-05-08T16:41:34.729Z"
   },
   {
+    "id": "sahibinden-real-estate-listings-scraper",
+    "title": "Sahibinden (Turkey)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turkish real-estate listings from Sahibinden \u2014 price, area, rooms, type and location.",
+    "outputs": [
+      "price",
+      "area",
+      "rooms",
+      "type",
+      "location",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-uVVoFg7NVvqmEQdWE-KKtA7VSkVL-sahibinden_icon_v13012023_2c3733810101ef3b43905c80a0f37ab8.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/sahibinden-real-estate-listings-scraper",
+    "status": "public",
+    "createdAt": "2026-10-17T09:42:02.799Z",
+    "modifiedAt": "2026-11-01T21:36:43.371Z"
+  },
+  {
     "id": "seloger-scraper",
     "title": "SeLoger.com France RE",
     "category": "real-estate",
@@ -2310,6 +2478,30 @@
     "modifiedAt": "2026-07-24T08:37:50.638Z"
   },
   {
+    "id": "suumo-scraper",
+    "title": "SUUMO (Japan)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Japan real estate and rentals from SUUMO \u2014 rent, layout, area, station and building details.",
+    "outputs": [
+      "rent",
+      "layout",
+      "area",
+      "station",
+      "type",
+      "details"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-abb5mTWfcqXFAs5g8-jR8Z1auzOQ-suumo.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/suumo-scraper",
+    "status": "public",
+    "createdAt": "2026-10-17T20:43:14.300Z",
+    "modifiedAt": "2026-11-03T21:10:17.330Z"
+  },
+  {
     "id": "swiss-rentals-scraper",
     "title": "Swiss Rentals (Flatfox\u00b7Newhome\u00b7Homegate)",
     "category": "real-estate",
@@ -2427,6 +2619,30 @@
     "status": "public",
     "createdAt": "2026-07-18T04:13:27.521Z",
     "modifiedAt": "2026-07-18T05:13:09.532Z"
+  },
+  {
+    "id": "dealsourcr-scraper",
+    "title": "UK Property Deal Search (ROI)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "UK property deals ranked by ROI and cashflow by location \u2014 price, yield, rent and returns.",
+    "outputs": [
+      "price",
+      "ROI",
+      "cashflow",
+      "rent",
+      "yield",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2ljhCZsaQwkHbzcBp-OfVMwGSE5D-dealsourcr.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dealsourcr-scraper",
+    "status": "public",
+    "createdAt": "2026-09-13T12:15:09.606Z",
+    "modifiedAt": "2026-11-03T21:13:09.610Z"
   },
   {
     "id": "probate-foreclosure-leads-scraper",
@@ -2595,6 +2811,30 @@
     "modifiedAt": "2026-05-08T15:47:14.921Z"
   },
   {
+    "id": "zillow-detail-scraper",
+    "title": "Zillow Detail (URL/ZPID/address)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Full Zillow listing detail by URL, ZPID or address \u2014 price, beds/baths, history, taxes and agent.",
+    "outputs": [
+      "price",
+      "beds",
+      "baths",
+      "history",
+      "taxes",
+      "agent"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-WzFGhGT9uwGkcx0DT-YSbc45T1Lx-zillow-logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/zillow-detail-scraper",
+    "status": "public",
+    "createdAt": "2026-10-19T09:28:23.629Z",
+    "modifiedAt": "2026-11-08T09:20:46.220Z"
+  },
+  {
     "id": "zillow-foreclosure-scraper",
     "title": "Zillow Foreclosures (REO/auction/pre)",
     "category": "real-estate",
@@ -2690,6 +2930,30 @@
     "modifiedAt": "2026-05-08T15:54:57.912Z"
   },
   {
+    "id": "zillow-rentals-scraper",
+    "title": "Zillow Rentals",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Zillow rental listings with apartment rent ranges \u2014 price, beds/baths, amenities and address.",
+    "outputs": [
+      "price",
+      "beds",
+      "baths",
+      "rent range",
+      "amenities",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-08AizTfgEmlm3fnM4-5oQfxbfv8d-zillow-logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/zillow-rentals-scraper",
+    "status": "public",
+    "createdAt": "2026-10-19T09:32:58.340Z",
+    "modifiedAt": "2026-11-08T09:23:09.613Z"
+  },
+  {
     "id": "zillow-search",
     "title": "Zillow Search & Detail",
     "category": "real-estate",
@@ -2712,6 +2976,30 @@
     "status": "public",
     "createdAt": "2024-10-10T05:14:09.636Z",
     "modifiedAt": "2026-05-08T15:41:44.665Z"
+  },
+  {
+    "id": "zillow-zip-code-search-scraper",
+    "title": "Zillow ZIP Search (bulk)",
+    "category": "real-estate",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bulk Zillow search by ZIP list \u2014 every listing per ZIP with price, beds/baths and address.",
+    "outputs": [
+      "price",
+      "beds",
+      "baths",
+      "address",
+      "ZIP",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-wts2O7u5RgXMuVyyc-K5wP9ob9p0-zillow-logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/zillow-zip-code-search-scraper",
+    "status": "public",
+    "createdAt": "2026-10-19T09:30:39.867Z",
+    "modifiedAt": "2026-11-08T09:22:01.788Z"
   },
   {
     "id": "zillow-scraper-ppe",
@@ -3094,6 +3382,30 @@
     "status": "public",
     "createdAt": "2026-07-10T10:14:07.441Z",
     "modifiedAt": "2026-09-07T21:16:35.940Z"
+  },
+  {
+    "id": "job-bank-canada-lmia-scraper",
+    "title": "Canada Job Bank LMIA (+employer leads)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "LMIA jobs from Canada's Job Bank with employer leads \u2014 title, employer, salary, location and contact.",
+    "outputs": [
+      "title",
+      "employer",
+      "salary",
+      "location",
+      "LMIA",
+      "contact"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xBmYM7T5a1v4ck08X-AvdmHXGAUy-jobbank.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/job-bank-canada-lmia-scraper",
+    "status": "public",
+    "createdAt": "2026-10-18T21:24:03.207Z",
+    "modifiedAt": "2026-11-03T13:35:33.067Z"
   },
   {
     "id": "careerbliss-scraper",
@@ -4334,6 +4646,30 @@
     "modifiedAt": "2026-06-23T19:27:25.230Z"
   },
   {
+    "id": "liepin-scraper",
+    "title": "Liepin (China jobs)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "China jobs from Liepin \u2014 title, company, salary, recruiter and location.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "recruiter",
+      "location",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7hV74bjQCH1oxc8XZ-ZciHqH2b6i-liepin.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/liepin-scraper",
+    "status": "public",
+    "createdAt": "2026-09-24T12:55:46.472Z",
+    "modifiedAt": "2026-11-08T09:44:28.719Z"
+  },
+  {
     "id": "linkedin-company-people",
     "title": "LinkedIn Company People",
     "category": "jobs",
@@ -5095,6 +5431,30 @@
     "modifiedAt": "2026-10-04T09:13:16.669Z"
   },
   {
+    "id": "upwork-freelancers-scraper",
+    "title": "Upwork Freelancers (rates, JSS)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Upwork freelancers \u2014 rate, earnings, job-success score, skills and location.",
+    "outputs": [
+      "name",
+      "rate",
+      "earnings",
+      "JSS",
+      "skills",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-eKR7AVmaTr9hm4wWB-459D8Roeju-upwork.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/upwork-freelancers-scraper",
+    "status": "public",
+    "createdAt": "2026-10-09T09:40:02.188Z",
+    "modifiedAt": "2026-11-08T10:28:13.731Z"
+  },
+  {
     "id": "upwork-jobs-scraper-ppe",
     "title": "Upwork Jobs (130K+ instant DB)",
     "category": "jobs",
@@ -5212,6 +5572,30 @@
     "status": "public",
     "createdAt": "2026-06-27T04:10:24.967Z",
     "modifiedAt": "2026-06-28T14:25:06.386Z"
+  },
+  {
+    "id": "wellfound-scraper",
+    "title": "Wellfound (startup jobs)",
+    "category": "jobs",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Startup jobs from Wellfound \u2014 title, company, salary range, equity and location.",
+    "outputs": [
+      "title",
+      "company",
+      "salary",
+      "equity",
+      "location",
+      "remote"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-oGFhzk8YVoybcknKC-6KbK6JcDwf-wellfound.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/wellfound-scraper",
+    "status": "public",
+    "createdAt": "2026-10-16T14:57:58.844Z",
+    "modifiedAt": "2026-10-29T08:38:40.108Z"
   },
   {
     "id": "wellfound-jobs-scraper",
@@ -5406,6 +5790,78 @@
     "modifiedAt": "2026-07-20T04:13:39.782Z"
   },
   {
+    "id": "behance-scraper",
+    "title": "Behance (designer leads)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Behance designers as leads \u2014 name, location, social links and project stats.",
+    "outputs": [
+      "name",
+      "location",
+      "socials",
+      "projects",
+      "followers",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-eMqYV5LPCNaVD24Tv-Fi44wrqtaz-behanec.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/behance-scraper",
+    "status": "public",
+    "createdAt": "2026-10-27T14:10:23.158Z",
+    "modifiedAt": "2026-11-08T09:32:39.372Z"
+  },
+  {
+    "id": "bilibili-scraper",
+    "title": "Bilibili (\u54d4\u54e9\u54d4\u54e9)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bilibili videos, comments and danmaku \u2014 title, author, views, likes and comments.",
+    "outputs": [
+      "title",
+      "author",
+      "views",
+      "likes",
+      "comments",
+      "danmaku"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-5Xx6tZnw9to4ZeuYk-e7zHis52RN-bilibili.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bilibili-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T05:36:40.872Z",
+    "modifiedAt": "2026-11-08T09:45:36.923Z"
+  },
+  {
+    "id": "bilibili-huahuo-creator-scraper",
+    "title": "Bilibili Huahuo Creators (\u82b1\u706b)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bilibili Huahuo creator prices and audience \u2014 handle, rate, followers and engagement.",
+    "outputs": [
+      "creator",
+      "price",
+      "followers",
+      "engagement",
+      "category",
+      "audience"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-j9Msidh6XZt7fyTJO-u2aXATi0Op-bilibili-logo-png_seeklogo-491775.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bilibili-huahuo-creator-scraper",
+    "status": "public",
+    "createdAt": "2026-10-12T09:57:59.564Z",
+    "modifiedAt": "2026-11-08T09:28:16.813Z"
+  },
+  {
     "id": "biolink-scraper",
     "title": "Bio-Link Profiles (Linktree, Beacons, Komi \u2026)",
     "category": "social",
@@ -5478,6 +5934,150 @@
     "modifiedAt": "2026-06-29T10:54:08.818Z"
   },
   {
+    "id": "china-hot-search-scraper",
+    "title": "China Hot Search (\u70ed\u641c\u699c)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Hot-search boards for Weibo, Baidu, Douyin and Zhihu \u2014 topic, rank and heat.",
+    "outputs": [
+      "topic",
+      "rank",
+      "platform",
+      "heat",
+      "category",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-fJF9YPXq1YTEt6Jkq-ZHanzuDpGW-logo-a_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/china-hot-search-scraper",
+    "status": "public",
+    "createdAt": "2026-10-27T22:01:21.349Z",
+    "modifiedAt": "2026-11-08T09:45:12.259Z"
+  },
+  {
+    "id": "china-hot-lists",
+    "title": "China Trend Tracker",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Hot-list alerts across Weibo, Douyin and Baidu \u2014 topic, rank, platform and heat.",
+    "outputs": [
+      "topic",
+      "rank",
+      "platform",
+      "heat",
+      "change",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Tdjj3QSe9MImqqSH2-L7KzeGGqop-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/china-hot-lists",
+    "status": "public",
+    "createdAt": "2026-10-27T22:00:57.894Z",
+    "modifiedAt": "2026-11-08T09:27:04.774Z"
+  },
+  {
+    "id": "dailymotion-scraper",
+    "title": "Dailymotion",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Dailymotion videos, channels, playlists and search \u2014 title, views, channel and duration.",
+    "outputs": [
+      "title",
+      "views",
+      "channel",
+      "duration",
+      "playlist",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-QXTwgArE3CvPLfkOM-HrGcJtd3AS-dailymotion-logo-png_seeklogo-504876.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dailymotion-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T14:44:40.715Z",
+    "modifiedAt": "2026-11-08T09:40:26.123Z"
+  },
+  {
+    "id": "dcard-scraper",
+    "title": "Dcard.tw (forum)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Dcard Taiwan forum \u2014 posts, comments and the popular feed with author and engagement.",
+    "outputs": [
+      "post",
+      "author",
+      "comments",
+      "likes",
+      "board",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-eaIj5Ysm6h3O4i1to-ZfpcXWxZhS-dcard.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dcard-scraper",
+    "status": "public",
+    "createdAt": "2026-10-07T08:40:46.839Z",
+    "modifiedAt": "2026-11-01T21:34:52.475Z"
+  },
+  {
+    "id": "discord-server-scraper",
+    "title": "Discord Server",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Discord server data \u2014 members, online count and invite details.",
+    "outputs": [
+      "server",
+      "members",
+      "online",
+      "invite",
+      "boosts",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-oGBnVIPay9UNrtdA1-heQm5vg11f-discord-square-color-icon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/discord-server-scraper",
+    "status": "public",
+    "createdAt": "2026-10-19T06:03:55.931Z",
+    "modifiedAt": "2026-10-31T12:38:47.971Z"
+  },
+  {
+    "id": "discord-username-checker",
+    "title": "Discord Username Checker",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Bulk Discord username availability check from CSV or Sheets, no login.",
+    "outputs": [
+      "username",
+      "available",
+      "taken",
+      "checked",
+      "source",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-rL6tkFQ02mKztxhvH-nLmVcCYdnu-discord-square-color-icon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/discord-username-checker",
+    "status": "public",
+    "createdAt": "2026-11-06T05:57:40.315Z",
+    "modifiedAt": "2026-11-08T09:25:31.732Z"
+  },
+  {
     "id": "douyin-scraper",
     "title": "Douyin (China's TikTok)",
     "category": "social",
@@ -5500,6 +6100,126 @@
     "status": "public",
     "createdAt": "2026-07-05T22:46:30.990Z",
     "modifiedAt": "2026-07-06T05:36:31.137Z"
+  },
+  {
+    "id": "douyin-index-scraper",
+    "title": "Douyin Index (\u5de8\u91cf\u7b97\u6570)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Douyin keyword trends, audience and top content from the Index platform.",
+    "outputs": [
+      "keyword",
+      "trend",
+      "audience",
+      "top content",
+      "region",
+      "period"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-yX3uYRuWskCO5OnCu-GXqbrTBeSG-Douyin-__-Logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/douyin-index-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T19:00:36.445Z",
+    "modifiedAt": "2026-11-08T09:27:51.694Z"
+  },
+  {
+    "id": "douyin-transcript-scraper",
+    "title": "Douyin Transcript",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Douyin video transcripts \u2014 speech to text with SRT and VTT.",
+    "outputs": [
+      "transcript",
+      "SRT",
+      "VTT",
+      "language",
+      "duration",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-e83sXbXuiAmAEHcrB-CSMFdldxOC-Douyin-logo-2-300x300.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/douyin-transcript-scraper",
+    "status": "public",
+    "createdAt": "2026-10-27T15:08:55.436Z",
+    "modifiedAt": "2026-11-02T13:41:33.865Z"
+  },
+  {
+    "id": "douyin-trends-scraper",
+    "title": "Douyin Trends (\u6296\u97f3\u70ed\u70b9\u699c)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Douyin hot videos, topics and searches \u2014 rank, heat and video.",
+    "outputs": [
+      "topic",
+      "rank",
+      "heat",
+      "video",
+      "searches",
+      "period"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-K4cy69tIjYPVaYPOT-r8yjYLuWVB-Douyin-__-Logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/douyin-trends-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T17:39:38.135Z",
+    "modifiedAt": "2026-11-08T09:27:28.663Z"
+  },
+  {
+    "id": "douyin-xingtu-kol-scraper",
+    "title": "Douyin Xingtu KOL (\u5de8\u91cf\u661f\u56fe)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Douyin Xingtu KOL prices and rankings \u2014 handle, rate, followers and engagement.",
+    "outputs": [
+      "creator",
+      "price",
+      "followers",
+      "engagement",
+      "rank",
+      "category"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-vj947OxyDhDIhbkHa-neDHhkSeJu-Douyin-__-Logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/douyin-xingtu-kol-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T17:49:56.196Z",
+    "modifiedAt": "2026-11-08T09:42:51.139Z"
+  },
+  {
+    "id": "dribbble-scraper",
+    "title": "Dribbble",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Dribbble shots, designers and jobs \u2014 title, designer, likes and links.",
+    "outputs": [
+      "shot",
+      "designer",
+      "likes",
+      "views",
+      "tags",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gd0RaTHX8wuSGZ05A-KKhYOiOXbn-dribble.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dribbble-scraper",
+    "status": "public",
+    "createdAt": "2026-10-20T11:06:39.288Z",
+    "modifiedAt": "2026-10-26T13:57:47.444Z"
   },
   {
     "id": "facebook-ads-library-scraper-cheerio",
@@ -5595,6 +6315,30 @@
     "status": "public",
     "createdAt": "2025-01-16T10:13:01.656Z",
     "modifiedAt": "2026-04-26T12:27:29.391Z"
+  },
+  {
+    "id": "facebook-hashtag-search-scraper",
+    "title": "Facebook Hashtag Search",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Facebook posts by hashtag \u2014 text, author, reactions, comments and date.",
+    "outputs": [
+      "text",
+      "author",
+      "reactions",
+      "comments",
+      "date",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xbKvkK6O7LcHz1a5F-OPZYNYvQuZ-Facebook_logo_%28square%29.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/facebook-hashtag-search-scraper",
+    "status": "public",
+    "createdAt": "2026-05-06T08:42:53.520Z",
+    "modifiedAt": "2026-11-03T20:40:26.028Z"
   },
   {
     "id": "facebook-page-contact",
@@ -5948,6 +6692,54 @@
     "status": "public",
     "createdAt": "2026-07-17T16:41:02.363Z",
     "modifiedAt": "2026-07-23T10:13:53.218Z"
+  },
+  {
+    "id": "gab-scraper",
+    "title": "Gab",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Gab profiles, posts and replies \u2014 author, text, reactions and date.",
+    "outputs": [
+      "author",
+      "text",
+      "reactions",
+      "replies",
+      "date",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-kbTJhv0r1iclc2QQa-j29cf00xkT-gab.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/gab-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T14:46:06.503Z",
+    "modifiedAt": "2026-11-08T09:31:52.203Z"
+  },
+  {
+    "id": "github-scraper",
+    "title": "GitHub (repos, issues, PRs)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "GitHub repos, issues, PRs, contributors and trending \u2014 stars, language and activity.",
+    "outputs": [
+      "repo",
+      "stars",
+      "language",
+      "issues",
+      "contributors",
+      "trending"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-WhNcUsXIRDbhooJrt-sS59BjVAgd-github.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/github-scraper",
+    "status": "public",
+    "createdAt": "2026-11-01T07:37:48.652Z",
+    "modifiedAt": "2026-11-08T09:26:41.534Z"
   },
   {
     "id": "influencer-scraper",
@@ -6574,6 +7366,30 @@
     "modifiedAt": "2026-07-25T23:33:49.593Z"
   },
   {
+    "id": "instagram-trending-sounds-scraper",
+    "title": "Instagram Trending Audio",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Instagram trending audio chart \u2014 top reel sounds ranked with usage counts.",
+    "outputs": [
+      "sound",
+      "rank",
+      "artist",
+      "reel count",
+      "trend",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tap0snSpKU62h3aY5-CBCLk5JUNg-instagram-logo-colored.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instagram-trending-sounds-scraper",
+    "status": "public",
+    "createdAt": "2026-09-17T20:34:28.242Z",
+    "modifiedAt": "2026-11-08T09:39:38.967Z"
+  },
+  {
     "id": "instagram-video-downloader",
     "title": "Instagram Video Downloader",
     "category": "social",
@@ -6596,6 +7412,150 @@
     "status": "public",
     "createdAt": "2026-08-19T22:28:02.186Z",
     "modifiedAt": "2026-08-20T06:53:39.394Z"
+  },
+  {
+    "id": "iqiyi-scraper",
+    "title": "iQIYI (\u7231\u5947\u827a)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "iQIYI videos, series, episodes and cast \u2014 title, views, episode and metadata.",
+    "outputs": [
+      "title",
+      "views",
+      "episode",
+      "cast",
+      "series",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-NSgHBuyiQMlbkhtAn-YhjE2ek7kn-iqiyi.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/iqiyi-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T16:30:09.520Z",
+    "modifiedAt": "2026-11-08T09:26:17.547Z"
+  },
+  {
+    "id": "kuaishou-scraper",
+    "title": "Kuaishou (\u5feb\u624b)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Kuaishou videos, comments and hot lists \u2014 author, views, likes and comments.",
+    "outputs": [
+      "title",
+      "author",
+      "views",
+      "likes",
+      "comments",
+      "hot list"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-OGziQ6gfbrET2ksH0-HZJKM95Lzl-kuaishou.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/kuaishou-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T15:34:02.890Z",
+    "modifiedAt": "2026-11-08T09:42:26.867Z"
+  },
+  {
+    "id": "kwai-kuaishou-scraper",
+    "title": "Kwai & Kuaishou",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Kwai and Kuaishou video, profile, search and trending \u2014 author, views and engagement.",
+    "outputs": [
+      "title",
+      "author",
+      "views",
+      "likes",
+      "profile",
+      "trending"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-lRx3uLcLwwtfZNl1g-RSJmZSxhSC-kwai-logo-png_seeklogo-467487.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/kwai-kuaishou-scraper",
+    "status": "public",
+    "createdAt": "2026-10-11T19:20:07.963Z",
+    "modifiedAt": "2026-11-01T21:36:23.919Z"
+  },
+  {
+    "id": "lemmy-scraper",
+    "title": "Lemmy",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Lemmy posts, comments, communities and search \u2014 author, score and community.",
+    "outputs": [
+      "post",
+      "author",
+      "score",
+      "comments",
+      "community",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-bjSssSqmjOnSmTEjT-M6YfKUTn2P-lemmy.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/lemmy-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T16:30:29.373Z",
+    "modifiedAt": "2026-11-08T09:40:51.297Z"
+  },
+  {
+    "id": "lemon8-scraper",
+    "title": "Lemon8",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Lemon8 posts, comments, hashtags and creators \u2014 title, author, likes and saves.",
+    "outputs": [
+      "title",
+      "author",
+      "likes",
+      "saves",
+      "hashtag",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-SIC0hy4KPEnwkpOsO-bNdSudFlTi-lemon8.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/lemon8-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T17:30:10.115Z",
+    "modifiedAt": "2026-11-08T09:33:48.285Z"
+  },
+  {
+    "id": "likee-scraper",
+    "title": "Likee",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Likee profiles, videos and top creators with MP4 download, no login.",
+    "outputs": [
+      "video",
+      "author",
+      "views",
+      "likes",
+      "MP4",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-IFvB3TVwU57P17pvD-6hbqAcmaPq-likee-logo-png_seeklogo-367487.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/likee-scraper",
+    "status": "public",
+    "createdAt": "2026-10-25T21:59:10.156Z",
+    "modifiedAt": "2026-11-08T09:31:03.098Z"
   },
   {
     "id": "linkedin-events-scraper",
@@ -6644,6 +7604,30 @@
     "status": "public",
     "createdAt": "2025-09-25T06:28:35.935Z",
     "modifiedAt": "2026-04-28T21:39:14.679Z"
+  },
+  {
+    "id": "linkedin-post-comments-scraper",
+    "title": "LinkedIn Post Comments",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Comments on any LinkedIn post, no cookies \u2014 commenter, text, reactions and profile.",
+    "outputs": [
+      "commenter",
+      "text",
+      "reactions",
+      "profile",
+      "date",
+      "post"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-5levpkDDGktoIrNEN-8nyToCa8LC-ln.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-post-comments-scraper",
+    "status": "public",
+    "createdAt": "2026-10-12T08:13:32.144Z",
+    "modifiedAt": "2026-11-08T09:43:15.294Z"
   },
   {
     "id": "linkedin-posts-scraper",
@@ -6789,6 +7773,78 @@
     "modifiedAt": "2026-07-18T11:32:14.719Z"
   },
   {
+    "id": "netease-music-scraper",
+    "title": "NetEase Cloud Music",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "NetEase Cloud Music charts, playlists and comments \u2014 track, artist, plays and comments.",
+    "outputs": [
+      "track",
+      "artist",
+      "plays",
+      "playlist",
+      "comments",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-6lDmApAYenjVLXlaB-KHCei2GP4Z-netease-music-logo-png_seeklogo-518182.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/netease-music-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T14:43:16.840Z",
+    "modifiedAt": "2026-11-08T09:43:06.318Z"
+  },
+  {
+    "id": "patreon-scraper",
+    "title": "Patreon",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Patreon creators, tiers, members and posts \u2014 tier price, member count and content.",
+    "outputs": [
+      "creator",
+      "tier",
+      "price",
+      "members",
+      "posts",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Wwzs1otXAbsVKRagO-cWRizcmBhN-patreon.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/patreon-scraper",
+    "status": "public",
+    "createdAt": "2026-10-27T14:09:40.586Z",
+    "modifiedAt": "2026-11-08T09:41:14.738Z"
+  },
+  {
+    "id": "peerlist-scraper",
+    "title": "Peerlist",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Peerlist launches, upvoters, profiles and jobs \u2014 name, role, upvotes and links.",
+    "outputs": [
+      "name",
+      "role",
+      "upvotes",
+      "profile",
+      "job",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-AhqYlR06oHV3egAFT-GwpochlX4W-peerlist.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/peerlist-scraper",
+    "status": "public",
+    "createdAt": "2026-10-21T08:35:46.742Z",
+    "modifiedAt": "2026-11-08T09:44:20.934Z"
+  },
+  {
     "id": "pinterest",
     "title": "Pinterest Pins & Boards",
     "category": "social",
@@ -6813,6 +7869,30 @@
     "modifiedAt": "2026-04-28T21:41:55.054Z"
   },
   {
+    "id": "quora-posts-scraper",
+    "title": "Quora Posts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Quora profiles and post search, no login \u2014 post, author, upvotes and date.",
+    "outputs": [
+      "post",
+      "author",
+      "upvotes",
+      "views",
+      "date",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-07ojUmyg6zRdUgMdE-oZq1I213SN-Quora-Logo-Red-Icon-Social-Media-Platform-768x768.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/quora-posts-scraper",
+    "status": "public",
+    "createdAt": "2026-10-18T16:34:41.966Z",
+    "modifiedAt": "2026-11-08T09:38:15.394Z"
+  },
+  {
     "id": "quora",
     "title": "Quora Q&A",
     "category": "social",
@@ -6834,6 +7914,30 @@
     "status": "public",
     "createdAt": "2024-01-15T13:59:10.212Z",
     "modifiedAt": "2026-05-08T16:25:04.325Z"
+  },
+  {
+    "id": "reddit-search-comments-scraper",
+    "title": "Reddit (search, subreddits, comments)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Reddit search, subreddits, comments and users \u2014 post, author, score and subreddit.",
+    "outputs": [
+      "post",
+      "author",
+      "score",
+      "comments",
+      "subreddit",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-yxZoaalur65mLzyhG-6O83aGoioY-reddit.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/reddit-search-comments-scraper",
+    "status": "public",
+    "createdAt": "2026-10-11T20:36:25.905Z",
+    "modifiedAt": "2026-11-08T09:31:28.531Z"
   },
   {
     "id": "reddit",
@@ -7218,6 +8322,30 @@
     "modifiedAt": "2026-05-26T18:01:20.774Z"
   },
   {
+    "id": "spotify-scraper",
+    "title": "Spotify Play Counts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Spotify play counts for playlists, albums and artists \u2014 track, plays and popularity.",
+    "outputs": [
+      "track",
+      "artist",
+      "plays",
+      "album",
+      "popularity",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hF8XAbgr4ggBqrz4r-bPnng7DZeK-Spotify_App_Logo.svg.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/spotify-scraper",
+    "status": "public",
+    "createdAt": "2026-10-19T13:32:30.082Z",
+    "modifiedAt": "2026-11-08T09:42:41.446Z"
+  },
+  {
     "id": "telegram-channel-info-scraper",
     "title": "Telegram Channel Info",
     "category": "social",
@@ -7264,6 +8392,54 @@
     "status": "public",
     "createdAt": "2026-07-16T03:48:59.389Z",
     "modifiedAt": "2026-07-16T05:27:03.551Z"
+  },
+  {
+    "id": "telegram-group-members-scraper",
+    "title": "Telegram Group Members",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Telegram group members \u2014 username, premium status and last-seen.",
+    "outputs": [
+      "username",
+      "name",
+      "premium",
+      "last seen",
+      "user ID",
+      "group"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-bY7ekT6tTMnJEdc2U-iX33nHy7iA-telegram.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/telegram-group-members-scraper",
+    "status": "public",
+    "createdAt": "2026-11-07T21:44:28.180Z",
+    "modifiedAt": "2026-11-07T22:07:55.359Z"
+  },
+  {
+    "id": "telegram-keyword-search-scraper",
+    "title": "Telegram Keyword Search",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Telegram posts matching a keyword from public channels \u2014 text, channel, views and date.",
+    "outputs": [
+      "text",
+      "channel",
+      "views",
+      "date",
+      "keyword",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-fXOhdKp8VD5eYduCV-omruwYTjYn-telegram.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/telegram-keyword-search-scraper",
+    "status": "public",
+    "createdAt": "2026-11-02T07:41:22.478Z",
+    "modifiedAt": "2026-11-08T09:40:44.909Z"
   },
   {
     "id": "threads-scraper",
@@ -7361,6 +8537,30 @@
     "modifiedAt": "2026-08-11T08:32:38.370Z"
   },
   {
+    "id": "tiktok-creative-center-scraper",
+    "title": "TikTok Creative Center",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "TikTok Creative Center top ads, CTR and trends \u2014 ad, CTR, industry and region.",
+    "outputs": [
+      "ad",
+      "CTR",
+      "industry",
+      "region",
+      "trend",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-fk93i6Aufwv5YdENx-HwLDM4yahR-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-creative-center-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T05:26:26.800Z",
+    "modifiedAt": "2026-11-08T09:03:00.068Z"
+  },
+  {
     "id": "tiktok-fake-followers-checker",
     "title": "TikTok Fake Followers Checker",
     "category": "social",
@@ -7455,6 +8655,30 @@
     "status": "public",
     "createdAt": "2026-06-25T08:54:10.134Z",
     "modifiedAt": "2026-06-25T13:25:52.131Z"
+  },
+  {
+    "id": "tiktok-live-scraper",
+    "title": "TikTok LIVE",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "TikTok LIVE streams \u2014 viewers, top gifters and ranking in real time.",
+    "outputs": [
+      "stream",
+      "viewers",
+      "gifters",
+      "rank",
+      "host",
+      "gifts"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-33E2em6aJ6dFzf9DR-YFSGhamhEn-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-live-scraper",
+    "status": "public",
+    "createdAt": "2026-10-11T21:25:50.813Z",
+    "modifiedAt": "2026-11-08T09:41:59.796Z"
   },
   {
     "id": "tiktok-lookalike-finder",
@@ -7673,6 +8897,30 @@
     "modifiedAt": "2026-07-30T22:46:29.777Z"
   },
   {
+    "id": "tiktok-search-insights-scraper",
+    "title": "TikTok Search Insights",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "TikTok search insights \u2014 topics, content gaps and audience signals per query.",
+    "outputs": [
+      "topic",
+      "gap",
+      "audience",
+      "volume",
+      "query",
+      "region"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-UTnVn8BVLoEw2LKyq-v8WxQZmwDw-tiktok.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/tiktok-search-insights-scraper",
+    "status": "public",
+    "createdAt": "2026-10-12T08:12:59.716Z",
+    "modifiedAt": "2026-11-08T09:33:25.045Z"
+  },
+  {
     "id": "tiktok-transcript",
     "title": "TikTok Transcript Extractor",
     "category": "social",
@@ -7814,6 +9062,30 @@
     "modifiedAt": "2026-08-19T21:47:00.401Z"
   },
   {
+    "id": "toutiao-scraper",
+    "title": "Toutiao (\u4eca\u65e5\u5934\u6761)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Toutiao news search, reads and comments \u2014 title, source, reads and comments.",
+    "outputs": [
+      "title",
+      "source",
+      "reads",
+      "comments",
+      "date",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gobiguHhyt4YdnkLu-Qumweyd0ew-toutiao.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/toutiao-scraper",
+    "status": "public",
+    "createdAt": "2026-10-29T07:43:51.441Z",
+    "modifiedAt": "2026-11-08T09:33:02.409Z"
+  },
+  {
     "id": "truthsocial-comment-scraper",
     "title": "Truth Social Comments",
     "category": "social",
@@ -7905,6 +9177,30 @@
     "status": "public",
     "createdAt": "2025-06-22T04:22:08.361Z",
     "modifiedAt": "2026-05-10T21:21:59.112Z"
+  },
+  {
+    "id": "twitch-scraper",
+    "title": "Twitch",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Twitch channels, streams and leads \u2014 streamer, viewers, game and contact links.",
+    "outputs": [
+      "channel",
+      "viewers",
+      "game",
+      "followers",
+      "links",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tk12bXqlAqfx3bQmH-XDXB19aJrV-twitch.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/twitch-scraper",
+    "status": "public",
+    "createdAt": "2026-07-16T16:34:29.261Z",
+    "modifiedAt": "2026-11-08T09:37:03.105Z"
   },
   {
     "id": "twitter",
@@ -8027,6 +9323,30 @@
     "modifiedAt": "2026-09-01T20:31:59.502Z"
   },
   {
+    "id": "wechat-channels-scraper",
+    "title": "WeChat Channels (\u89c6\u9891\u53f7)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "WeChat Channels (Shipinhao) video download and data \u2014 title, author, likes and MP4.",
+    "outputs": [
+      "title",
+      "author",
+      "likes",
+      "comments",
+      "MP4",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ljksYSkd8KlJWahTr-E8sJqnSqGh-wechat.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/wechat-channels-scraper",
+    "status": "public",
+    "createdAt": "2026-10-09T15:21:40.774Z",
+    "modifiedAt": "2026-11-08T09:46:04.277Z"
+  },
+  {
     "id": "wechat-official-account-scraper",
     "title": "WeChat Official Account",
     "category": "social",
@@ -8099,6 +9419,30 @@
     "modifiedAt": "2026-07-16T05:44:25.674Z"
   },
   {
+    "id": "x-twitter-search-scraper",
+    "title": "X / Twitter Search",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "X (Twitter) search \u2014 tweets, replies, followers and timelines by query or handle.",
+    "outputs": [
+      "tweet",
+      "author",
+      "likes",
+      "retweets",
+      "replies",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-KvRrkwDDFm4vmklVv-A72A3EvnNb-x-logo-twitter-elon-musk_dezeen_2364_col_0.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/x-twitter-search-scraper",
+    "status": "public",
+    "createdAt": "2026-10-11T19:49:12.815Z",
+    "modifiedAt": "2026-11-08T09:19:52.738Z"
+  },
+  {
     "id": "xiaohongshu-rednote-scraper",
     "title": "Xiaohongshu / RedNote (\u5c0f\u7ea2\u4e66)",
     "category": "social",
@@ -8121,6 +9465,102 @@
     "status": "public",
     "createdAt": "2026-07-18T23:41:29.430Z",
     "modifiedAt": "2026-07-21T05:17:06.421Z"
+  },
+  {
+    "id": "xiaohongshu-all-in-one-scraper",
+    "title": "Xiaohongshu All-in-One (\u5c0f\u7ea2\u4e66)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "One Xiaohongshu (RedNote) actor for notes, search, profiles and comments, no login.",
+    "outputs": [
+      "note",
+      "author",
+      "likes",
+      "collects",
+      "comments",
+      "mode"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-JMIsldw2gdS8PheJ5-cAPwE4MBfg-rednoe.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/xiaohongshu-all-in-one-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T21:52:58.194Z",
+    "modifiedAt": "2026-11-08T09:44:47.565Z"
+  },
+  {
+    "id": "xiaohongshu-kol-scraper",
+    "title": "Xiaohongshu KOL (\u84b2\u516c\u82f1)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Xiaohongshu KOL prices and audience from Pugongying \u2014 handle, rate, followers and engagement.",
+    "outputs": [
+      "creator",
+      "price",
+      "followers",
+      "engagement",
+      "category",
+      "audience"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-00WRLK4KVaQarJL3G-BMRYCpa1VJ-rednoe.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/xiaohongshu-kol-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T18:01:03.239Z",
+    "modifiedAt": "2026-11-08T09:34:11.955Z"
+  },
+  {
+    "id": "youku-scraper",
+    "title": "Youku (\u4f18\u9177)",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Youku shows, videos, episodes and uploaders \u2014 title, views, episode and uploader.",
+    "outputs": [
+      "title",
+      "views",
+      "episode",
+      "uploader",
+      "series",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Yvp270rH0Pg3z1Os4-luBkkyN5yY-youku.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/youku-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T16:30:09.570Z",
+    "modifiedAt": "2026-11-08T09:32:15.203Z"
+  },
+  {
+    "id": "youtube-autocomplete-scraper",
+    "title": "YouTube Autocomplete",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "YouTube search autocomplete suggestions for any seed keyword, ranked.",
+    "outputs": [
+      "seed",
+      "suggestion",
+      "rank",
+      "depth",
+      "region",
+      "language"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-tJpduFSw9Xf4bA09d-EIgCDNEgGw-yt_shorts.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/youtube-autocomplete-scraper",
+    "status": "public",
+    "createdAt": "2026-10-16T09:16:01.410Z",
+    "modifiedAt": "2026-11-08T09:28:42.250Z"
   },
   {
     "id": "youtube-channel-search-scraper",
@@ -8194,6 +9634,30 @@
     "status": "public",
     "createdAt": "2024-09-19T17:29:30.937Z",
     "modifiedAt": "2026-05-08T16:28:30.111Z"
+  },
+  {
+    "id": "youtube-community-posts-scraper",
+    "title": "YouTube Community Posts",
+    "category": "social",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "YouTube community posts \u2014 polls, images and comments with author and engagement.",
+    "outputs": [
+      "post",
+      "type",
+      "author",
+      "votes",
+      "comments",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7KzrlkpWiXAJVvUSf-d1EK7xcq5n-Youtube-logo-vector-PNG.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/youtube-community-posts-scraper",
+    "status": "public",
+    "createdAt": "2026-10-11T20:55:31.751Z",
+    "modifiedAt": "2026-11-08T09:44:12.568Z"
   },
   {
     "id": "youtube-search",
@@ -8316,6 +9780,54 @@
     "modifiedAt": "2026-09-21T20:38:41.237Z"
   },
   {
+    "id": "1688-image-search-scraper",
+    "title": "1688 Image Search",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find 1688 wholesale suppliers by photo \u2014 matching products with price, MOQ and supplier.",
+    "outputs": [
+      "product",
+      "price",
+      "MOQ",
+      "supplier",
+      "similarity",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-gSZPh8CbkhlR1dB13-V0zKgJcxni-1688.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/1688-image-search-scraper",
+    "status": "public",
+    "createdAt": "2026-11-03T13:28:58.504Z",
+    "modifiedAt": "2026-11-08T10:00:30.794Z"
+  },
+  {
+    "id": "1688-product-details-scraper",
+    "title": "1688 Product Details",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "1688 product detail \u2014 SKUs, stock, tier pricing, reviews and supplier data.",
+    "outputs": [
+      "SKU",
+      "price",
+      "stock",
+      "reviews",
+      "supplier",
+      "images"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-EJJ7Eidl6sGq6CHme-aBInkfBM3C-1688.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/1688-product-details-scraper",
+    "status": "public",
+    "createdAt": "2026-11-03T13:36:25.233Z",
+    "modifiedAt": "2026-11-08T09:29:57.750Z"
+  },
+  {
     "id": "1688-wholesale-scraper",
     "title": "1688 Wholesale (tier pricing)",
     "category": "ecommerce",
@@ -8362,6 +9874,30 @@
     "status": "public",
     "createdAt": "2026-08-23T12:08:11.725Z",
     "modifiedAt": "2026-08-24T16:28:33.089Z"
+  },
+  {
+    "id": "aliexpress-product-details-scraper",
+    "title": "AliExpress Product Details",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "AliExpress product detail \u2014 variants, stock, shipping, price and ratings.",
+    "outputs": [
+      "title",
+      "variants",
+      "price",
+      "stock",
+      "shipping",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-EmYtEMbEKSU05ktkF-ebaxtXXK7m-aliexpress.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/aliexpress-product-details-scraper",
+    "status": "public",
+    "createdAt": "2026-10-14T20:07:57.940Z",
+    "modifiedAt": "2026-11-08T09:43:47.673Z"
   },
   {
     "id": "aliexpress-scraper",
@@ -8460,6 +9996,30 @@
     "modifiedAt": "2026-08-11T04:14:44.340Z"
   },
   {
+    "id": "kdp-niche-analyzer",
+    "title": "Amazon KDP Niche Analyzer",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Amazon KDP niches scored on BSR, sales, royalties and competition.",
+    "outputs": [
+      "niche",
+      "BSR",
+      "sales",
+      "royalties",
+      "competition",
+      "score"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-nd1XNogjeXF9F5hBy-5ZQU3CGmBr-amazon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/kdp-niche-analyzer",
+    "status": "public",
+    "createdAt": "2026-10-18T21:27:45.990Z",
+    "modifiedAt": "2026-11-08T10:01:16.152Z"
+  },
+  {
     "id": "amazon-keyword-research",
     "title": "Amazon Keyword Research",
     "category": "ecommerce",
@@ -8506,6 +10066,30 @@
     "status": "public",
     "createdAt": "2026-07-22T20:13:33.987Z",
     "modifiedAt": "2026-08-07T16:29:02.170Z"
+  },
+  {
+    "id": "amazon-keyword-volume-reverse-asin",
+    "title": "Amazon Keyword Volume + Reverse ASIN",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Amazon search-volume and reverse-ASIN keywords \u2014 the terms a product ranks for, with volume.",
+    "outputs": [
+      "keyword",
+      "volume",
+      "ASIN",
+      "rank",
+      "relevance",
+      "marketplace"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-mBrb0cMRvD92xPVSK-wcJdCTGJDs-amazon.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/amazon-keyword-volume-reverse-asin",
+    "status": "public",
+    "createdAt": "2026-11-01T10:07:07.878Z",
+    "modifiedAt": "2026-11-08T09:43:58.172Z"
   },
   {
     "id": "free-amazon-product-scraper",
@@ -8793,6 +10377,54 @@
     "modifiedAt": "2026-09-23T22:54:08.284Z"
   },
   {
+    "id": "bestbuy-scraper",
+    "title": "Best Buy",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Best Buy products \u2014 price, stock, reviews and search rank by query or URL.",
+    "outputs": [
+      "title",
+      "price",
+      "stock",
+      "rating",
+      "reviews",
+      "rank"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Td9WHBuvfDeHEEQki-dcLkUpCwf4-best_buy.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bestbuy-scraper",
+    "status": "public",
+    "createdAt": "2026-10-06T09:00:18.068Z",
+    "modifiedAt": "2026-11-08T09:56:04.684Z"
+  },
+  {
+    "id": "bilbasen-scraper",
+    "title": "Bilbasen (Denmark cars)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Danish cars from Bilbasen \u2014 price, mileage, year, EV battery details and dealer.",
+    "outputs": [
+      "price",
+      "mileage",
+      "year",
+      "EV battery",
+      "dealer",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-iKEbwq8LXvZfiDXG9-KILwndHVJi-bilbasen.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bilbasen-scraper",
+    "status": "public",
+    "createdAt": "2026-10-08T10:18:48.795Z",
+    "modifiedAt": "2026-11-08T08:43:50.989Z"
+  },
+  {
     "id": "blinkit-scraper",
     "title": "Blinkit Multi-City Products (India)",
     "category": "ecommerce",
@@ -8887,6 +10519,30 @@
     "status": "public",
     "createdAt": "2026-08-18T15:29:41.913Z",
     "modifiedAt": "2026-08-18T15:51:22.657Z"
+  },
+  {
+    "id": "cargurus-scraper",
+    "title": "CarGurus",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "CarGurus listings \u2014 price, deal rating, mileage, year and dealer.",
+    "outputs": [
+      "price",
+      "deal rating",
+      "mileage",
+      "year",
+      "dealer",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-p3UEz8u15JM0nD2Nm-kzf3rAO4iX-cargurus.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/cargurus-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T14:07:14.802Z",
+    "modifiedAt": "2026-10-29T07:06:40.727Z"
   },
   {
     "id": "carmarket-scraper",
@@ -9202,6 +10858,78 @@
     "modifiedAt": "2026-09-21T04:53:34.386Z"
   },
   {
+    "id": "depop-scraper",
+    "title": "Depop (search, shops, reviews)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Depop search, shops, reviews and followers \u2014 item, price, seller and condition.",
+    "outputs": [
+      "item",
+      "price",
+      "seller",
+      "condition",
+      "reviews",
+      "followers"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/depop-scraper",
+    "status": "public",
+    "createdAt": "2026-10-22T20:38:04.379Z",
+    "modifiedAt": "2026-10-29T09:17:25.533Z"
+  },
+  {
+    "id": "douyin-product-scraper",
+    "title": "Douyin Shop Products",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Douyin Shop products \u2014 price, sales, commission rate and shop.",
+    "outputs": [
+      "product",
+      "price",
+      "sales",
+      "commission",
+      "shop",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-wqhdaCsM4efhiyoSa-Ce3MMlHvXj-Douyin-logo-2-300x300.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/douyin-product-scraper",
+    "status": "public",
+    "createdAt": "2026-10-28T15:03:21.510Z",
+    "modifiedAt": "2026-11-08T09:41:36.098Z"
+  },
+  {
+    "id": "drive-com-au-scraper",
+    "title": "Drive.com.au (cars)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Australian car listings from Drive.com.au \u2014 price, VIN, mileage, year and dealer.",
+    "outputs": [
+      "price",
+      "VIN",
+      "mileage",
+      "year",
+      "dealer",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-rAudLASfTpBU0khJP-0nuozOQCH0-drive.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/drive-com-au-scraper",
+    "status": "public",
+    "createdAt": "2026-10-08T10:23:31.591Z",
+    "modifiedAt": "2026-11-01T06:11:01.942Z"
+  },
+  {
     "id": "easyauto123-scraper",
     "title": "Easyauto123",
     "category": "ecommerce",
@@ -9417,6 +11145,54 @@
     "modifiedAt": "2026-07-23T10:14:00.499Z"
   },
   {
+    "id": "flipkart-scraper",
+    "title": "Flipkart",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Flipkart products \u2014 price, specs, ratings and reviews by search or URL.",
+    "outputs": [
+      "title",
+      "price",
+      "specs",
+      "rating",
+      "reviews",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-s4dvRiNrCQ6QSxhsC-x8qUh3A40T-flipkart.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/flipkart-scraper",
+    "status": "public",
+    "createdAt": "2026-10-23T05:50:27.095Z",
+    "modifiedAt": "2026-11-01T06:10:12.519Z"
+  },
+  {
+    "id": "goofish-xianyu-scraper",
+    "title": "Goofish / Xianyu (\u95f2\u9c7c)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Goofish (Xianyu) second-hand listings with new-listing monitoring \u2014 price, seller and location.",
+    "outputs": [
+      "title",
+      "price",
+      "seller",
+      "location",
+      "condition",
+      "posted"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-80sHrdcUXwTAP30lv-gDybQIkvUT-goofish.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/goofish-xianyu-scraper",
+    "status": "public",
+    "createdAt": "2026-10-17T20:40:11.083Z",
+    "modifiedAt": "2026-11-06T18:05:28.139Z"
+  },
+  {
     "id": "google-shopping-scraper",
     "title": "Google Shopping + PLA Ads",
     "category": "ecommerce",
@@ -9463,6 +11239,30 @@
     "status": "public",
     "createdAt": "2025-05-10T21:27:18.609Z",
     "modifiedAt": "2026-05-08T15:46:10.446Z"
+  },
+  {
+    "id": "homedepot-scraper",
+    "title": "Home Depot (products + stock)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Home Depot products \u2014 price, store-level stock, specs and ratings.",
+    "outputs": [
+      "title",
+      "price",
+      "stock",
+      "specs",
+      "rating",
+      "store"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-be5ybXf4lAf3ZKv5C-Rh30qqoYT6-homedepot.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/homedepot-scraper",
+    "status": "public",
+    "createdAt": "2026-10-20T20:14:23.696Z",
+    "modifiedAt": "2026-11-08T10:32:30.647Z"
   },
   {
     "id": "idealo-scraper",
@@ -9535,6 +11335,54 @@
     "status": "public",
     "createdAt": "2026-09-28T07:35:50.903Z",
     "modifiedAt": "2026-10-07T18:11:15.189Z"
+  },
+  {
+    "id": "jd-com-price-scraper",
+    "title": "JD.com Prices (\u4eac\u4e1c)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "JD.com SKU prices, stock and variants \u2014 title, price, promotions and seller.",
+    "outputs": [
+      "SKU",
+      "price",
+      "stock",
+      "variants",
+      "promo",
+      "seller"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZXCIE1AsSUYI02qSh-o75qD94aIh-imgbin-jd-com-android-business-app-store-android-dv95iLBcPMb7Rcx",
+    "thumb": null,
+    "link": "https://apify.com/memo23/jd-com-price-scraper",
+    "status": "public",
+    "createdAt": "2026-10-18T11:51:21.134Z",
+    "modifiedAt": "2026-11-03T20:51:29.566Z"
+  },
+  {
+    "id": "keepa-scraper",
+    "title": "Keepa (Amazon price history)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Keepa Amazon data \u2014 price history, BSR, offers and deal signals per ASIN.",
+    "outputs": [
+      "ASIN",
+      "price history",
+      "BSR",
+      "offers",
+      "deal",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-vap25Og4PgGY0JA0A-cUoykaWcqQ-keeepa.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/keepa-scraper",
+    "status": "public",
+    "createdAt": "2026-10-21T13:51:24.954Z",
+    "modifiedAt": "2026-11-07T22:11:37.329Z"
   },
   {
     "id": "kijiji-scraper",
@@ -9632,6 +11480,30 @@
     "modifiedAt": "2026-07-08T13:09:33.896Z"
   },
   {
+    "id": "lazada-scraper",
+    "title": "Lazada",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Lazada products \u2014 price, ratings, sellers and stock across markets.",
+    "outputs": [
+      "title",
+      "price",
+      "rating",
+      "seller",
+      "stock",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-1ACzwtm4ASMIBXNLI-B1f0naXMSg-lazada-logo-rounded-lazada-logo-free-png.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/lazada-scraper",
+    "status": "public",
+    "createdAt": "2026-10-07T08:03:14.506Z",
+    "modifiedAt": "2026-11-06T07:32:45.928Z"
+  },
+  {
     "id": "leboncoin-scraper",
     "title": "Leboncoin.fr (any category)",
     "category": "ecommerce",
@@ -9726,6 +11598,54 @@
     "status": "public",
     "createdAt": "2026-06-27T12:31:10.525Z",
     "modifiedAt": "2026-06-29T09:04:15.410Z"
+  },
+  {
+    "id": "mercadona-product-scraper",
+    "title": "Mercadona (Spain grocery)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Mercadona Spanish supermarket catalog \u2014 product, price, unit price and category.",
+    "outputs": [
+      "product",
+      "price",
+      "unit price",
+      "category",
+      "packaging",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-SWhHeKo9EQHc45mrP-TbtifisTfK-mercadonalogo-freelogovectors.net_.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/mercadona-product-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T08:02:06.619Z",
+    "modifiedAt": "2026-11-01T21:36:30.255Z"
+  },
+  {
+    "id": "microcenter-product-scraper",
+    "title": "Micro Center (prices + stock)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Micro Center products \u2014 price and store-level stock by search or store.",
+    "outputs": [
+      "title",
+      "price",
+      "stock",
+      "specs",
+      "store",
+      "sku"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-70xxoSQQYEbZJXce0-AuuDtatP0y-microcenter.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/microcenter-product-scraper",
+    "status": "public",
+    "createdAt": "2026-10-03T12:52:53.491Z",
+    "modifiedAt": "2026-11-08T10:20:10.079Z"
   },
   {
     "id": "milanuncios-scraper",
@@ -10159,6 +12079,30 @@
     "modifiedAt": "2026-07-01T09:38:26.938Z"
   },
   {
+    "id": "swiggy-instamart-scraper",
+    "title": "Swiggy Instamart (grocery)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Swiggy Instamart grocery \u2014 product, price, pack size, discount and availability by location.",
+    "outputs": [
+      "product",
+      "price",
+      "pack size",
+      "discount",
+      "available",
+      "city"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Y260ONIS4zuEIwYou-tSLZCBAQbZ-swiggy.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/swiggy-instamart-scraper",
+    "status": "public",
+    "createdAt": "2026-10-23T09:22:50.996Z",
+    "modifiedAt": "2026-11-01T06:54:59.409Z"
+  },
+  {
     "id": "taco-bell-menu-scraper",
     "title": "Taco Bell Menu (store-level)",
     "category": "ecommerce",
@@ -10181,6 +12125,30 @@
     "status": "public",
     "createdAt": "2026-09-04T05:52:53.315Z",
     "modifiedAt": "2026-09-04T08:11:38.368Z"
+  },
+  {
+    "id": "taobao-scraper",
+    "title": "Taobao & Tmall (\u6dd8\u5b9d/\u5929\u732b)",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Taobao and Tmall products \u2014 SKUs, reviews, sales and price.",
+    "outputs": [
+      "SKU",
+      "price",
+      "sales",
+      "reviews",
+      "shop",
+      "images"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-I6YaxadeRQ5c5WQC2-N1bD1maxhg-taobao_logo_icon_147230.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/taobao-scraper",
+    "status": "public",
+    "createdAt": "2026-10-08T11:10:01.669Z",
+    "modifiedAt": "2026-11-08T09:34:56.834Z"
   },
   {
     "id": "temu-scraper",
@@ -10349,6 +12317,30 @@
     "status": "public",
     "createdAt": "2026-07-23T16:02:09.764Z",
     "modifiedAt": "2026-07-23T17:59:11.755Z"
+  },
+  {
+    "id": "walmart-scraper",
+    "title": "Walmart",
+    "category": "ecommerce",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Walmart products \u2014 price, sellers, reviews and stock by search or URL.",
+    "outputs": [
+      "title",
+      "price",
+      "seller",
+      "rating",
+      "reviews",
+      "stock"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-kPfCdj4gvoHUI5202-zIwNefnb1H-free-walmart-logo-symbol-blue-circle-round-icon-25629-thumb.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/walmart-scraper",
+    "status": "public",
+    "createdAt": "2026-10-01T21:22:55.609Z",
+    "modifiedAt": "2026-11-08T09:37:12.288Z"
   },
   {
     "id": "wayfair-scraper",
@@ -10710,6 +12702,30 @@
     "modifiedAt": "2026-07-16T06:17:49.764Z"
   },
   {
+    "id": "consumeraffairs-reviews-scraper",
+    "title": "ConsumerAffairs Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "ConsumerAffairs reviews \u2014 rating, text, author, verified status and date.",
+    "outputs": [
+      "rating",
+      "text",
+      "author",
+      "verified",
+      "date",
+      "brand"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HcC6uXPuA6y9F1Tu0-jW377wAqoX-consumer-affairs-review-consumer-affairs-logo.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/consumeraffairs-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-10-03T12:04:15.822Z",
+    "modifiedAt": "2026-11-08T09:53:47.711Z"
+  },
+  {
     "id": "dach-reputation-scraper",
     "title": "DACH Reputation (Trusted Shops + ProvenExpert)",
     "category": "reviews",
@@ -10778,6 +12794,30 @@
     "status": "public",
     "createdAt": "2025-07-02T13:13:24.270Z",
     "modifiedAt": "2026-05-08T15:44:12.661Z"
+  },
+  {
+    "id": "douban-scraper",
+    "title": "Douban (\u8c46\u74e3) reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Douban movie and book reviews and comments \u2014 rating, text, author and date.",
+    "outputs": [
+      "rating",
+      "text",
+      "author",
+      "date",
+      "title",
+      "likes"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-wrTZizjSAWHx9ZdyY-qQD0dW8fwG-douban.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/douban-scraper",
+    "status": "public",
+    "createdAt": "2026-10-19T06:42:07.586Z",
+    "modifiedAt": "2026-11-08T09:25:54.306Z"
   },
   {
     "id": "expedia-scraper",
@@ -11014,6 +13054,30 @@
     "modifiedAt": "2026-09-17T11:10:01.816Z"
   },
   {
+    "id": "jd-com-reviews-scraper",
+    "title": "JD.com Reviews (\u4eac\u4e1c\u8bc4\u4ef7)",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "JD.com product reviews \u2014 rating, text, photos, variant and date.",
+    "outputs": [
+      "rating",
+      "text",
+      "photos",
+      "variant",
+      "date",
+      "product"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/jd-com-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-11-05T08:31:11.015Z",
+    "modifiedAt": "2026-11-05T08:42:27.430Z"
+  },
+  {
     "id": "judge-me-reviews-scraper",
     "title": "Judge.me Shopify Reviews",
     "category": "reviews",
@@ -11062,6 +13126,54 @@
     "modifiedAt": "2026-08-13T06:14:59.729Z"
   },
   {
+    "id": "makemytrip-hotels-reviews-scraper",
+    "title": "MakeMyTrip Hotels & Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "MakeMyTrip hotels and reviews \u2014 hotel, price, rating, review text and date.",
+    "outputs": [
+      "hotel",
+      "price",
+      "rating",
+      "review",
+      "date",
+      "location"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7BcaL3gb0nx0YzGj4-Gbb8ksJ74p-makemytripe.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/makemytrip-hotels-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-10-21T08:38:20.847Z",
+    "modifiedAt": "2026-11-02T10:31:38.404Z"
+  },
+  {
+    "id": "naver-place-review-scraper",
+    "title": "Naver Place Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Naver Place visitor and blog reviews \u2014 rating, text, author, visit date and place.",
+    "outputs": [
+      "rating",
+      "text",
+      "author",
+      "visit date",
+      "place",
+      "photos"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-HF1y2OzTqrjF8Yq4x-bzocA63Lej-naver.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/naver-place-review-scraper",
+    "status": "public",
+    "createdAt": "2026-10-23T05:49:53.268Z",
+    "modifiedAt": "2026-10-29T09:08:22.658Z"
+  },
+  {
     "id": "opentable-reviews-cheerio",
     "title": "OpenTable \u00b7 Meta \u00b7 Menu \u00b7 Reviews \u00b7 Availability \u00b7 Offers...",
     "category": "reviews",
@@ -11084,6 +13196,30 @@
     "status": "public",
     "createdAt": "2025-07-02T09:49:19.476Z",
     "modifiedAt": "2026-05-08T16:14:42.603Z"
+  },
+  {
+    "id": "pissedconsumer-scraper",
+    "title": "PissedConsumer",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "PissedConsumer complaints and reviews \u2014 rating, text, author, status and date.",
+    "outputs": [
+      "rating",
+      "text",
+      "author",
+      "status",
+      "date",
+      "company"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-Kjr4IVsCaielMiJHp-joOkBX3VMD-pissedconsumer.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pissedconsumer-scraper",
+    "status": "public",
+    "createdAt": "2026-10-17T09:52:37.299Z",
+    "modifiedAt": "2026-10-26T13:55:44.677Z"
   },
   {
     "id": "quora-scraper",
@@ -11226,6 +13362,30 @@
     "status": "public",
     "createdAt": "2026-10-07T10:55:02.192Z",
     "modifiedAt": "2026-10-07T15:16:27.753Z"
+  },
+  {
+    "id": "skyscanner-hotel-reviews-scraper",
+    "title": "Skyscanner Hotel Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Skyscanner aggregated hotel reviews \u2014 score, text, source and date per hotel.",
+    "outputs": [
+      "hotel",
+      "score",
+      "text",
+      "source",
+      "date",
+      "category"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-xDblzs1GtX2TMprus-SnhTWWR758-skyscanner.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/skyscanner-hotel-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T16:37:05.450Z",
+    "modifiedAt": "2026-11-08T10:21:09.596Z"
   },
   {
     "id": "steam-reviews-scraper",
@@ -11560,6 +13720,30 @@
     "status": "public",
     "createdAt": "2024-11-18T15:29:48.839Z",
     "modifiedAt": "2026-03-24T20:52:17.634Z"
+  },
+  {
+    "id": "yandex-maps-reviews-scraper",
+    "title": "Yandex Maps Reviews",
+    "category": "reviews",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Yandex Maps reviews \u2014 rating, text, author, date and place.",
+    "outputs": [
+      "rating",
+      "text",
+      "author",
+      "date",
+      "place",
+      "likes"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-dr6rIpS6zYJZ7pYLl-q4VzTrPnba-yandex.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yandex-maps-reviews-scraper",
+    "status": "public",
+    "createdAt": "2026-10-15T20:25:28.835Z",
+    "modifiedAt": "2026-11-08T09:46:28.304Z"
   },
   {
     "id": "yelp-reviews-scraper",
@@ -12087,6 +14271,30 @@
     "modifiedAt": "2026-07-21T05:23:09.038Z"
   },
   {
+    "id": "company-domain",
+    "title": "Company Domain Finder",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Company name to website, logo and social profiles \u2014 the domain behind a brand.",
+    "outputs": [
+      "name",
+      "website",
+      "logo",
+      "socials",
+      "confidence",
+      "country"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hKJxXTi24KlOGRi9Y-80Us6Br1l2-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/company-domain",
+    "status": "public",
+    "createdAt": "2026-10-20T15:28:47.708Z",
+    "modifiedAt": "2026-11-08T10:12:31.895Z"
+  },
+  {
     "id": "comparably-cheerio-scraper",
     "title": "Comparably.com Reviews and Stats",
     "category": "business",
@@ -12108,6 +14316,30 @@
     "status": "public",
     "createdAt": "2025-04-11T09:13:49.407Z",
     "modifiedAt": "2026-04-06T21:03:06.116Z"
+  },
+  {
+    "id": "competitor-keywords",
+    "title": "Competitor Keywords & Gap",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Competitor keywords and keyword gap, a Semrush/Ahrefs alternative \u2014 terms, volume and overlap.",
+    "outputs": [
+      "keyword",
+      "volume",
+      "competitor",
+      "gap",
+      "difficulty",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-9xMeskR7FqxinbDqV-HJwdznF8qk-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/competitor-keywords",
+    "status": "public",
+    "createdAt": "2026-10-28T07:41:41.158Z",
+    "modifiedAt": "2026-11-08T09:37:24.912Z"
   },
   {
     "id": "cnpj-scraper",
@@ -12158,6 +14390,30 @@
     "modifiedAt": "2026-06-08T17:42:47.125Z"
   },
   {
+    "id": "dapei-zahav-scraper",
+    "title": "Dapei Zahav (Israel)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Dapei Zahav, Israel's directory \u2014 name, address, phone, category and website.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "city"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-WrJcrvaF0TUqe4Khu-KD602abdTS-d-co-il.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dapei-zahav-scraper",
+    "status": "public",
+    "createdAt": "2026-10-09T19:36:24.128Z",
+    "modifiedAt": "2026-10-26T13:52:16.225Z"
+  },
+  {
     "id": "decision-maker-finder",
     "title": "Decision Maker Finder (+ emails)",
     "category": "business",
@@ -12180,6 +14436,30 @@
     "status": "public",
     "createdAt": "2026-08-30T21:29:12.669Z",
     "modifiedAt": "2026-09-02T06:26:22.404Z"
+  },
+  {
+    "id": "dentalplans-scraper",
+    "title": "DentalPlans (US dentists)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US dental provider directory from DentalPlans.com \u2014 name, specialty, address and phone.",
+    "outputs": [
+      "name",
+      "specialty",
+      "address",
+      "phone",
+      "plan",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-YW6rFCNy0tMHG2ibV-USqrgnatt7-dentalplans.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dentalplans-scraper",
+    "status": "public",
+    "createdAt": "2026-10-23T06:37:53.756Z",
+    "modifiedAt": "2026-10-23T06:59:12.484Z"
   },
   {
     "id": "dnb-scraper",
@@ -12349,6 +14629,30 @@
     "modifiedAt": "2026-05-08T17:06:34.982Z"
   },
   {
+    "id": "event-sponsorship-prospecting",
+    "title": "Event Sponsorship Prospecting",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Event organizers and sponsors as prospects \u2014 event, organizer, sponsor and contact.",
+    "outputs": [
+      "event",
+      "organizer",
+      "sponsor",
+      "contact",
+      "date",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-pzfmsSqf1tRPiaBCm-C0cFCq1gLD-event-sponsorship-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/event-sponsorship-prospecting",
+    "status": "public",
+    "createdAt": "2026-10-04T06:04:59.132Z",
+    "modifiedAt": "2026-11-01T21:36:34.435Z"
+  },
+  {
     "id": "eventbrite-scraper",
     "title": "Eventbrite Events + Organizer Leads",
     "category": "business",
@@ -12371,6 +14675,30 @@
     "status": "public",
     "createdAt": "2026-06-10T16:10:07.797Z",
     "modifiedAt": "2026-06-12T08:33:36.376Z"
+  },
+  {
+    "id": "f6s-scraper",
+    "title": "F6S (startups, investors)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "F6S startups, accelerators and investor funds \u2014 name, stage, program and links.",
+    "outputs": [
+      "name",
+      "stage",
+      "program",
+      "investors",
+      "location",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-aSzwiPh0MfQBACIeh-dUY9fxgdc9-F6S-Logo-HD.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/f6s-scraper",
+    "status": "public",
+    "createdAt": "2026-10-22T11:59:05.701Z",
+    "modifiedAt": "2026-11-01T06:10:28.787Z"
   },
   {
     "id": "facebook-ads-library-scraper-ppe",
@@ -13090,6 +15418,30 @@
     "modifiedAt": "2026-07-20T21:45:24.078Z"
   },
   {
+    "id": "lead-enricher",
+    "title": "Lead Enricher (from any URL)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Emails, phones and social profiles from any URL \u2014 contacts behind a website.",
+    "outputs": [
+      "url",
+      "emails",
+      "phones",
+      "socials",
+      "company",
+      "title"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-P1uJ4MZishxkKweHM-KmXf8YqxmK-lead-enricher-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/lead-enricher",
+    "status": "public",
+    "createdAt": "2026-10-04T06:02:35.105Z",
+    "modifiedAt": "2026-11-01T21:36:36.738Z"
+  },
+  {
     "id": "linkedin-ads-scraper",
     "title": "Linkedin Ads Search & Details",
     "category": "business",
@@ -13231,6 +15583,30 @@
     "status": "public",
     "createdAt": "2026-07-17T03:28:12.421Z",
     "modifiedAt": "2026-07-18T10:54:41.944Z"
+  },
+  {
+    "id": "linkedin-phone-number-finder",
+    "title": "LinkedIn Phone Finder (US)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US mobile numbers by LinkedIn profile URL \u2014 name, title, company and phone.",
+    "outputs": [
+      "name",
+      "title",
+      "company",
+      "phone",
+      "profile",
+      "status"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-S4ay7YHfII4P0ZtXy-OtAf1dpo7q-linkedin.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/linkedin-phone-number-finder",
+    "status": "public",
+    "createdAt": "2026-10-09T06:31:04.084Z",
+    "modifiedAt": "2026-11-08T09:35:19.369Z"
   },
   {
     "id": "local-ch-scraper",
@@ -13401,6 +15777,30 @@
     "modifiedAt": "2026-07-24T06:32:10.194Z"
   },
   {
+    "id": "nextdoor-neighborhood-scraper",
+    "title": "Nextdoor Neighborhoods",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Nextdoor city demographics and neighborhood directory \u2014 area, population and businesses.",
+    "outputs": [
+      "area",
+      "population",
+      "demographics",
+      "businesses",
+      "city",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-qCAb0fONDD7ou3SZM-1nUBRpehLp-nextdoor.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/nextdoor-neighborhood-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T15:29:36.881Z",
+    "modifiedAt": "2026-11-08T09:43:35.065Z"
+  },
+  {
     "id": "nmls-scraper",
     "title": "NMLS Consumer Access (mortgage)",
     "category": "business",
@@ -13447,6 +15847,30 @@
     "status": "public",
     "createdAt": "2026-07-19T10:55:02.700Z",
     "modifiedAt": "2026-07-20T21:55:53.220Z"
+  },
+  {
+    "id": "opencorporates-scraper",
+    "title": "OpenCorporates",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Company records from OpenCorporates \u2014 entity, number, status, jurisdiction and officers.",
+    "outputs": [
+      "entity",
+      "number",
+      "status",
+      "jurisdiction",
+      "officers",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ZA66XbUG4iRWJBHsH-KhUnepNIW5-opencorporates.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/opencorporates-scraper",
+    "status": "public",
+    "createdAt": "2024-11-19T21:58:06.074Z",
+    "modifiedAt": "2026-11-03T14:34:43.947Z"
   },
   {
     "id": "outbid-scraper",
@@ -13664,6 +16088,30 @@
     "modifiedAt": "2026-08-11T04:14:06.986Z"
   },
   {
+    "id": "pizza-hut-store-locator",
+    "title": "Pizza Hut Store Locator (US)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US Pizza Hut locations and details \u2014 address, hours, phone and services.",
+    "outputs": [
+      "location",
+      "address",
+      "hours",
+      "phone",
+      "services",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-RoRPDID7yvyqdeXsr-urpynBiikY-pizza-hut-logo-png_seeklogo-109388.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/pizza-hut-store-locator",
+    "status": "public",
+    "createdAt": "2026-10-04T06:34:53.150Z",
+    "modifiedAt": "2026-10-31T12:35:03.954Z"
+  },
+  {
     "id": "producthunt-scraper",
     "title": "Product Hunt Launches + Emails",
     "category": "business",
@@ -13736,6 +16184,30 @@
     "modifiedAt": "2026-09-18T17:17:57.101Z"
   },
   {
+    "id": "paginasamarillas-latam-scraper",
+    "title": "P\u00e1ginas Amarillas (LATAM)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from P\u00e1ginas Amarillas LATAM \u2014 name, address, phone, category and website.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "email"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2nQ8zW0PPpZbeM6Fj-YCNtSMy7PS-paginas-amarillas-caveguias-logo-png_seeklogo-105360.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/paginasamarillas-latam-scraper",
+    "status": "public",
+    "createdAt": "2026-10-20T11:07:59.005Z",
+    "modifiedAt": "2026-10-26T13:58:08.860Z"
+  },
+  {
     "id": "paginasamarillas-es-scraper",
     "title": "P\u00e1ginas Amarillas (Spain)",
     "category": "business",
@@ -13806,6 +16278,30 @@
     "status": "public",
     "createdAt": "2026-07-12T03:57:43.344Z",
     "modifiedAt": "2026-07-13T00:27:08.570Z"
+  },
+  {
+    "id": "sherlock-scraper",
+    "title": "Sherlock (username, 400+ sites)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Username search across 400+ sites \u2014 the profiles a handle exists on, with links.",
+    "outputs": [
+      "username",
+      "site",
+      "profile URL",
+      "found",
+      "category",
+      "count"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-z5mddFTxiV0jcV2rz-O3NQTjwOOW-sherlock.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/sherlock-scraper",
+    "status": "public",
+    "createdAt": "2026-10-12T12:13:06.876Z",
+    "modifiedAt": "2026-10-16T06:34:44.238Z"
   },
   {
     "id": "sherlock",
@@ -14024,6 +16520,30 @@
     "modifiedAt": "2026-07-22T04:21:44.563Z"
   },
   {
+    "id": "sunbiz-florida-scraper",
+    "title": "Sunbiz Florida Registry",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Florida company records from Sunbiz \u2014 entity, status, filing date, agent and officers.",
+    "outputs": [
+      "entity",
+      "status",
+      "filing date",
+      "agent",
+      "officers",
+      "address"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-hjXjCRtH0EaD95Ju8-5gnx8GUlit-sunbiz-service.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/sunbiz-florida-scraper",
+    "status": "public",
+    "createdAt": "2026-10-20T20:05:02.246Z",
+    "modifiedAt": "2026-10-24T13:30:34.494Z"
+  },
+  {
     "id": "superprof-scraper",
     "title": "Superprof (tutors)",
     "category": "business",
@@ -14046,6 +16566,30 @@
     "status": "public",
     "createdAt": "2026-09-28T09:44:52.694Z",
     "modifiedAt": "2026-10-07T18:11:37.880Z"
+  },
+  {
+    "id": "telecontact-scraper",
+    "title": "Telecontact (Morocco)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business listings from Telecontact Morocco \u2014 name, address, phone, category and website.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "category",
+      "website",
+      "city"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-czu92VDimkNjO3hZe-3YuGUgYzLX-telecontact.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/telecontact-scraper",
+    "status": "public",
+    "createdAt": "2026-10-09T20:04:51.529Z",
+    "modifiedAt": "2026-10-26T13:51:57.135Z"
   },
   {
     "id": "telelistas-scraper",
@@ -14212,6 +16756,30 @@
     "status": "public",
     "createdAt": "2025-12-30T15:53:19.498Z",
     "modifiedAt": "2026-05-08T15:38:53.950Z"
+  },
+  {
+    "id": "uhaul-truck-rental-quotes",
+    "title": "U-Haul Locations",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "U-Haul locations \u2014 address, hours, equipment and contact by area.",
+    "outputs": [
+      "location",
+      "address",
+      "hours",
+      "equipment",
+      "phone",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-7PEObfieAXt0z6OGh-uq6CM6Ozj9-u-haul-international-logo-png_seeklogo-143842.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/uhaul-truck-rental-quotes",
+    "status": "public",
+    "createdAt": "2026-10-04T06:43:04.414Z",
+    "modifiedAt": "2026-11-02T14:02:15.461Z"
   },
   {
     "id": "ubersuggest-scraper",
@@ -14429,6 +16997,54 @@
     "modifiedAt": "2026-08-10T10:45:08.778Z"
   },
   {
+    "id": "website-traffic-checker",
+    "title": "Website Traffic Checker",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Website traffic, rankings, keywords and competitors for any domain.",
+    "outputs": [
+      "domain",
+      "traffic",
+      "rank",
+      "keywords",
+      "competitors",
+      "sources"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-NpSHXLbrWsbaNdIU7-WcQdBrmbw6-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/website-traffic-checker",
+    "status": "public",
+    "createdAt": "2026-10-30T17:17:41.949Z",
+    "modifiedAt": "2026-11-05T09:54:22.261Z"
+  },
+  {
+    "id": "websites-by-technology",
+    "title": "Websites by Technology",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Find websites by tech stack \u2014 domains running a given technology, with contacts.",
+    "outputs": [
+      "domain",
+      "technology",
+      "category",
+      "traffic",
+      "contact",
+      "country"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-ArAcPEGz82iEsBWvn-3E7blhRgc2-tech-stack-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/websites-by-technology",
+    "status": "public",
+    "createdAt": "2026-10-04T05:52:58.676Z",
+    "modifiedAt": "2026-10-31T12:33:04.826Z"
+  },
+  {
     "id": "whatsapp-number-validator",
     "title": "WhatsApp Number Validator",
     "category": "business",
@@ -14551,6 +17167,30 @@
     "modifiedAt": "2026-05-09T11:36:47.254Z"
   },
   {
+    "id": "yandex-maps-scraper",
+    "title": "Yandex Maps (places)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Places from Yandex Maps with phones and websites \u2014 name, address, phone, category and rating.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "website",
+      "category",
+      "rating"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-dr6rIpS6zYJZ7pYLl-q4VzTrPnba-yandex.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yandex-maps-scraper",
+    "status": "public",
+    "createdAt": "2026-10-15T13:14:26.806Z",
+    "modifiedAt": "2026-11-08T08:42:37.704Z"
+  },
+  {
     "id": "yell-scraper",
     "title": "Yell.com (UK)",
     "category": "business",
@@ -14597,6 +17237,54 @@
     "status": "public",
     "createdAt": "2026-09-14T22:11:56.505Z",
     "modifiedAt": "2026-09-15T14:51:29.863Z"
+  },
+  {
+    "id": "yellowpages-nz-scraper",
+    "title": "Yellow Pages (New Zealand)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business leads from Yellow Pages NZ \u2014 name, address, phone, email and category.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "email",
+      "category",
+      "website"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-2kiwoYEx0lwoX4cF9-WFL58bgZWw-yellow_pages_new_zeland.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/yellowpages-nz-scraper",
+    "status": "public",
+    "createdAt": "2026-10-20T11:20:32.491Z",
+    "modifiedAt": "2026-11-01T06:22:58.656Z"
+  },
+  {
+    "id": "singapore-yellowpages-scraper",
+    "title": "Yellow Pages (Singapore)",
+    "category": "business",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Business leads from Singapore Yellow Pages \u2014 name, address, phone, email and category.",
+    "outputs": [
+      "name",
+      "address",
+      "phone",
+      "email",
+      "category",
+      "website"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-erYZbaUP6mfD1ZWk5-aKculYtsws-yellowpages.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/singapore-yellowpages-scraper",
+    "status": "public",
+    "createdAt": "2026-10-20T08:54:50.707Z",
+    "modifiedAt": "2026-10-26T13:57:41.213Z"
   },
   {
     "id": "yellowpages-uae-scraper",
@@ -14719,6 +17407,30 @@
     "modifiedAt": "2026-09-18T17:17:37.888Z"
   },
   {
+    "id": "ai-search-scraper",
+    "title": "AI Search (ChatGPT, Perplexity, AI Overviews)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Answers from ChatGPT, Perplexity and Google AI Overviews for any prompt, with sources.",
+    "outputs": [
+      "prompt",
+      "answer",
+      "sources",
+      "citations",
+      "engine",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-1TNOV9QRMdpl04D77-4mvapTdP11-logo_2x.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ai-search-scraper",
+    "status": "public",
+    "createdAt": "2026-08-23T12:08:35.253Z",
+    "modifiedAt": "2026-11-01T21:36:35.586Z"
+  },
+  {
     "id": "ai-visibility-tracker",
     "title": "AI Visibility Tracker (ChatGPT/Gemini/Perplexity)",
     "category": "other",
@@ -14792,6 +17504,30 @@
     "modifiedAt": "2026-06-29T03:57:05.171Z"
   },
   {
+    "id": "bandsintown-events-scraper",
+    "title": "Bandsintown Events",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Concerts and tours from Bandsintown \u2014 artist, venue, city, date and tickets.",
+    "outputs": [
+      "artist",
+      "venue",
+      "city",
+      "date",
+      "tickets",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-IeiTCuj1DZRd0jBoo-qBOSf369EB-bandsintown.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/bandsintown-events-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T05:36:07.362Z",
+    "modifiedAt": "2026-10-31T12:42:05.409Z"
+  },
+  {
     "id": "bing-search-scraper",
     "title": "Bing Search",
     "category": "other",
@@ -14814,6 +17550,54 @@
     "status": "public",
     "createdAt": "2026-10-04T05:19:57.474Z",
     "modifiedAt": "2026-10-04T11:38:41.976Z"
+  },
+  {
+    "id": "chatgpt-search-scraper",
+    "title": "ChatGPT Search",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "ChatGPT Search answers with sources and citations for any query.",
+    "outputs": [
+      "query",
+      "answer",
+      "sources",
+      "citations",
+      "model",
+      "date"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/chatgpt-search-scraper",
+    "status": "public",
+    "createdAt": "2026-11-01T07:32:28.717Z",
+    "modifiedAt": "2026-11-01T21:36:37.877Z"
+  },
+  {
+    "id": "cheap-flight-destinations",
+    "title": "Cheap Flight Destinations",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Google Flights Explore as data \u2014 cheapest destinations from an origin with prices.",
+    "outputs": [
+      "origin",
+      "destination",
+      "price",
+      "dates",
+      "airline",
+      "stops"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/cheap-flight-destinations",
+    "status": "public",
+    "createdAt": "2026-10-23T06:25:15.028Z",
+    "modifiedAt": "2026-11-03T10:55:50.894Z"
   },
   {
     "id": "company-intelligence-mcp",
@@ -14888,6 +17672,30 @@
     "modifiedAt": "2026-07-19T10:35:16.159Z"
   },
   {
+    "id": "dice-events-scraper",
+    "title": "Dice.fm Events",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Concerts and live events from Dice.fm \u2014 event, venue, city, date and tickets.",
+    "outputs": [
+      "event",
+      "venue",
+      "city",
+      "date",
+      "price",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-sy9yDZavaMC4uqvpA-GHsoatLyGs-DICE_%28Ticketing_Company%29_logo.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/dice-events-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T05:46:27.362Z",
+    "modifiedAt": "2026-10-31T12:31:53.905Z"
+  },
+  {
     "id": "easyjet-scraper",
     "title": "EasyJet Flight Fares",
     "category": "other",
@@ -14934,6 +17742,30 @@
     "status": "public",
     "createdAt": "2026-07-13T15:52:35.723Z",
     "modifiedAt": "2026-07-13T19:21:43.290Z"
+  },
+  {
+    "id": "equibase-us-horse-racing-scraper",
+    "title": "Equibase US Horse Racing",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "US horse-racing data from Equibase \u2014 race, horse, jockey, odds and results.",
+    "outputs": [
+      "race",
+      "horse",
+      "jockey",
+      "odds",
+      "result",
+      "track"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-VtBIrlfrk5xZUfSBN-WQBCzGhrjR-equibase.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/equibase-us-horse-racing-scraper",
+    "status": "public",
+    "createdAt": "2026-10-17T20:31:57.427Z",
+    "modifiedAt": "2026-10-30T09:35:35.726Z"
   },
   {
     "id": "ted-tenders-scraper",
@@ -14984,6 +17816,30 @@
     "modifiedAt": "2026-07-02T12:43:12.610Z"
   },
   {
+    "id": "flight-price-calendar",
+    "title": "Flight Price Calendar",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Cheapest dates for any route \u2014 a price calendar with fares by day.",
+    "outputs": [
+      "route",
+      "date",
+      "price",
+      "airline",
+      "stops",
+      "currency"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/flight-price-calendar",
+    "status": "public",
+    "createdAt": "2026-10-23T06:24:27.276Z",
+    "modifiedAt": "2026-11-03T10:55:34.408Z"
+  },
+  {
     "id": "gasbuddy-fuel-prices-scraper",
     "title": "GasBuddy US Fuel Prices",
     "category": "other",
@@ -15006,6 +17862,54 @@
     "status": "public",
     "createdAt": "2026-07-20T21:23:09.984Z",
     "modifiedAt": "2026-07-21T06:22:16.792Z"
+  },
+  {
+    "id": "geo-prompt-research",
+    "title": "GEO Prompt Research",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Build an AI-visibility prompt panel \u2014 prompts, brand mentions and model coverage.",
+    "outputs": [
+      "prompt",
+      "brand",
+      "mention",
+      "model",
+      "coverage",
+      "topic"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-T9c3rSs50EFz18HZy-JSHzie7Tlj-geo-prompt-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/geo-prompt-research",
+    "status": "public",
+    "createdAt": "2026-10-04T05:59:50.255Z",
+    "modifiedAt": "2026-10-31T12:33:52.756Z"
+  },
+  {
+    "id": "google-rank-tracker",
+    "title": "Google & Bing Rank Tracker",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "SERP position tracking on Google and Bing \u2014 keyword, position, URL and engine.",
+    "outputs": [
+      "keyword",
+      "position",
+      "URL",
+      "engine",
+      "location",
+      "date"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-UvNNc71ZcJegPYYj4-dsmU5NZ9Cb-rank-tracker-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/google-rank-tracker",
+    "status": "public",
+    "createdAt": "2026-10-04T05:48:41.296Z",
+    "modifiedAt": "2026-11-02T14:02:27.157Z"
   },
   {
     "id": "google-flights-scraper",
@@ -15176,6 +18080,54 @@
     "modifiedAt": "2026-08-18T12:32:06.440Z"
   },
   {
+    "id": "iea-energy-data",
+    "title": "IEA Energy Data (SDG7)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "IEA energy indicators and SDG7 data by country and year.",
+    "outputs": [
+      "country",
+      "indicator",
+      "value",
+      "year",
+      "unit",
+      "source"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-K02fv8cfeE8sFMGsF-b7VTb3vAUJ-international-energy-agency-iea-flag-260nw-2135424913.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/iea-energy-data",
+    "status": "public",
+    "createdAt": "2026-10-04T06:07:13.832Z",
+    "modifiedAt": "2026-11-02T14:02:19.516Z"
+  },
+  {
+    "id": "instant-web-scraper",
+    "title": "Instant Web Scraper",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Turn any list or table on a page into clean rows, no setup.",
+    "outputs": [
+      "rows",
+      "columns",
+      "source URL",
+      "count",
+      "format",
+      "fields"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-vpz95dHAIr3knSnsv-rnl4OTOwjM-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/instant-web-scraper",
+    "status": "public",
+    "createdAt": "2026-10-18T21:18:41.586Z",
+    "modifiedAt": "2026-11-08T09:50:56.459Z"
+  },
+  {
     "id": "internet-archive-scraper",
     "title": "Internet Archive (Wayback + Search)",
     "category": "other",
@@ -15296,6 +18248,30 @@
     "modifiedAt": "2026-07-20T09:46:17.378Z"
   },
   {
+    "id": "perplexity-search-scraper",
+    "title": "Perplexity Search",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Perplexity answers with citations and sources for any query.",
+    "outputs": [
+      "query",
+      "answer",
+      "citations",
+      "sources",
+      "model",
+      "date"
+    ],
+    "icon": null,
+    "thumb": null,
+    "link": "https://apify.com/memo23/perplexity-search-scraper",
+    "status": "public",
+    "createdAt": "2026-11-01T07:33:28.371Z",
+    "modifiedAt": "2026-11-01T07:34:45.509Z"
+  },
+  {
     "id": "pexels-scraper",
     "title": "Pexels Free Stock Photos & Videos",
     "category": "other",
@@ -15342,6 +18318,30 @@
     "status": "public",
     "createdAt": "2026-07-10T22:35:02.357Z",
     "modifiedAt": "2026-07-15T00:06:21.771Z"
+  },
+  {
+    "id": "posh-events-scraper",
+    "title": "Posh Events",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Events from Posh \u2014 tickets, venue, organizer, date and price.",
+    "outputs": [
+      "event",
+      "venue",
+      "organizer",
+      "date",
+      "price",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-14JNRPHAAtE7a51WI-IN3lgjWd7v-Posh.jpg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/posh-events-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T06:28:22.388Z",
+    "modifiedAt": "2026-11-02T14:02:23.677Z"
   },
   {
     "id": "psychologytoday",
@@ -15391,6 +18391,30 @@
     "status": "public",
     "createdAt": "2026-07-13T00:15:32.673Z",
     "modifiedAt": "2026-07-14T10:47:55.115Z"
+  },
+  {
+    "id": "ra-events-scraper",
+    "title": "Resident Advisor Events",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Concerts and club events from Resident Advisor \u2014 event, venue, city, date and lineup.",
+    "outputs": [
+      "event",
+      "venue",
+      "city",
+      "date",
+      "lineup",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-RfpGGccXrLHFxpzwy-EkxeGVIFSv-ra.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/ra-events-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T05:43:33.556Z",
+    "modifiedAt": "2026-10-31T12:32:45.066Z"
   },
   {
     "id": "reviews-mcp-server",
@@ -15489,6 +18513,30 @@
     "modifiedAt": "2026-09-13T12:01:46.282Z"
   },
   {
+    "id": "skyscanner-hotels-scraper",
+    "title": "Skyscanner Hotels",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Skyscanner hotel prices and content \u2014 hotel, price, rating and amenities by query.",
+    "outputs": [
+      "hotel",
+      "price",
+      "rating",
+      "amenities",
+      "location",
+      "dates"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-jaR1A6z9iHfMsLruZ-KHCwa8GuoP-skyscanner.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/skyscanner-hotels-scraper",
+    "status": "public",
+    "createdAt": "2026-10-26T16:31:11.943Z",
+    "modifiedAt": "2026-11-08T10:20:45.381Z"
+  },
+  {
     "id": "skyscanner-scraper",
     "title": "Skyscanner.com",
     "category": "other",
@@ -15508,6 +18556,54 @@
     "status": "public",
     "createdAt": "2026-04-26T19:32:32.495Z",
     "modifiedAt": "2026-05-07T14:56:43.140Z"
+  },
+  {
+    "id": "sofascore-scraper",
+    "title": "SofaScore (live scores)",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "SofaScore live scores, stats, lineups and odds across sports.",
+    "outputs": [
+      "match",
+      "score",
+      "stats",
+      "lineup",
+      "odds",
+      "league"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-frXwdfGeGNb2a8Y7N-Mmcqk9d7UT-sofascore.jpeg",
+    "thumb": null,
+    "link": "https://apify.com/memo23/sofascore-scraper",
+    "status": "public",
+    "createdAt": "2026-10-10T18:39:13.744Z",
+    "modifiedAt": "2026-11-08T09:06:13.155Z"
+  },
+  {
+    "id": "songkick-events-scraper",
+    "title": "Songkick Events",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "Concerts and tours from Songkick \u2014 artist, venue, city, date and tickets.",
+    "outputs": [
+      "artist",
+      "venue",
+      "city",
+      "date",
+      "tickets",
+      "url"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-NFIDLodDT9ZWNUM2c-bO2YXvprM2-lg-69eff4456594b-Songkick.webp",
+    "thumb": null,
+    "link": "https://apify.com/memo23/songkick-events-scraper",
+    "status": "public",
+    "createdAt": "2026-10-04T05:40:06.053Z",
+    "modifiedAt": "2026-10-31T12:31:45.047Z"
   },
   {
     "id": "flashscore-sofascore-tennis-scraper",
@@ -15654,6 +18750,30 @@
     "modifiedAt": "2026-07-21T06:22:50.341Z"
   },
   {
+    "id": "vdem-democracy-indices",
+    "title": "V-Dem Democracy Indices",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "V-Dem democracy indices, country-year v16 \u2014 indicator, score, country and year.",
+    "outputs": [
+      "country",
+      "indicator",
+      "score",
+      "year",
+      "region",
+      "source"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-NeWPDdjFmb4rfO0W9-AnCJ7upcvQ-vdem-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/vdem-democracy-indices",
+    "status": "public",
+    "createdAt": "2026-10-04T06:11:59.525Z",
+    "modifiedAt": "2026-11-02T13:59:01.509Z"
+  },
+  {
     "id": "transcripts-mcp-server",
     "title": "Video Transcripts MCP Server",
     "category": "other",
@@ -15723,6 +18843,30 @@
     "status": "public",
     "createdAt": "2026-06-27T22:26:53.727Z",
     "modifiedAt": "2026-06-29T12:35:02.328Z"
+  },
+  {
+    "id": "world-happiness-report",
+    "title": "World Happiness Report",
+    "category": "other",
+    "tech": [
+      "Apify",
+      "Crawlee"
+    ],
+    "summary": "World Happiness Report rankings and factors by country and year.",
+    "outputs": [
+      "country",
+      "rank",
+      "score",
+      "factors",
+      "year",
+      "region"
+    ],
+    "icon": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/ngn8vRESTkseyWE6p-actor-IpQNosk2HyA7MNv7s-fMXwd7buQR-world-happiness-logo.svg.png",
+    "thumb": null,
+    "link": "https://apify.com/memo23/world-happiness-report",
+    "status": "public",
+    "createdAt": "2026-10-04T06:09:23.107Z",
+    "modifiedAt": "2026-11-01T21:36:24.923Z"
   },
   {
     "id": "yahoo-finance-scraper",
